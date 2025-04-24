@@ -1,0 +1,17 @@
+[01m[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:61:60:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Krclcpp::Subscription<sensor_msgs::msg::Joy_<std::allocator<void> > >::SharedPtr RBY1_Movement::joy_sub_[m[K’
+   61 |     rclcpp::Subscription<sensor_msgs::msg::Joy>::SharedPtr [01;31m[Kjoy_sub_[m[K;
+      |                                                            [01;31m[K^~~~~~~~[m[K
+[01m[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:60:60:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Krclcpp::Subscription<sensor_msgs::msg::Joy_<std::allocator<void> > >::SharedPtr RBY1_Movement::joy_sub_[m[K’
+   60 |     rclcpp::Subscription<sensor_msgs::msg::Joy>::SharedPtr [01;36m[Kjoy_sub_[m[K;
+      |                                                            [01;36m[K^~~~~~~~[m[K
+[01m[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:[m[K In member function ‘[01m[Kvoid RBY1_Movement::joy_callback(sensor_msgs::msg::Joy_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:58:41:[m[K [01;31m[Kerror: [m[K‘[01m[Kend1[m[K’ is not a member of ‘[01m[Kstd[m[K’; did you mean ‘[01m[Kends[m[K’?
+   58 |             std::cout << "Aves" << std::[01;31m[Kend1[m[K;
+      |                                         [01;31m[K^~~~[m[K
+      |                                         [32m[Kends[m[K
+[01m[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:57:62:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmsg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   57 |     void joy_callback([01;35m[Kconst sensor_msgs::msg::Joy::SharedPtr msg[m[K){
+      |                       [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+gmake[2]: *** [CMakeFiles/rby1_movement_subscriber.dir/build.make:79: CMakeFiles/rby1_movement_subscriber.dir/src/rby1_movement_subscriber.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:153: CMakeFiles/rby1_movement_subscriber.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

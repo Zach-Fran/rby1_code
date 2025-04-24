@@ -1,0 +1,5 @@
+[01m[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:[m[K In constructor ‘[01m[KRBY1_Movement::RBY1_Movement(std::shared_ptr<rb::Robot<rb::y1_model::A> >)[m[K’:
+[01m[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:19:63:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Krobot_[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   19 |   RBY1_Movement([01;35m[Kstd::shared_ptr<rb::Robot<rb::y1_model::A>> robot_[m[K) : Node("rby1_movement_subscriber") {
+      |                 [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+

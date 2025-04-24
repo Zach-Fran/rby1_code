@@ -1,0 +1,247 @@
+[0.000000] (-) TimerEvent: {}
+[0.000895] (rby1_movement) JobQueued: {'identifier': 'rby1_movement', 'dependencies': OrderedDict()}
+[0.001173] (rby1_movement) JobStarted: {'identifier': 'rby1_movement'}
+[0.016915] (rby1_movement) JobProgress: {'identifier': 'rby1_movement', 'progress': 'cmake'}
+[0.018062] (rby1_movement) JobProgress: {'identifier': 'rby1_movement', 'progress': 'build'}
+[0.019187] (rby1_movement) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/nvidia/ros2_ws/src/rby1_movement/build/rby1_movement', '--', '-j8', '-l8'], 'cwd': '/home/nvidia/ros2_ws/src/rby1_movement/build/rby1_movement', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'nvidia'), ('SSH_CLIENT', '192.168.1.2 51264 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/local/cuda-12.2/lib64:/home/nvidia/ros2_ws/install/zed_components/lib:/home/nvidia/ros2_ws/install/wiimote/lib:/home/nvidia/ros2_ws/install/wiimote_msgs/lib:/home/nvidia/ros2_ws/install/tcp_tunnel/lib:/home/nvidia/ros2_ws/install/spacenav/lib:/home/nvidia/ros2_ws/install/joy/lib:/home/nvidia/ros2_ws/install/keyboard_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/nvidia'), ('OLDPWD', '/home/nvidia/ros2_ws/src'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/nvidia/ros2_ws/src/rby1_movement/install:/home/nvidia/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'nvidia'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '20'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/nvidia/.local/bin:/usr/local/cuda-12.2/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/nvidia/.local/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', 'localhost:10.0'), ('LANG', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '5'), ('AMENT_PREFIX_PATH', '/home/nvidia/ros2_ws/src/rby1_movement/install/rby1_movement:/home/nvidia/ros2_ws/install/zed_ros2:/home/nvidia/ros2_ws/install/zed_wrapper:/home/nvidia/ros2_ws/install/zed_components:/home/nvidia/ros2_ws/install/wiimote:/home/nvidia/ros2_ws/install/wiimote_msgs:/home/nvidia/ros2_ws/install/tcp_tunnel:/home/nvidia/ros2_ws/install/spacenav:/home/nvidia/ros2_ws/install/joy:/home/nvidia/ros2_ws/install/sdl2_vendor:/home/nvidia/ros2_ws/install/rby1_robot_state:/home/nvidia/ros2_ws/install/rby1_movement:/home/nvidia/ros2_ws/install/keyboard:/home/nvidia/ros2_ws/install/keyboard_msgs:/home/nvidia/ros2_ws/install/joy_linux:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/nvidia/ros2_ws/src/rby1_movement/build/rby1_movement'), ('SSH_CONNECTION', '192.168.1.2 51264 192.168.1.3 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/nvidia/ros2_ws/install/wiimote_msgs/local/lib/python3.10/dist-packages:/home/nvidia/ros2_ws/install/tcp_tunnel/local/lib/python3.10/dist-packages:/home/nvidia/ros2_ws/install/keyboard_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/nvidia/ros2_ws/src/rby1_movement/install/rby1_movement:/home/nvidia/ros2_ws/install/zed_ros2:/home/nvidia/ros2_ws/install/zed_wrapper:/home/nvidia/ros2_ws/install/zed_components:/home/nvidia/ros2_ws/install/wiimote:/home/nvidia/ros2_ws/install/wiimote_msgs:/home/nvidia/ros2_ws/install/tcp_tunnel:/home/nvidia/ros2_ws/install/spacenav:/home/nvidia/ros2_ws/install/joy:/home/nvidia/ros2_ws/install/sdl2_vendor:/home/nvidia/ros2_ws/install/rby1_robot_state:/home/nvidia/ros2_ws/install/rby1_movement:/home/nvidia/ros2_ws/install/keyboard:/home/nvidia/ros2_ws/install/keyboard_msgs:/home/nvidia/ros2_ws/install/joy_linux:/opt/ros/humble')]), 'shell': False}
+[0.098246] (rby1_movement) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/rby1_movement_subscriber.dir/src/rby1_movement_subscriber.cpp.o\x1b[0m\n'}
+[0.099108] (-) TimerEvent: {}
+[0.199531] (-) TimerEvent: {}
+[0.300077] (-) TimerEvent: {}
+[0.400790] (-) TimerEvent: {}
+[0.501537] (-) TimerEvent: {}
+[0.602231] (-) TimerEvent: {}
+[0.702915] (-) TimerEvent: {}
+[0.803586] (-) TimerEvent: {}
+[0.904272] (-) TimerEvent: {}
+[1.004940] (-) TimerEvent: {}
+[1.105605] (-) TimerEvent: {}
+[1.206291] (-) TimerEvent: {}
+[1.306949] (-) TimerEvent: {}
+[1.407625] (-) TimerEvent: {}
+[1.508302] (-) TimerEvent: {}
+[1.608987] (-) TimerEvent: {}
+[1.709666] (-) TimerEvent: {}
+[1.810332] (-) TimerEvent: {}
+[1.911016] (-) TimerEvent: {}
+[2.011704] (-) TimerEvent: {}
+[2.112391] (-) TimerEvent: {}
+[2.213107] (-) TimerEvent: {}
+[2.313841] (-) TimerEvent: {}
+[2.414539] (-) TimerEvent: {}
+[2.515224] (-) TimerEvent: {}
+[2.615906] (-) TimerEvent: {}
+[2.716588] (-) TimerEvent: {}
+[2.817282] (-) TimerEvent: {}
+[2.917968] (-) TimerEvent: {}
+[3.018655] (-) TimerEvent: {}
+[3.119345] (-) TimerEvent: {}
+[3.219829] (-) TimerEvent: {}
+[3.320519] (-) TimerEvent: {}
+[3.421197] (-) TimerEvent: {}
+[3.521670] (-) TimerEvent: {}
+[3.622352] (-) TimerEvent: {}
+[3.723040] (-) TimerEvent: {}
+[3.823714] (-) TimerEvent: {}
+[3.924391] (-) TimerEvent: {}
+[4.025144] (-) TimerEvent: {}
+[4.125824] (-) TimerEvent: {}
+[4.226292] (-) TimerEvent: {}
+[4.326963] (-) TimerEvent: {}
+[4.427453] (-) TimerEvent: {}
+[4.527919] (-) TimerEvent: {}
+[4.628314] (-) TimerEvent: {}
+[4.728686] (-) TimerEvent: {}
+[4.829326] (-) TimerEvent: {}
+[4.930005] (-) TimerEvent: {}
+[5.030689] (-) TimerEvent: {}
+[5.131371] (-) TimerEvent: {}
+[5.231877] (-) TimerEvent: {}
+[5.332662] (-) TimerEvent: {}
+[5.433440] (-) TimerEvent: {}
+[5.534172] (-) TimerEvent: {}
+[5.634882] (-) TimerEvent: {}
+[5.735392] (-) TimerEvent: {}
+[5.836095] (-) TimerEvent: {}
+[5.936781] (-) TimerEvent: {}
+[6.037486] (-) TimerEvent: {}
+[6.138172] (-) TimerEvent: {}
+[6.238677] (-) TimerEvent: {}
+[6.339167] (-) TimerEvent: {}
+[6.439651] (-) TimerEvent: {}
+[6.540110] (-) TimerEvent: {}
+[6.640511] (-) TimerEvent: {}
+[6.740875] (-) TimerEvent: {}
+[6.841249] (-) TimerEvent: {}
+[6.941747] (-) TimerEvent: {}
+[7.042531] (-) TimerEvent: {}
+[7.143225] (-) TimerEvent: {}
+[7.243708] (-) TimerEvent: {}
+[7.344233] (-) TimerEvent: {}
+[7.444993] (-) TimerEvent: {}
+[7.545743] (-) TimerEvent: {}
+[7.646531] (-) TimerEvent: {}
+[7.747256] (-) TimerEvent: {}
+[7.848035] (-) TimerEvent: {}
+[7.948888] (-) TimerEvent: {}
+[8.049767] (-) TimerEvent: {}
+[8.150606] (-) TimerEvent: {}
+[8.251386] (-) TimerEvent: {}
+[8.352163] (-) TimerEvent: {}
+[8.452973] (-) TimerEvent: {}
+[8.553747] (-) TimerEvent: {}
+[8.654508] (-) TimerEvent: {}
+[8.755235] (-) TimerEvent: {}
+[8.855945] (-) TimerEvent: {}
+[8.956719] (-) TimerEvent: {}
+[9.057498] (-) TimerEvent: {}
+[9.158225] (-) TimerEvent: {}
+[9.258956] (-) TimerEvent: {}
+[9.359695] (-) TimerEvent: {}
+[9.460387] (-) TimerEvent: {}
+[9.560989] (-) TimerEvent: {}
+[9.661585] (-) TimerEvent: {}
+[9.762158] (-) TimerEvent: {}
+[9.862746] (-) TimerEvent: {}
+[9.963332] (-) TimerEvent: {}
+[10.063901] (-) TimerEvent: {}
+[10.164465] (-) TimerEvent: {}
+[10.265083] (-) TimerEvent: {}
+[10.365695] (-) TimerEvent: {}
+[10.466513] (-) TimerEvent: {}
+[10.567116] (-) TimerEvent: {}
+[10.667720] (-) TimerEvent: {}
+[10.768341] (-) TimerEvent: {}
+[10.868942] (-) TimerEvent: {}
+[10.969548] (-) TimerEvent: {}
+[11.070176] (-) TimerEvent: {}
+[11.170939] (-) TimerEvent: {}
+[11.271639] (-) TimerEvent: {}
+[11.372308] (-) TimerEvent: {}
+[11.473132] (-) TimerEvent: {}
+[11.573947] (-) TimerEvent: {}
+[11.674748] (-) TimerEvent: {}
+[11.775544] (-) TimerEvent: {}
+[11.876295] (-) TimerEvent: {}
+[11.976997] (-) TimerEvent: {}
+[12.077607] (-) TimerEvent: {}
+[12.178270] (-) TimerEvent: {}
+[12.278895] (-) TimerEvent: {}
+[12.379755] (-) TimerEvent: {}
+[12.480710] (-) TimerEvent: {}
+[12.581444] (-) TimerEvent: {}
+[12.682173] (-) TimerEvent: {}
+[12.782918] (-) TimerEvent: {}
+[12.883567] (-) TimerEvent: {}
+[12.984239] (-) TimerEvent: {}
+[13.084864] (-) TimerEvent: {}
+[13.185421] (-) TimerEvent: {}
+[13.285986] (-) TimerEvent: {}
+[13.386662] (-) TimerEvent: {}
+[13.487358] (-) TimerEvent: {}
+[13.588006] (-) TimerEvent: {}
+[13.688658] (-) TimerEvent: {}
+[13.789285] (-) TimerEvent: {}
+[13.889954] (-) TimerEvent: {}
+[13.990626] (-) TimerEvent: {}
+[14.091189] (-) TimerEvent: {}
+[14.191676] (-) TimerEvent: {}
+[14.292147] (-) TimerEvent: {}
+[14.392667] (-) TimerEvent: {}
+[14.493366] (-) TimerEvent: {}
+[14.594001] (-) TimerEvent: {}
+[14.694607] (-) TimerEvent: {}
+[14.795147] (-) TimerEvent: {}
+[14.895714] (-) TimerEvent: {}
+[14.996406] (-) TimerEvent: {}
+[15.097058] (-) TimerEvent: {}
+[15.197617] (-) TimerEvent: {}
+[15.298103] (-) TimerEvent: {}
+[15.398629] (-) TimerEvent: {}
+[15.499270] (-) TimerEvent: {}
+[15.599898] (-) TimerEvent: {}
+[15.700849] (-) TimerEvent: {}
+[15.801555] (-) TimerEvent: {}
+[15.902245] (-) TimerEvent: {}
+[16.002964] (-) TimerEvent: {}
+[16.103573] (-) TimerEvent: {}
+[16.204152] (-) TimerEvent: {}
+[16.304836] (-) TimerEvent: {}
+[16.405536] (-) TimerEvent: {}
+[16.506456] (-) TimerEvent: {}
+[16.607081] (-) TimerEvent: {}
+[16.707675] (-) TimerEvent: {}
+[16.808352] (-) TimerEvent: {}
+[16.909093] (-) TimerEvent: {}
+[17.009685] (-) TimerEvent: {}
+[17.110192] (-) TimerEvent: {}
+[17.210677] (-) TimerEvent: {}
+[17.311435] (-) TimerEvent: {}
+[17.412186] (-) TimerEvent: {}
+[17.512876] (-) TimerEvent: {}
+[17.613748] (-) TimerEvent: {}
+[17.714437] (-) TimerEvent: {}
+[17.815173] (-) TimerEvent: {}
+[17.916075] (-) TimerEvent: {}
+[18.016672] (-) TimerEvent: {}
+[18.117481] (-) TimerEvent: {}
+[18.218225] (-) TimerEvent: {}
+[18.318784] (-) TimerEvent: {}
+[18.419511] (-) TimerEvent: {}
+[18.520404] (-) TimerEvent: {}
+[18.620958] (-) TimerEvent: {}
+[18.721527] (-) TimerEvent: {}
+[18.822115] (-) TimerEvent: {}
+[18.922708] (-) TimerEvent: {}
+[19.023519] (-) TimerEvent: {}
+[19.124118] (-) TimerEvent: {}
+[19.224710] (-) TimerEvent: {}
+[19.325324] (-) TimerEvent: {}
+[19.425923] (-) TimerEvent: {}
+[19.526531] (-) TimerEvent: {}
+[19.627116] (-) TimerEvent: {}
+[19.698964] (rby1_movement) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable rby1_movement_subscriber\x1b[0m\n'}
+[19.727303] (-) TimerEvent: {}
+[19.827994] (-) TimerEvent: {}
+[19.928956] (-) TimerEvent: {}
+[20.029550] (-) TimerEvent: {}
+[20.130287] (-) TimerEvent: {}
+[20.231049] (-) TimerEvent: {}
+[20.331668] (-) TimerEvent: {}
+[20.432431] (-) TimerEvent: {}
+[20.533177] (-) TimerEvent: {}
+[20.633823] (-) TimerEvent: {}
+[20.734456] (-) TimerEvent: {}
+[20.835105] (-) TimerEvent: {}
+[20.935832] (-) TimerEvent: {}
+[21.036585] (-) TimerEvent: {}
+[21.137534] (-) TimerEvent: {}
+[21.238389] (-) TimerEvent: {}
+[21.339056] (-) TimerEvent: {}
+[21.440025] (-) TimerEvent: {}
+[21.488171] (rby1_movement) StdoutLine: {'line': b'[100%] Built target rby1_movement_subscriber\n'}
+[21.505909] (rby1_movement) CommandEnded: {'returncode': 0}
+[21.508479] (rby1_movement) JobProgress: {'identifier': 'rby1_movement', 'progress': 'install'}
+[21.521840] (rby1_movement) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/nvidia/ros2_ws/src/rby1_movement/build/rby1_movement'], 'cwd': '/home/nvidia/ros2_ws/src/rby1_movement/build/rby1_movement', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'nvidia'), ('SSH_CLIENT', '192.168.1.2 51264 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/local/cuda-12.2/lib64:/home/nvidia/ros2_ws/install/zed_components/lib:/home/nvidia/ros2_ws/install/wiimote/lib:/home/nvidia/ros2_ws/install/wiimote_msgs/lib:/home/nvidia/ros2_ws/install/tcp_tunnel/lib:/home/nvidia/ros2_ws/install/spacenav/lib:/home/nvidia/ros2_ws/install/joy/lib:/home/nvidia/ros2_ws/install/keyboard_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/nvidia'), ('OLDPWD', '/home/nvidia/ros2_ws/src'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/nvidia/ros2_ws/src/rby1_movement/install:/home/nvidia/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'nvidia'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '20'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/nvidia/.local/bin:/usr/local/cuda-12.2/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/nvidia/.local/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', 'localhost:10.0'), ('LANG', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '5'), ('AMENT_PREFIX_PATH', '/home/nvidia/ros2_ws/src/rby1_movement/install/rby1_movement:/home/nvidia/ros2_ws/install/zed_ros2:/home/nvidia/ros2_ws/install/zed_wrapper:/home/nvidia/ros2_ws/install/zed_components:/home/nvidia/ros2_ws/install/wiimote:/home/nvidia/ros2_ws/install/wiimote_msgs:/home/nvidia/ros2_ws/install/tcp_tunnel:/home/nvidia/ros2_ws/install/spacenav:/home/nvidia/ros2_ws/install/joy:/home/nvidia/ros2_ws/install/sdl2_vendor:/home/nvidia/ros2_ws/install/rby1_robot_state:/home/nvidia/ros2_ws/install/rby1_movement:/home/nvidia/ros2_ws/install/keyboard:/home/nvidia/ros2_ws/install/keyboard_msgs:/home/nvidia/ros2_ws/install/joy_linux:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/nvidia/ros2_ws/src/rby1_movement/build/rby1_movement'), ('SSH_CONNECTION', '192.168.1.2 51264 192.168.1.3 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/nvidia/ros2_ws/install/wiimote_msgs/local/lib/python3.10/dist-packages:/home/nvidia/ros2_ws/install/tcp_tunnel/local/lib/python3.10/dist-packages:/home/nvidia/ros2_ws/install/keyboard_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/nvidia/ros2_ws/src/rby1_movement/install/rby1_movement:/home/nvidia/ros2_ws/install/zed_ros2:/home/nvidia/ros2_ws/install/zed_wrapper:/home/nvidia/ros2_ws/install/zed_components:/home/nvidia/ros2_ws/install/wiimote:/home/nvidia/ros2_ws/install/wiimote_msgs:/home/nvidia/ros2_ws/install/tcp_tunnel:/home/nvidia/ros2_ws/install/spacenav:/home/nvidia/ros2_ws/install/joy:/home/nvidia/ros2_ws/install/sdl2_vendor:/home/nvidia/ros2_ws/install/rby1_robot_state:/home/nvidia/ros2_ws/install/rby1_movement:/home/nvidia/ros2_ws/install/keyboard:/home/nvidia/ros2_ws/install/keyboard_msgs:/home/nvidia/ros2_ws/install/joy_linux:/opt/ros/humble')]), 'shell': False}
+[21.531783] (rby1_movement) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[21.532129] (rby1_movement) StdoutLine: {'line': b'-- Installing: /home/nvidia/ros2_ws/src/rby1_movement/install/rby1_movement/lib/rby1_movement/rby1_movement_subscriber\n'}
+[21.540082] (-) TimerEvent: {}
+[21.541591] (rby1_movement) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/nvidia/ros2_ws/src/rby1_movement/install/rby1_movement/lib/rby1_movement/rby1_movement_subscriber" to ""\n'}
+[21.541876] (rby1_movement) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/ros2_ws/src/rby1_movement/install/rby1_movement/share/ament_index/resource_index/package_run_dependencies/rby1_movement\n'}
+[21.542190] (rby1_movement) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/ros2_ws/src/rby1_movement/install/rby1_movement/share/ament_index/resource_index/parent_prefix_path/rby1_movement\n'}
+[21.542435] (rby1_movement) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/ros2_ws/src/rby1_movement/install/rby1_movement/share/rby1_movement/environment/ament_prefix_path.sh\n'}
+[21.542674] (rby1_movement) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/ros2_ws/src/rby1_movement/install/rby1_movement/share/rby1_movement/environment/ament_prefix_path.dsv\n'}
+[21.542828] (rby1_movement) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/ros2_ws/src/rby1_movement/install/rby1_movement/share/rby1_movement/environment/path.sh\n'}
+[21.542975] (rby1_movement) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/ros2_ws/src/rby1_movement/install/rby1_movement/share/rby1_movement/environment/path.dsv\n'}
+[21.543116] (rby1_movement) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/ros2_ws/src/rby1_movement/install/rby1_movement/share/rby1_movement/local_setup.bash\n'}
+[21.543364] (rby1_movement) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/ros2_ws/src/rby1_movement/install/rby1_movement/share/rby1_movement/local_setup.sh\n'}
+[21.543514] (rby1_movement) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/ros2_ws/src/rby1_movement/install/rby1_movement/share/rby1_movement/local_setup.zsh\n'}
+[21.543654] (rby1_movement) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/ros2_ws/src/rby1_movement/install/rby1_movement/share/rby1_movement/local_setup.dsv\n'}
+[21.543793] (rby1_movement) StdoutLine: {'line': b'-- Installing: /home/nvidia/ros2_ws/src/rby1_movement/install/rby1_movement/share/rby1_movement/package.dsv\n'}
+[21.543930] (rby1_movement) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/ros2_ws/src/rby1_movement/install/rby1_movement/share/ament_index/resource_index/packages/rby1_movement\n'}
+[21.544116] (rby1_movement) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/ros2_ws/src/rby1_movement/install/rby1_movement/share/rby1_movement/cmake/rby1_movementConfig.cmake\n'}
+[21.544257] (rby1_movement) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/ros2_ws/src/rby1_movement/install/rby1_movement/share/rby1_movement/cmake/rby1_movementConfig-version.cmake\n'}
+[21.544394] (rby1_movement) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/ros2_ws/src/rby1_movement/install/rby1_movement/share/rby1_movement/package.xml\n'}
+[21.546797] (rby1_movement) CommandEnded: {'returncode': 0}
+[21.606717] (rby1_movement) JobEnded: {'identifier': 'rby1_movement', 'rc': 0}
+[21.609224] (-) EventReactorShutdown: {}

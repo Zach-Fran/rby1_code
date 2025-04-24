@@ -1,0 +1,45 @@
+[0.022s] Invoking command in '/home/nvidia/ros2_ws/src/rby1_movement/build/rby1_movement': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/nvidia/ros2_ws/src/rby1_movement/build/rby1_movement -- -j8 -l8
+[0.100s] [ 50%] [32mBuilding CXX object CMakeFiles/rby1_movement_subscriber.dir/src/rby1_movement_subscriber.cpp.o[0m
+[7.479s] [01m[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:[m[K In constructor ‘[01m[KRBY1_Movement::RBY1_Movement(std::shared_ptr<rb::Robot<rb::y1_model::A> >)[m[K’:
+[7.479s] [01m[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:19:63:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Krobot_[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[7.479s]    19 |   RBY1_Movement([01;35m[Kstd::shared_ptr<rb::Robot<rb::y1_model::A>> robot_[m[K) : Node("rby1_movement_subscriber") {
+[7.480s]       |                 [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[7.480s] 
+[7.509s] [01m[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:[m[K In member function ‘[01m[Kvoid RBY1_Movement::joy_callback(sensor_msgs::msg::Joy_<std::allocator<void> >::SharedPtr)[m[K’:
+[7.509s] [01m[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:78:23:[m[K [01;31m[Kerror: [m[K‘[01m[Krobot_[m[K’ was not declared in this scope
+[7.510s]    78 |             auto rv = [01;31m[Krobot_[m[K
+[7.510s]       |                       [01;31m[K^~~~~~[m[K
+[7.562s] [01m[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[7.562s] [01m[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:97:5:[m[K [01;31m[Kerror: [m[K‘[01m[Krobot_thread_[m[K’ was not declared in this scope
+[7.562s]    97 |     [01;31m[Krobot_thread_[m[K = std::thread([this]() {
+[7.562s]       |     [01;31m[K^~~~~~~~~~~~~[m[K
+[7.562s] [01m[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:97:34:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[7.562s]    97 |     robot_thread_ = std::thread([[01;31m[Kthis[m[K]() {
+[7.562s]       |                                  [01;31m[K^~~~[m[K
+[7.562s] [01m[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:[m[K In lambda function:
+[7.563s] [01m[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:98:9:[m[K [01;31m[Kerror: [m[K‘[01m[Krobot_[m[K’ is not captured
+[7.563s]    98 |         [01;31m[Krobot_[m[K->Connect();
+[7.563s]       |         [01;31m[K^~~~~~[m[K
+[7.563s] [01m[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:97:38:[m[K [01;36m[Knote: [m[Kthe lambda has no capture-default
+[7.563s]    97 |     robot_thread_ = std::thread([this[01;36m[K][m[K() {
+[7.563s]       |                                      [01;36m[K^[m[K
+[7.563s] [01m[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:95:49:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::shared_ptr<rb::Robot<rb::y1_model::A> > robot_[m[K’ declared here
+[7.563s]    95 |     std::shared_ptr<rb::Robot<rb::y1_model::A>> [01;36m[Krobot_[m[K;
+[7.563s]       |                                                 [01;36m[K^~~~~~[m[K
+[7.564s] [01m[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:99:22:[m[K [01;31m[Kerror: [m[K‘[01m[Krobot_[m[K’ is not captured
+[7.564s]    99 |         std::cout << [01;31m[Krobot_[m[K->GetRobotInfo().robot_version << std::endl;
+[7.564s]       |                      [01;31m[K^~~~~~[m[K
+[7.564s] [01m[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:97:38:[m[K [01;36m[Knote: [m[Kthe lambda has no capture-default
+[7.564s]    97 |     robot_thread_ = std::thread([this[01;36m[K][m[K() {
+[7.564s]       |                                      [01;36m[K^[m[K
+[7.564s] [01m[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:95:49:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::shared_ptr<rb::Robot<rb::y1_model::A> > robot_[m[K’ declared here
+[7.564s]    95 |     std::shared_ptr<rb::Robot<rb::y1_model::A>> [01;36m[Krobot_[m[K;
+[7.564s]       |                                                 [01;36m[K^~~~~~[m[K
+[7.564s] [01m[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[7.565s] [01m[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:104:57:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K)[m[K’ token
+[7.565s]   104 |     rclcpp::spin(std::make_shared<RBY1_Movement>(robot_,[01;31m[K)[m[K);
+[7.565s]       |                                                         [01;31m[K^[m[K
+[12.635s] gmake[2]: *** [CMakeFiles/rby1_movement_subscriber.dir/build.make:79: CMakeFiles/rby1_movement_subscriber.dir/src/rby1_movement_subscriber.cpp.o] Error 1
+[12.635s] gmake[1]: *** [CMakeFiles/Makefile2:153: CMakeFiles/rby1_movement_subscriber.dir/all] Error 2
+[12.635s] gmake: *** [Makefile:146: all] Error 2
+[12.639s] Invoked command in '/home/nvidia/ros2_ws/src/rby1_movement/build/rby1_movement' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/nvidia/ros2_ws/src/rby1_movement/build/rby1_movement -- -j8 -l8

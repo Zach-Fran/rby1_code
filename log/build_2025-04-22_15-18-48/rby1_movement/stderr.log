@@ -1,0 +1,26 @@
+[01m[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:58:64:[m[K [01;31m[Kerror: [m[Kexpected identifier before string constant
+   58 |     static std::shared_ptr<rb::Robot<rb::y1_model::A>>::Create([01;31m[K"192.168.30.1:50051"[m[K) robot;
+      |                                                                [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:58:64:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K...[m[K’ before string constant
+[01m[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:58:12:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[KCreate[m[K’ with no type [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+   58 |     static [01;31m[Kstd[m[K::shared_ptr<rb::Robot<rb::y1_model::A>>::Create("192.168.30.1:50051") robot;
+      |            [01;31m[K^~~[m[K
+[01m[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:58:12:[m[K [01;31m[Kerror: [m[Kcannot declare member function ‘[01m[Kstd::shared_ptr<rb::Robot<rb::y1_model::A> >::Create[m[K’ within ‘[01m[KRBY1_Movement[m[K’
+[01m[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:58:84:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   58 |     static std::shared_ptr<rb::Robot<rb::y1_model::A>>::Create("192.168.30.1:50051"[01;31m[K)[m[K robot;
+      |                                                                                    [01;31m[K^[m[K
+      |                                                                                     [32m[K;[m[K
+[01m[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:58:86:[m[K [01;31m[Kerror: [m[K‘[01m[Krobot[m[K’ does not name a type
+   58 |     static std::shared_ptr<rb::Robot<rb::y1_model::A>>::Create("192.168.30.1:50051") [01;31m[Krobot[m[K;
+      |                                                                                      [01;31m[K^~~~~[m[K
+[01m[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:[m[K In lambda function:
+[01m[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:21:9:[m[K [01;31m[Kerror: [m[K‘[01m[Krobot[m[K’ was not declared in this scope
+   21 |         [01;31m[Krobot[m[K->Connect();
+      |         [01;31m[K^~~~~[m[K
+[01m[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:[m[K In member function ‘[01m[Kvoid RBY1_Movement::joy_callback(sensor_msgs::msg::Joy_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:71:27:[m[K [01;31m[Kerror: [m[K‘[01m[Krobot[m[K’ was not declared in this scope
+   71 |                 auto rv = [01;31m[Krobot[m[K
+      |                           [01;31m[K^~~~~[m[K
+gmake[2]: *** [CMakeFiles/rby1_movement_subscriber.dir/build.make:79: CMakeFiles/rby1_movement_subscriber.dir/src/rby1_movement_subscriber.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:153: CMakeFiles/rby1_movement_subscriber.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

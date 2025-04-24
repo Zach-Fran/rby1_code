@@ -1,0 +1,25 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/rby1_movement_subscriber.dir/src/rby1_movement_subscriber.cpp.o[0m
+[01m[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:[m[K In member function ‘[01m[Kvoid RBY1_Movement::joy_callback(sensor_msgs::msg::Joy_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:68:42:[m[K [01;31m[Kerror: [m[K‘[01m[Kend1[m[K’ is not a member of ‘[01m[Kstd[m[K’; did you mean ‘[01m[Kends[m[K’?
+   68 |         std::cout << "here1" << std::[01;31m[Kend1[m[K;
+      |                                      [01;31m[K^~~~[m[K
+      |                                      [32m[Kends[m[K
+[01m[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:86:42:[m[K [01;31m[Kerror: [m[K‘[01m[Kend1[m[K’ is not a member of ‘[01m[Kstd[m[K’; did you mean ‘[01m[Kends[m[K’?
+   86 |         std::cout << "here2" << std::[01;31m[Kend1[m[K;
+      |                                      [01;31m[K^~~~[m[K
+      |                                      [32m[Kends[m[K
+[01m[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:106:42:[m[K [01;31m[Kerror: [m[K‘[01m[Kend1[m[K’ is not a member of ‘[01m[Kstd[m[K’; did you mean ‘[01m[Kends[m[K’?
+  106 |         std::cout << "here3" << std::[01;31m[Kend1[m[K;
+      |                                      [01;31m[K^~~~[m[K
+      |                                      [32m[Kends[m[K
+[01m[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:112:42:[m[K [01;31m[Kerror: [m[K‘[01m[Kend1[m[K’ is not a member of ‘[01m[Kstd[m[K’; did you mean ‘[01m[Kends[m[K’?
+  112 |         std::cout << "here4" << std::[01;31m[Kend1[m[K;
+      |                                      [01;31m[K^~~~[m[K
+      |                                      [32m[Kends[m[K
+[01m[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:114:42:[m[K [01;31m[Kerror: [m[K‘[01m[Kend1[m[K’ is not a member of ‘[01m[Kstd[m[K’; did you mean ‘[01m[Kends[m[K’?
+  114 |         std::cout << "here5" << std::[01;31m[Kend1[m[K;
+      |                                      [01;31m[K^~~~[m[K
+      |                                      [32m[Kends[m[K
+gmake[2]: *** [CMakeFiles/rby1_movement_subscriber.dir/build.make:79: CMakeFiles/rby1_movement_subscriber.dir/src/rby1_movement_subscriber.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:153: CMakeFiles/rby1_movement_subscriber.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

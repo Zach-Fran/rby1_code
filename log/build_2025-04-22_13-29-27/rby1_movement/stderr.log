@@ -1,0 +1,7 @@
+[01m[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:[m[K In constructor ‘[01m[KRBY1_Movement::RBY1_Movement()[m[K’:
+[01m[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:20:12:[m[K [01;31m[Kerror: [m[K‘[01m[Krobot_thread_[m[K’ was not declared in this scope
+   20 |            [01;31m[Krobot_thread_[m[K = std::thread([this]() {
+      |            [01;31m[K^~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/rby1_movement_subscriber.dir/build.make:79: CMakeFiles/rby1_movement_subscriber.dir/src/rby1_movement_subscriber.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:153: CMakeFiles/rby1_movement_subscriber.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

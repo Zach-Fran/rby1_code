@@ -1,0 +1,33 @@
+[0.020s] Invoking command in '/home/nvidia/ros2_ws/src/rby1_movement/build/rby1_movement': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/nvidia/ros2_ws/src/rby1_movement/build/rby1_movement -- -j8 -l8
+[0.096s] [ 50%] [32mBuilding CXX object CMakeFiles/rby1_movement_subscriber.dir/src/rby1_movement_subscriber.cpp.o[0m
+[7.535s] [01m[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:[m[K In constructor ‘[01m[KRBY1_Movement::RBY1_Movement()[m[K’:
+[7.535s] [01m[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:19:54:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Krb::Robot<rb::y1_model::A>::Robot()[m[K’
+[7.535s]    19 |     RBY1_Movement() : Node("rby1_movement_subscriber"[01;31m[K)[m[K {
+[7.535s]       |                                                      [01;31m[K^[m[K
+[7.535s] In file included from [01m[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:7[m[K:
+[7.535s] [01m[K/home/nvidia/rby1-sdk/include/rby1-sdk/robot.h:207:12:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krb::Robot<T>::Robot(std::string) [with T = rb::y1_model::A; std::string = std::__cxx11::basic_string<char>][m[K’
+[7.535s]   207 |   explicit [01;36m[KRobot[m[K(std::string address);
+[7.535s]       |            [01;36m[K^~~~~[m[K
+[7.536s] [01m[K/home/nvidia/rby1-sdk/include/rby1-sdk/robot.h:207:12:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 0 provided
+[7.536s] [01m[K/home/nvidia/rby1-sdk/include/rby1-sdk/robot.h:53:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krb::Robot<rb::y1_model::A>::Robot(const rb::Robot<rb::y1_model::A>&)[m[K’
+[7.536s]    53 | class [01;36m[KRobot[m[K : public std::enable_shared_from_this<Robot<T>> {
+[7.536s]       |       [01;36m[K^~~~~[m[K
+[7.536s] [01m[K/home/nvidia/rby1-sdk/include/rby1-sdk/robot.h:53:7:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 0 provided
+[7.536s] [01m[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:20:13:[m[K [01;31m[Kerror: [m[K‘[01m[Krobot[m[K’ is not a class, namespace, or enumeration
+[7.536s]    20 |             [01;31m[Krobot[m[K::Create("192.168.30.1:50051");
+[7.536s]       |             [01;31m[K^~~~~[m[K
+[7.536s] [01m[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:[m[K In lambda function:
+[7.536s] [01m[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:22:14:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[Krb::Robot<rb::y1_model::A>[m[K’
+[7.537s]    22 |         robot[01;31m[K->[m[KConnect();
+[7.537s]       |              [01;31m[K^~[m[K
+[7.537s] [01m[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:23:27:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[Krb::Robot<rb::y1_model::A>[m[K’
+[7.537s]    23 |         std::cout << robot[01;31m[K->[m[KGetRobotInfo().robot_version << std::endl;
+[7.537s]       |                           [01;31m[K^~[m[K
+[7.560s] [01m[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:[m[K In member function ‘[01m[Kvoid RBY1_Movement::joy_callback(sensor_msgs::msg::Joy_<std::allocator<void> >::SharedPtr)[m[K’:
+[7.560s] [01m[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:73:19:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[Krb::Robot<rb::y1_model::A>[m[K’
+[7.560s]    73 |                   [01;31m[K->[m[KSendCommand(RobotCommandBuilder().SetCommand(ComponentBasedCommandBuilder().SetMobilityCommand(
+[7.560s]       |                   [01;31m[K^~[m[K
+[13.141s] gmake[2]: *** [CMakeFiles/rby1_movement_subscriber.dir/build.make:79: CMakeFiles/rby1_movement_subscriber.dir/src/rby1_movement_subscriber.cpp.o] Error 1
+[13.141s] gmake[1]: *** [CMakeFiles/Makefile2:153: CMakeFiles/rby1_movement_subscriber.dir/all] Error 2
+[13.142s] gmake: *** [Makefile:146: all] Error 2
+[13.148s] Invoked command in '/home/nvidia/ros2_ws/src/rby1_movement/build/rby1_movement' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/nvidia/ros2_ws/src/rby1_movement/build/rby1_movement -- -j8 -l8

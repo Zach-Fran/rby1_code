@@ -1,0 +1,364 @@
+[0.000000] (-) TimerEvent: {}
+[0.000627] (rby1_movement) JobQueued: {'identifier': 'rby1_movement', 'dependencies': OrderedDict()}
+[0.001095] (rby1_movement) JobStarted: {'identifier': 'rby1_movement'}
+[0.017587] (rby1_movement) JobProgress: {'identifier': 'rby1_movement', 'progress': 'cmake'}
+[0.018723] (rby1_movement) JobProgress: {'identifier': 'rby1_movement', 'progress': 'build'}
+[0.019869] (rby1_movement) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/nvidia/ros2_ws/src/rby1_movement/build/rby1_movement', '--', '-j8', '-l8'], 'cwd': '/home/nvidia/ros2_ws/src/rby1_movement/build/rby1_movement', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'nvidia'), ('SSH_CLIENT', '192.168.1.2 51264 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/local/cuda-12.2/lib64:/home/nvidia/ros2_ws/install/zed_components/lib:/home/nvidia/ros2_ws/install/wiimote/lib:/home/nvidia/ros2_ws/install/wiimote_msgs/lib:/home/nvidia/ros2_ws/install/tcp_tunnel/lib:/home/nvidia/ros2_ws/install/spacenav/lib:/home/nvidia/ros2_ws/install/joy/lib:/home/nvidia/ros2_ws/install/keyboard_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/nvidia'), ('OLDPWD', '/home/nvidia/ros2_ws/src'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/nvidia/ros2_ws/src/rby1_movement/install:/home/nvidia/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'nvidia'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '20'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/nvidia/.local/bin:/usr/local/cuda-12.2/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/nvidia/.local/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', 'localhost:10.0'), ('LANG', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '5'), ('AMENT_PREFIX_PATH', '/home/nvidia/ros2_ws/src/rby1_movement/install/rby1_movement:/home/nvidia/ros2_ws/install/zed_ros2:/home/nvidia/ros2_ws/install/zed_wrapper:/home/nvidia/ros2_ws/install/zed_components:/home/nvidia/ros2_ws/install/wiimote:/home/nvidia/ros2_ws/install/wiimote_msgs:/home/nvidia/ros2_ws/install/tcp_tunnel:/home/nvidia/ros2_ws/install/spacenav:/home/nvidia/ros2_ws/install/joy:/home/nvidia/ros2_ws/install/sdl2_vendor:/home/nvidia/ros2_ws/install/rby1_robot_state:/home/nvidia/ros2_ws/install/rby1_movement:/home/nvidia/ros2_ws/install/keyboard:/home/nvidia/ros2_ws/install/keyboard_msgs:/home/nvidia/ros2_ws/install/joy_linux:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/nvidia/ros2_ws/src/rby1_movement/build/rby1_movement'), ('SSH_CONNECTION', '192.168.1.2 51264 192.168.1.3 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/nvidia/ros2_ws/install/wiimote_msgs/local/lib/python3.10/dist-packages:/home/nvidia/ros2_ws/install/tcp_tunnel/local/lib/python3.10/dist-packages:/home/nvidia/ros2_ws/install/keyboard_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/nvidia/ros2_ws/src/rby1_movement/install/rby1_movement:/home/nvidia/ros2_ws/install/zed_ros2:/home/nvidia/ros2_ws/install/zed_wrapper:/home/nvidia/ros2_ws/install/zed_components:/home/nvidia/ros2_ws/install/wiimote:/home/nvidia/ros2_ws/install/wiimote_msgs:/home/nvidia/ros2_ws/install/tcp_tunnel:/home/nvidia/ros2_ws/install/spacenav:/home/nvidia/ros2_ws/install/joy:/home/nvidia/ros2_ws/install/sdl2_vendor:/home/nvidia/ros2_ws/install/rby1_robot_state:/home/nvidia/ros2_ws/install/rby1_movement:/home/nvidia/ros2_ws/install/keyboard:/home/nvidia/ros2_ws/install/keyboard_msgs:/home/nvidia/ros2_ws/install/joy_linux:/opt/ros/humble')]), 'shell': False}
+[0.099563] (-) TimerEvent: {}
+[0.105962] (rby1_movement) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/rby1_movement_subscriber.dir/src/rby1_movement_subscriber.cpp.o\x1b[0m\n'}
+[0.199643] (-) TimerEvent: {}
+[0.300464] (-) TimerEvent: {}
+[0.401131] (-) TimerEvent: {}
+[0.502016] (-) TimerEvent: {}
+[0.602891] (-) TimerEvent: {}
+[0.703798] (-) TimerEvent: {}
+[0.804670] (-) TimerEvent: {}
+[0.905544] (-) TimerEvent: {}
+[1.006222] (-) TimerEvent: {}
+[1.107101] (-) TimerEvent: {}
+[1.207755] (-) TimerEvent: {}
+[1.308616] (-) TimerEvent: {}
+[1.409505] (-) TimerEvent: {}
+[1.510381] (-) TimerEvent: {}
+[1.611262] (-) TimerEvent: {}
+[1.712125] (-) TimerEvent: {}
+[1.813000] (-) TimerEvent: {}
+[1.913946] (-) TimerEvent: {}
+[2.014808] (-) TimerEvent: {}
+[2.115699] (-) TimerEvent: {}
+[2.216365] (-) TimerEvent: {}
+[2.317049] (-) TimerEvent: {}
+[2.417767] (-) TimerEvent: {}
+[2.518456] (-) TimerEvent: {}
+[2.619151] (-) TimerEvent: {}
+[2.719844] (-) TimerEvent: {}
+[2.820547] (-) TimerEvent: {}
+[2.921242] (-) TimerEvent: {}
+[3.022002] (-) TimerEvent: {}
+[3.122728] (-) TimerEvent: {}
+[3.223421] (-) TimerEvent: {}
+[3.324044] (-) TimerEvent: {}
+[3.424663] (-) TimerEvent: {}
+[3.525539] (-) TimerEvent: {}
+[3.626201] (-) TimerEvent: {}
+[3.726856] (-) TimerEvent: {}
+[3.827479] (-) TimerEvent: {}
+[3.928105] (-) TimerEvent: {}
+[4.028730] (-) TimerEvent: {}
+[4.129393] (-) TimerEvent: {}
+[4.230301] (-) TimerEvent: {}
+[4.330978] (-) TimerEvent: {}
+[4.431649] (-) TimerEvent: {}
+[4.532286] (-) TimerEvent: {}
+[4.632917] (-) TimerEvent: {}
+[4.733588] (-) TimerEvent: {}
+[4.834214] (-) TimerEvent: {}
+[4.934839] (-) TimerEvent: {}
+[5.035479] (-) TimerEvent: {}
+[5.136127] (-) TimerEvent: {}
+[5.236805] (-) TimerEvent: {}
+[5.337510] (-) TimerEvent: {}
+[5.438384] (-) TimerEvent: {}
+[5.539230] (-) TimerEvent: {}
+[5.640081] (-) TimerEvent: {}
+[5.740743] (-) TimerEvent: {}
+[5.841622] (-) TimerEvent: {}
+[5.942281] (-) TimerEvent: {}
+[6.043123] (-) TimerEvent: {}
+[6.144001] (-) TimerEvent: {}
+[6.244861] (-) TimerEvent: {}
+[6.345743] (-) TimerEvent: {}
+[6.446610] (-) TimerEvent: {}
+[6.547470] (-) TimerEvent: {}
+[6.648336] (-) TimerEvent: {}
+[6.749012] (-) TimerEvent: {}
+[6.849904] (-) TimerEvent: {}
+[6.950793] (-) TimerEvent: {}
+[7.051666] (-) TimerEvent: {}
+[7.152564] (-) TimerEvent: {}
+[7.253197] (-) TimerEvent: {}
+[7.353805] (-) TimerEvent: {}
+[7.454490] (-) TimerEvent: {}
+[7.461401] (rby1_movement) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:59:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Knon-static data member declared with placeholder \xe2\x80\x98\x1b[01m\x1b[Kauto\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.461965] (rby1_movement) StderrLine: {'line': b'   59 |     \x1b[01;31m\x1b[Kauto\x1b[m\x1b[K robot = rb::Robot<rb::y1_model::A>::Create(robot_ip_);\n'}
+[7.462123] (rby1_movement) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[7.471776] (rby1_movement) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:60:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kwheel_acceleration_limit\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[7.472123] (rby1_movement) StderrLine: {'line': b'   60 |     \x1b[01;31m\x1b[Kwheel_acceleration_limit\x1b[m\x1b[K << 100, 100;\n'}
+[7.472265] (rby1_movement) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.554652] (-) TimerEvent: {}
+[7.576822] (rby1_movement) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid RBY1_Movement::joy_callback(sensor_msgs::msg::Joy_<std::allocator<void> >::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[7.578924] (rby1_movement) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:64:38:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno match for \xe2\x80\x98\x1b[01m\x1b[Koperator=\x1b[m\x1b[K\xe2\x80\x99 (operand types are \xe2\x80\x98\x1b[01m\x1b[KEigen::Vector<double, 20>\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[KEigen::Matrix<double, 20, 1, 0, 20, 1>\x1b[m\x1b[K\xe2\x80\x99} and \xe2\x80\x98\x1b[01m\x1b[Kdouble\x1b[m\x1b[K\xe2\x80\x99)\n'}
+[7.579111] (rby1_movement) StderrLine: {'line': b'   64 |                 wheel_velocity = \x1b[01;31m\x1b[K1.5\x1b[m\x1b[K, 1.5;\n'}
+[7.579600] (rby1_movement) StderrLine: {'line': b'      |                                  \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[7.579976] (rby1_movement) StderrLine: {'line': b'\n'}
+[7.580083] (rby1_movement) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Core:295\x1b[m\x1b[K,\n'}
+[7.580186] (rby1_movement) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/rby1-sdk/include/rby1-sdk/dynamics/robot.h:3\x1b[m\x1b[K,\n'}
+[7.580288] (rby1_movement) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/rby1-sdk/include/rby1-sdk/model.h:6\x1b[m\x1b[K,\n'}
+[7.580386] (rby1_movement) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:6\x1b[m\x1b[K:\n'}
+[7.580483] (rby1_movement) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:223:33:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class OtherDerived> Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>& Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::operator=(const Eigen::DenseBase<OtherDerived>&) [with OtherDerived = OtherDerived; _Scalar = double; int _Rows = 20; int _Cols = 1; int _Options = 0; int _MaxRows = 20; int _MaxCols = 1]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.580590] (rby1_movement) StderrLine: {'line': b'  223 |    EIGEN_STRONG_INLINE Matrix& \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K=(const DenseBase<OtherDerived>& other)\n'}
+[7.580687] (rby1_movement) StderrLine: {'line': b'      |                                \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[7.580782] (rby1_movement) StderrLine: {'line': b'\n'}
+[7.580874] (rby1_movement) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:223:33:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[7.580969] (rby1_movement) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:64:38:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kconst Eigen::DenseBase<Derived>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kdouble\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.581106] (rby1_movement) StderrLine: {'line': b'   64 |                 wheel_velocity = \x1b[01;36m\x1b[K1.5\x1b[m\x1b[K, 1.5;\n'}
+[7.581202] (rby1_movement) StderrLine: {'line': b'      |                                  \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[7.581296] (rby1_movement) StderrLine: {'line': b'\n'}
+[7.581388] (rby1_movement) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Core:295\x1b[m\x1b[K,\n'}
+[7.581482] (rby1_movement) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/rby1-sdk/include/rby1-sdk/dynamics/robot.h:3\x1b[m\x1b[K,\n'}
+[7.581605] (rby1_movement) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/rby1-sdk/include/rby1-sdk/model.h:6\x1b[m\x1b[K,\n'}
+[7.581702] (rby1_movement) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:6\x1b[m\x1b[K:\n'}
+[7.581798] (rby1_movement) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:236:33:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class OtherDerived> Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>& Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::operator=(const Eigen::EigenBase<OtherDerived>&) [with OtherDerived = OtherDerived; _Scalar = double; int _Rows = 20; int _Cols = 1; int _Options = 0; int _MaxRows = 20; int _MaxCols = 1]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.581923] (rby1_movement) StderrLine: {'line': b'  236 |    EIGEN_STRONG_INLINE Matrix& \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K=(const EigenBase<OtherDerived> &other)\n'}
+[7.582024] (rby1_movement) StderrLine: {'line': b'      |                                \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[7.582118] (rby1_movement) StderrLine: {'line': b'\n'}
+[7.582212] (rby1_movement) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:236:33:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[7.582307] (rby1_movement) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:64:38:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kconst Eigen::EigenBase<Derived>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kdouble\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.582432] (rby1_movement) StderrLine: {'line': b'   64 |                 wheel_velocity = \x1b[01;36m\x1b[K1.5\x1b[m\x1b[K, 1.5;\n'}
+[7.582527] (rby1_movement) StderrLine: {'line': b'      |                                  \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[7.582621] (rby1_movement) StderrLine: {'line': b'\n'}
+[7.582712] (rby1_movement) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Core:295\x1b[m\x1b[K,\n'}
+[7.582803] (rby1_movement) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/rby1-sdk/include/rby1-sdk/dynamics/robot.h:3\x1b[m\x1b[K,\n'}
+[7.582893] (rby1_movement) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/rby1-sdk/include/rby1-sdk/model.h:6\x1b[m\x1b[K,\n'}
+[7.582988] (rby1_movement) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:6\x1b[m\x1b[K:\n'}
+[7.583082] (rby1_movement) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:243:33:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class OtherDerived> Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>& Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::operator=(const Eigen::ReturnByValue<OtherDerived>&) [with OtherDerived = OtherDerived; _Scalar = double; int _Rows = 20; int _Cols = 1; int _Options = 0; int _MaxRows = 20; int _MaxCols = 1]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.583210] (rby1_movement) StderrLine: {'line': b'  243 |    EIGEN_STRONG_INLINE Matrix& \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K=(const ReturnByValue<OtherDerived>& func)\n'}
+[7.583309] (rby1_movement) StderrLine: {'line': b'      |                                \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[7.583403] (rby1_movement) StderrLine: {'line': b'\n'}
+[7.583495] (rby1_movement) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:243:33:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[7.583589] (rby1_movement) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:64:38:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kconst Eigen::ReturnByValue<Derived>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kdouble\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.583685] (rby1_movement) StderrLine: {'line': b'   64 |                 wheel_velocity = \x1b[01;36m\x1b[K1.5\x1b[m\x1b[K, 1.5;\n'}
+[7.583777] (rby1_movement) StderrLine: {'line': b'      |                                  \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[7.583869] (rby1_movement) StderrLine: {'line': b'\n'}
+[7.583958] (rby1_movement) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Core:295\x1b[m\x1b[K,\n'}
+[7.584050] (rby1_movement) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/rby1-sdk/include/rby1-sdk/dynamics/robot.h:3\x1b[m\x1b[K,\n'}
+[7.584141] (rby1_movement) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/rby1-sdk/include/rby1-sdk/model.h:6\x1b[m\x1b[K,\n'}
+[7.584232] (rby1_movement) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:6\x1b[m\x1b[K:\n'}
+[7.584324] (rby1_movement) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:438:13:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class OtherDerived> Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>& Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::operator=(const Eigen::RotationBase<OtherDerived, Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::ColsAtCompileTime>&) [with OtherDerived = OtherDerived; _Scalar = double; int _Rows = 20; int _Cols = 1; int _Options = 0; int _MaxRows = 20; int _MaxCols = 1]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.584424] (rby1_movement) StderrLine: {'line': b'  438 |     Matrix& \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K=(const RotationBase<OtherDerived,ColsAtCompileTime>& r);\n'}
+[7.584517] (rby1_movement) StderrLine: {'line': b'      |             \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[7.584609] (rby1_movement) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:438:13:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[7.584701] (rby1_movement) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:64:38:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kconst Eigen::RotationBase<OtherDerived, 1>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kdouble\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.584796] (rby1_movement) StderrLine: {'line': b'   64 |                 wheel_velocity = \x1b[01;36m\x1b[K1.5\x1b[m\x1b[K, 1.5;\n'}
+[7.585048] (rby1_movement) StderrLine: {'line': b'      |                                  \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[7.585154] (rby1_movement) StderrLine: {'line': b'\n'}
+[7.585248] (rby1_movement) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Core:295\x1b[m\x1b[K,\n'}
+[7.585341] (rby1_movement) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/rby1-sdk/include/rby1-sdk/dynamics/robot.h:3\x1b[m\x1b[K,\n'}
+[7.585433] (rby1_movement) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/rby1-sdk/include/rby1-sdk/model.h:6\x1b[m\x1b[K,\n'}
+[7.585561] (rby1_movement) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:6\x1b[m\x1b[K:\n'}
+[7.585660] (rby1_movement) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:206:33:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[KEigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>& Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::operator=(const Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>&) [with _Scalar = double; int _Rows = 20; int _Cols = 1; int _Options = 0; int _MaxRows = 20; int _MaxCols = 1]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.585775] (rby1_movement) StderrLine: {'line': b'  206 |    EIGEN_STRONG_INLINE Matrix& \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K=(const Matrix& other)\n'}
+[7.585882] (rby1_movement) StderrLine: {'line': b'      |                                \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[7.585975] (rby1_movement) StderrLine: {'line': b'\n'}
+[7.586065] (rby1_movement) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:206:57:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kdouble\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst Eigen::Matrix<double, 20, 1, 0, 20, 1>&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.586159] (rby1_movement) StderrLine: {'line': b'  206 | INE Matrix& operator=(\x1b[01;36m\x1b[Kconst Matrix& other\x1b[m\x1b[K)\n'}
+[7.586250] (rby1_movement) StderrLine: {'line': b'      |                       \x1b[01;36m\x1b[K~~~~~~~~~~~~~~^~~~~\x1b[m\x1b[K\n'}
+[7.586341] (rby1_movement) StderrLine: {'line': b'\n'}
+[7.586430] (rby1_movement) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:279:13:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[KEigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>& Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::operator=(Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>&&) [with _Scalar = double; int _Rows = 20; int _Cols = 1; int _Options = 0; int _MaxRows = 20; int _MaxCols = 1]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.586536] (rby1_movement) StderrLine: {'line': b'  279 |     Matrix& \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K=(Matrix&& other) EIGEN_NOEXCEPT_IF(std::is_nothrow_move_assignable<Scalar>::value)\n'}
+[7.586630] (rby1_movement) StderrLine: {'line': b'      |             \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[7.586721] (rby1_movement) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:279:32:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kdouble\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[KEigen::Matrix<double, 20, 1, 0, 20, 1>&&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.586816] (rby1_movement) StderrLine: {'line': b'  279 |     Matrix& operator=(\x1b[01;36m\x1b[KMatrix&& other\x1b[m\x1b[K) EIGEN_NOEXCEPT_IF(std::is_nothrow_move_assignable<Scalar>::value)\n'}
+[7.586906] (rby1_movement) StderrLine: {'line': b'      |                       \x1b[01;36m\x1b[K~~~~~~~~~^~~~~\x1b[m\x1b[K\n'}
+[7.586997] (rby1_movement) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:67:39:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno match for \xe2\x80\x98\x1b[01m\x1b[Koperator=\x1b[m\x1b[K\xe2\x80\x99 (operand types are \xe2\x80\x98\x1b[01m\x1b[KEigen::Vector<double, 20>\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[KEigen::Matrix<double, 20, 1, 0, 20, 1>\x1b[m\x1b[K\xe2\x80\x99} and \xe2\x80\x98\x1b[01m\x1b[Kdouble\x1b[m\x1b[K\xe2\x80\x99)\n'}
+[7.587093] (rby1_movement) StderrLine: {'line': b'   67 |               wheel_velocity = -\x1b[01;31m\x1b[K1.5\x1b[m\x1b[K, -1.5;\n'}
+[7.587197] (rby1_movement) StderrLine: {'line': b'      |                                 \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[7.587290] (rby1_movement) StderrLine: {'line': b'\n'}
+[7.587379] (rby1_movement) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Core:295\x1b[m\x1b[K,\n'}
+[7.587470] (rby1_movement) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/rby1-sdk/include/rby1-sdk/dynamics/robot.h:3\x1b[m\x1b[K,\n'}
+[7.587561] (rby1_movement) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/rby1-sdk/include/rby1-sdk/model.h:6\x1b[m\x1b[K,\n'}
+[7.587653] (rby1_movement) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:6\x1b[m\x1b[K:\n'}
+[7.587744] (rby1_movement) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:223:33:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class OtherDerived> Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>& Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::operator=(const Eigen::DenseBase<OtherDerived>&) [with OtherDerived = OtherDerived; _Scalar = double; int _Rows = 20; int _Cols = 1; int _Options = 0; int _MaxRows = 20; int _MaxCols = 1]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.587842] (rby1_movement) StderrLine: {'line': b'  223 |    EIGEN_STRONG_INLINE Matrix& \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K=(const DenseBase<OtherDerived>& other)\n'}
+[7.587947] (rby1_movement) StderrLine: {'line': b'      |                                \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[7.588040] (rby1_movement) StderrLine: {'line': b'\n'}
+[7.588130] (rby1_movement) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:223:33:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[7.588223] (rby1_movement) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:67:39:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kconst Eigen::DenseBase<Derived>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kdouble\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.588317] (rby1_movement) StderrLine: {'line': b'   67 |               wheel_velocity = -\x1b[01;36m\x1b[K1.5\x1b[m\x1b[K, -1.5;\n'}
+[7.588408] (rby1_movement) StderrLine: {'line': b'      |                                 \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[7.588499] (rby1_movement) StderrLine: {'line': b'\n'}
+[7.588589] (rby1_movement) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Core:295\x1b[m\x1b[K,\n'}
+[7.588679] (rby1_movement) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/rby1-sdk/include/rby1-sdk/dynamics/robot.h:3\x1b[m\x1b[K,\n'}
+[7.588770] (rby1_movement) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/rby1-sdk/include/rby1-sdk/model.h:6\x1b[m\x1b[K,\n'}
+[7.588860] (rby1_movement) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:6\x1b[m\x1b[K:\n'}
+[7.588952] (rby1_movement) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:236:33:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class OtherDerived> Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>& Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::operator=(const Eigen::EigenBase<OtherDerived>&) [with OtherDerived = OtherDerived; _Scalar = double; int _Rows = 20; int _Cols = 1; int _Options = 0; int _MaxRows = 20; int _MaxCols = 1]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.589077] (rby1_movement) StderrLine: {'line': b'  236 |    EIGEN_STRONG_INLINE Matrix& \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K=(const EigenBase<OtherDerived> &other)\n'}
+[7.589171] (rby1_movement) StderrLine: {'line': b'      |                                \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[7.589276] (rby1_movement) StderrLine: {'line': b'\n'}
+[7.589368] (rby1_movement) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:236:33:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[7.589461] (rby1_movement) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:67:39:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kconst Eigen::EigenBase<Derived>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kdouble\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.589582] (rby1_movement) StderrLine: {'line': b'   67 |               wheel_velocity = -\x1b[01;36m\x1b[K1.5\x1b[m\x1b[K, -1.5;\n'}
+[7.589678] (rby1_movement) StderrLine: {'line': b'      |                                 \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[7.589771] (rby1_movement) StderrLine: {'line': b'\n'}
+[7.589863] (rby1_movement) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Core:295\x1b[m\x1b[K,\n'}
+[7.589953] (rby1_movement) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/rby1-sdk/include/rby1-sdk/dynamics/robot.h:3\x1b[m\x1b[K,\n'}
+[7.590044] (rby1_movement) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/rby1-sdk/include/rby1-sdk/model.h:6\x1b[m\x1b[K,\n'}
+[7.590135] (rby1_movement) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:6\x1b[m\x1b[K:\n'}
+[7.590225] (rby1_movement) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:243:33:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class OtherDerived> Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>& Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::operator=(const Eigen::ReturnByValue<OtherDerived>&) [with OtherDerived = OtherDerived; _Scalar = double; int _Rows = 20; int _Cols = 1; int _Options = 0; int _MaxRows = 20; int _MaxCols = 1]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.590322] (rby1_movement) StderrLine: {'line': b'  243 |    EIGEN_STRONG_INLINE Matrix& \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K=(const ReturnByValue<OtherDerived>& func)\n'}
+[7.590413] (rby1_movement) StderrLine: {'line': b'      |                                \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[7.590502] (rby1_movement) StderrLine: {'line': b'\n'}
+[7.590591] (rby1_movement) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:243:33:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[7.590680] (rby1_movement) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:67:39:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kconst Eigen::ReturnByValue<Derived>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kdouble\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.590773] (rby1_movement) StderrLine: {'line': b'   67 |               wheel_velocity = -\x1b[01;36m\x1b[K1.5\x1b[m\x1b[K, -1.5;\n'}
+[7.590863] (rby1_movement) StderrLine: {'line': b'      |                                 \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[7.590953] (rby1_movement) StderrLine: {'line': b'\n'}
+[7.591042] (rby1_movement) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Core:295\x1b[m\x1b[K,\n'}
+[7.591132] (rby1_movement) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/rby1-sdk/include/rby1-sdk/dynamics/robot.h:3\x1b[m\x1b[K,\n'}
+[7.591220] (rby1_movement) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/rby1-sdk/include/rby1-sdk/model.h:6\x1b[m\x1b[K,\n'}
+[7.591324] (rby1_movement) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:6\x1b[m\x1b[K:\n'}
+[7.591427] (rby1_movement) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:438:13:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class OtherDerived> Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>& Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::operator=(const Eigen::RotationBase<OtherDerived, Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::ColsAtCompileTime>&) [with OtherDerived = OtherDerived; _Scalar = double; int _Rows = 20; int _Cols = 1; int _Options = 0; int _MaxRows = 20; int _MaxCols = 1]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.591533] (rby1_movement) StderrLine: {'line': b'  438 |     Matrix& \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K=(const RotationBase<OtherDerived,ColsAtCompileTime>& r);\n'}
+[7.591627] (rby1_movement) StderrLine: {'line': b'      |             \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[7.591718] (rby1_movement) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:438:13:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[7.591810] (rby1_movement) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:67:39:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kconst Eigen::RotationBase<OtherDerived, 1>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kdouble\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.591903] (rby1_movement) StderrLine: {'line': b'   67 |               wheel_velocity = -\x1b[01;36m\x1b[K1.5\x1b[m\x1b[K, -1.5;\n'}
+[7.591993] (rby1_movement) StderrLine: {'line': b'      |                                 \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[7.592081] (rby1_movement) StderrLine: {'line': b'\n'}
+[7.592170] (rby1_movement) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Core:295\x1b[m\x1b[K,\n'}
+[7.592273] (rby1_movement) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/rby1-sdk/include/rby1-sdk/dynamics/robot.h:3\x1b[m\x1b[K,\n'}
+[7.592377] (rby1_movement) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/rby1-sdk/include/rby1-sdk/model.h:6\x1b[m\x1b[K,\n'}
+[7.592471] (rby1_movement) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:6\x1b[m\x1b[K:\n'}
+[7.592565] (rby1_movement) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:206:33:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[KEigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>& Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::operator=(const Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>&) [with _Scalar = double; int _Rows = 20; int _Cols = 1; int _Options = 0; int _MaxRows = 20; int _MaxCols = 1]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.592664] (rby1_movement) StderrLine: {'line': b'  206 |    EIGEN_STRONG_INLINE Matrix& \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K=(const Matrix& other)\n'}
+[7.592755] (rby1_movement) StderrLine: {'line': b'      |                                \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[7.592846] (rby1_movement) StderrLine: {'line': b'\n'}
+[7.592936] (rby1_movement) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:206:57:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kdouble\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst Eigen::Matrix<double, 20, 1, 0, 20, 1>&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.593028] (rby1_movement) StderrLine: {'line': b'  206 | INE Matrix& operator=(\x1b[01;36m\x1b[Kconst Matrix& other\x1b[m\x1b[K)\n'}
+[7.593119] (rby1_movement) StderrLine: {'line': b'      |                       \x1b[01;36m\x1b[K~~~~~~~~~~~~~~^~~~~\x1b[m\x1b[K\n'}
+[7.593210] (rby1_movement) StderrLine: {'line': b'\n'}
+[7.593299] (rby1_movement) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:279:13:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[KEigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>& Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::operator=(Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>&&) [with _Scalar = double; int _Rows = 20; int _Cols = 1; int _Options = 0; int _MaxRows = 20; int _MaxCols = 1]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.593416] (rby1_movement) StderrLine: {'line': b'  279 |     Matrix& \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K=(Matrix&& other) EIGEN_NOEXCEPT_IF(std::is_nothrow_move_assignable<Scalar>::value)\n'}
+[7.593529] (rby1_movement) StderrLine: {'line': b'      |             \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[7.593628] (rby1_movement) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:279:32:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kdouble\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[KEigen::Matrix<double, 20, 1, 0, 20, 1>&&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.593725] (rby1_movement) StderrLine: {'line': b'  279 |     Matrix& operator=(\x1b[01;36m\x1b[KMatrix&& other\x1b[m\x1b[K) EIGEN_NOEXCEPT_IF(std::is_nothrow_move_assignable<Scalar>::value)\n'}
+[7.593819] (rby1_movement) StderrLine: {'line': b'      |                       \x1b[01;36m\x1b[K~~~~~~~~~^~~~~\x1b[m\x1b[K\n'}
+[7.593910] (rby1_movement) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:70:38:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno match for \xe2\x80\x98\x1b[01m\x1b[Koperator=\x1b[m\x1b[K\xe2\x80\x99 (operand types are \xe2\x80\x98\x1b[01m\x1b[KEigen::Vector<double, 20>\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[KEigen::Matrix<double, 20, 1, 0, 20, 1>\x1b[m\x1b[K\xe2\x80\x99} and \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99)\n'}
+[7.594020] (rby1_movement) StderrLine: {'line': b'   70 |                     wheel_velocity = \x1b[01;31m\x1b[K0\x1b[m\x1b[K, 0;\n'}
+[7.594115] (rby1_movement) StderrLine: {'line': b'      |                                      \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[7.594206] (rby1_movement) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Core:295\x1b[m\x1b[K,\n'}
+[7.594297] (rby1_movement) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/rby1-sdk/include/rby1-sdk/dynamics/robot.h:3\x1b[m\x1b[K,\n'}
+[7.594388] (rby1_movement) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/rby1-sdk/include/rby1-sdk/model.h:6\x1b[m\x1b[K,\n'}
+[7.594478] (rby1_movement) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:6\x1b[m\x1b[K:\n'}
+[7.594568] (rby1_movement) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:223:33:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class OtherDerived> Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>& Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::operator=(const Eigen::DenseBase<OtherDerived>&) [with OtherDerived = OtherDerived; _Scalar = double; int _Rows = 20; int _Cols = 1; int _Options = 0; int _MaxRows = 20; int _MaxCols = 1]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.594667] (rby1_movement) StderrLine: {'line': b'  223 |    EIGEN_STRONG_INLINE Matrix& \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K=(const DenseBase<OtherDerived>& other)\n'}
+[7.594759] (rby1_movement) StderrLine: {'line': b'      |                                \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[7.594850] (rby1_movement) StderrLine: {'line': b'\n'}
+[7.594940] (rby1_movement) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:223:33:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[7.595034] (rby1_movement) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:70:38:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kconst Eigen::DenseBase<Derived>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.595150] (rby1_movement) StderrLine: {'line': b'   70 |                     wheel_velocity = \x1b[01;36m\x1b[K0\x1b[m\x1b[K, 0;\n'}
+[7.595260] (rby1_movement) StderrLine: {'line': b'      |                                      \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[7.595355] (rby1_movement) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Core:295\x1b[m\x1b[K,\n'}
+[7.595446] (rby1_movement) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/rby1-sdk/include/rby1-sdk/dynamics/robot.h:3\x1b[m\x1b[K,\n'}
+[7.595537] (rby1_movement) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/rby1-sdk/include/rby1-sdk/model.h:6\x1b[m\x1b[K,\n'}
+[7.595627] (rby1_movement) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:6\x1b[m\x1b[K:\n'}
+[7.595719] (rby1_movement) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:236:33:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class OtherDerived> Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>& Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::operator=(const Eigen::EigenBase<OtherDerived>&) [with OtherDerived = OtherDerived; _Scalar = double; int _Rows = 20; int _Cols = 1; int _Options = 0; int _MaxRows = 20; int _MaxCols = 1]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.595828] (rby1_movement) StderrLine: {'line': b'  236 |    EIGEN_STRONG_INLINE Matrix& \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K=(const EigenBase<OtherDerived> &other)\n'}
+[7.595921] (rby1_movement) StderrLine: {'line': b'      |                                \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[7.596012] (rby1_movement) StderrLine: {'line': b'\n'}
+[7.596100] (rby1_movement) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:236:33:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[7.596192] (rby1_movement) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:70:38:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kconst Eigen::EigenBase<Derived>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.596282] (rby1_movement) StderrLine: {'line': b'   70 |                     wheel_velocity = \x1b[01;36m\x1b[K0\x1b[m\x1b[K, 0;\n'}
+[7.596372] (rby1_movement) StderrLine: {'line': b'      |                                      \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[7.596460] (rby1_movement) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Core:295\x1b[m\x1b[K,\n'}
+[7.596550] (rby1_movement) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/rby1-sdk/include/rby1-sdk/dynamics/robot.h:3\x1b[m\x1b[K,\n'}
+[7.596640] (rby1_movement) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/rby1-sdk/include/rby1-sdk/model.h:6\x1b[m\x1b[K,\n'}
+[7.596730] (rby1_movement) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:6\x1b[m\x1b[K:\n'}
+[7.596820] (rby1_movement) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:243:33:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class OtherDerived> Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>& Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::operator=(const Eigen::ReturnByValue<OtherDerived>&) [with OtherDerived = OtherDerived; _Scalar = double; int _Rows = 20; int _Cols = 1; int _Options = 0; int _MaxRows = 20; int _MaxCols = 1]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.596944] (rby1_movement) StderrLine: {'line': b'  243 |    EIGEN_STRONG_INLINE Matrix& \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K=(const ReturnByValue<OtherDerived>& func)\n'}
+[7.597039] (rby1_movement) StderrLine: {'line': b'      |                                \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[7.597130] (rby1_movement) StderrLine: {'line': b'\n'}
+[7.597220] (rby1_movement) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:243:33:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[7.597312] (rby1_movement) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:70:38:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kconst Eigen::ReturnByValue<Derived>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.597406] (rby1_movement) StderrLine: {'line': b'   70 |                     wheel_velocity = \x1b[01;36m\x1b[K0\x1b[m\x1b[K, 0;\n'}
+[7.597513] (rby1_movement) StderrLine: {'line': b'      |                                      \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[7.597613] (rby1_movement) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Core:295\x1b[m\x1b[K,\n'}
+[7.597706] (rby1_movement) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/rby1-sdk/include/rby1-sdk/dynamics/robot.h:3\x1b[m\x1b[K,\n'}
+[7.597797] (rby1_movement) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/rby1-sdk/include/rby1-sdk/model.h:6\x1b[m\x1b[K,\n'}
+[7.597887] (rby1_movement) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:6\x1b[m\x1b[K:\n'}
+[7.597978] (rby1_movement) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:438:13:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class OtherDerived> Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>& Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::operator=(const Eigen::RotationBase<OtherDerived, Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::ColsAtCompileTime>&) [with OtherDerived = OtherDerived; _Scalar = double; int _Rows = 20; int _Cols = 1; int _Options = 0; int _MaxRows = 20; int _MaxCols = 1]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.598089] (rby1_movement) StderrLine: {'line': b'  438 |     Matrix& \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K=(const RotationBase<OtherDerived,ColsAtCompileTime>& r);\n'}
+[7.598193] (rby1_movement) StderrLine: {'line': b'      |             \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[7.598285] (rby1_movement) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:438:13:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[7.598377] (rby1_movement) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:70:38:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kconst Eigen::RotationBase<OtherDerived, 1>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.598478] (rby1_movement) StderrLine: {'line': b'   70 |                     wheel_velocity = \x1b[01;36m\x1b[K0\x1b[m\x1b[K, 0;\n'}
+[7.598573] (rby1_movement) StderrLine: {'line': b'      |                                      \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[7.598664] (rby1_movement) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Core:295\x1b[m\x1b[K,\n'}
+[7.598756] (rby1_movement) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/rby1-sdk/include/rby1-sdk/dynamics/robot.h:3\x1b[m\x1b[K,\n'}
+[7.598847] (rby1_movement) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/rby1-sdk/include/rby1-sdk/model.h:6\x1b[m\x1b[K,\n'}
+[7.598948] (rby1_movement) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:6\x1b[m\x1b[K:\n'}
+[7.599041] (rby1_movement) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:206:33:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[KEigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>& Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::operator=(const Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>&) [with _Scalar = double; int _Rows = 20; int _Cols = 1; int _Options = 0; int _MaxRows = 20; int _MaxCols = 1]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.599142] (rby1_movement) StderrLine: {'line': b'  206 |    EIGEN_STRONG_INLINE Matrix& \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K=(const Matrix& other)\n'}
+[7.599233] (rby1_movement) StderrLine: {'line': b'      |                                \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[7.599326] (rby1_movement) StderrLine: {'line': b'\n'}
+[7.599415] (rby1_movement) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:206:57:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst Eigen::Matrix<double, 20, 1, 0, 20, 1>&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.599508] (rby1_movement) StderrLine: {'line': b'  206 | INE Matrix& operator=(\x1b[01;36m\x1b[Kconst Matrix& other\x1b[m\x1b[K)\n'}
+[7.599601] (rby1_movement) StderrLine: {'line': b'      |                       \x1b[01;36m\x1b[K~~~~~~~~~~~~~~^~~~~\x1b[m\x1b[K\n'}
+[7.599703] (rby1_movement) StderrLine: {'line': b'\n'}
+[7.599797] (rby1_movement) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:279:13:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[KEigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>& Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::operator=(Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>&&) [with _Scalar = double; int _Rows = 20; int _Cols = 1; int _Options = 0; int _MaxRows = 20; int _MaxCols = 1]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.599896] (rby1_movement) StderrLine: {'line': b'  279 |     Matrix& \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K=(Matrix&& other) EIGEN_NOEXCEPT_IF(std::is_nothrow_move_assignable<Scalar>::value)\n'}
+[7.599988] (rby1_movement) StderrLine: {'line': b'      |             \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[7.600079] (rby1_movement) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:279:32:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[KEigen::Matrix<double, 20, 1, 0, 20, 1>&&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.600172] (rby1_movement) StderrLine: {'line': b'  279 |     Matrix& operator=(\x1b[01;36m\x1b[KMatrix&& other\x1b[m\x1b[K) EIGEN_NOEXCEPT_IF(std::is_nothrow_move_assignable<Scalar>::value)\n'}
+[7.600264] (rby1_movement) StderrLine: {'line': b'      |                       \x1b[01;36m\x1b[K~~~~~~~~~^~~~~\x1b[m\x1b[K\n'}
+[7.654756] (-) TimerEvent: {}
+[7.755303] (-) TimerEvent: {}
+[7.855900] (-) TimerEvent: {}
+[7.956474] (-) TimerEvent: {}
+[8.057247] (-) TimerEvent: {}
+[8.158076] (-) TimerEvent: {}
+[8.258887] (-) TimerEvent: {}
+[8.359497] (-) TimerEvent: {}
+[8.460319] (-) TimerEvent: {}
+[8.561154] (-) TimerEvent: {}
+[8.662013] (-) TimerEvent: {}
+[8.762626] (-) TimerEvent: {}
+[8.863449] (-) TimerEvent: {}
+[8.964056] (-) TimerEvent: {}
+[9.064896] (-) TimerEvent: {}
+[9.165737] (-) TimerEvent: {}
+[9.266363] (-) TimerEvent: {}
+[9.366979] (-) TimerEvent: {}
+[9.467833] (-) TimerEvent: {}
+[9.568705] (-) TimerEvent: {}
+[9.669569] (-) TimerEvent: {}
+[9.770228] (-) TimerEvent: {}
+[9.871080] (-) TimerEvent: {}
+[9.971912] (-) TimerEvent: {}
+[10.072794] (-) TimerEvent: {}
+[10.173673] (-) TimerEvent: {}
+[10.274310] (-) TimerEvent: {}
+[10.374960] (-) TimerEvent: {}
+[10.475623] (-) TimerEvent: {}
+[10.576295] (-) TimerEvent: {}
+[10.677160] (-) TimerEvent: {}
+[10.777836] (-) TimerEvent: {}
+[10.878679] (-) TimerEvent: {}
+[10.979520] (-) TimerEvent: {}
+[11.080380] (-) TimerEvent: {}
+[11.181238] (-) TimerEvent: {}
+[11.281907] (-) TimerEvent: {}
+[11.382771] (-) TimerEvent: {}
+[11.483644] (-) TimerEvent: {}
+[11.584516] (-) TimerEvent: {}
+[11.685370] (-) TimerEvent: {}
+[11.786244] (-) TimerEvent: {}
+[11.887093] (-) TimerEvent: {}
+[11.987946] (-) TimerEvent: {}
+[12.088763] (-) TimerEvent: {}
+[12.189672] (-) TimerEvent: {}
+[12.290565] (-) TimerEvent: {}
+[12.391480] (-) TimerEvent: {}
+[12.492363] (-) TimerEvent: {}
+[12.593245] (-) TimerEvent: {}
+[12.694155] (-) TimerEvent: {}
+[12.795032] (-) TimerEvent: {}
+[12.895926] (-) TimerEvent: {}
+[12.996580] (-) TimerEvent: {}
+[13.097388] (-) TimerEvent: {}
+[13.137346] (rby1_movement) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/rby1_movement_subscriber.dir/build.make:79: CMakeFiles/rby1_movement_subscriber.dir/src/rby1_movement_subscriber.cpp.o] Error 1\n'}
+[13.138097] (rby1_movement) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:153: CMakeFiles/rby1_movement_subscriber.dir/all] Error 2\n'}
+[13.138803] (rby1_movement) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[13.143722] (rby1_movement) CommandEnded: {'returncode': 2}
+[13.185780] (rby1_movement) JobEnded: {'identifier': 'rby1_movement', 'rc': 2}
+[13.197120] (-) EventReactorShutdown: {}

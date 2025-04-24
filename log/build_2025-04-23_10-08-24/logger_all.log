@@ -1,0 +1,105 @@
+[0.217s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.218s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0xffff7fbc5f00>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffff7fbc5930>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffff7fbc5930>>, mixin_verb=('build',))
+[0.549s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.550s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.550s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.550s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.550s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.550s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.550s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/nvidia/ros2_ws/src/rby1_movement'
+[0.550s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.550s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.551s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.551s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.551s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.551s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.551s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.551s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.551s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.577s] DEBUG:colcon.colcon_core.package_identification:Package '.' with type 'ros.ament_cmake' and name 'rby1_movement'
+[0.578s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.578s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.578s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.578s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.578s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.651s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.652s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.657s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/nvidia/ros2_ws/src/rby1_movement/install
+[0.658s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 14 installed packages in /home/nvidia/ros2_ws/install
+[0.661s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 293 installed packages in /opt/ros/humble
+[0.664s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.739s] Level 5:colcon.colcon_core.verb:set package 'rby1_movement' build argument 'cmake_args' from command line to 'None'
+[0.739s] Level 5:colcon.colcon_core.verb:set package 'rby1_movement' build argument 'cmake_target' from command line to 'None'
+[0.739s] Level 5:colcon.colcon_core.verb:set package 'rby1_movement' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.739s] Level 5:colcon.colcon_core.verb:set package 'rby1_movement' build argument 'cmake_clean_cache' from command line to 'False'
+[0.740s] Level 5:colcon.colcon_core.verb:set package 'rby1_movement' build argument 'cmake_clean_first' from command line to 'False'
+[0.740s] Level 5:colcon.colcon_core.verb:set package 'rby1_movement' build argument 'cmake_force_configure' from command line to 'False'
+[0.740s] Level 5:colcon.colcon_core.verb:set package 'rby1_movement' build argument 'ament_cmake_args' from command line to 'None'
+[0.740s] Level 5:colcon.colcon_core.verb:set package 'rby1_movement' build argument 'catkin_cmake_args' from command line to 'None'
+[0.740s] Level 5:colcon.colcon_core.verb:set package 'rby1_movement' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.740s] DEBUG:colcon.colcon_core.verb:Building package 'rby1_movement' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/nvidia/ros2_ws/src/rby1_movement/build/rby1_movement', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/nvidia/ros2_ws/src/rby1_movement/install/rby1_movement', 'merge_install': False, 'path': '/home/nvidia/ros2_ws/src/rby1_movement', 'symlink_install': False, 'test_result_base': None}
+[0.740s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.742s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.743s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/nvidia/ros2_ws/src/rby1_movement' with build type 'ament_cmake'
+[0.743s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/nvidia/ros2_ws/src/rby1_movement'
+[0.748s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.748s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.748s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.770s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/nvidia/ros2_ws/src/rby1_movement/build/rby1_movement': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/nvidia/ros2_ws/src/rby1_movement/build/rby1_movement -- -j8 -l8
+[23.289s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/nvidia/ros2_ws/src/rby1_movement/build/rby1_movement' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/nvidia/ros2_ws/src/rby1_movement/build/rby1_movement -- -j8 -l8
+[23.307s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/nvidia/ros2_ws/src/rby1_movement/build/rby1_movement': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/nvidia/ros2_ws/src/rby1_movement/build/rby1_movement
+[23.329s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rby1_movement)
+[23.331s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/nvidia/ros2_ws/src/rby1_movement/build/rby1_movement' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/nvidia/ros2_ws/src/rby1_movement/build/rby1_movement
+[23.340s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/ros2_ws/src/rby1_movement/install/rby1_movement' for CMake module files
+[23.342s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/ros2_ws/src/rby1_movement/install/rby1_movement' for CMake config files
+[23.344s] Level 1:colcon.colcon_core.shell:create_environment_hook('rby1_movement', 'cmake_prefix_path')
+[23.345s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nvidia/ros2_ws/src/rby1_movement/install/rby1_movement/share/rby1_movement/hook/cmake_prefix_path.ps1'
+[23.348s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nvidia/ros2_ws/src/rby1_movement/install/rby1_movement/share/rby1_movement/hook/cmake_prefix_path.dsv'
+[23.351s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nvidia/ros2_ws/src/rby1_movement/install/rby1_movement/share/rby1_movement/hook/cmake_prefix_path.sh'
+[23.355s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/ros2_ws/src/rby1_movement/install/rby1_movement/lib'
+[23.355s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/ros2_ws/src/rby1_movement/install/rby1_movement/bin'
+[23.355s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/ros2_ws/src/rby1_movement/install/rby1_movement/lib/pkgconfig/rby1_movement.pc'
+[23.356s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/ros2_ws/src/rby1_movement/install/rby1_movement/lib/python3.10/site-packages'
+[23.357s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/ros2_ws/src/rby1_movement/install/rby1_movement/bin'
+[23.359s] INFO:colcon.colcon_core.shell:Creating package script '/home/nvidia/ros2_ws/src/rby1_movement/install/rby1_movement/share/rby1_movement/package.ps1'
+[23.363s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/nvidia/ros2_ws/src/rby1_movement/install/rby1_movement/share/rby1_movement/package.dsv'
+[23.364s] INFO:colcon.colcon_core.shell:Creating package script '/home/nvidia/ros2_ws/src/rby1_movement/install/rby1_movement/share/rby1_movement/package.sh'
+[23.367s] INFO:colcon.colcon_core.shell:Creating package script '/home/nvidia/ros2_ws/src/rby1_movement/install/rby1_movement/share/rby1_movement/package.bash'
+[23.369s] INFO:colcon.colcon_core.shell:Creating package script '/home/nvidia/ros2_ws/src/rby1_movement/install/rby1_movement/share/rby1_movement/package.zsh'
+[23.371s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/nvidia/ros2_ws/src/rby1_movement/install/rby1_movement/share/colcon-core/packages/rby1_movement)
+[23.374s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rby1_movement)
+[23.374s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/ros2_ws/src/rby1_movement/install/rby1_movement' for CMake module files
+[23.376s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/ros2_ws/src/rby1_movement/install/rby1_movement' for CMake config files
+[23.376s] Level 1:colcon.colcon_core.shell:create_environment_hook('rby1_movement', 'cmake_prefix_path')
+[23.377s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nvidia/ros2_ws/src/rby1_movement/install/rby1_movement/share/rby1_movement/hook/cmake_prefix_path.ps1'
+[23.378s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nvidia/ros2_ws/src/rby1_movement/install/rby1_movement/share/rby1_movement/hook/cmake_prefix_path.dsv'
+[23.379s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nvidia/ros2_ws/src/rby1_movement/install/rby1_movement/share/rby1_movement/hook/cmake_prefix_path.sh'
+[23.381s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/ros2_ws/src/rby1_movement/install/rby1_movement/lib'
+[23.381s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/ros2_ws/src/rby1_movement/install/rby1_movement/bin'
+[23.381s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/ros2_ws/src/rby1_movement/install/rby1_movement/lib/pkgconfig/rby1_movement.pc'
+[23.382s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/ros2_ws/src/rby1_movement/install/rby1_movement/lib/python3.10/site-packages'
+[23.382s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/ros2_ws/src/rby1_movement/install/rby1_movement/bin'
+[23.385s] INFO:colcon.colcon_core.shell:Creating package script '/home/nvidia/ros2_ws/src/rby1_movement/install/rby1_movement/share/rby1_movement/package.ps1'
+[23.388s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/nvidia/ros2_ws/src/rby1_movement/install/rby1_movement/share/rby1_movement/package.dsv'
+[23.391s] INFO:colcon.colcon_core.shell:Creating package script '/home/nvidia/ros2_ws/src/rby1_movement/install/rby1_movement/share/rby1_movement/package.sh'
+[23.392s] INFO:colcon.colcon_core.shell:Creating package script '/home/nvidia/ros2_ws/src/rby1_movement/install/rby1_movement/share/rby1_movement/package.bash'
+[23.394s] INFO:colcon.colcon_core.shell:Creating package script '/home/nvidia/ros2_ws/src/rby1_movement/install/rby1_movement/share/rby1_movement/package.zsh'
+[23.396s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/nvidia/ros2_ws/src/rby1_movement/install/rby1_movement/share/colcon-core/packages/rby1_movement)
+[23.397s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[23.398s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[23.398s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[23.399s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[23.417s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[23.417s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[23.417s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[23.455s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[23.457s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/nvidia/ros2_ws/src/rby1_movement/install/local_setup.ps1'
+[23.461s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/nvidia/ros2_ws/src/rby1_movement/install/_local_setup_util_ps1.py'
+[23.465s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/nvidia/ros2_ws/src/rby1_movement/install/setup.ps1'
+[23.470s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/nvidia/ros2_ws/src/rby1_movement/install/local_setup.sh'
+[23.471s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/nvidia/ros2_ws/src/rby1_movement/install/_local_setup_util_sh.py'
+[23.473s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/nvidia/ros2_ws/src/rby1_movement/install/setup.sh'
+[23.478s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/nvidia/ros2_ws/src/rby1_movement/install/local_setup.bash'
+[23.479s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/nvidia/ros2_ws/src/rby1_movement/install/setup.bash'
+[23.484s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/nvidia/ros2_ws/src/rby1_movement/install/local_setup.zsh'
+[23.485s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/nvidia/ros2_ws/src/rby1_movement/install/setup.zsh'

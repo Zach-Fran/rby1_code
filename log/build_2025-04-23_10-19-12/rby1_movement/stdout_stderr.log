@@ -1,0 +1,12 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/rby1_movement_subscriber.dir/src/rby1_movement_subscriber.cpp.o[0m
+[01m[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:[m[K In member function ‘[01m[Kvoid RBY1_Movement::joy_callback(sensor_msgs::msg::Joy_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:79:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kwheel_acceleration[m[K’ was not declared in this scope
+   79 |             [01;31m[Kwheel_acceleration[m[K = .5;
+      |             [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:98:68:[m[K [01;31m[Kerror: [m[K‘[01m[Kangular_velocity[m[K’ was not declared in this scope; did you mean ‘[01m[Kwheel_velocity[m[K’?
+   98 |                                       .SetVelocity(wheel_velocity, [01;31m[Kangular_velocity[m[K)
+      |                                                                    [01;31m[K^~~~~~~~~~~~~~~~[m[K
+      |                                                                    [32m[Kwheel_velocity[m[K
+gmake[2]: *** [CMakeFiles/rby1_movement_subscriber.dir/build.make:79: CMakeFiles/rby1_movement_subscriber.dir/src/rby1_movement_subscriber.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:153: CMakeFiles/rby1_movement_subscriber.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

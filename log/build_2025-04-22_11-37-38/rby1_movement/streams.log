@@ -1,0 +1,17 @@
+[0.020s] Invoking command in '/home/nvidia/ros2_ws/src/rby1_movement/build/rby1_movement': /usr/bin/cmake /home/nvidia/ros2_ws/src/rby1_movement -DCMAKE_INSTALL_PREFIX=/home/nvidia/ros2_ws/src/rby1_movement/install/rby1_movement
+[0.028s] [31mCMake Error at CMakeLists.txt:1 (make_minimum_required):
+[0.029s]   Unknown CMake command "make_minimum_required".
+[0.029s] 
+[0.029s] [0m
+[0.029s] [31mCMake Error in CMakeLists.txt:
+[0.029s]   No cmake_minimum_required command is present.  A line of code such as
+[0.029s] 
+[0.029s]     cmake_minimum_required(VERSION 4.0)
+[0.029s] 
+[0.029s]   should be added at the top of the file.  The version specified may be lower
+[0.030s]   if you wish to support older CMake versions for this project.  For more
+[0.030s]   information run "cmake --help-policy CMP0000".
+[0.030s] 
+[0.030s] [0m
+[0.030s] -- Configuring incomplete, errors occurred!
+[0.031s] Invoked command in '/home/nvidia/ros2_ws/src/rby1_movement/build/rby1_movement' returned '1': /usr/bin/cmake /home/nvidia/ros2_ws/src/rby1_movement -DCMAKE_INSTALL_PREFIX=/home/nvidia/ros2_ws/src/rby1_movement/install/rby1_movement

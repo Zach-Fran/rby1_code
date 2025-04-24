@@ -1,0 +1,469 @@
+[0.022s] Invoking command in '/home/nvidia/ros2_ws/src/rby1_movement/build/rby1_movement': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/nvidia/ros2_ws/src/rby1_movement/build/rby1_movement -- -j8 -l8
+[0.102s] [ 50%] [32mBuilding CXX object CMakeFiles/rby1_movement_subscriber.dir/src/rby1_movement_subscriber.cpp.o[0m
+[7.536s] [01m[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:[m[K In member function ‘[01m[Kvoid RBY1_Movement::joy_callback(sensor_msgs::msg::Joy_<std::allocator<void> >::SharedPtr)[m[K’:
+[7.537s] [01m[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:67:27:[m[K [01;31m[Kerror: [m[K‘[01m[Krobot[m[K’ was not declared in this scope
+[7.537s]    67 |                 auto rv = [01;31m[Krobot[m[K
+[7.537s]       |                           [01;31m[K^~~~~[m[K
+[7.571s] [01m[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[7.572s] [01m[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:79:36:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator<<[m[K’ (operand types are ‘[01m[Kstd::basic_ostream<char>[m[K’ and ‘[01m[Kconst std::type_info[m[K’)
+[7.572s]    79 |     [32m[Kstd::cout << "Type of robot: "[m[K [01;31m[K<<[m[K [34m[Ktypeid(robot)[m[K << std::endl;
+[7.574s]       |     [32m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K [01;31m[K^~[m[K [34m[K~~~~~~~~~~~~~[m[K
+[7.574s]       |               [32m[K|[m[K                       [34m[K|[m[K
+[7.575s]       |               [32m[K|[m[K                       [34m[Kconst std::type_info[m[K
+[7.575s]       |               [32m[Kstd::basic_ostream<char>[m[K
+[7.575s] In file included from [01m[K/usr/include/c++/11/istream:39[m[K,
+[7.575s]                  from [01m[K/usr/include/c++/11/sstream:38[m[K,
+[7.575s]                  from [01m[K/usr/include/c++/11/bits/quoted_string.h:38[m[K,
+[7.576s]                  from [01m[K/usr/include/c++/11/iomanip:45[m[K,
+[7.576s]                  from [01m[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:1[m[K:
+[7.576s] [01m[K/usr/include/c++/11/ostream:108:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(std::basic_ostream<_CharT, _Traits>::__ostream_type& (*)(std::basic_ostream<_CharT, _Traits>::__ostream_type&)) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>][m[K’
+[7.576s]   108 |       [01;36m[Koperator[m[K<<(__ostream_type& (*__pf)(__ostream_type&))
+[7.577s]       |       [01;36m[K^~~~~~~~[m[K
+[7.577s] [01m[K/usr/include/c++/11/ostream:108:36:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst std::type_info[m[K’ to ‘[01m[Kstd::basic_ostream<char>::__ostream_type& (*)(std::basic_ostream<char>::__ostream_type&)[m[K’ {aka ‘[01m[Kstd::basic_ostream<char>& (*)(std::basic_ostream<char>&)[m[K’}
+[7.577s]   108 |       operator<<([01;36m[K__ostream_type& (*__pf)(__ostream_type&)[m[K)
+[7.577s]       |                  [01;36m[K~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~[m[K
+[7.577s] [01m[K/usr/include/c++/11/ostream:117:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(std::basic_ostream<_CharT, _Traits>::__ios_type& (*)(std::basic_ostream<_CharT, _Traits>::__ios_type&)) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>; std::basic_ostream<_CharT, _Traits>::__ios_type = std::basic_ios<char>][m[K’
+[7.578s]   117 |       [01;36m[Koperator[m[K<<(__ios_type& (*__pf)(__ios_type&))
+[7.578s]       |       [01;36m[K^~~~~~~~[m[K
+[7.578s] [01m[K/usr/include/c++/11/ostream:117:32:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst std::type_info[m[K’ to ‘[01m[Kstd::basic_ostream<char>::__ios_type& (*)(std::basic_ostream<char>::__ios_type&)[m[K’ {aka ‘[01m[Kstd::basic_ios<char>& (*)(std::basic_ios<char>&)[m[K’}
+[7.578s]   117 |       operator<<([01;36m[K__ios_type& (*__pf)(__ios_type&)[m[K)
+[7.579s]       |                  [01;36m[K~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~[m[K
+[7.579s] [01m[K/usr/include/c++/11/ostream:127:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(std::ios_base& (*)(std::ios_base&)) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>][m[K’
+[7.579s]   127 |       [01;36m[Koperator[m[K<<(ios_base& (*__pf) (ios_base&))
+[7.579s]       |       [01;36m[K^~~~~~~~[m[K
+[7.579s] [01m[K/usr/include/c++/11/ostream:127:30:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst std::type_info[m[K’ to ‘[01m[Kstd::ios_base& (*)(std::ios_base&)[m[K’
+[7.580s]   127 |       operator<<([01;36m[Kios_base& (*__pf) (ios_base&)[m[K)
+[7.580s]       |                  [01;36m[K~~~~~~~~~~~~^~~~~~~~~~~~~~~~~[m[K
+[7.580s] [01m[K/usr/include/c++/11/ostream:166:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(long int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>][m[K’
+[7.580s]   166 |       [01;36m[Koperator[m[K<<(long __n)
+[7.580s]       |       [01;36m[K^~~~~~~~[m[K
+[7.581s] [01m[K/usr/include/c++/11/ostream:166:23:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst std::type_info[m[K’ to ‘[01m[Klong int[m[K’
+[7.581s]   166 |       operator<<([01;36m[Klong __n[m[K)
+[7.581s]       |                  [01;36m[K~~~~~^~~[m[K
+[7.581s] [01m[K/usr/include/c++/11/ostream:170:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(long unsigned int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>][m[K’
+[7.581s]   170 |       [01;36m[Koperator[m[K<<(unsigned long __n)
+[7.582s]       |       [01;36m[K^~~~~~~~[m[K
+[7.582s] [01m[K/usr/include/c++/11/ostream:170:32:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst std::type_info[m[K’ to ‘[01m[Klong unsigned int[m[K’
+[7.582s]   170 |       operator<<([01;36m[Kunsigned long __n[m[K)
+[7.582s]       |                  [01;36m[K~~~~~~~~~~~~~~^~~[m[K
+[7.582s] [01m[K/usr/include/c++/11/ostream:174:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(bool) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>][m[K’
+[7.583s]   174 |       [01;36m[Koperator[m[K<<(bool __n)
+[7.583s]       |       [01;36m[K^~~~~~~~[m[K
+[7.583s] [01m[K/usr/include/c++/11/ostream:174:23:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst std::type_info[m[K’ to ‘[01m[Kbool[m[K’
+[7.583s]   174 |       operator<<([01;36m[Kbool __n[m[K)
+[7.583s]       |                  [01;36m[K~~~~~^~~[m[K
+[7.584s] In file included from [01m[K/usr/include/c++/11/ostream:829[m[K,
+[7.584s]                  from [01m[K/usr/include/c++/11/istream:39[m[K,
+[7.584s]                  from [01m[K/usr/include/c++/11/sstream:38[m[K,
+[7.584s]                  from [01m[K/usr/include/c++/11/bits/quoted_string.h:38[m[K,
+[7.584s]                  from [01m[K/usr/include/c++/11/iomanip:45[m[K,
+[7.585s]                  from [01m[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:1[m[K:
+[7.585s] [01m[K/usr/include/c++/11/bits/ostream.tcc:91:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::basic_ostream<_CharT, _Traits>& std::basic_ostream<_CharT, _Traits>::operator<<(short int) [with _CharT = char; _Traits = std::char_traits<char>][m[K’
+[7.585s]    91 |     [01;36m[Kbasic_ostream<_CharT, _Traits>[m[K::
+[7.585s]       |     [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[7.586s] [01m[K/usr/include/c++/11/bits/ostream.tcc:92:22:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst std::type_info[m[K’ to ‘[01m[Kshort int[m[K’
+[7.586s]    92 |     operator<<([01;36m[Kshort __n[m[K)
+[7.586s]       |                [01;36m[K~~~~~~^~~[m[K
+[7.586s] In file included from [01m[K/usr/include/c++/11/istream:39[m[K,
+[7.586s]                  from [01m[K/usr/include/c++/11/sstream:38[m[K,
+[7.587s]                  from [01m[K/usr/include/c++/11/bits/quoted_string.h:38[m[K,
+[7.587s]                  from [01m[K/usr/include/c++/11/iomanip:45[m[K,
+[7.587s]                  from [01m[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:1[m[K:
+[7.587s] [01m[K/usr/include/c++/11/ostream:181:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(short unsigned int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>][m[K’
+[7.587s]   181 |       [01;36m[Koperator[m[K<<(unsigned short __n)
+[7.588s]       |       [01;36m[K^~~~~~~~[m[K
+[7.588s] [01m[K/usr/include/c++/11/ostream:181:33:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst std::type_info[m[K’ to ‘[01m[Kshort unsigned int[m[K’
+[7.588s]   181 |       operator<<([01;36m[Kunsigned short __n[m[K)
+[7.588s]       |                  [01;36m[K~~~~~~~~~~~~~~~^~~[m[K
+[7.588s] In file included from [01m[K/usr/include/c++/11/ostream:829[m[K,
+[7.589s]                  from [01m[K/usr/include/c++/11/istream:39[m[K,
+[7.589s]                  from [01m[K/usr/include/c++/11/sstream:38[m[K,
+[7.589s]                  from [01m[K/usr/include/c++/11/bits/quoted_string.h:38[m[K,
+[7.589s]                  from [01m[K/usr/include/c++/11/iomanip:45[m[K,
+[7.589s]                  from [01m[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:1[m[K:
+[7.590s] [01m[K/usr/include/c++/11/bits/ostream.tcc:105:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::basic_ostream<_CharT, _Traits>& std::basic_ostream<_CharT, _Traits>::operator<<(int) [with _CharT = char; _Traits = std::char_traits<char>][m[K’
+[7.590s]   105 |     [01;36m[Kbasic_ostream<_CharT, _Traits>[m[K::
+[7.590s]       |     [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[7.590s] [01m[K/usr/include/c++/11/bits/ostream.tcc:106:20:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst std::type_info[m[K’ to ‘[01m[Kint[m[K’
+[7.590s]   106 |     operator<<([01;36m[Kint __n[m[K)
+[7.591s]       |                [01;36m[K~~~~^~~[m[K
+[7.591s] In file included from [01m[K/usr/include/c++/11/istream:39[m[K,
+[7.591s]                  from [01m[K/usr/include/c++/11/sstream:38[m[K,
+[7.591s]                  from [01m[K/usr/include/c++/11/bits/quoted_string.h:38[m[K,
+[7.591s]                  from [01m[K/usr/include/c++/11/iomanip:45[m[K,
+[7.591s]                  from [01m[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:1[m[K:
+[7.592s] [01m[K/usr/include/c++/11/ostream:192:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(unsigned int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>][m[K’
+[7.592s]   192 |       [01;36m[Koperator[m[K<<(unsigned int __n)
+[7.592s]       |       [01;36m[K^~~~~~~~[m[K
+[7.592s] [01m[K/usr/include/c++/11/ostream:192:31:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst std::type_info[m[K’ to ‘[01m[Kunsigned int[m[K’
+[7.593s]   192 |       operator<<([01;36m[Kunsigned int __n[m[K)
+[7.593s]       |                  [01;36m[K~~~~~~~~~~~~~^~~[m[K
+[7.593s] [01m[K/usr/include/c++/11/ostream:201:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(long long int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>][m[K’
+[7.593s]   201 |       [01;36m[Koperator[m[K<<(long long __n)
+[7.593s]       |       [01;36m[K^~~~~~~~[m[K
+[7.594s] [01m[K/usr/include/c++/11/ostream:201:28:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst std::type_info[m[K’ to ‘[01m[Klong long int[m[K’
+[7.594s]   201 |       operator<<([01;36m[Klong long __n[m[K)
+[7.594s]       |                  [01;36m[K~~~~~~~~~~^~~[m[K
+[7.594s] [01m[K/usr/include/c++/11/ostream:205:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(long long unsigned int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>][m[K’
+[7.595s]   205 |       [01;36m[Koperator[m[K<<(unsigned long long __n)
+[7.595s]       |       [01;36m[K^~~~~~~~[m[K
+[7.595s] [01m[K/usr/include/c++/11/ostream:205:37:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst std::type_info[m[K’ to ‘[01m[Klong long unsigned int[m[K’
+[7.595s]   205 |       operator<<([01;36m[Kunsigned long long __n[m[K)
+[7.596s]       |                  [01;36m[K~~~~~~~~~~~~~~~~~~~^~~[m[K
+[7.596s] [01m[K/usr/include/c++/11/ostream:220:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(double) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>][m[K’
+[7.596s]   220 |       [01;36m[Koperator[m[K<<(double __f)
+[7.596s]       |       [01;36m[K^~~~~~~~[m[K
+[7.596s] [01m[K/usr/include/c++/11/ostream:220:25:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst std::type_info[m[K’ to ‘[01m[Kdouble[m[K’
+[7.597s]   220 |       operator<<([01;36m[Kdouble __f[m[K)
+[7.597s]       |                  [01;36m[K~~~~~~~^~~[m[K
+[7.597s] [01m[K/usr/include/c++/11/ostream:224:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(float) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>][m[K’
+[7.597s]   224 |       [01;36m[Koperator[m[K<<(float __f)
+[7.597s]       |       [01;36m[K^~~~~~~~[m[K
+[7.598s] [01m[K/usr/include/c++/11/ostream:224:24:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst std::type_info[m[K’ to ‘[01m[Kfloat[m[K’
+[7.598s]   224 |       operator<<([01;36m[Kfloat __f[m[K)
+[7.598s]       |                  [01;36m[K~~~~~~^~~[m[K
+[7.598s] [01m[K/usr/include/c++/11/ostream:232:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(long double) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>][m[K’
+[7.598s]   232 |       [01;36m[Koperator[m[K<<(long double __f)
+[7.599s]       |       [01;36m[K^~~~~~~~[m[K
+[7.599s] [01m[K/usr/include/c++/11/ostream:232:30:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst std::type_info[m[K’ to ‘[01m[Klong double[m[K’
+[7.599s]   232 |       operator<<([01;36m[Klong double __f[m[K)
+[7.599s]       |                  [01;36m[K~~~~~~~~~~~~^~~[m[K
+[7.599s] [01m[K/usr/include/c++/11/ostream:245:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(const void*) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>][m[K’
+[7.600s]   245 |       [01;36m[Koperator[m[K<<(const void* __p)
+[7.600s]       |       [01;36m[K^~~~~~~~[m[K
+[7.600s] [01m[K/usr/include/c++/11/ostream:245:30:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst std::type_info[m[K’ to ‘[01m[Kconst void*[m[K’
+[7.600s]   245 |       operator<<([01;36m[Kconst void* __p[m[K)
+[7.600s]       |                  [01;36m[K~~~~~~~~~~~~^~~[m[K
+[7.601s] [01m[K/usr/include/c++/11/ostream:250:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(std::nullptr_t) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>; std::nullptr_t = std::nullptr_t][m[K’
+[7.601s]   250 |       [01;36m[Koperator[m[K<<(nullptr_t)
+[7.601s]       |       [01;36m[K^~~~~~~~[m[K
+[7.601s] [01m[K/usr/include/c++/11/ostream:250:18:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst std::type_info[m[K’ to ‘[01m[Kstd::nullptr_t[m[K’
+[7.602s]   250 |       operator<<([01;36m[Knullptr_t[m[K)
+[7.602s]       |                  [01;36m[K^~~~~~~~~[m[K
+[7.602s] In file included from [01m[K/usr/include/c++/11/ostream:829[m[K,
+[7.602s]                  from [01m[K/usr/include/c++/11/istream:39[m[K,
+[7.602s]                  from [01m[K/usr/include/c++/11/sstream:38[m[K,
+[7.603s]                  from [01m[K/usr/include/c++/11/bits/quoted_string.h:38[m[K,
+[7.603s]                  from [01m[K/usr/include/c++/11/iomanip:45[m[K,
+[7.603s]                  from [01m[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:1[m[K:
+[7.603s] [01m[K/usr/include/c++/11/bits/ostream.tcc:119:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::basic_ostream<_CharT, _Traits>& std::basic_ostream<_CharT, _Traits>::operator<<(std::basic_ostream<_CharT, _Traits>::__streambuf_type*) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__streambuf_type = std::basic_streambuf<char>][m[K’
+[7.603s]   119 |     [01;36m[Kbasic_ostream<_CharT, _Traits>[m[K::
+[7.604s]       |     [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[7.604s] [01m[K/usr/include/c++/11/bits/ostream.tcc:120:34:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst std::type_info[m[K’ to ‘[01m[Kstd::basic_ostream<char>::__streambuf_type*[m[K’ {aka ‘[01m[Kstd::basic_streambuf<char>*[m[K’}
+[7.604s]   120 |     operator<<([01;36m[K__streambuf_type* __sbin[m[K)
+[7.604s]       |                [01;36m[K~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[7.604s] In file included from [01m[K/usr/include/c++/11/bits/basic_string.h:48[m[K,
+[7.605s]                  from [01m[K/usr/include/c++/11/string:55[m[K,
+[7.605s]                  from [01m[K/usr/include/c++/11/bits/locale_classes.h:40[m[K,
+[7.605s]                  from [01m[K/usr/include/c++/11/bits/ios_base.h:41[m[K,
+[7.605s]                  from [01m[K/usr/include/c++/11/iomanip:40[m[K,
+[7.605s]                  from [01m[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:1[m[K:
+[7.606s] [01m[K/usr/include/c++/11/string_view:667:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, std::basic_string_view<_CharT, _Traits>)[m[K’
+[7.606s]   667 |     [01;36m[Koperator[m[K<<(basic_ostream<_CharT, _Traits>& __os,
+[7.606s]       |     [01;36m[K^~~~~~~~[m[K
+[7.606s] [01m[K/usr/include/c++/11/string_view:667:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[7.606s] [01m[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:79:51:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::type_info[m[K’ is not derived from ‘[01m[Kstd::basic_string_view<_CharT, _Traits>[m[K’
+[7.607s]    79 |     std::cout << "Type of robot: " << typeid(robot[01;36m[K)[m[K << std::endl;
+[7.607s]       |                                                   [01;36m[K^[m[K
+[7.607s] In file included from [01m[K/usr/include/c++/11/string:55[m[K,
+[7.607s]                  from [01m[K/usr/include/c++/11/bits/locale_classes.h:40[m[K,
+[7.607s]                  from [01m[K/usr/include/c++/11/bits/ios_base.h:41[m[K,
+[7.608s]                  from [01m[K/usr/include/c++/11/iomanip:40[m[K,
+[7.608s]                  from [01m[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:1[m[K:
+[7.608s] [01m[K/usr/include/c++/11/bits/basic_string.h:6531:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits, class _Alloc> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&)[m[K’
+[7.608s]  6531 |     [01;36m[Koperator[m[K<<(basic_ostream<_CharT, _Traits>& __os,
+[7.608s]       |     [01;36m[K^~~~~~~~[m[K
+[7.609s] [01m[K/usr/include/c++/11/bits/basic_string.h:6531:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[7.609s] [01m[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:79:51:[m[K [01;36m[Knote: [m[K  ‘[01m[Kconst std::type_info[m[K’ is not derived from ‘[01m[Kconst std::__cxx11::basic_string<_CharT, _Traits, _Allocator>[m[K’
+[7.609s]    79 |     std::cout << "Type of robot: " << typeid(robot[01;36m[K)[m[K << std::endl;
+[7.609s]       |                                                   [01;36m[K^[m[K
+[7.609s] In file included from [01m[K/usr/include/c++/11/bits/ios_base.h:46[m[K,
+[7.610s]                  from [01m[K/usr/include/c++/11/iomanip:40[m[K,
+[7.610s]                  from [01m[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:1[m[K:
+[7.610s] [01m[K/usr/include/c++/11/system_error:279:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::error_code&)[m[K’
+[7.610s]   279 |     [01;36m[Koperator[m[K<<(basic_ostream<_CharT, _Traits>& __os, const error_code& __e)
+[7.610s]       |     [01;36m[K^~~~~~~~[m[K
+[7.611s] [01m[K/usr/include/c++/11/system_error:279:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[7.611s] [01m[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:79:39:[m[K [01;36m[Knote: [m[K  cannot convert ‘[01m[K*(const std::type_info*)(& _ZTISt10shared_ptrIN2rb5RobotINS0_8y1_model1AEEEE)[m[K’ (type ‘[01m[Kconst std::type_info[m[K’) to type ‘[01m[Kconst std::error_code&[m[K’
+[7.611s]    79 |     std::cout << "Type of robot: " << [01;36m[Ktypeid(robot)[m[K << std::endl;
+[7.611s]       |                                       [01;36m[K^~~~~~~~~~~~~[m[K
+[7.611s] In file included from [01m[K/usr/include/c++/11/istream:39[m[K,
+[7.612s]                  from [01m[K/usr/include/c++/11/sstream:38[m[K,
+[7.612s]                  from [01m[K/usr/include/c++/11/bits/quoted_string.h:38[m[K,
+[7.612s]                  from [01m[K/usr/include/c++/11/iomanip:45[m[K,
+[7.612s]                  from [01m[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:1[m[K:
+[7.612s] [01m[K/usr/include/c++/11/ostream:513:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, _CharT)[m[K’
+[7.613s]   513 |     [01;36m[Koperator[m[K<<(basic_ostream<_CharT, _Traits>& __out, _CharT __c)
+[7.613s]       |     [01;36m[K^~~~~~~~[m[K
+[7.613s] [01m[K/usr/include/c++/11/ostream:513:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[7.613s] [01m[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:79:51:[m[K [01;36m[Knote: [m[K  deduced conflicting types for parameter ‘[01m[K_CharT[m[K’ (‘[01m[Kchar[m[K’ and ‘[01m[Kstd::type_info[m[K’)
+[7.613s]    79 |     std::cout << "Type of robot: " << typeid(robot[01;36m[K)[m[K << std::endl;
+[7.614s]       |                                                   [01;36m[K^[m[K
+[7.614s] In file included from [01m[K/usr/include/c++/11/istream:39[m[K,
+[7.614s]                  from [01m[K/usr/include/c++/11/sstream:38[m[K,
+[7.614s]                  from [01m[K/usr/include/c++/11/bits/quoted_string.h:38[m[K,
+[7.614s]                  from [01m[K/usr/include/c++/11/iomanip:45[m[K,
+[7.615s]                  from [01m[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:1[m[K:
+[7.615s] [01m[K/usr/include/c++/11/ostream:518:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, char)[m[K’
+[7.615s]   518 |     [01;36m[Koperator[m[K<<(basic_ostream<_CharT, _Traits>& __out, char __c)
+[7.615s]       |     [01;36m[K^~~~~~~~[m[K
+[7.615s] [01m[K/usr/include/c++/11/ostream:518:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[7.616s] [01m[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:79:39:[m[K [01;36m[Knote: [m[K  cannot convert ‘[01m[K*(const std::type_info*)(& _ZTISt10shared_ptrIN2rb5RobotINS0_8y1_model1AEEEE)[m[K’ (type ‘[01m[Kconst std::type_info[m[K’) to type ‘[01m[Kchar[m[K’
+[7.616s]    79 |     std::cout << "Type of robot: " << [01;36m[Ktypeid(robot)[m[K << std::endl;
+[7.616s]       |                                       [01;36m[K^~~~~~~~~~~~~[m[K
+[7.616s] In file included from [01m[K/usr/include/c++/11/istream:39[m[K,
+[7.616s]                  from [01m[K/usr/include/c++/11/sstream:38[m[K,
+[7.617s]                  from [01m[K/usr/include/c++/11/bits/quoted_string.h:38[m[K,
+[7.617s]                  from [01m[K/usr/include/c++/11/iomanip:45[m[K,
+[7.617s]                  from [01m[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:1[m[K:
+[7.617s] [01m[K/usr/include/c++/11/ostream:524:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, char)[m[K’
+[7.617s]   524 |     [01;36m[Koperator[m[K<<(basic_ostream<char, _Traits>& __out, char __c)
+[7.618s]       |     [01;36m[K^~~~~~~~[m[K
+[7.618s] [01m[K/usr/include/c++/11/ostream:524:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[7.618s] [01m[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:79:39:[m[K [01;36m[Knote: [m[K  cannot convert ‘[01m[K*(const std::type_info*)(& _ZTISt10shared_ptrIN2rb5RobotINS0_8y1_model1AEEEE)[m[K’ (type ‘[01m[Kconst std::type_info[m[K’) to type ‘[01m[Kchar[m[K’
+[7.618s]    79 |     std::cout << "Type of robot: " << [01;36m[Ktypeid(robot)[m[K << std::endl;
+[7.618s]       |                                       [01;36m[K^~~~~~~~~~~~~[m[K
+[7.619s] In file included from [01m[K/usr/include/c++/11/istream:39[m[K,
+[7.619s]                  from [01m[K/usr/include/c++/11/sstream:38[m[K,
+[7.619s]                  from [01m[K/usr/include/c++/11/bits/quoted_string.h:38[m[K,
+[7.619s]                  from [01m[K/usr/include/c++/11/iomanip:45[m[K,
+[7.619s]                  from [01m[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:1[m[K:
+[7.620s] [01m[K/usr/include/c++/11/ostream:530:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, signed char)[m[K’
+[7.620s]   530 |     [01;36m[Koperator[m[K<<(basic_ostream<char, _Traits>& __out, signed char __c)
+[7.620s]       |     [01;36m[K^~~~~~~~[m[K
+[7.620s] [01m[K/usr/include/c++/11/ostream:530:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[7.621s] [01m[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:79:39:[m[K [01;36m[Knote: [m[K  cannot convert ‘[01m[K*(const std::type_info*)(& _ZTISt10shared_ptrIN2rb5RobotINS0_8y1_model1AEEEE)[m[K’ (type ‘[01m[Kconst std::type_info[m[K’) to type ‘[01m[Ksigned char[m[K’
+[7.621s]    79 |     std::cout << "Type of robot: " << [01;36m[Ktypeid(robot)[m[K << std::endl;
+[7.621s]       |                                       [01;36m[K^~~~~~~~~~~~~[m[K
+[7.621s] In file included from [01m[K/usr/include/c++/11/istream:39[m[K,
+[7.621s]                  from [01m[K/usr/include/c++/11/sstream:38[m[K,
+[7.622s]                  from [01m[K/usr/include/c++/11/bits/quoted_string.h:38[m[K,
+[7.622s]                  from [01m[K/usr/include/c++/11/iomanip:45[m[K,
+[7.622s]                  from [01m[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:1[m[K:
+[7.622s] [01m[K/usr/include/c++/11/ostream:535:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, unsigned char)[m[K’
+[7.622s]   535 |     [01;36m[Koperator[m[K<<(basic_ostream<char, _Traits>& __out, unsigned char __c)
+[7.623s]       |     [01;36m[K^~~~~~~~[m[K
+[7.623s] [01m[K/usr/include/c++/11/ostream:535:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[7.623s] [01m[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:79:39:[m[K [01;36m[Knote: [m[K  cannot convert ‘[01m[K*(const std::type_info*)(& _ZTISt10shared_ptrIN2rb5RobotINS0_8y1_model1AEEEE)[m[K’ (type ‘[01m[Kconst std::type_info[m[K’) to type ‘[01m[Kunsigned char[m[K’
+[7.623s]    79 |     std::cout << "Type of robot: " << [01;36m[Ktypeid(robot)[m[K << std::endl;
+[7.623s]       |                                       [01;36m[K^~~~~~~~~~~~~[m[K
+[7.624s] In file included from [01m[K/usr/include/c++/11/istream:39[m[K,
+[7.624s]                  from [01m[K/usr/include/c++/11/sstream:38[m[K,
+[7.624s]                  from [01m[K/usr/include/c++/11/bits/quoted_string.h:38[m[K,
+[7.624s]                  from [01m[K/usr/include/c++/11/iomanip:45[m[K,
+[7.624s]                  from [01m[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:1[m[K:
+[7.624s] [01m[K/usr/include/c++/11/ostream:594:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const _CharT*)[m[K’
+[7.625s]   594 |     [01;36m[Koperator[m[K<<(basic_ostream<_CharT, _Traits>& __out, const _CharT* __s)
+[7.625s]       |     [01;36m[K^~~~~~~~[m[K
+[7.625s] [01m[K/usr/include/c++/11/ostream:594:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[7.625s] [01m[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:79:51:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst _CharT*[m[K’ and ‘[01m[Kstd::type_info[m[K’
+[7.625s]    79 |     std::cout << "Type of robot: " << typeid(robot[01;36m[K)[m[K << std::endl;
+[7.626s]       |                                                   [01;36m[K^[m[K
+[7.626s] In file included from [01m[K/usr/include/c++/11/ostream:829[m[K,
+[7.626s]                  from [01m[K/usr/include/c++/11/istream:39[m[K,
+[7.626s]                  from [01m[K/usr/include/c++/11/sstream:38[m[K,
+[7.626s]                  from [01m[K/usr/include/c++/11/bits/quoted_string.h:38[m[K,
+[7.626s]                  from [01m[K/usr/include/c++/11/iomanip:45[m[K,
+[7.627s]                  from [01m[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:1[m[K:
+[7.627s] [01m[K/usr/include/c++/11/bits/ostream.tcc:321:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const char*)[m[K’
+[7.627s]   321 |     [01;36m[Koperator[m[K<<(basic_ostream<_CharT, _Traits>& __out, const char* __s)
+[7.627s]       |     [01;36m[K^~~~~~~~[m[K
+[7.627s] [01m[K/usr/include/c++/11/bits/ostream.tcc:321:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[7.628s] [01m[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:79:39:[m[K [01;36m[Knote: [m[K  cannot convert ‘[01m[K*(const std::type_info*)(& _ZTISt10shared_ptrIN2rb5RobotINS0_8y1_model1AEEEE)[m[K’ (type ‘[01m[Kconst std::type_info[m[K’) to type ‘[01m[Kconst char*[m[K’
+[7.628s]    79 |     std::cout << "Type of robot: " << [01;36m[Ktypeid(robot)[m[K << std::endl;
+[7.628s]       |                                       [01;36m[K^~~~~~~~~~~~~[m[K
+[7.628s] In file included from [01m[K/usr/include/c++/11/istream:39[m[K,
+[7.628s]                  from [01m[K/usr/include/c++/11/sstream:38[m[K,
+[7.628s]                  from [01m[K/usr/include/c++/11/bits/quoted_string.h:38[m[K,
+[7.629s]                  from [01m[K/usr/include/c++/11/iomanip:45[m[K,
+[7.629s]                  from [01m[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:1[m[K:
+[7.629s] [01m[K/usr/include/c++/11/ostream:611:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, const char*)[m[K’
+[7.629s]   611 |     [01;36m[Koperator[m[K<<(basic_ostream<char, _Traits>& __out, const char* __s)
+[7.629s]       |     [01;36m[K^~~~~~~~[m[K
+[7.630s] [01m[K/usr/include/c++/11/ostream:611:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[7.630s] [01m[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:79:39:[m[K [01;36m[Knote: [m[K  cannot convert ‘[01m[K*(const std::type_info*)(& _ZTISt10shared_ptrIN2rb5RobotINS0_8y1_model1AEEEE)[m[K’ (type ‘[01m[Kconst std::type_info[m[K’) to type ‘[01m[Kconst char*[m[K’
+[7.630s]    79 |     std::cout << "Type of robot: " << [01;36m[Ktypeid(robot)[m[K << std::endl;
+[7.630s]       |                                       [01;36m[K^~~~~~~~~~~~~[m[K
+[7.630s] In file included from [01m[K/usr/include/c++/11/istream:39[m[K,
+[7.630s]                  from [01m[K/usr/include/c++/11/sstream:38[m[K,
+[7.631s]                  from [01m[K/usr/include/c++/11/bits/quoted_string.h:38[m[K,
+[7.631s]                  from [01m[K/usr/include/c++/11/iomanip:45[m[K,
+[7.631s]                  from [01m[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:1[m[K:
+[7.631s] [01m[K/usr/include/c++/11/ostream:624:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, const signed char*)[m[K’
+[7.631s]   624 |     [01;36m[Koperator[m[K<<(basic_ostream<char, _Traits>& __out, const signed char* __s)
+[7.632s]       |     [01;36m[K^~~~~~~~[m[K
+[7.632s] [01m[K/usr/include/c++/11/ostream:624:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[7.632s] [01m[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:79:39:[m[K [01;36m[Knote: [m[K  cannot convert ‘[01m[K*(const std::type_info*)(& _ZTISt10shared_ptrIN2rb5RobotINS0_8y1_model1AEEEE)[m[K’ (type ‘[01m[Kconst std::type_info[m[K’) to type ‘[01m[Kconst signed char*[m[K’
+[7.632s]    79 |     std::cout << "Type of robot: " << [01;36m[Ktypeid(robot)[m[K << std::endl;
+[7.632s]       |                                       [01;36m[K^~~~~~~~~~~~~[m[K
+[7.632s] In file included from [01m[K/usr/include/c++/11/istream:39[m[K,
+[7.633s]                  from [01m[K/usr/include/c++/11/sstream:38[m[K,
+[7.633s]                  from [01m[K/usr/include/c++/11/bits/quoted_string.h:38[m[K,
+[7.633s]                  from [01m[K/usr/include/c++/11/iomanip:45[m[K,
+[7.633s]                  from [01m[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:1[m[K:
+[7.633s] [01m[K/usr/include/c++/11/ostream:629:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, const unsigned char*)[m[K’
+[7.633s]   629 |     [01;36m[Koperator[m[K<<(basic_ostream<char, _Traits>& __out, const unsigned char* __s)
+[7.634s]       |     [01;36m[K^~~~~~~~[m[K
+[7.634s] [01m[K/usr/include/c++/11/ostream:629:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[7.634s] [01m[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:79:39:[m[K [01;36m[Knote: [m[K  cannot convert ‘[01m[K*(const std::type_info*)(& _ZTISt10shared_ptrIN2rb5RobotINS0_8y1_model1AEEEE)[m[K’ (type ‘[01m[Kconst std::type_info[m[K’) to type ‘[01m[Kconst unsigned char*[m[K’
+[7.634s]    79 |     std::cout << "Type of robot: " << [01;36m[Ktypeid(robot)[m[K << std::endl;
+[7.634s]       |                                       [01;36m[K^~~~~~~~~~~~~[m[K
+[7.634s] In file included from [01m[K/usr/include/c++/11/istream:39[m[K,
+[7.635s]                  from [01m[K/usr/include/c++/11/sstream:38[m[K,
+[7.635s]                  from [01m[K/usr/include/c++/11/bits/quoted_string.h:38[m[K,
+[7.635s]                  from [01m[K/usr/include/c++/11/iomanip:45[m[K,
+[7.635s]                  from [01m[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:1[m[K:
+[7.635s] [01m[K/usr/include/c++/11/ostream:750:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Ostream, class _Tp> _Ostream&& std::operator<<(_Ostream&&, const _Tp&)[m[K’
+[7.635s]   750 |     [01;36m[Koperator[m[K<<(_Ostream&& __os, const _Tp& __x)
+[7.636s]       |     [01;36m[K^~~~~~~~[m[K
+[7.636s] [01m[K/usr/include/c++/11/ostream:750:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[7.636s] /usr/include/c++/11/ostream: In substitution of ‘[01m[Ktemplate<class _Ostream, class _Tp> _Ostream&& std::operator<<(_Ostream&&, const _Tp&) [with _Ostream = std::basic_ostream<char>&; _Tp = std::type_info][m[K’:
+[7.636s] [01m[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:79:51:[m[K   required from here
+[7.636s] [01m[K/usr/include/c++/11/ostream:750:5:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[Ktype[m[K’ in ‘[01m[Kstruct std::enable_if<false, void>[m[K’
+[7.636s] In file included from [01m[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:1[m[K:
+[7.637s] [01m[K/usr/include/c++/11/iomanip:79:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, std::_Resetiosflags)[m[K’
+[7.637s]    79 |     [01;36m[Koperator[m[K<<(basic_ostream<_CharT, _Traits>& __os, _Resetiosflags __f)
+[7.637s]       |     [01;36m[K^~~~~~~~[m[K
+[7.637s] [01m[K/usr/include/c++/11/iomanip:79:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[7.637s] [01m[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:79:39:[m[K [01;36m[Knote: [m[K  cannot convert ‘[01m[K*(const std::type_info*)(& _ZTISt10shared_ptrIN2rb5RobotINS0_8y1_model1AEEEE)[m[K’ (type ‘[01m[Kconst std::type_info[m[K’) to type ‘[01m[Kstd::_Resetiosflags[m[K’
+[7.637s]    79 |     std::cout << "Type of robot: " << [01;36m[Ktypeid(robot)[m[K << std::endl;
+[7.637s]       |                                       [01;36m[K^~~~~~~~~~~~~[m[K
+[7.638s] In file included from [01m[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:1[m[K:
+[7.638s] [01m[K/usr/include/c++/11/iomanip:109:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, std::_Setiosflags)[m[K’
+[7.638s]   109 |     [01;36m[Koperator[m[K<<(basic_ostream<_CharT, _Traits>& __os, _Setiosflags __f)
+[7.638s]       |     [01;36m[K^~~~~~~~[m[K
+[7.638s] [01m[K/usr/include/c++/11/iomanip:109:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[7.638s] [01m[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:79:39:[m[K [01;36m[Knote: [m[K  cannot convert ‘[01m[K*(const std::type_info*)(& _ZTISt10shared_ptrIN2rb5RobotINS0_8y1_model1AEEEE)[m[K’ (type ‘[01m[Kconst std::type_info[m[K’) to type ‘[01m[Kstd::_Setiosflags[m[K’
+[7.639s]    79 |     std::cout << "Type of robot: " << [01;36m[Ktypeid(robot)[m[K << std::endl;
+[7.639s]       |                                       [01;36m[K^~~~~~~~~~~~~[m[K
+[7.639s] In file included from [01m[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:1[m[K:
+[7.639s] [01m[K/usr/include/c++/11/iomanip:143:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, std::_Setbase)[m[K’
+[7.639s]   143 |     [01;36m[Koperator[m[K<<(basic_ostream<_CharT, _Traits>& __os, _Setbase __f)
+[7.639s]       |     [01;36m[K^~~~~~~~[m[K
+[7.639s] [01m[K/usr/include/c++/11/iomanip:143:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[7.640s] [01m[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:79:39:[m[K [01;36m[Knote: [m[K  cannot convert ‘[01m[K*(const std::type_info*)(& _ZTISt10shared_ptrIN2rb5RobotINS0_8y1_model1AEEEE)[m[K’ (type ‘[01m[Kconst std::type_info[m[K’) to type ‘[01m[Kstd::_Setbase[m[K’
+[7.640s]    79 |     std::cout << "Type of robot: " << [01;36m[Ktypeid(robot)[m[K << std::endl;
+[7.640s]       |                                       [01;36m[K^~~~~~~~~~~~~[m[K
+[7.640s] In file included from [01m[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:1[m[K:
+[7.640s] [01m[K/usr/include/c++/11/iomanip:178:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, std::_Setfill<_CharT>)[m[K’
+[7.640s]   178 |     [01;36m[Koperator[m[K<<(basic_ostream<_CharT, _Traits>& __os, _Setfill<_CharT> __f)
+[7.641s]       |     [01;36m[K^~~~~~~~[m[K
+[7.641s] [01m[K/usr/include/c++/11/iomanip:178:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[7.641s] [01m[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:79:51:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::type_info[m[K’ is not derived from ‘[01m[Kstd::_Setfill<_CharT>[m[K’
+[7.641s]    79 |     std::cout << "Type of robot: " << typeid(robot[01;36m[K)[m[K << std::endl;
+[7.641s]       |                                                   [01;36m[K^[m[K
+[7.641s] In file included from [01m[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:1[m[K:
+[7.641s] [01m[K/usr/include/c++/11/iomanip:208:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, std::_Setprecision)[m[K’
+[7.642s]   208 |     [01;36m[Koperator[m[K<<(basic_ostream<_CharT, _Traits>& __os, _Setprecision __f)
+[7.642s]       |     [01;36m[K^~~~~~~~[m[K
+[7.642s] [01m[K/usr/include/c++/11/iomanip:208:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[7.642s] [01m[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:79:39:[m[K [01;36m[Knote: [m[K  cannot convert ‘[01m[K*(const std::type_info*)(& _ZTISt10shared_ptrIN2rb5RobotINS0_8y1_model1AEEEE)[m[K’ (type ‘[01m[Kconst std::type_info[m[K’) to type ‘[01m[Kstd::_Setprecision[m[K’
+[7.642s]    79 |     std::cout << "Type of robot: " << [01;36m[Ktypeid(robot)[m[K << std::endl;
+[7.642s]       |                                       [01;36m[K^~~~~~~~~~~~~[m[K
+[7.642s] In file included from [01m[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:1[m[K:
+[7.643s] [01m[K/usr/include/c++/11/iomanip:238:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, std::_Setw)[m[K’
+[7.643s]   238 |     [01;36m[Koperator[m[K<<(basic_ostream<_CharT, _Traits>& __os, _Setw __f)
+[7.643s]       |     [01;36m[K^~~~~~~~[m[K
+[7.643s] [01m[K/usr/include/c++/11/iomanip:238:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[7.643s] [01m[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:79:39:[m[K [01;36m[Knote: [m[K  cannot convert ‘[01m[K*(const std::type_info*)(& _ZTISt10shared_ptrIN2rb5RobotINS0_8y1_model1AEEEE)[m[K’ (type ‘[01m[Kconst std::type_info[m[K’) to type ‘[01m[Kstd::_Setw[m[K’
+[7.643s]    79 |     std::cout << "Type of robot: " << [01;36m[Ktypeid(robot)[m[K << std::endl;
+[7.643s]       |                                       [01;36m[K^~~~~~~~~~~~~[m[K
+[7.644s] In file included from [01m[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:1[m[K:
+[7.644s] [01m[K/usr/include/c++/11/iomanip:311:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits, class _MoneyT> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, std::_Put_money<_MoneyT>)[m[K’
+[7.644s]   311 |     [01;36m[Koperator[m[K<<(basic_ostream<_CharT, _Traits>& __os, _Put_money<_MoneyT> __f)
+[7.644s]       |     [01;36m[K^~~~~~~~[m[K
+[7.644s] [01m[K/usr/include/c++/11/iomanip:311:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[7.644s] [01m[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:79:51:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::type_info[m[K’ is not derived from ‘[01m[Kstd::_Put_money<_MoneyT>[m[K’
+[7.644s]    79 |     std::cout << "Type of robot: " << typeid(robot[01;36m[K)[m[K << std::endl;
+[7.644s]       |                                                   [01;36m[K^[m[K
+[7.645s] In file included from [01m[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:1[m[K:
+[7.645s] [01m[K/usr/include/c++/11/iomanip:363:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, std::_Put_time<_CharT>)[m[K’
+[7.645s]   363 |     [01;36m[Koperator[m[K<<(basic_ostream<_CharT, _Traits>& __os, _Put_time<_CharT> __f)
+[7.645s]       |     [01;36m[K^~~~~~~~[m[K
+[7.645s] [01m[K/usr/include/c++/11/iomanip:363:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[7.645s] [01m[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:79:51:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::type_info[m[K’ is not derived from ‘[01m[Kstd::_Put_time<_CharT>[m[K’
+[7.645s]    79 |     std::cout << "Type of robot: " << typeid(robot[01;36m[K)[m[K << std::endl;
+[7.646s]       |                                                   [01;36m[K^[m[K
+[7.646s] In file included from [01m[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:3[m[K:
+[7.646s] [01m[K/usr/include/c++/11/thread:92:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, std::thread::id)[m[K’
+[7.646s]    92 |     [01;36m[Koperator[m[K<<(basic_ostream<_CharT, _Traits>& __out, thread::id __id)
+[7.646s]       |     [01;36m[K^~~~~~~~[m[K
+[7.646s] [01m[K/usr/include/c++/11/thread:92:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[7.646s] [01m[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:79:39:[m[K [01;36m[Knote: [m[K  cannot convert ‘[01m[K*(const std::type_info*)(& _ZTISt10shared_ptrIN2rb5RobotINS0_8y1_model1AEEEE)[m[K’ (type ‘[01m[Kconst std::type_info[m[K’) to type ‘[01m[Kstd::thread::id[m[K’
+[7.646s]    79 |     std::cout << "Type of robot: " << [01;36m[Ktypeid(robot)[m[K << std::endl;
+[7.647s]       |                                       [01;36m[K^~~~~~~~~~~~~[m[K
+[7.647s] In file included from [01m[K/usr/include/c++/11/memory:77[m[K,
+[7.647s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153[m[K,
+[7.647s]                  from [01m[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:4[m[K:
+[7.647s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:70:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Ch, class _Tr, class _Tp, __gnu_cxx::_Lock_policy _Lp> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::__shared_ptr<_Tp, _Lp>&)[m[K’
+[7.648s]    70 |     [01;36m[Koperator[m[K<<(std::basic_ostream<_Ch, _Tr>& __os,
+[7.648s]       |     [01;36m[K^~~~~~~~[m[K
+[7.648s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:70:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[7.648s] [01m[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:79:51:[m[K [01;36m[Knote: [m[K  ‘[01m[Kconst std::type_info[m[K’ is not derived from ‘[01m[Kconst std::__shared_ptr<_Tp, _Lp>[m[K’
+[7.648s]    79 |     std::cout << "Type of robot: " << typeid(robot[01;36m[K)[m[K << std::endl;
+[7.648s]       |                                                   [01;36m[K^[m[K
+[7.648s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:50[m[K,
+[7.648s]                  from [01m[K/home/nvidia/rby1-sdk/include/rby1-sdk/dynamics/robot.h:3[m[K,
+[7.649s]                  from [01m[K/home/nvidia/rby1-sdk/include/rby1-sdk/model.h:6[m[K,
+[7.649s]                  from [01m[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:6[m[K:
+[7.649s] [01m[K/usr/include/c++/11/complex:555:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::complex<_Tp>&)[m[K’
+[7.649s]   555 |     [01;36m[Koperator[m[K<<(basic_ostream<_CharT, _Traits>& __os, const complex<_Tp>& __x)
+[7.649s]       |     [01;36m[K^~~~~~~~[m[K
+[7.649s] [01m[K/usr/include/c++/11/complex:555:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[7.649s] [01m[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:79:51:[m[K [01;36m[Knote: [m[K  ‘[01m[Kconst std::type_info[m[K’ is not derived from ‘[01m[Kconst std::complex<_Tp>[m[K’
+[7.650s]    79 |     std::cout << "Type of robot: " << typeid(robot[01;36m[K)[m[K << std::endl;
+[7.650s]       |                                                   [01;36m[K^[m[K
+[7.650s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:81[m[K,
+[7.650s]                  from [01m[K/home/nvidia/rby1-sdk/include/rby1-sdk/dynamics/robot.h:3[m[K,
+[7.650s]                  from [01m[K/home/nvidia/rby1-sdk/include/rby1-sdk/model.h:6[m[K,
+[7.650s]                  from [01m[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:6[m[K:
+[7.650s] [01m[K/usr/include/c++/11/cstddef:126:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _IntegerType> constexpr std::__byte_op_t<_IntegerType> std::operator<<(std::byte, _IntegerType)[m[K’
+[7.650s]   126 |     [01;36m[Koperator[m[K<<(byte __b, _IntegerType __shift) noexcept
+[7.651s]       |     [01;36m[K^~~~~~~~[m[K
+[7.651s] [01m[K/usr/include/c++/11/cstddef:126:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[7.651s] [01m[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:79:15:[m[K [01;36m[Knote: [m[K  cannot convert ‘[01m[Kstd::operator<< <std::char_traits<char> >(std::cout, ((const char*)"Type of robot: "))[m[K’ (type ‘[01m[Kstd::basic_ostream<char>[m[K’) to type ‘[01m[Kstd::byte[m[K’
+[7.651s]    79 |     [01;36m[Kstd::cout << "Type of robot: "[m[K << typeid(robot) << std::endl;
+[7.651s]       |     [01;36m[K~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~[m[K
+[7.651s] In file included from [01m[K/home/nvidia/rby1-sdk/include/rby1-sdk/robot.h:11[m[K,
+[7.651s]                  from [01m[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:7[m[K:
+[7.651s] [01m[K/home/nvidia/rby1-sdk/include/rby1-sdk/log.h:49:22:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::ostream& operator<<(std::ostream&, const rb::Log::Level&)[m[K’
+[7.652s]    49 | inline std::ostream& [01;36m[Koperator[m[K<<(std::ostream& out, const rb::Log::Level& level) {
+[7.652s]       |                      [01;36m[K^~~~~~~~[m[K
+[7.652s] [01m[K/home/nvidia/rby1-sdk/include/rby1-sdk/log.h:49:74:[m[K [01;36m[Knote: [m[K  no known conversion for argument 2 from ‘[01m[Kconst std::type_info[m[K’ to ‘[01m[Kconst rb::Log::Level&[m[K’
+[7.652s]    49 | inline std::ostream& operator<<(std::ostream& out, [01;36m[Kconst rb::Log::Level& level[m[K) {
+[7.652s]       |                                                    [01;36m[K~~~~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[7.652s] [01m[K/home/nvidia/rby1-sdk/include/rby1-sdk/log.h:55:22:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::ostream& operator<<(std::ostream&, const rb::Log&)[m[K’
+[7.652s]    55 | inline std::ostream& [01;36m[Koperator[m[K<<(std::ostream& out, const rb::Log& log) {
+[7.652s]       |                      [01;36m[K^~~~~~~~[m[K
+[7.653s] [01m[K/home/nvidia/rby1-sdk/include/rby1-sdk/log.h:55:67:[m[K [01;36m[Knote: [m[K  no known conversion for argument 2 from ‘[01m[Kconst std::type_info[m[K’ to ‘[01m[Kconst rb::Log&[m[K’
+[7.653s]    55 | inline std::ostream& operator<<(std::ostream& out, [01;36m[Kconst rb::Log& log[m[K) {
+[7.653s]       |                                                    [01;36m[K~~~~~~~~~~~~~~~^~~[m[K
+[7.653s] [01m[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:80:5:[m[K [01;31m[Kerror: [m[K‘[01m[Krobot_thread_[m[K’ was not declared in this scope
+[7.653s]    80 |     [01;31m[Krobot_thread_[m[K = std::thread([this]() {
+[7.653s]       |     [01;31m[K^~~~~~~~~~~~~[m[K
+[7.653s] [01m[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:80:34:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[7.653s]    80 |     robot_thread_ = std::thread([[01;31m[Kthis[m[K]() {
+[7.654s]       |                                  [01;31m[K^~~~[m[K
+[7.654s] [01m[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:[m[K In lambda function:
+[7.654s] [01m[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:81:9:[m[K [01;31m[Kerror: [m[K‘[01m[Krobot[m[K’ is not captured
+[7.654s]    81 |         [01;31m[Krobot[m[K->Connect();
+[7.654s]       |         [01;31m[K^~~~~[m[K
+[7.654s] [01m[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:80:38:[m[K [01;36m[Knote: [m[Kthe lambda has no capture-default
+[7.654s]    80 |     robot_thread_ = std::thread([this[01;36m[K][m[K() {
+[7.654s]       |                                      [01;36m[K^[m[K
+[7.655s] [01m[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:78:10:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::shared_ptr<rb::Robot<rb::y1_model::A> > robot[m[K’ declared here
+[7.655s]    78 |     auto [01;36m[Krobot[m[K = rb::Robot<rb::y1_model::A>::Create("192.168.30.1:50051");
+[7.655s]       |          [01;36m[K^~~~~[m[K
+[7.655s] [01m[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:82:22:[m[K [01;31m[Kerror: [m[K‘[01m[Krobot[m[K’ is not captured
+[7.655s]    82 |         std::cout << [01;31m[Krobot[m[K->GetRobotInfo().robot_version << std::endl;
+[7.655s]       |                      [01;31m[K^~~~~[m[K
+[7.655s] [01m[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:80:38:[m[K [01;36m[Knote: [m[Kthe lambda has no capture-default
+[7.656s]    80 |     robot_thread_ = std::thread([this[01;36m[K][m[K() {
+[7.656s]       |                                      [01;36m[K^[m[K
+[7.656s] [01m[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:78:10:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::shared_ptr<rb::Robot<rb::y1_model::A> > robot[m[K’ declared here
+[7.656s]    78 |     auto [01;36m[Krobot[m[K = rb::Robot<rb::y1_model::A>::Create("192.168.30.1:50051");
+[7.656s]       |          [01;36m[K^~~~~[m[K
+[13.117s] gmake[2]: *** [CMakeFiles/rby1_movement_subscriber.dir/build.make:79: CMakeFiles/rby1_movement_subscriber.dir/src/rby1_movement_subscriber.cpp.o] Error 1
+[13.117s] gmake[1]: *** [CMakeFiles/Makefile2:153: CMakeFiles/rby1_movement_subscriber.dir/all] Error 2
+[13.118s] gmake: *** [Makefile:146: all] Error 2
+[13.124s] Invoked command in '/home/nvidia/ros2_ws/src/rby1_movement/build/rby1_movement' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/nvidia/ros2_ws/src/rby1_movement/build/rby1_movement -- -j8 -l8

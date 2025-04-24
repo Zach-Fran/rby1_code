@@ -1,0 +1,180 @@
+[0.000000] (-) TimerEvent: {}
+[0.000904] (rby1_movement) JobQueued: {'identifier': 'rby1_movement', 'dependencies': OrderedDict()}
+[0.001190] (rby1_movement) JobStarted: {'identifier': 'rby1_movement'}
+[0.017068] (rby1_movement) JobProgress: {'identifier': 'rby1_movement', 'progress': 'cmake'}
+[0.018337] (rby1_movement) JobProgress: {'identifier': 'rby1_movement', 'progress': 'build'}
+[0.019641] (rby1_movement) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/nvidia/ros2_ws/src/rby1_movement/build/rby1_movement', '--', '-j8', '-l8'], 'cwd': '/home/nvidia/ros2_ws/src/rby1_movement/build/rby1_movement', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'nvidia'), ('SSH_CLIENT', '192.168.1.2 52248 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/local/cuda-12.2/lib64:/home/nvidia/ros2_ws/install/zed_components/lib:/home/nvidia/ros2_ws/install/wiimote/lib:/home/nvidia/ros2_ws/install/wiimote_msgs/lib:/home/nvidia/ros2_ws/install/tcp_tunnel/lib:/home/nvidia/ros2_ws/install/spacenav/lib:/home/nvidia/ros2_ws/install/joy/lib:/home/nvidia/ros2_ws/install/keyboard_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/nvidia'), ('OLDPWD', '/home/nvidia/ros2_ws/src/rby1_movement/src'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/nvidia/ros2_ws/src/rby1_movement/install:/home/nvidia/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'nvidia'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '5'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/nvidia/.local/bin:/usr/local/cuda-12.2/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/nvidia/.local/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', 'localhost:10.0'), ('LANG', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '5'), ('AMENT_PREFIX_PATH', '/home/nvidia/ros2_ws/src/rby1_movement/install/rby1_movement:/home/nvidia/ros2_ws/install/zed_ros2:/home/nvidia/ros2_ws/install/zed_wrapper:/home/nvidia/ros2_ws/install/zed_components:/home/nvidia/ros2_ws/install/wiimote:/home/nvidia/ros2_ws/install/wiimote_msgs:/home/nvidia/ros2_ws/install/tcp_tunnel:/home/nvidia/ros2_ws/install/spacenav:/home/nvidia/ros2_ws/install/joy:/home/nvidia/ros2_ws/install/sdl2_vendor:/home/nvidia/ros2_ws/install/rby1_robot_state:/home/nvidia/ros2_ws/install/rby1_movement:/home/nvidia/ros2_ws/install/keyboard:/home/nvidia/ros2_ws/install/keyboard_msgs:/home/nvidia/ros2_ws/install/joy_linux:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/nvidia/ros2_ws/src/rby1_movement/build/rby1_movement'), ('SSH_CONNECTION', '192.168.1.2 52248 192.168.1.3 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/nvidia/ros2_ws/install/wiimote_msgs/local/lib/python3.10/dist-packages:/home/nvidia/ros2_ws/install/tcp_tunnel/local/lib/python3.10/dist-packages:/home/nvidia/ros2_ws/install/keyboard_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/nvidia/ros2_ws/src/rby1_movement/install/rby1_movement:/home/nvidia/ros2_ws/install/zed_ros2:/home/nvidia/ros2_ws/install/zed_wrapper:/home/nvidia/ros2_ws/install/zed_components:/home/nvidia/ros2_ws/install/wiimote:/home/nvidia/ros2_ws/install/wiimote_msgs:/home/nvidia/ros2_ws/install/tcp_tunnel:/home/nvidia/ros2_ws/install/spacenav:/home/nvidia/ros2_ws/install/joy:/home/nvidia/ros2_ws/install/sdl2_vendor:/home/nvidia/ros2_ws/install/rby1_robot_state:/home/nvidia/ros2_ws/install/rby1_movement:/home/nvidia/ros2_ws/install/keyboard:/home/nvidia/ros2_ws/install/keyboard_msgs:/home/nvidia/ros2_ws/install/joy_linux:/opt/ros/humble')]), 'shell': False}
+[0.099266] (-) TimerEvent: {}
+[0.100908] (rby1_movement) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/rby1_movement_subscriber.dir/src/rby1_movement_subscriber.cpp.o\x1b[0m\n'}
+[0.199376] (-) TimerEvent: {}
+[0.299925] (-) TimerEvent: {}
+[0.400520] (-) TimerEvent: {}
+[0.501081] (-) TimerEvent: {}
+[0.601666] (-) TimerEvent: {}
+[0.702268] (-) TimerEvent: {}
+[0.802881] (-) TimerEvent: {}
+[0.903471] (-) TimerEvent: {}
+[1.004078] (-) TimerEvent: {}
+[1.104696] (-) TimerEvent: {}
+[1.205286] (-) TimerEvent: {}
+[1.305902] (-) TimerEvent: {}
+[1.406508] (-) TimerEvent: {}
+[1.507117] (-) TimerEvent: {}
+[1.607716] (-) TimerEvent: {}
+[1.708347] (-) TimerEvent: {}
+[1.808943] (-) TimerEvent: {}
+[1.909537] (-) TimerEvent: {}
+[2.010130] (-) TimerEvent: {}
+[2.110729] (-) TimerEvent: {}
+[2.211331] (-) TimerEvent: {}
+[2.311929] (-) TimerEvent: {}
+[2.412553] (-) TimerEvent: {}
+[2.513139] (-) TimerEvent: {}
+[2.613958] (-) TimerEvent: {}
+[2.714764] (-) TimerEvent: {}
+[2.815591] (-) TimerEvent: {}
+[2.916421] (-) TimerEvent: {}
+[3.017034] (-) TimerEvent: {}
+[3.117608] (-) TimerEvent: {}
+[3.218141] (-) TimerEvent: {}
+[3.318682] (-) TimerEvent: {}
+[3.419233] (-) TimerEvent: {}
+[3.519775] (-) TimerEvent: {}
+[3.620332] (-) TimerEvent: {}
+[3.720874] (-) TimerEvent: {}
+[3.821421] (-) TimerEvent: {}
+[3.921956] (-) TimerEvent: {}
+[4.022513] (-) TimerEvent: {}
+[4.123073] (-) TimerEvent: {}
+[4.223612] (-) TimerEvent: {}
+[4.324168] (-) TimerEvent: {}
+[4.424760] (-) TimerEvent: {}
+[4.525355] (-) TimerEvent: {}
+[4.625959] (-) TimerEvent: {}
+[4.726555] (-) TimerEvent: {}
+[4.827150] (-) TimerEvent: {}
+[4.927744] (-) TimerEvent: {}
+[5.028346] (-) TimerEvent: {}
+[5.128942] (-) TimerEvent: {}
+[5.229532] (-) TimerEvent: {}
+[5.330125] (-) TimerEvent: {}
+[5.430720] (-) TimerEvent: {}
+[5.531307] (-) TimerEvent: {}
+[5.631901] (-) TimerEvent: {}
+[5.732523] (-) TimerEvent: {}
+[5.833123] (-) TimerEvent: {}
+[5.933935] (-) TimerEvent: {}
+[6.034728] (-) TimerEvent: {}
+[6.135529] (-) TimerEvent: {}
+[6.236131] (-) TimerEvent: {}
+[6.336748] (-) TimerEvent: {}
+[6.437538] (-) TimerEvent: {}
+[6.538345] (-) TimerEvent: {}
+[6.639152] (-) TimerEvent: {}
+[6.739967] (-) TimerEvent: {}
+[6.840852] (-) TimerEvent: {}
+[6.941668] (-) TimerEvent: {}
+[7.042486] (-) TimerEvent: {}
+[7.143093] (-) TimerEvent: {}
+[7.243683] (-) TimerEvent: {}
+[7.344247] (-) TimerEvent: {}
+[7.444826] (-) TimerEvent: {}
+[7.545379] (-) TimerEvent: {}
+[7.546878] (rby1_movement) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KRBY1_Movement::RBY1_Movement(std::shared_ptr<rb::Robot<rb::y1_model::A> >, std::unique_ptr<rb::RobotCommandStreamHandler<rb::y1_model::A> >)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[7.547294] (rby1_movement) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:24:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kuse of deleted function \xe2\x80\x98\x1b[01m\x1b[Kstd::unique_ptr<_Tp, _Dp>::unique_ptr(const std::unique_ptr<_Tp, _Dp>&) [with _Tp = rb::RobotCommandStreamHandler<rb::y1_model::A>; _Dp = std::default_delete<rb::RobotCommandStreamHandler<rb::y1_model::A> >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.547434] (rby1_movement) StderrLine: {'line': b'   24 |         \x1b[01;31m\x1b[Kstream(stream)\x1b[m\x1b[K {\n'}
+[7.547546] (rby1_movement) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.547650] (rby1_movement) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/bits/locale_conv.h:41\x1b[m\x1b[K,\n'}
+[7.547752] (rby1_movement) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/locale:43\x1b[m\x1b[K,\n'}
+[7.547851] (rby1_movement) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/iomanip:43\x1b[m\x1b[K,\n'}
+[7.547946] (rby1_movement) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:1\x1b[m\x1b[K:\n'}
+[7.548044] (rby1_movement) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/unique_ptr.h:468:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[7.548137] (rby1_movement) StderrLine: {'line': b'  468 |       \x1b[01;36m\x1b[Kunique_ptr\x1b[m\x1b[K(const unique_ptr&) = delete;\n'}
+[7.548230] (rby1_movement) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.645510] (-) TimerEvent: {}
+[7.746063] (-) TimerEvent: {}
+[7.846608] (-) TimerEvent: {}
+[7.947152] (-) TimerEvent: {}
+[8.047701] (-) TimerEvent: {}
+[8.148242] (-) TimerEvent: {}
+[8.248829] (-) TimerEvent: {}
+[8.349371] (-) TimerEvent: {}
+[8.450143] (-) TimerEvent: {}
+[8.550968] (-) TimerEvent: {}
+[8.651797] (-) TimerEvent: {}
+[8.752615] (-) TimerEvent: {}
+[8.853427] (-) TimerEvent: {}
+[8.954234] (-) TimerEvent: {}
+[9.055040] (-) TimerEvent: {}
+[9.129644] (rby1_movement) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/aarch64-linux-gnu/c++/11/bits/c++allocator.h:33\x1b[m\x1b[K,\n'}
+[9.130162] (rby1_movement) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/bits/allocator.h:46\x1b[m\x1b[K,\n'}
+[9.130366] (rby1_movement) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/string:41\x1b[m\x1b[K,\n'}
+[9.130532] (rby1_movement) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/bits/locale_classes.h:40\x1b[m\x1b[K,\n'}
+[9.130688] (rby1_movement) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/bits/ios_base.h:41\x1b[m\x1b[K,\n'}
+[9.130836] (rby1_movement) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/iomanip:40\x1b[m\x1b[K,\n'}
+[9.130983] (rby1_movement) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:1\x1b[m\x1b[K:\n'}
+[9.131133] (rby1_movement) StderrLine: {'line': b'/usr/include/c++/11/ext/new_allocator.h: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kvoid __gnu_cxx::new_allocator<_Tp>::construct(_Up*, _Args&& ...) [with _Up = RBY1_Movement; _Args = {std::shared_ptr<rb::Robot<rb::y1_model::A> >&, std::unique_ptr<rb::RobotCommandStreamHandler<rb::y1_model::A>, std::default_delete<rb::RobotCommandStreamHandler<rb::y1_model::A> > >&}; _Tp = RBY1_Movement]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[9.131294] (rby1_movement) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/alloc_traits.h:516:17:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstatic void std::allocator_traits<std::allocator<_CharT> >::construct(std::allocator_traits<std::allocator<_CharT> >::allocator_type&, _Up*, _Args&& ...) [with _Up = RBY1_Movement; _Args = {std::shared_ptr<rb::Robot<rb::y1_model::A> >&, std::unique_ptr<rb::RobotCommandStreamHandler<rb::y1_model::A>, std::default_delete<rb::RobotCommandStreamHandler<rb::y1_model::A> > >&}; _Tp = RBY1_Movement; std::allocator_traits<std::allocator<_CharT> >::allocator_type = std::allocator<RBY1_Movement>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.131509] (rby1_movement) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr_base.h:519:39:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::_Sp_counted_ptr_inplace<_Tp, _Alloc, _Lp>::_Sp_counted_ptr_inplace(_Alloc, _Args&& ...) [with _Args = {std::shared_ptr<rb::Robot<rb::y1_model::A> >&, std::unique_ptr<rb::RobotCommandStreamHandler<rb::y1_model::A>, std::default_delete<rb::RobotCommandStreamHandler<rb::y1_model::A> > >&}; _Tp = RBY1_Movement; _Alloc = std::allocator<RBY1_Movement>; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.131683] (rby1_movement) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr_base.h:650:16:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::__shared_count<_Lp>::__shared_count(_Tp*&, std::_Sp_alloc_shared_tag<_Alloc>, _Args&& ...) [with _Tp = RBY1_Movement; _Alloc = std::allocator<RBY1_Movement>; _Args = {std::shared_ptr<rb::Robot<rb::y1_model::A> >&, std::unique_ptr<rb::RobotCommandStreamHandler<rb::y1_model::A>, std::default_delete<rb::RobotCommandStreamHandler<rb::y1_model::A> > >&}; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.131859] (rby1_movement) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr_base.h:1342:14:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::__shared_ptr<_Tp, _Lp>::__shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<RBY1_Movement>; _Args = {std::shared_ptr<rb::Robot<rb::y1_model::A> >&, std::unique_ptr<rb::RobotCommandStreamHandler<rb::y1_model::A>, std::default_delete<rb::RobotCommandStreamHandler<rb::y1_model::A> > >&}; _Tp = RBY1_Movement; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.132054] (rby1_movement) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:409:59:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<_Tp>::shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<RBY1_Movement>; _Args = {std::shared_ptr<rb::Robot<rb::y1_model::A> >&, std::unique_ptr<rb::RobotCommandStreamHandler<rb::y1_model::A>, std::default_delete<rb::RobotCommandStreamHandler<rb::y1_model::A> > >&}; _Tp = RBY1_Movement]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.132210] (rby1_movement) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:862:14:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<_Tp> std::allocate_shared(const _Alloc&, _Args&& ...) [with _Tp = RBY1_Movement; _Alloc = std::allocator<RBY1_Movement>; _Args = {std::shared_ptr<rb::Robot<rb::y1_model::A> >&, std::unique_ptr<rb::RobotCommandStreamHandler<rb::y1_model::A>, std::default_delete<rb::RobotCommandStreamHandler<rb::y1_model::A> > >&}]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.132418] (rby1_movement) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:878:39:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<_Tp> std::make_shared(_Args&& ...) [with _Tp = RBY1_Movement; _Args = {std::shared_ptr<rb::Robot<rb::y1_model::A> >&, std::unique_ptr<rb::RobotCommandStreamHandler<rb::y1_model::A>, std::default_delete<rb::RobotCommandStreamHandler<rb::y1_model::A> > >&}]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.132633] (rby1_movement) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:136:49:\x1b[m\x1b[K   required from here\n'}
+[9.132839] (rby1_movement) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/ext/new_allocator.h:162:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kuse of deleted function \xe2\x80\x98\x1b[01m\x1b[Kstd::unique_ptr<_Tp, _Dp>::unique_ptr(const std::unique_ptr<_Tp, _Dp>&) [with _Tp = rb::RobotCommandStreamHandler<rb::y1_model::A>; _Dp = std::default_delete<rb::RobotCommandStreamHandler<rb::y1_model::A> >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.133072] (rby1_movement) StderrLine: {'line': b'  162 |         { \x1b[01;31m\x1b[K::new((void *)__p) _Up(std::forward<_Args>(__args)...)\x1b[m\x1b[K; }\n'}
+[9.133278] (rby1_movement) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[9.133483] (rby1_movement) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/bits/locale_conv.h:41\x1b[m\x1b[K,\n'}
+[9.133682] (rby1_movement) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/locale:43\x1b[m\x1b[K,\n'}
+[9.133881] (rby1_movement) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/iomanip:43\x1b[m\x1b[K,\n'}
+[9.134080] (rby1_movement) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:1\x1b[m\x1b[K:\n'}
+[9.134279] (rby1_movement) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/unique_ptr.h:468:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[9.134476] (rby1_movement) StderrLine: {'line': b'  468 |       \x1b[01;36m\x1b[Kunique_ptr\x1b[m\x1b[K(const unique_ptr&) = delete;\n'}
+[9.134672] (rby1_movement) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[9.134866] (rby1_movement) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:21:127:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  initializing argument 2 of \xe2\x80\x98\x1b[01m\x1b[KRBY1_Movement::RBY1_Movement(std::shared_ptr<rb::Robot<rb::y1_model::A> >, std::unique_ptr<rb::RobotCommandStreamHandler<rb::y1_model::A> >)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.135071] (rby1_movement) StderrLine: {'line': b'   21 | \x1b[01;36m\x1b[KmmandStreamHandler<y1_model::A>> stream\x1b[m\x1b[K) :\n'}
+[9.135266] (rby1_movement) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~\x1b[m\x1b[K\n'}
+[9.135465] (rby1_movement) StderrLine: {'line': b'\n'}
+[9.155120] (-) TimerEvent: {}
+[9.255620] (-) TimerEvent: {}
+[9.356137] (-) TimerEvent: {}
+[9.456668] (-) TimerEvent: {}
+[9.557181] (-) TimerEvent: {}
+[9.657687] (-) TimerEvent: {}
+[9.758180] (-) TimerEvent: {}
+[9.858682] (-) TimerEvent: {}
+[9.959180] (-) TimerEvent: {}
+[10.059664] (-) TimerEvent: {}
+[10.160157] (-) TimerEvent: {}
+[10.260666] (-) TimerEvent: {}
+[10.361151] (-) TimerEvent: {}
+[10.461644] (-) TimerEvent: {}
+[10.562093] (-) TimerEvent: {}
+[10.662675] (-) TimerEvent: {}
+[10.763299] (-) TimerEvent: {}
+[10.863930] (-) TimerEvent: {}
+[10.964564] (-) TimerEvent: {}
+[11.065187] (-) TimerEvent: {}
+[11.165806] (-) TimerEvent: {}
+[11.266485] (-) TimerEvent: {}
+[11.367133] (-) TimerEvent: {}
+[11.467839] (-) TimerEvent: {}
+[11.568500] (-) TimerEvent: {}
+[11.668979] (-) TimerEvent: {}
+[11.769402] (-) TimerEvent: {}
+[11.869816] (-) TimerEvent: {}
+[11.970232] (-) TimerEvent: {}
+[12.070705] (-) TimerEvent: {}
+[12.171206] (-) TimerEvent: {}
+[12.271709] (-) TimerEvent: {}
+[12.372178] (-) TimerEvent: {}
+[12.472600] (-) TimerEvent: {}
+[12.572976] (-) TimerEvent: {}
+[12.657445] (rby1_movement) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/rby1_movement_subscriber.dir/build.make:79: CMakeFiles/rby1_movement_subscriber.dir/src/rby1_movement_subscriber.cpp.o] Error 1\n'}
+[12.658298] (rby1_movement) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:153: CMakeFiles/rby1_movement_subscriber.dir/all] Error 2\n'}
+[12.659094] (rby1_movement) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[12.664385] (rby1_movement) CommandEnded: {'returncode': 2}
+[12.673089] (-) TimerEvent: {}
+[12.708320] (rby1_movement) JobEnded: {'identifier': 'rby1_movement', 'rc': 2}
+[12.711874] (-) EventReactorShutdown: {}
