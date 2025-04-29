@@ -1,2 +1,0 @@
-Invoking command in '/home/nvidia/ros2_ws/src/rby1_movement/build/rby1_movement': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/nvidia/ros2_ws/src/rby1_movement/build/rby1_movement -- -j8 -l8
-Invoked command in '/home/nvidia/ros2_ws/src/rby1_movement/build/rby1_movement' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/nvidia/ros2_ws/src/rby1_movement/build/rby1_movement -- -j8 -l8

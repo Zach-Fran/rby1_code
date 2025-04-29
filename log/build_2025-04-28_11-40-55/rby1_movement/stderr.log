@@ -1,0 +1,14 @@
+[01m[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:10:10:[m[K [01;31m[Kfatal error: [m[Krby1_movement/srv/speedcontrol.hpp: No such file or directory
+   10 | #include [01;31m[K"rby1_movement/srv/speedcontrol.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/rby1_movement_subscriber.dir/build.make:79: CMakeFiles/rby1_movement_subscriber.dir/src/rby1_movement_subscriber.cpp.o] Error 1
+[01m[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:10:10:[m[K [01;31m[Kfatal error: [m[Krby1_movement/srv/speedcontrol.hpp: No such file or directory
+   10 | #include [01;31m[K"rby1_movement/srv/speedcontrol.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[1]: *** [CMakeFiles/Makefile2:731: CMakeFiles/rby1_movement_subscriber.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake[2]: *** [CMakeFiles/speed_server.dir/build.make:79: CMakeFiles/speed_server.dir/src/rby1_movement_subscriber.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:763: CMakeFiles/speed_server.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

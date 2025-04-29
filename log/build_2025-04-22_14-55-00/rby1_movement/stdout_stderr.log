@@ -1,7 +1,0 @@
-[ 50%] [32mBuilding CXX object CMakeFiles/rby1_movement_subscriber.dir/src/rby1_movement_subscriber.cpp.o[0m
-[01m[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:58:5:[m[K [01;31m[Kerror: [m[Knon-static data member declared with placeholder ‘[01m[Kauto[m[K’
-   58 |     [01;31m[Kauto[m[K robot = rb::Robot<rb::y1_model::A>::Create("192.168.30.1:50051");
-      |     [01;31m[K^~~~[m[K
-gmake[2]: *** [CMakeFiles/rby1_movement_subscriber.dir/build.make:79: CMakeFiles/rby1_movement_subscriber.dir/src/rby1_movement_subscriber.cpp.o] Error 1
-gmake[1]: *** [CMakeFiles/Makefile2:153: CMakeFiles/rby1_movement_subscriber.dir/all] Error 2
-gmake: *** [Makefile:146: all] Error 2

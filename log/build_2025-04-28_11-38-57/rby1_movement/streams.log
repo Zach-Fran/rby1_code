@@ -1,0 +1,107 @@
+[0.023s] Invoking command in '/home/nvidia/ros2_ws/src/rby1_movement/build/rby1_movement': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nvidia/ros2_ws/install/keyboard_joy:/opt/ros/humble /usr/bin/cmake --build /home/nvidia/ros2_ws/src/rby1_movement/build/rby1_movement -- -j8 -l8
+[0.057s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.471s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[0.549s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.553s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.563s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.579s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.601s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.657s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.660s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[0.691s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.776s] -- Found sensor_msgs: 4.8.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.828s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.781s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[3.649s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.383s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.392s] [33mCMake Warning (dev) at /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:20 (find_package):
+[4.392s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[4.392s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[4.392s]   the cmake_policy command to set the policy and suppress this warning.
+[4.392s] 
+[4.392s] Call Stack (most recent call first):
+[4.392s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[4.392s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[4.393s]   CMakeLists.txt:27 (rosidl_generate_interfaces)
+[4.393s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[4.393s] [0m
+[4.439s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[4.443s] [33mCMake Warning (dev) at /opt/ros/humble/share/python_cmake_module/cmake/Modules/FindPythonExtra.cmake:52 (find_package):
+[4.443s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[4.443s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[4.444s]   the cmake_policy command to set the policy and suppress this warning.
+[4.444s] 
+[4.444s] Call Stack (most recent call first):
+[4.444s]   /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:23 (find_package)
+[4.444s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[4.445s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[4.445s]   CMakeLists.txt:27 (rosidl_generate_interfaces)
+[4.445s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[4.445s] [0m
+[4.486s] [33mCMake Warning (dev) at /opt/ros/humble/share/python_cmake_module/cmake/Modules/FindPythonExtra.cmake:140 (find_package):
+[4.486s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[4.486s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[4.487s]   the cmake_policy command to set the policy and suppress this warning.
+[4.487s] 
+[4.487s] Call Stack (most recent call first):
+[4.487s]   /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:23 (find_package)
+[4.487s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[4.488s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[4.488s]   CMakeLists.txt:27 (rosidl_generate_interfaces)
+[4.488s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[4.488s] [0m
+[4.493s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[4.493s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[4.494s] -- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so
+[4.631s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[4.765s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[4.770s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/nvidia/ros2_ws/src/rby1_movement/build/rby1_movement/rosidl_generator_c>;$<BUILD_INTERFACE:/home/nvidia/ros2_ws/src/rby1_movement/build/rby1_movement/rosidl_typesupport_fastrtps_c>;$<BUILD_INTERFACE:/home/nvidia/ros2_ws/src/rby1_movement/build/rby1_movement/rosidl_generator_cpp>;$<BUILD_INTERFACE:/home/nvidia/ros2_ws/src/rby1_movement/build/rby1_movement/rosidl_typesupport_fastrtps_cpp>;$<BUILD_INTERFACE:/home/nvidia/ros2_ws/src/rby1_movement/build/rby1_movement/rosidl_typesupport_introspection_c>;$<BUILD_INTERFACE:/home/nvidia/ros2_ws/src/rby1_movement/build/rby1_movement/rosidl_typesupport_introspection_cpp>;/home/nvidia/ros2_ws/src/rby1_movement/build/rby1_movement/rosidl_generator_c;/home/nvidia/ros2_ws/src/rby1_movement/build/rby1_movement/rosidl_generator_py
+[4.770s] -- Configured cppcheck exclude dirs and/or files: 
+[4.785s] -- Added test 'flake8' to check Python code syntax and style conventions
+[4.814s] -- Added test 'lint_cmake' to check CMake code style
+[4.828s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[4.942s] -- Added test 'uncrustify' to check C / C++ code style
+[4.943s] -- Configured uncrustify additional arguments: 
+[4.957s] -- Added test 'xmllint' to check XML markup files
+[4.961s] -- Configuring done (4.9s)
+[5.059s] -- Generating done (0.1s)
+[5.079s] -- Build files have been written to: /home/nvidia/ros2_ws/src/rby1_movement/build/rby1_movement
+[5.139s] [  2%] Built target rby1_movement__cpp
+[5.144s] [ 11%] Built target rby1_movement__rosidl_generator_c
+[5.149s] [ 11%] Built target ament_cmake_python_copy_rby1_movement
+[5.158s] [ 14%] [32mBuilding CXX object CMakeFiles/speed_server.dir/src/rby1_movement_subscriber.cpp.o[0m
+[5.159s] [ 17%] [32mBuilding CXX object CMakeFiles/rby1_movement_subscriber.dir/src/rby1_movement_subscriber.cpp.o[0m
+[5.167s] [ 25%] Built target rby1_movement__rosidl_typesupport_introspection_cpp
+[5.168s] [ 34%] Built target rby1_movement__rosidl_typesupport_cpp
+[5.170s] [ 42%] Built target rby1_movement__rosidl_typesupport_fastrtps_cpp
+[5.173s] [ 51%] Built target rby1_movement__rosidl_typesupport_fastrtps_c
+[5.173s] [ 60%] Built target rby1_movement__rosidl_typesupport_c
+[5.174s] [ 68%] Built target rby1_movement__rosidl_typesupport_introspection_c
+[5.194s] [ 68%] Built target rby1_movement
+[5.216s] [ 71%] Built target rby1_movement__py
+[5.241s] [ 77%] Built target rby1_movement__rosidl_generator_py
+[5.269s] [ 94%] Built target rby1_movement__rosidl_typesupport_c__pyext
+[5.270s] [ 94%] Built target rby1_movement__rosidl_typesupport_introspection_c__pyext
+[5.270s] [ 94%] Built target rby1_movement__rosidl_typesupport_fastrtps_c__pyext
+[5.619s] running egg_info
+[5.620s] writing rby1_movement.egg-info/PKG-INFO
+[5.620s] writing dependency_links to rby1_movement.egg-info/dependency_links.txt
+[5.621s] writing top-level names to rby1_movement.egg-info/top_level.txt
+[5.625s] reading manifest file 'rby1_movement.egg-info/SOURCES.txt'
+[5.626s] writing manifest file 'rby1_movement.egg-info/SOURCES.txt'
+[5.690s] [ 94%] Built target ament_cmake_python_build_rby1_movement_egg
+[5.778s] [01m[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:10:10:[m[K [01;31m[Kfatal error: [m[Krby1_movement/srv/speed_control.hpp: No such file or directory
+[5.779s]    10 | #include [01;31m[K"rby1_movement/srv/speed_control.hpp"[m[K
+[5.779s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.779s] compilation terminated.
+[5.780s] [01m[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:10:10:[m[K [01;31m[Kfatal error: [m[Krby1_movement/srv/speed_control.hpp: No such file or directory
+[5.781s]    10 | #include [01;31m[K"rby1_movement/srv/speed_control.hpp"[m[K
+[5.781s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.781s] compilation terminated.
+[5.787s] gmake[2]: *** [CMakeFiles/rby1_movement_subscriber.dir/build.make:79: CMakeFiles/rby1_movement_subscriber.dir/src/rby1_movement_subscriber.cpp.o] Error 1
+[5.787s] gmake[1]: *** [CMakeFiles/Makefile2:731: CMakeFiles/rby1_movement_subscriber.dir/all] Error 2
+[5.787s] gmake[1]: *** Waiting for unfinished jobs....
+[5.788s] gmake[2]: *** [CMakeFiles/speed_server.dir/build.make:79: CMakeFiles/speed_server.dir/src/rby1_movement_subscriber.cpp.o] Error 1
+[5.789s] gmake[1]: *** [CMakeFiles/Makefile2:763: CMakeFiles/speed_server.dir/all] Error 2
+[5.789s] gmake: *** [Makefile:146: all] Error 2
+[5.794s] Invoked command in '/home/nvidia/ros2_ws/src/rby1_movement/build/rby1_movement' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nvidia/ros2_ws/install/keyboard_joy:/opt/ros/humble /usr/bin/cmake --build /home/nvidia/ros2_ws/src/rby1_movement/build/rby1_movement -- -j8 -l8

@@ -1,0 +1,171 @@
+[0.000000] (-) TimerEvent: {}
+[0.000908] (rby1_movement) JobQueued: {'identifier': 'rby1_movement', 'dependencies': OrderedDict()}
+[0.001182] (rby1_movement) JobStarted: {'identifier': 'rby1_movement'}
+[0.017871] (rby1_movement) JobProgress: {'identifier': 'rby1_movement', 'progress': 'cmake'}
+[0.019124] (rby1_movement) JobProgress: {'identifier': 'rby1_movement', 'progress': 'build'}
+[0.020294] (rby1_movement) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/nvidia/ros2_ws/src/rby1_movement/build/rby1_movement', '--', '-j8', '-l8'], 'cwd': '/home/nvidia/ros2_ws/src/rby1_movement/build/rby1_movement', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'nvidia'), ('SSH_CLIENT', '192.168.1.4 60442 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/local/cuda-12.2/lib64:/home/nvidia/ros2_ws/install/zed_components/lib:/home/nvidia/ros2_ws/install/wiimote/lib:/home/nvidia/ros2_ws/install/wiimote_msgs/lib:/home/nvidia/ros2_ws/install/tcp_tunnel/lib:/home/nvidia/ros2_ws/install/spacenav/lib:/home/nvidia/ros2_ws/install/joy/lib:/home/nvidia/ros2_ws/install/keyboard_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/nvidia'), ('OLDPWD', '/home/nvidia/ros2_ws/src/rby1_movement/srv'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/nvidia/ros2_ws/src/rby1_movement/install:/home/nvidia/ros2_ws/install:/home/nvidia/ros2_ws/src/ros2-keyboard/keyboard/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'nvidia'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '6'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/nvidia/.local/bin:/usr/local/cuda-12.2/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/nvidia/.local/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', 'localhost:10.0'), ('LANG', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '5'), ('AMENT_PREFIX_PATH', '/home/nvidia/ros2_ws/install/zed_ros2:/home/nvidia/ros2_ws/install/zed_wrapper:/home/nvidia/ros2_ws/install/zed_components:/home/nvidia/ros2_ws/install/wiimote:/home/nvidia/ros2_ws/install/wiimote_msgs:/home/nvidia/ros2_ws/install/tcp_tunnel:/home/nvidia/ros2_ws/install/spacenav:/home/nvidia/ros2_ws/install/joy:/home/nvidia/ros2_ws/install/sdl2_vendor:/home/nvidia/ros2_ws/install/rby1_robot_state:/home/nvidia/ros2_ws/install/rby1_movement:/home/nvidia/ros2_ws/install/keyboard:/home/nvidia/ros2_ws/install/keyboard_msgs:/home/nvidia/ros2_ws/install/keyboard_joy:/home/nvidia/ros2_ws/install/joy_linux:/home/nvidia/ros2_ws/src/rby1_movement/install/rby1_movement:/home/nvidia/ros2_ws/src/ros2-keyboard/keyboard/install/keyboard:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/nvidia/ros2_ws/src/rby1_movement/build/rby1_movement'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.1.4 60442 192.168.1.3 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/nvidia/ros2_ws/install/wiimote_msgs/local/lib/python3.10/dist-packages:/home/nvidia/ros2_ws/install/tcp_tunnel/local/lib/python3.10/dist-packages:/home/nvidia/ros2_ws/install/keyboard_msgs/local/lib/python3.10/dist-packages:/home/nvidia/ros2_ws/install/keyboard_joy/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/nvidia/ros2_ws/install/zed_ros2:/home/nvidia/ros2_ws/install/zed_wrapper:/home/nvidia/ros2_ws/install/zed_components:/home/nvidia/ros2_ws/install/wiimote:/home/nvidia/ros2_ws/install/wiimote_msgs:/home/nvidia/ros2_ws/install/tcp_tunnel:/home/nvidia/ros2_ws/install/spacenav:/home/nvidia/ros2_ws/install/joy:/home/nvidia/ros2_ws/install/sdl2_vendor:/home/nvidia/ros2_ws/install/rby1_robot_state:/home/nvidia/ros2_ws/install/rby1_movement:/home/nvidia/ros2_ws/install/keyboard:/home/nvidia/ros2_ws/install/keyboard_msgs:/home/nvidia/ros2_ws/install/joy_linux:/home/nvidia/ros2_ws/src/rby1_movement/install/rby1_movement:/home/nvidia/ros2_ws/src/ros2-keyboard/keyboard/install/keyboard:/home/nvidia/ros2_ws/install/keyboard_joy:/opt/ros/humble')]), 'shell': False}
+[0.058411] (rby1_movement) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099164] (-) TimerEvent: {}
+[0.199762] (-) TimerEvent: {}
+[0.300586] (-) TimerEvent: {}
+[0.401198] (-) TimerEvent: {}
+[0.471707] (rby1_movement) StdoutLine: {'line': b'-- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.501382] (-) TimerEvent: {}
+[0.550313] (rby1_movement) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.554369] (rby1_movement) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.563941] (rby1_movement) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.580427] (rby1_movement) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.601449] (-) TimerEvent: {}
+[0.602094] (rby1_movement) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.658387] (rby1_movement) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.661212] (rby1_movement) StdoutLine: {'line': b'-- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)\n'}
+[0.692029] (rby1_movement) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_cyclonedds_cpp' as default\n"}
+[0.701543] (-) TimerEvent: {}
+[0.777130] (rby1_movement) StdoutLine: {'line': b'-- Found sensor_msgs: 4.8.0 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[0.801657] (-) TimerEvent: {}
+[0.829002] (rby1_movement) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.901962] (-) TimerEvent: {}
+[1.002813] (-) TimerEvent: {}
+[1.103378] (-) TimerEvent: {}
+[1.204194] (-) TimerEvent: {}
+[1.304765] (-) TimerEvent: {}
+[1.405474] (-) TimerEvent: {}
+[1.506674] (-) TimerEvent: {}
+[1.607144] (-) TimerEvent: {}
+[1.707702] (-) TimerEvent: {}
+[1.781461] (rby1_movement) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[1.807829] (-) TimerEvent: {}
+[1.908809] (-) TimerEvent: {}
+[2.009571] (-) TimerEvent: {}
+[2.110142] (-) TimerEvent: {}
+[2.210993] (-) TimerEvent: {}
+[2.312219] (-) TimerEvent: {}
+[2.413067] (-) TimerEvent: {}
+[2.513653] (-) TimerEvent: {}
+[2.614393] (-) TimerEvent: {}
+[2.715329] (-) TimerEvent: {}
+[2.815910] (-) TimerEvent: {}
+[2.916745] (-) TimerEvent: {}
+[3.018168] (-) TimerEvent: {}
+[3.119184] (-) TimerEvent: {}
+[3.220080] (-) TimerEvent: {}
+[3.321280] (-) TimerEvent: {}
+[3.422578] (-) TimerEvent: {}
+[3.523431] (-) TimerEvent: {}
+[3.624483] (-) TimerEvent: {}
+[3.649415] (rby1_movement) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.724833] (-) TimerEvent: {}
+[3.825438] (-) TimerEvent: {}
+[3.926047] (-) TimerEvent: {}
+[4.027223] (-) TimerEvent: {}
+[4.128531] (-) TimerEvent: {}
+[4.229590] (-) TimerEvent: {}
+[4.330436] (-) TimerEvent: {}
+[4.383697] (rby1_movement) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[4.392587] (rby1_movement) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:20 (find_package):\n'}
+[4.393010] (rby1_movement) StderrLine: {'line': b'  Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules\n'}
+[4.393174] (rby1_movement) StderrLine: {'line': b'  are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use\n'}
+[4.393314] (rby1_movement) StderrLine: {'line': b'  the cmake_policy command to set the policy and suppress this warning.\n'}
+[4.393442] (rby1_movement) StderrLine: {'line': b'\n'}
+[4.393563] (rby1_movement) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[4.393682] (rby1_movement) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)\n'}
+[4.393800] (rby1_movement) StderrLine: {'line': b'  /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)\n'}
+[4.393919] (rby1_movement) StderrLine: {'line': b'  CMakeLists.txt:27 (rosidl_generate_interfaces)\n'}
+[4.394066] (rby1_movement) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[4.394191] (rby1_movement) StderrLine: {'line': b'\x1b[0m\n'}
+[4.430502] (-) TimerEvent: {}
+[4.440019] (rby1_movement) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[4.444073] (rby1_movement) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /opt/ros/humble/share/python_cmake_module/cmake/Modules/FindPythonExtra.cmake:52 (find_package):\n'}
+[4.444535] (rby1_movement) StderrLine: {'line': b'  Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules\n'}
+[4.444763] (rby1_movement) StderrLine: {'line': b'  are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use\n'}
+[4.444961] (rby1_movement) StderrLine: {'line': b'  the cmake_policy command to set the policy and suppress this warning.\n'}
+[4.445144] (rby1_movement) StderrLine: {'line': b'\n'}
+[4.445311] (rby1_movement) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[4.445496] (rby1_movement) StderrLine: {'line': b'  /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:23 (find_package)\n'}
+[4.445662] (rby1_movement) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)\n'}
+[4.445817] (rby1_movement) StderrLine: {'line': b'  /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)\n'}
+[4.445995] (rby1_movement) StderrLine: {'line': b'  CMakeLists.txt:27 (rosidl_generate_interfaces)\n'}
+[4.446201] (rby1_movement) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[4.446470] (rby1_movement) StderrLine: {'line': b'\x1b[0m\n'}
+[4.486858] (rby1_movement) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /opt/ros/humble/share/python_cmake_module/cmake/Modules/FindPythonExtra.cmake:140 (find_package):\n'}
+[4.487289] (rby1_movement) StderrLine: {'line': b'  Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules\n'}
+[4.487550] (rby1_movement) StderrLine: {'line': b'  are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use\n'}
+[4.487777] (rby1_movement) StderrLine: {'line': b'  the cmake_policy command to set the policy and suppress this warning.\n'}
+[4.487988] (rby1_movement) StderrLine: {'line': b'\n'}
+[4.488187] (rby1_movement) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[4.488383] (rby1_movement) StderrLine: {'line': b'  /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:23 (find_package)\n'}
+[4.488620] (rby1_movement) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)\n'}
+[4.488825] (rby1_movement) StderrLine: {'line': b'  /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)\n'}
+[4.489023] (rby1_movement) StderrLine: {'line': b'  CMakeLists.txt:27 (rosidl_generate_interfaces)\n'}
+[4.489219] (rby1_movement) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[4.489411] (rby1_movement) StderrLine: {'line': b'\x1b[0m\n'}
+[4.494022] (rby1_movement) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[4.494519] (rby1_movement) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[4.494813] (rby1_movement) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so\n'}
+[4.530619] (-) TimerEvent: {}
+[4.631239] (-) TimerEvent: {}
+[4.632106] (rby1_movement) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[4.731343] (-) TimerEvent: {}
+[4.765765] (rby1_movement) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[4.771096] (rby1_movement) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/nvidia/ros2_ws/src/rby1_movement/build/rby1_movement/rosidl_generator_c>;$<BUILD_INTERFACE:/home/nvidia/ros2_ws/src/rby1_movement/build/rby1_movement/rosidl_typesupport_fastrtps_c>;$<BUILD_INTERFACE:/home/nvidia/ros2_ws/src/rby1_movement/build/rby1_movement/rosidl_generator_cpp>;$<BUILD_INTERFACE:/home/nvidia/ros2_ws/src/rby1_movement/build/rby1_movement/rosidl_typesupport_fastrtps_cpp>;$<BUILD_INTERFACE:/home/nvidia/ros2_ws/src/rby1_movement/build/rby1_movement/rosidl_typesupport_introspection_c>;$<BUILD_INTERFACE:/home/nvidia/ros2_ws/src/rby1_movement/build/rby1_movement/rosidl_typesupport_introspection_cpp>;/home/nvidia/ros2_ws/src/rby1_movement/build/rby1_movement/rosidl_generator_c;/home/nvidia/ros2_ws/src/rby1_movement/build/rby1_movement/rosidl_generator_py\n'}
+[4.771450] (rby1_movement) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[4.785947] (rby1_movement) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[4.815101] (rby1_movement) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[4.829608] (rby1_movement) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[4.831437] (-) TimerEvent: {}
+[4.931836] (-) TimerEvent: {}
+[4.943455] (rby1_movement) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[4.943822] (rby1_movement) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[4.958266] (rby1_movement) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[4.961821] (rby1_movement) StdoutLine: {'line': b'-- Configuring done (4.9s)\n'}
+[5.031931] (-) TimerEvent: {}
+[5.059801] (rby1_movement) StdoutLine: {'line': b'-- Generating done (0.1s)\n'}
+[5.079732] (rby1_movement) StdoutLine: {'line': b'-- Build files have been written to: /home/nvidia/ros2_ws/src/rby1_movement/build/rby1_movement\n'}
+[5.132144] (-) TimerEvent: {}
+[5.140324] (rby1_movement) StdoutLine: {'line': b'[  2%] Built target rby1_movement__cpp\n'}
+[5.144691] (rby1_movement) StdoutLine: {'line': b'[ 11%] Built target rby1_movement__rosidl_generator_c\n'}
+[5.150230] (rby1_movement) StdoutLine: {'line': b'[ 11%] Built target ament_cmake_python_copy_rby1_movement\n'}
+[5.158947] (rby1_movement) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding CXX object CMakeFiles/speed_server.dir/src/rby1_movement_subscriber.cpp.o\x1b[0m\n'}
+[5.159994] (rby1_movement) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding CXX object CMakeFiles/rby1_movement_subscriber.dir/src/rby1_movement_subscriber.cpp.o\x1b[0m\n'}
+[5.168505] (rby1_movement) StdoutLine: {'line': b'[ 25%] Built target rby1_movement__rosidl_typesupport_introspection_cpp\n'}
+[5.169365] (rby1_movement) StdoutLine: {'line': b'[ 34%] Built target rby1_movement__rosidl_typesupport_cpp\n'}
+[5.171257] (rby1_movement) StdoutLine: {'line': b'[ 42%] Built target rby1_movement__rosidl_typesupport_fastrtps_cpp\n'}
+[5.174093] (rby1_movement) StdoutLine: {'line': b'[ 51%] Built target rby1_movement__rosidl_typesupport_fastrtps_c\n'}
+[5.174697] (rby1_movement) StdoutLine: {'line': b'[ 60%] Built target rby1_movement__rosidl_typesupport_c\n'}
+[5.175061] (rby1_movement) StdoutLine: {'line': b'[ 68%] Built target rby1_movement__rosidl_typesupport_introspection_c\n'}
+[5.194810] (rby1_movement) StdoutLine: {'line': b'[ 68%] Built target rby1_movement\n'}
+[5.216795] (rby1_movement) StdoutLine: {'line': b'[ 71%] Built target rby1_movement__py\n'}
+[5.232282] (-) TimerEvent: {}
+[5.242164] (rby1_movement) StdoutLine: {'line': b'[ 77%] Built target rby1_movement__rosidl_generator_py\n'}
+[5.270435] (rby1_movement) StdoutLine: {'line': b'[ 94%] Built target rby1_movement__rosidl_typesupport_c__pyext\n'}
+[5.270906] (rby1_movement) StdoutLine: {'line': b'[ 94%] Built target rby1_movement__rosidl_typesupport_introspection_c__pyext\n'}
+[5.271093] (rby1_movement) StdoutLine: {'line': b'[ 94%] Built target rby1_movement__rosidl_typesupport_fastrtps_c__pyext\n'}
+[5.332426] (-) TimerEvent: {}
+[5.433003] (-) TimerEvent: {}
+[5.533529] (-) TimerEvent: {}
+[5.619700] (rby1_movement) StdoutLine: {'line': b'running egg_info\n'}
+[5.621094] (rby1_movement) StdoutLine: {'line': b'writing rby1_movement.egg-info/PKG-INFO\n'}
+[5.621632] (rby1_movement) StdoutLine: {'line': b'writing dependency_links to rby1_movement.egg-info/dependency_links.txt\n'}
+[5.622024] (rby1_movement) StdoutLine: {'line': b'writing top-level names to rby1_movement.egg-info/top_level.txt\n'}
+[5.626495] (rby1_movement) StdoutLine: {'line': b"reading manifest file 'rby1_movement.egg-info/SOURCES.txt'\n"}
+[5.627525] (rby1_movement) StdoutLine: {'line': b"writing manifest file 'rby1_movement.egg-info/SOURCES.txt'\n"}
+[5.633656] (-) TimerEvent: {}
+[5.690868] (rby1_movement) StdoutLine: {'line': b'[ 94%] Built target ament_cmake_python_build_rby1_movement_egg\n'}
+[5.733773] (-) TimerEvent: {}
+[5.779374] (rby1_movement) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:10:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Krby1_movement/srv/speed_control.hpp: No such file or directory\n'}
+[5.779846] (rby1_movement) StderrLine: {'line': b'   10 | #include \x1b[01;31m\x1b[K"rby1_movement/srv/speed_control.hpp"\x1b[m\x1b[K\n'}
+[5.779981] (rby1_movement) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.780091] (rby1_movement) StderrLine: {'line': b'compilation terminated.\n'}
+[5.781723] (rby1_movement) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:10:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Krby1_movement/srv/speed_control.hpp: No such file or directory\n'}
+[5.781883] (rby1_movement) StderrLine: {'line': b'   10 | #include \x1b[01;31m\x1b[K"rby1_movement/srv/speed_control.hpp"\x1b[m\x1b[K\n'}
+[5.782011] (rby1_movement) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.782121] (rby1_movement) StderrLine: {'line': b'compilation terminated.\n'}
+[5.787873] (rby1_movement) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/rby1_movement_subscriber.dir/build.make:79: CMakeFiles/rby1_movement_subscriber.dir/src/rby1_movement_subscriber.cpp.o] Error 1\n'}
+[5.788310] (rby1_movement) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:731: CMakeFiles/rby1_movement_subscriber.dir/all] Error 2\n'}
+[5.788640] (rby1_movement) StderrLine: {'line': b'gmake[1]: *** Waiting for unfinished jobs....\n'}
+[5.789604] (rby1_movement) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/speed_server.dir/build.make:79: CMakeFiles/speed_server.dir/src/rby1_movement_subscriber.cpp.o] Error 1\n'}
+[5.790074] (rby1_movement) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:763: CMakeFiles/speed_server.dir/all] Error 2\n'}
+[5.790485] (rby1_movement) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[5.795051] (rby1_movement) CommandEnded: {'returncode': 2}
+[5.817643] (rby1_movement) JobEnded: {'identifier': 'rby1_movement', 'rc': 2}
+[5.828991] (-) EventReactorShutdown: {}

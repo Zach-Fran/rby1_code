@@ -11,19 +11,41 @@ find_package(rclcpp REQUIRED)
 find_package(std_msgs REQUIRED)
 find_package(sensor_msgs REQUIRED)
 find_package(rby1-sdk REQUIRED)
+find_package(rosidl_default_generators REQUIRED)
+find_package(Eigen3 REQUIRED)
 
 # Include rby1-sdk headers
-#include_directories()
 include_directories(~/rby1-sdk/include)
+
+# Include Eigen directories
+include_directories(
+  ${EIGEN3_INCLUDE_DIRS}  # Add this
+  /home/nvidia/rby1-sdk/include
+  ${sensor_msgs_INCLUDE_DIRS}
+)
+
+#rosidl_generate_interfaces(${PROJECT_NAME}
+#  "srv/speedControl.srv"  # Ensure this matches your .srv filename
+#  DEPENDENCIES sensor_msgs
+#)
 
 add_executable(rby1_movement_subscriber src/rby1_movement_subscriber.cpp)
 ament_target_dependencies(rby1_movement_subscriber rclcpp sensor_msgs rby1-sdk)
+
+#add_executable(speed_server src/rby1_movement_subscriber.cpp)
+#ament_target_dependencies(speed_server 
+#    rclcpp
+#    sensor_msgs
+#    rosidl_default_runtime)
 
 target_link_libraries(rby1_movement_subscriber rby1-sdk::rby1-sdk)
 
 install(TARGETS rby1_movement_subscriber
   DESTINATION lib/${PROJECT_NAME}
 )
+
+
+install(DIRECTORY launch DESTINATION share/${PROJECT_NAME}/)
 
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)
@@ -37,4 +59,5 @@ if(BUILD_TESTING)
   ament_lint_auto_find_test_dependencies()
 endif()
 
+#ament_export_dependencies(rosidl_default_runtime)
 ament_package()

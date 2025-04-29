@@ -1,7 +1,0 @@
-[01m[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:[m[K In lambda function:
-[01m[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:43:24:[m[K [01;31m[Kerror: [m[Kinvalid operands of types ‘[01m[K<unresolved overloaded function type>[m[K’ and ‘[01m[Kconst char [7][m[K’ to binary ‘[01m[Koperator<<[m[K’
-   43 |             [01;31m[Kstd::count << "Axes: "[m[K << msg->axes[0] << std::endl;
-      |             [01;31m[K~~~~~~~~~~~^~~~~~~~~~~[m[K
-gmake[2]: *** [CMakeFiles/rby1_movement_subscriber.dir/build.make:79: CMakeFiles/rby1_movement_subscriber.dir/src/rby1_movement_subscriber.cpp.o] Error 1
-gmake[1]: *** [CMakeFiles/Makefile2:153: CMakeFiles/rby1_movement_subscriber.dir/all] Error 2
-gmake: *** [Makefile:146: all] Error 2

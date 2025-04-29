@@ -1,4 +1,6 @@
 /home/nvidia/ros2_ws/src/rby1_movement/install/rby1_movement/lib/rby1_movement/rby1_movement_subscriber
+/home/nvidia/ros2_ws/src/rby1_movement/install/rby1_movement/share/rby1_movement//launch/control_base.launch.py
+/home/nvidia/ros2_ws/src/rby1_movement/install/rby1_movement/share/rby1_movement//launch/movement.launch.py
 /home/nvidia/ros2_ws/src/rby1_movement/install/rby1_movement/share/ament_index/resource_index/package_run_dependencies/rby1_movement
 /home/nvidia/ros2_ws/src/rby1_movement/install/rby1_movement/share/ament_index/resource_index/parent_prefix_path/rby1_movement
 /home/nvidia/ros2_ws/src/rby1_movement/install/rby1_movement/share/rby1_movement/environment/ament_prefix_path.sh

@@ -1,0 +1,4 @@
+srv/SpeedControl.idl
+srv/SpeedControl.srv
+srv/SpeedControl_Request.msg
+srv/SpeedControl_Response.msg

@@ -1,0 +1,40 @@
+[0.022s] Invoking command in '/home/nvidia/ros2_ws/src/rby1_movement/build/rby1_movement': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nvidia/ros2_ws/install/keyboard_joy:/opt/ros/humble /usr/bin/cmake --build /home/nvidia/ros2_ws/src/rby1_movement/build/rby1_movement -- -j8 -l8
+[0.077s] [  2%] Built target rby1_movement__cpp
+[0.078s] [ 11%] Built target rby1_movement__rosidl_generator_c
+[0.087s] [ 11%] Built target ament_cmake_python_copy_rby1_movement
+[0.088s] [ 17%] [32mBuilding CXX object CMakeFiles/rby1_movement_subscriber.dir/src/rby1_movement_subscriber.cpp.o[0m
+[0.089s] [ 17%] [32mBuilding CXX object CMakeFiles/speed_server.dir/src/rby1_movement_subscriber.cpp.o[0m
+[0.103s] [ 51%] Built target rby1_movement__rosidl_typesupport_introspection_c
+[0.104s] [ 51%] Built target rby1_movement__rosidl_typesupport_introspection_cpp
+[0.104s] [ 51%] Built target rby1_movement__rosidl_typesupport_cpp
+[0.104s] [ 51%] Built target rby1_movement__rosidl_typesupport_fastrtps_c
+[0.104s] [ 60%] Built target rby1_movement__rosidl_typesupport_fastrtps_cpp
+[0.117s] [ 68%] Built target rby1_movement__rosidl_typesupport_c
+[0.136s] [ 68%] Built target rby1_movement
+[0.156s] [ 71%] Built target rby1_movement__py
+[0.178s] [ 77%] Built target rby1_movement__rosidl_generator_py
+[0.202s] [ 94%] Built target rby1_movement__rosidl_typesupport_c__pyext
+[0.203s] [ 94%] Built target rby1_movement__rosidl_typesupport_introspection_c__pyext
+[0.203s] [ 94%] Built target rby1_movement__rosidl_typesupport_fastrtps_c__pyext
+[0.569s] running egg_info
+[0.570s] writing rby1_movement.egg-info/PKG-INFO
+[0.571s] writing dependency_links to rby1_movement.egg-info/dependency_links.txt
+[0.571s] writing top-level names to rby1_movement.egg-info/top_level.txt
+[0.576s] reading manifest file 'rby1_movement.egg-info/SOURCES.txt'
+[0.577s] writing manifest file 'rby1_movement.egg-info/SOURCES.txt'
+[0.646s] [ 94%] Built target ament_cmake_python_build_rby1_movement_egg
+[0.717s] [01m[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:10:10:[m[K [01;31m[Kfatal error: [m[Krby1_movement/srv/speedcontrol.hpp: No such file or directory
+[0.717s]    10 | #include [01;31m[K"rby1_movement/srv/speedcontrol.hpp"[m[K
+[0.717s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.717s] compilation terminated.
+[0.724s] gmake[2]: *** [CMakeFiles/rby1_movement_subscriber.dir/build.make:79: CMakeFiles/rby1_movement_subscriber.dir/src/rby1_movement_subscriber.cpp.o] Error 1
+[0.724s] [01m[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:10:10:[m[K [01;31m[Kfatal error: [m[Krby1_movement/srv/speedcontrol.hpp: No such file or directory
+[0.725s]    10 | #include [01;31m[K"rby1_movement/srv/speedcontrol.hpp"[m[K
+[0.725s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.725s] compilation terminated.
+[0.725s] gmake[1]: *** [CMakeFiles/Makefile2:731: CMakeFiles/rby1_movement_subscriber.dir/all] Error 2
+[0.726s] gmake[1]: *** Waiting for unfinished jobs....
+[0.730s] gmake[2]: *** [CMakeFiles/speed_server.dir/build.make:79: CMakeFiles/speed_server.dir/src/rby1_movement_subscriber.cpp.o] Error 1
+[0.730s] gmake[1]: *** [CMakeFiles/Makefile2:763: CMakeFiles/speed_server.dir/all] Error 2
+[0.730s] gmake: *** [Makefile:146: all] Error 2
+[0.735s] Invoked command in '/home/nvidia/ros2_ws/src/rby1_movement/build/rby1_movement' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nvidia/ros2_ws/install/keyboard_joy:/opt/ros/humble /usr/bin/cmake --build /home/nvidia/ros2_ws/src/rby1_movement/build/rby1_movement -- -j8 -l8

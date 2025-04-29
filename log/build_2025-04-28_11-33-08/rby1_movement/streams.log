@@ -1,0 +1,337 @@
+[0.024s] Invoking command in '/home/nvidia/ros2_ws/src/rby1_movement/build/rby1_movement': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nvidia/ros2_ws/install/keyboard_joy:/opt/ros/humble /usr/bin/cmake --build /home/nvidia/ros2_ws/src/rby1_movement/build/rby1_movement -- -j8 -l8
+[0.082s] [  2%] Built target rby1_movement__cpp
+[0.083s] [ 11%] Built target rby1_movement__rosidl_generator_c
+[0.091s] [ 11%] Built target ament_cmake_python_copy_rby1_movement
+[0.104s] [ 14%] [32mBuilding CXX object CMakeFiles/speed_server.dir/src/rby1_movement_subscriber.cpp.o[0m
+[0.105s] [ 17%] [32mBuilding CXX object CMakeFiles/rby1_movement_subscriber.dir/src/rby1_movement_subscriber.cpp.o[0m
+[0.108s] [ 25%] Built target rby1_movement__rosidl_typesupport_introspection_c
+[0.111s] [ 34%] Built target rby1_movement__rosidl_typesupport_fastrtps_c
+[0.113s] [ 51%] Built target rby1_movement__rosidl_typesupport_c
+[0.114s] [ 51%] Built target rby1_movement__rosidl_typesupport_introspection_cpp
+[0.121s] [ 60%] Built target rby1_movement__rosidl_typesupport_cpp
+[0.122s] [ 68%] Built target rby1_movement__rosidl_typesupport_fastrtps_cpp
+[0.145s] [ 68%] Built target rby1_movement
+[0.167s] [ 71%] Built target rby1_movement__py
+[0.192s] [ 77%] Built target rby1_movement__rosidl_generator_py
+[0.218s] [ 94%] Built target rby1_movement__rosidl_typesupport_introspection_c__pyext
+[0.218s] [ 94%] Built target rby1_movement__rosidl_typesupport_c__pyext
+[0.218s] [ 94%] Built target rby1_movement__rosidl_typesupport_fastrtps_c__pyext
+[0.571s] running egg_info
+[0.572s] writing rby1_movement.egg-info/PKG-INFO
+[0.573s] writing dependency_links to rby1_movement.egg-info/dependency_links.txt
+[0.573s] writing top-level names to rby1_movement.egg-info/top_level.txt
+[0.578s] reading manifest file 'rby1_movement.egg-info/SOURCES.txt'
+[0.579s] writing manifest file 'rby1_movement.egg-info/SOURCES.txt'
+[0.643s] [ 94%] Built target ament_cmake_python_build_rby1_movement_egg
+[5.418s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:214[m[K,
+[5.419s]                  from [01m[K/home/nvidia/rby1-sdk/include/rby1-sdk/dynamics/robot.h:3[m[K,
+[5.419s]                  from [01m[K/home/nvidia/rby1-sdk/include/rby1-sdk/model.h:6[m[K,
+[5.419s]                  from [01m[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:7[m[K:
+[5.419s] [01m[K/usr/include/eigen3/Eigen/src/Core/arch/NEON/PacketMath.h:[m[K In function ‘[01m[KPacket Eigen::internal::pload(const typename Eigen::internal::unpacket_traits<T>::type*) [with Packet = Eigen::internal::eigen_packet_wrapper<int, 2>; typename Eigen::internal::unpacket_traits<T>::type = signed char][m[K’:
+[5.419s] [01m[K/usr/include/eigen3/Eigen/src/Core/arch/NEON/PacketMath.h:1671:9:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid* memcpy(void*, const void*, size_t)[m[K’ copying an object of non-trivial type ‘[01m[KEigen::internal::Packet4c[m[K’ {aka ‘[01m[Kstruct Eigen::internal::eigen_packet_wrapper<int, 2>[m[K’} from an array of ‘[01m[Kconst int8_t[m[K’ {aka ‘[01m[Kconst signed char[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wclass-memaccess-Wclass-memaccess]8;;[m[K]
+[5.419s]  1671 |   [01;35m[Kmemcpy(&res, from, sizeof(Packet4c))[m[K;
+[5.419s]       |   [01;35m[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.419s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:172[m[K,
+[5.419s]                  from [01m[K/home/nvidia/rby1-sdk/include/rby1-sdk/dynamics/robot.h:3[m[K,
+[5.420s]                  from [01m[K/home/nvidia/rby1-sdk/include/rby1-sdk/model.h:6[m[K,
+[5.420s]                  from [01m[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:7[m[K:
+[5.420s] [01m[K/usr/include/eigen3/Eigen/src/Core/GenericPacketMath.h:159:8:[m[K [01;36m[Knote: [m[K‘[01m[KEigen::internal::Packet4c[m[K’ {aka ‘[01m[Kstruct Eigen::internal::eigen_packet_wrapper<int, 2>[m[K’} declared here
+[5.420s]   159 | struct [01;36m[Keigen_packet_wrapper[m[K
+[5.420s]       |        [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[5.421s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:214[m[K,
+[5.421s]                  from [01m[K/home/nvidia/rby1-sdk/include/rby1-sdk/dynamics/robot.h:3[m[K,
+[5.421s]                  from [01m[K/home/nvidia/rby1-sdk/include/rby1-sdk/model.h:6[m[K,
+[5.421s]                  from [01m[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:7[m[K:
+[5.421s] [01m[K/usr/include/eigen3/Eigen/src/Core/arch/NEON/PacketMath.h:[m[K In function ‘[01m[KPacket Eigen::internal::ploadu(const typename Eigen::internal::unpacket_traits<T>::type*) [with Packet = Eigen::internal::eigen_packet_wrapper<int, 2>; typename Eigen::internal::unpacket_traits<T>::type = signed char][m[K’:
+[5.421s] [01m[K/usr/include/eigen3/Eigen/src/Core/arch/NEON/PacketMath.h:1716:9:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid* memcpy(void*, const void*, size_t)[m[K’ copying an object of non-trivial type ‘[01m[KEigen::internal::Packet4c[m[K’ {aka ‘[01m[Kstruct Eigen::internal::eigen_packet_wrapper<int, 2>[m[K’} from an array of ‘[01m[Kconst int8_t[m[K’ {aka ‘[01m[Kconst signed char[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wclass-memaccess-Wclass-memaccess]8;;[m[K]
+[5.421s]  1716 |   [01;35m[Kmemcpy(&res, from, sizeof(Packet4c))[m[K;
+[5.421s]       |   [01;35m[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.421s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:172[m[K,
+[5.422s]                  from [01m[K/home/nvidia/rby1-sdk/include/rby1-sdk/dynamics/robot.h:3[m[K,
+[5.422s]                  from [01m[K/home/nvidia/rby1-sdk/include/rby1-sdk/model.h:6[m[K,
+[5.422s]                  from [01m[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:7[m[K:
+[5.422s] [01m[K/usr/include/eigen3/Eigen/src/Core/GenericPacketMath.h:159:8:[m[K [01;36m[Knote: [m[K‘[01m[KEigen::internal::Packet4c[m[K’ {aka ‘[01m[Kstruct Eigen::internal::eigen_packet_wrapper<int, 2>[m[K’} declared here
+[5.422s]   159 | struct [01;36m[Keigen_packet_wrapper[m[K
+[5.422s]       |        [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[7.669s] [01m[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:76:70:[m[K [01;31m[Kerror: [m[Kincomplete type ‘[01m[KRBY1_Movement[m[K’ used in nested name specifier
+[7.669s]    76 |     void speed_control_callback(const std::shared_ptr<RBY1_Movement::[01;31m[Ksrv[m[K::SpeedControl::Request> request,
+[7.669s]       |                                                                      [01;31m[K^~~[m[K
+[7.669s] [01m[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:76:96:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[7.669s]    76 |     void speed_control_callback(const std::shared_ptr<RBY1_Movement::srv::SpeedControl::Request[01;31m[K>[m[K request,
+[7.669s]       |                                                                                                [01;31m[K^[m[K
+[7.669s] [01m[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:76:70:[m[K [01;31m[Kerror: [m[Kincomplete type ‘[01m[KRBY1_Movement[m[K’ used in nested name specifier
+[7.669s]    76 |     void speed_control_callback(const std::shared_ptr<RBY1_Movement::[01;31m[Ksrv[m[K::SpeedControl::Request> request,
+[7.670s]       |                                                                      [01;31m[K^~~[m[K
+[7.670s] [01m[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:76:96:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[7.670s]    76 |     void speed_control_callback(const std::shared_ptr<RBY1_Movement::srv::SpeedControl::Request[01;31m[K>[m[K request,
+[7.670s]       |                                                                                                [01;31m[K^[m[K
+[7.670s] [01m[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:76:70:[m[K [01;31m[Kerror: [m[Kincomplete type ‘[01m[KRBY1_Movement[m[K’ used in nested name specifier
+[7.670s]    76 |     void speed_control_callback(const std::shared_ptr<RBY1_Movement::[01;31m[Ksrv[m[K::SpeedControl::Request> request,
+[7.670s]       |                                                                      [01;31m[K^~~[m[K
+[7.670s] [01m[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:76:96:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[7.670s]    76 |     void speed_control_callback(const std::shared_ptr<RBY1_Movement::srv::SpeedControl::Request[01;31m[K>[m[K request,
+[7.670s]       |                                                                                                [01;31m[K^[m[K
+[7.671s] [01m[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:76:39:[m[K [01;31m[Kerror: [m[Kinvalid template-id
+[7.671s]    76 |     void speed_control_callback(const [01;31m[Kstd[m[K::shared_ptr<RBY1_Movement::srv::SpeedControl::Request> request,
+[7.671s]       |                                       [01;31m[K^~~[m[K
+[7.671s] [01m[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:76:70:[m[K [01;31m[Kerror: [m[K‘[01m[KRBY1_Movement::srv[m[K’ has not been declared
+[7.671s]    76 |     void speed_control_callback(const std::shared_ptr<RBY1_Movement::[01;31m[Ksrv[m[K::SpeedControl::Request> request,
+[7.671s]       |                                                                      [01;31m[K^~~[m[K
+[7.671s] [01m[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:76:33:[m[K [01;31m[Kerror: [m[Kclass template placeholder ‘[01m[Kstd::shared_ptr[m[K’ not permitted in this context
+[7.671s]    76 |     void speed_control_callback([01;31m[Kconst[m[K std::shared_ptr<RBY1_Movement::srv::SpeedControl::Request> request,
+[7.671s]       |                                 [01;31m[K^~~~~[m[K
+[7.671s] [01m[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:77:64:[m[K [01;31m[Kerror: [m[Kincomplete type ‘[01m[KRBY1_Movement[m[K’ used in nested name specifier
+[7.671s]    77 |                                 std::shared_ptr<RBY1_Movement::[01;31m[Ksrv[m[K::SpeedControl::Response> response) {
+[7.672s]       |                                                                [01;31m[K^~~[m[K
+[7.672s] [01m[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:77:91:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[7.672s]    77 |                                 std::shared_ptr<RBY1_Movement::srv::SpeedControl::Response[01;31m[K>[m[K response) {
+[7.672s]       |                                                                                           [01;31m[K^[m[K
+[7.672s] [01m[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:77:64:[m[K [01;31m[Kerror: [m[Kincomplete type ‘[01m[KRBY1_Movement[m[K’ used in nested name specifier
+[7.672s]    77 |                                 std::shared_ptr<RBY1_Movement::[01;31m[Ksrv[m[K::SpeedControl::Response> response) {
+[7.672s]       |                                                                [01;31m[K^~~[m[K
+[7.672s] [01m[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:77:91:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[7.672s]    77 |                                 std::shared_ptr<RBY1_Movement::srv::SpeedControl::Response[01;31m[K>[m[K response) {
+[7.672s]       |                                                                                           [01;31m[K^[m[K
+[7.673s] [01m[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:77:64:[m[K [01;31m[Kerror: [m[Kincomplete type ‘[01m[KRBY1_Movement[m[K’ used in nested name specifier
+[7.673s]    77 |                                 std::shared_ptr<RBY1_Movement::[01;31m[Ksrv[m[K::SpeedControl::Response> response) {
+[7.673s]       |                                                                [01;31m[K^~~[m[K
+[7.673s] [01m[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:77:91:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[7.673s]    77 |                                 std::shared_ptr<RBY1_Movement::srv::SpeedControl::Response[01;31m[K>[m[K response) {
+[7.673s]       |                                                                                           [01;31m[K^[m[K
+[7.673s] [01m[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:77:33:[m[K [01;31m[Kerror: [m[Kinvalid template-id
+[7.673s]    77 |                                 [01;31m[Kstd[m[K::shared_ptr<RBY1_Movement::srv::SpeedControl::Response> response) {
+[7.673s]       |                                 [01;31m[K^~~[m[K
+[7.673s] [01m[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:77:64:[m[K [01;31m[Kerror: [m[K‘[01m[KRBY1_Movement::srv[m[K’ has not been declared
+[7.674s]    77 |                                 std::shared_ptr<RBY1_Movement::[01;31m[Ksrv[m[K::SpeedControl::Response> response) {
+[7.674s]       |                                                                [01;31m[K^~~[m[K
+[7.674s] [01m[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:77:33:[m[K [01;31m[Kerror: [m[Kclass template placeholder ‘[01m[Kstd::shared_ptr[m[K’ not permitted in this context
+[7.674s]    77 |                                 [01;31m[Kstd[m[K::shared_ptr<RBY1_Movement::srv::SpeedControl::Response> response) {
+[7.674s]       |                                 [01;31m[K^~~[m[K
+[7.746s] [01m[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:155:36:[m[K [01;31m[Kerror: [m[Kincomplete type ‘[01m[KRBY1_Movement[m[K’ used in nested name specifier
+[7.746s]   155 |     rclcpp::Service<RBY1_Movement::[01;31m[Ksrv[m[K::SpeedControl>::SharedPtr speed_service_;
+[7.746s]       |                                    [01;31m[K^~~[m[K
+[7.746s] [01m[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:155:53:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[7.747s]   155 |     rclcpp::Service<RBY1_Movement::srv::SpeedControl[01;31m[K>[m[K::SharedPtr speed_service_;
+[7.747s]       |                                                     [01;31m[K^[m[K
+[7.747s] [01m[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:155:56:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[7.747s]   155 |     rclcpp::Service<RBY1_Movement::srv::SpeedControl>::[01;31m[KSharedPtr[m[K speed_service_;
+[7.747s]       |                                                        [01;31m[K^~~~~~~~~[m[K
+[7.747s]       |                                                                 [32m[K;[m[K
+[7.747s] [01m[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:[m[K At global scope:
+[7.747s] [01m[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:76:70:[m[K [01;31m[Kerror: [m[Kincomplete type ‘[01m[KRBY1_Movement[m[K’ used in nested name specifier
+[7.747s]    76 |     void speed_control_callback(const std::shared_ptr<RBY1_Movement::[01;31m[Ksrv[m[K::SpeedControl::Request> request,
+[7.747s]       |                                                                      [01;31m[K^~~[m[K
+[7.748s] [01m[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:76:96:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[7.748s]    76 |     void speed_control_callback(const std::shared_ptr<RBY1_Movement::srv::SpeedControl::Request[01;31m[K>[m[K request,
+[7.748s]       |                                                                                                [01;31m[K^[m[K
+[7.748s] [01m[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:76:70:[m[K [01;31m[Kerror: [m[Kincomplete type ‘[01m[KRBY1_Movement[m[K’ used in nested name specifier
+[7.748s]    76 |     void speed_control_callback(const std::shared_ptr<RBY1_Movement::[01;31m[Ksrv[m[K::SpeedControl::Request> request,
+[7.748s]       |                                                                      [01;31m[K^~~[m[K
+[7.748s] [01m[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:76:96:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[7.748s]    76 |     void speed_control_callback(const std::shared_ptr<RBY1_Movement::srv::SpeedControl::Request[01;31m[K>[m[K request,
+[7.748s]       |                                                                                                [01;31m[K^[m[K
+[7.748s] [01m[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:76:70:[m[K [01;31m[Kerror: [m[Kincomplete type ‘[01m[KRBY1_Movement[m[K’ used in nested name specifier
+[7.749s]    76 |     void speed_control_callback(const std::shared_ptr<RBY1_Movement::[01;31m[Ksrv[m[K::SpeedControl::Request> request,
+[7.749s]       |                                                                      [01;31m[K^~~[m[K
+[7.749s] [01m[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:76:96:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[7.749s]    76 |     void speed_control_callback(const std::shared_ptr<RBY1_Movement::srv::SpeedControl::Request[01;31m[K>[m[K request,
+[7.749s]       |                                                                                                [01;31m[K^[m[K
+[7.749s] [01m[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:76:39:[m[K [01;31m[Kerror: [m[Kinvalid template-id
+[7.749s]    76 |     void speed_control_callback(const [01;31m[Kstd[m[K::shared_ptr<RBY1_Movement::srv::SpeedControl::Request> request,
+[7.749s]       |                                       [01;31m[K^~~[m[K
+[7.749s] [01m[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:76:70:[m[K [01;31m[Kerror: [m[K‘[01m[KRBY1_Movement::srv[m[K’ has not been declared
+[7.749s]    76 |     void speed_control_callback(const std::shared_ptr<RBY1_Movement::[01;31m[Ksrv[m[K::SpeedControl::Request> request,
+[7.749s]       |                                                                      [01;31m[K^~~[m[K
+[7.750s] [01m[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:76:33:[m[K [01;31m[Kerror: [m[Kclass template placeholder ‘[01m[Kstd::shared_ptr[m[K’ not permitted in this context
+[7.750s]    76 |     void speed_control_callback([01;31m[Kconst[m[K std::shared_ptr<RBY1_Movement::srv::SpeedControl::Request> request,
+[7.750s]       |                                 [01;31m[K^~~~~[m[K
+[7.750s] [01m[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:77:64:[m[K [01;31m[Kerror: [m[Kincomplete type ‘[01m[KRBY1_Movement[m[K’ used in nested name specifier
+[7.750s]    77 |                                 std::shared_ptr<RBY1_Movement::[01;31m[Ksrv[m[K::SpeedControl::Response> response) {
+[7.750s]       |                                                                [01;31m[K^~~[m[K
+[7.750s] [01m[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:77:91:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[7.750s]    77 |                                 std::shared_ptr<RBY1_Movement::srv::SpeedControl::Response[01;31m[K>[m[K response) {
+[7.750s]       |                                                                                           [01;31m[K^[m[K
+[7.750s] [01m[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:77:64:[m[K [01;31m[Kerror: [m[Kincomplete type ‘[01m[KRBY1_Movement[m[K’ used in nested name specifier
+[7.751s]    77 |                                 std::shared_ptr<RBY1_Movement::[01;31m[Ksrv[m[K::SpeedControl::Response> response) {
+[7.751s]       |                                                                [01;31m[K^~~[m[K
+[7.751s] [01m[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:77:91:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[7.751s]    77 |                                 std::shared_ptr<RBY1_Movement::srv::SpeedControl::Response[01;31m[K>[m[K response) {
+[7.751s]       |                                                                                           [01;31m[K^[m[K
+[7.751s] [01m[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:77:64:[m[K [01;31m[Kerror: [m[Kincomplete type ‘[01m[KRBY1_Movement[m[K’ used in nested name specifier
+[7.751s]    77 |                                 std::shared_ptr<RBY1_Movement::[01;31m[Ksrv[m[K::SpeedControl::Response> response) {
+[7.751s]       |                                                                [01;31m[K^~~[m[K
+[7.751s] [01m[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:77:91:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[7.751s]    77 |                                 std::shared_ptr<RBY1_Movement::srv::SpeedControl::Response[01;31m[K>[m[K response) {
+[7.751s]       |                                                                                           [01;31m[K^[m[K
+[7.752s] [01m[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:77:33:[m[K [01;31m[Kerror: [m[Kinvalid template-id
+[7.752s]    77 |                                 [01;31m[Kstd[m[K::shared_ptr<RBY1_Movement::srv::SpeedControl::Response> response) {
+[7.752s]       |                                 [01;31m[K^~~[m[K
+[7.752s] [01m[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:77:64:[m[K [01;31m[Kerror: [m[K‘[01m[KRBY1_Movement::srv[m[K’ has not been declared
+[7.752s]    77 |                                 std::shared_ptr<RBY1_Movement::[01;31m[Ksrv[m[K::SpeedControl::Response> response) {
+[7.752s]       |                                                                [01;31m[K^~~[m[K
+[7.752s] [01m[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:77:33:[m[K [01;31m[Kerror: [m[Kclass template placeholder ‘[01m[Kstd::shared_ptr[m[K’ not permitted in this context
+[7.752s]    77 |                                 [01;31m[Kstd[m[K::shared_ptr<RBY1_Movement::srv::SpeedControl::Response> response) {
+[7.752s]       |                                 [01;31m[K^~~[m[K
+[7.753s] [01m[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:155:66:[m[K [01;31m[Kerror: [m[K‘[01m[Kspeed_service_[m[K’ does not name a type
+[7.753s]   155 |     rclcpp::Service<RBY1_Movement::srv::SpeedControl>::SharedPtr [01;31m[Kspeed_service_[m[K;
+[7.754s]       |                                                                  [01;31m[K^~~~~~~~~~~~~~[m[K
+[7.792s] [01m[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:[m[K In constructor ‘[01m[KRBY1_Movement::RBY1_Movement(std::shared_ptr<rb::Robot<rb::y1_model::A> >, std::unique_ptr<rb::RobotCommandStreamHandler<rb::y1_model::A> >)[m[K’:
+[7.792s] [01m[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:45:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kspeed_service_[m[K’ was not declared in this scope
+[7.792s]    45 |         [01;31m[Kspeed_service_[m[K = this->create_service<RBY1_Movement::srv::SpeedControl>(
+[7.792s]       |         [01;31m[K^~~~~~~~~~~~~~[m[K
+[7.792s] [01m[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:45:62:[m[K [01;31m[Kerror: [m[K‘[01m[Ksrv[m[K’ is not a member of ‘[01m[KRBY1_Movement[m[K’
+[7.793s]    45 |         speed_service_ = this->create_service<RBY1_Movement::[01;31m[Ksrv[m[K::SpeedControl>(
+[7.793s]       |                                                              [01;31m[K^~~[m[K
+[7.793s] [01m[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:45:32:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+[7.793s]    45 |         speed_service_ = this->[01;31m[Kcreate_service<RBY1_Movement::srv::SpeedControl>[m[K(
+[7.793s]       |                                [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[7.805s] [01m[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:45:80:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KRBY1_Movement::create_service<<expression error> >(const char [14], std::_Bind_helper<false, void (RBY1_Movement::*)(...), RBY1_Movement*, const std::_Placeholder<1>&, const std::_Placeholder<2>&>::type)[m[K’
+[7.805s]    45 |         speed_service_ = [01;31m[Kthis->create_service<RBY1_Movement::srv::SpeedControl>([m[K
+[7.805s]       |                          [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+[7.805s]    46 | [01;31m[K            "speed_control",[m[K
+[7.805s]       |             [01;31m[K~~~~~~~~~~~~~~~~[m[K                                                    
+[7.805s]    47 | [01;31m[K            std::bind(&RBY1_Movement::speed_control_callback, this,[m[K
+[7.806s]       |             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K             
+[7.806s]    48 | [01;31m[K                      std::placeholders::_1, std::placeholders::_2)[m[K
+[7.806s]       |                       [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K             
+[7.806s]    49 | [01;31m[K        )[m[K;
+[7.806s]       |         [01;31m[K~[m[K                                                                       
+[7.806s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[7.806s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[7.806s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[7.806s]                  from [01m[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:5[m[K:
+[7.806s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:267:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ServiceT, class CallbackT> typename rclcpp::Service<ServiceT>::SharedPtr rclcpp::Node::create_service(const string&, CallbackT&&, const rmw_qos_profile_t&, rclcpp::CallbackGroup::SharedPtr)[m[K’
+[7.807s]   267 |   [01;36m[Kcreate_service[m[K(
+[7.807s]       |   [01;36m[K^~~~~~~~~~~~~~[m[K
+[7.807s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:267:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[7.807s] [01m[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:45:80:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[7.807s]    45 |         speed_service_ = [01;31m[Kthis->create_service<RBY1_Movement::srv::SpeedControl>([m[K
+[7.807s]       |                          [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+[7.807s]    46 | [01;31m[K            "speed_control",[m[K
+[7.807s]       |             [01;31m[K~~~~~~~~~~~~~~~~[m[K                                                    
+[7.807s]    47 | [01;31m[K            std::bind(&RBY1_Movement::speed_control_callback, this,[m[K
+[7.807s]       |             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K             
+[7.808s]    48 | [01;31m[K                      std::placeholders::_1, std::placeholders::_2)[m[K
+[7.808s]       |                       [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K             
+[7.808s]    49 | [01;31m[K        )[m[K;
+[7.808s]       |         [01;31m[K~[m[K                                                                       
+[7.828s] [01m[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:155:36:[m[K [01;31m[Kerror: [m[Kincomplete type ‘[01m[KRBY1_Movement[m[K’ used in nested name specifier
+[7.828s]   155 |     rclcpp::Service<RBY1_Movement::[01;31m[Ksrv[m[K::SpeedControl>::SharedPtr speed_service_;
+[7.828s]       |                                    [01;31m[K^~~[m[K
+[7.828s] [01m[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:155:53:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[7.828s]   155 |     rclcpp::Service<RBY1_Movement::srv::SpeedControl[01;31m[K>[m[K::SharedPtr speed_service_;
+[7.828s]       |                                                     [01;31m[K^[m[K
+[7.828s] [01m[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:155:56:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[7.829s]   155 |     rclcpp::Service<RBY1_Movement::srv::SpeedControl>::[01;31m[KSharedPtr[m[K speed_service_;
+[7.829s]       |                                                        [01;31m[K^~~~~~~~~[m[K
+[7.829s]       |                                                                 [32m[K;[m[K
+[7.834s] [01m[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:155:66:[m[K [01;31m[Kerror: [m[K‘[01m[Kspeed_service_[m[K’ does not name a type
+[7.835s]   155 |     rclcpp::Service<RBY1_Movement::srv::SpeedControl>::SharedPtr [01;31m[Kspeed_service_[m[K;
+[7.835s]       |                                                                  [01;31m[K^~~~~~~~~~~~~~[m[K
+[7.848s] [01m[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:[m[K In member function ‘[01m[Kvoid RBY1_Movement::speed_control_callback(...)[m[K’:
+[7.848s] [01m[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:78:26:[m[K [01;31m[Kerror: [m[K‘[01m[Krequest[m[K’ was not declared in this scope
+[7.848s]    78 |         current_speed_ = [01;31m[Krequest[m[K->speed_input;
+[7.848s]       |                          [01;31m[K^~~~~~~[m[K
+[7.873s] [01m[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:79:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kresponse[m[K’ was not declared in this scope
+[7.873s]    79 |         [01;31m[Kresponse[m[K->success = true;
+[7.873s]       |         [01;31m[K^~~~~~~~[m[K
+[7.873s] [01m[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:[m[K In constructor ‘[01m[KRBY1_Movement::RBY1_Movement(std::shared_ptr<rb::Robot<rb::y1_model::A> >, std::unique_ptr<rb::RobotCommandStreamHandler<rb::y1_model::A> >)[m[K’:
+[7.874s] [01m[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:45:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kspeed_service_[m[K’ was not declared in this scope
+[7.874s]    45 |         [01;31m[Kspeed_service_[m[K = this->create_service<RBY1_Movement::srv::SpeedControl>(
+[7.874s]       |         [01;31m[K^~~~~~~~~~~~~~[m[K
+[7.874s] [01m[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:45:62:[m[K [01;31m[Kerror: [m[K‘[01m[Ksrv[m[K’ is not a member of ‘[01m[KRBY1_Movement[m[K’
+[7.874s]    45 |         speed_service_ = this->create_service<RBY1_Movement::[01;31m[Ksrv[m[K::SpeedControl>(
+[7.874s]       |                                                              [01;31m[K^~~[m[K
+[7.874s] [01m[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:45:32:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+[7.874s]    45 |         speed_service_ = this->[01;31m[Kcreate_service<RBY1_Movement::srv::SpeedControl>[m[K(
+[7.874s]       |                                [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[7.887s] [01m[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:45:80:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KRBY1_Movement::create_service<<expression error> >(const char [14], std::_Bind_helper<false, void (RBY1_Movement::*)(...), RBY1_Movement*, const std::_Placeholder<1>&, const std::_Placeholder<2>&>::type)[m[K’
+[7.887s]    45 |         speed_service_ = [01;31m[Kthis->create_service<RBY1_Movement::srv::SpeedControl>([m[K
+[7.887s]       |                          [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+[7.888s]    46 | [01;31m[K            "speed_control",[m[K
+[7.888s]       |             [01;31m[K~~~~~~~~~~~~~~~~[m[K                                                    
+[7.888s]    47 | [01;31m[K            std::bind(&RBY1_Movement::speed_control_callback, this,[m[K
+[7.888s]       |             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K             
+[7.888s]    48 | [01;31m[K                      std::placeholders::_1, std::placeholders::_2)[m[K
+[7.888s]       |                       [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K             
+[7.888s]    49 | [01;31m[K        )[m[K;
+[7.888s]       |         [01;31m[K~[m[K                                                                       
+[7.888s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[7.888s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[7.889s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[7.889s]                  from [01m[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:5[m[K:
+[7.889s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:267:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ServiceT, class CallbackT> typename rclcpp::Service<ServiceT>::SharedPtr rclcpp::Node::create_service(const string&, CallbackT&&, const rmw_qos_profile_t&, rclcpp::CallbackGroup::SharedPtr)[m[K’
+[7.889s]   267 |   [01;36m[Kcreate_service[m[K(
+[7.889s]       |   [01;36m[K^~~~~~~~~~~~~~[m[K
+[7.889s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:267:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[7.889s] [01m[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:45:80:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[7.889s]    45 |         speed_service_ = [01;31m[Kthis->create_service<RBY1_Movement::srv::SpeedControl>([m[K
+[7.889s]       |                          [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+[7.889s]    46 | [01;31m[K            "speed_control",[m[K
+[7.889s]       |             [01;31m[K~~~~~~~~~~~~~~~~[m[K                                                    
+[7.890s]    47 | [01;31m[K            std::bind(&RBY1_Movement::speed_control_callback, this,[m[K
+[7.890s]       |             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K             
+[7.890s]    48 | [01;31m[K                      std::placeholders::_1, std::placeholders::_2)[m[K
+[7.890s]       |                       [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K             
+[7.890s]    49 | [01;31m[K        )[m[K;
+[7.890s]       |         [01;31m[K~[m[K                                                                       
+[7.929s] [01m[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:[m[K In member function ‘[01m[Kvoid RBY1_Movement::speed_control_callback(...)[m[K’:
+[7.929s] [01m[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:78:26:[m[K [01;31m[Kerror: [m[K‘[01m[Krequest[m[K’ was not declared in this scope
+[7.929s]    78 |         current_speed_ = [01;31m[Krequest[m[K->speed_input;
+[7.930s]       |                          [01;31m[K^~~~~~~[m[K
+[7.953s] [01m[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:79:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kresponse[m[K’ was not declared in this scope
+[7.953s]    79 |         [01;31m[Kresponse[m[K->success = true;
+[7.953s]       |         [01;31m[K^~~~~~~~[m[K
+[9.473s] In file included from [01m[K/usr/include/aarch64-linux-gnu/c++/11/bits/c++allocator.h:33[m[K,
+[9.473s]                  from [01m[K/usr/include/c++/11/bits/allocator.h:46[m[K,
+[9.473s]                  from [01m[K/usr/include/c++/11/string:41[m[K,
+[9.474s]                  from [01m[K/usr/include/c++/11/bits/locale_classes.h:40[m[K,
+[9.474s]                  from [01m[K/usr/include/c++/11/bits/ios_base.h:41[m[K,
+[9.474s]                  from [01m[K/usr/include/c++/11/iomanip:40[m[K,
+[9.474s]                  from [01m[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:1[m[K:
+[9.474s] /usr/include/c++/11/ext/new_allocator.h: In instantiation of ‘[01m[Kvoid __gnu_cxx::new_allocator<_Tp>::construct(_Up*, _Args&& ...) [with _Up = RBY1_Movement; _Args = {std::shared_ptr<rb::Robot<rb::y1_model::A> >&, std::unique_ptr<rb::RobotCommandStreamHandler<rb::y1_model::A>, std::default_delete<rb::RobotCommandStreamHandler<rb::y1_model::A> > >, int&}; _Tp = RBY1_Movement][m[K’:
+[9.474s] [01m[K/usr/include/c++/11/bits/alloc_traits.h:516:17:[m[K   required from ‘[01m[Kstatic void std::allocator_traits<std::allocator<_CharT> >::construct(std::allocator_traits<std::allocator<_CharT> >::allocator_type&, _Up*, _Args&& ...) [with _Up = RBY1_Movement; _Args = {std::shared_ptr<rb::Robot<rb::y1_model::A> >&, std::unique_ptr<rb::RobotCommandStreamHandler<rb::y1_model::A>, std::default_delete<rb::RobotCommandStreamHandler<rb::y1_model::A> > >, int&}; _Tp = RBY1_Movement; std::allocator_traits<std::allocator<_CharT> >::allocator_type = std::allocator<RBY1_Movement>][m[K’
+[9.474s] [01m[K/usr/include/c++/11/bits/shared_ptr_base.h:519:39:[m[K   required from ‘[01m[Kstd::_Sp_counted_ptr_inplace<_Tp, _Alloc, _Lp>::_Sp_counted_ptr_inplace(_Alloc, _Args&& ...) [with _Args = {std::shared_ptr<rb::Robot<rb::y1_model::A> >&, std::unique_ptr<rb::RobotCommandStreamHandler<rb::y1_model::A>, std::default_delete<rb::RobotCommandStreamHandler<rb::y1_model::A> > >, int&}; _Tp = RBY1_Movement; _Alloc = std::allocator<RBY1_Movement>; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic][m[K’
+[9.474s] [01m[K/usr/include/c++/11/bits/shared_ptr_base.h:650:16:[m[K   required from ‘[01m[Kstd::__shared_count<_Lp>::__shared_count(_Tp*&, std::_Sp_alloc_shared_tag<_Alloc>, _Args&& ...) [with _Tp = RBY1_Movement; _Alloc = std::allocator<RBY1_Movement>; _Args = {std::shared_ptr<rb::Robot<rb::y1_model::A> >&, std::unique_ptr<rb::RobotCommandStreamHandler<rb::y1_model::A>, std::default_delete<rb::RobotCommandStreamHandler<rb::y1_model::A> > >, int&}; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic][m[K’
+[9.474s] [01m[K/usr/include/c++/11/bits/shared_ptr_base.h:1342:14:[m[K   required from ‘[01m[Kstd::__shared_ptr<_Tp, _Lp>::__shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<RBY1_Movement>; _Args = {std::shared_ptr<rb::Robot<rb::y1_model::A> >&, std::unique_ptr<rb::RobotCommandStreamHandler<rb::y1_model::A>, std::default_delete<rb::RobotCommandStreamHandler<rb::y1_model::A> > >, int&}; _Tp = RBY1_Movement; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic][m[K’
+[9.475s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:409:59:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp>::shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<RBY1_Movement>; _Args = {std::shared_ptr<rb::Robot<rb::y1_model::A> >&, std::unique_ptr<rb::RobotCommandStreamHandler<rb::y1_model::A>, std::default_delete<rb::RobotCommandStreamHandler<rb::y1_model::A> > >, int&}; _Tp = RBY1_Movement][m[K’
+[9.475s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:862:14:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp> std::allocate_shared(const _Alloc&, _Args&& ...) [with _Tp = RBY1_Movement; _Alloc = std::allocator<RBY1_Movement>; _Args = {std::shared_ptr<rb::Robot<rb::y1_model::A> >&, std::unique_ptr<rb::RobotCommandStreamHandler<rb::y1_model::A>, std::default_delete<rb::RobotCommandStreamHandler<rb::y1_model::A> > >, int&}][m[K’
+[9.475s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:878:39:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp> std::make_shared(_Args&& ...) [with _Tp = RBY1_Movement; _Args = {std::shared_ptr<rb::Robot<rb::y1_model::A> >&, std::unique_ptr<rb::RobotCommandStreamHandler<rb::y1_model::A>, std::default_delete<rb::RobotCommandStreamHandler<rb::y1_model::A> > >, int&}][m[K’
+[9.475s] [01m[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:181:49:[m[K   required from here
+[9.475s] [01m[K/usr/include/c++/11/ext/new_allocator.h:162:11:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KRBY1_Movement::RBY1_Movement(std::shared_ptr<rb::Robot<rb::y1_model::A> >&, std::unique_ptr<rb::RobotCommandStreamHandler<rb::y1_model::A> >, int&)[m[K’
+[9.475s]   162 |         { [01;31m[K::new((void *)__p) _Up(std::forward<_Args>(__args)...)[m[K; }
+[9.475s]       |           [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[9.475s] [01m[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:23:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KRBY1_Movement::RBY1_Movement(std::shared_ptr<rb::Robot<rb::y1_model::A> >, std::unique_ptr<rb::RobotCommandStreamHandler<rb::y1_model::A> >)[m[K’
+[9.475s]    23 |     [01;36m[KRBY1_Movement[m[K(std::shared_ptr<rb::Robot<rb::y1_model::A>> robot_,
+[9.475s]       |     [01;36m[K^~~~~~~~~~~~~[m[K
+[9.476s] [01m[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:23:5:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 3 provided
+[9.565s] In file included from [01m[K/usr/include/aarch64-linux-gnu/c++/11/bits/c++allocator.h:33[m[K,
+[9.565s]                  from [01m[K/usr/include/c++/11/bits/allocator.h:46[m[K,
+[9.565s]                  from [01m[K/usr/include/c++/11/string:41[m[K,
+[9.565s]                  from [01m[K/usr/include/c++/11/bits/locale_classes.h:40[m[K,
+[9.565s]                  from [01m[K/usr/include/c++/11/bits/ios_base.h:41[m[K,
+[9.565s]                  from [01m[K/usr/include/c++/11/iomanip:40[m[K,
+[9.565s]                  from [01m[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:1[m[K:
+[9.566s] /usr/include/c++/11/ext/new_allocator.h: In instantiation of ‘[01m[Kvoid __gnu_cxx::new_allocator<_Tp>::construct(_Up*, _Args&& ...) [with _Up = RBY1_Movement; _Args = {std::shared_ptr<rb::Robot<rb::y1_model::A> >&, std::unique_ptr<rb::RobotCommandStreamHandler<rb::y1_model::A>, std::default_delete<rb::RobotCommandStreamHandler<rb::y1_model::A> > >, int&}; _Tp = RBY1_Movement][m[K’:
+[9.566s] [01m[K/usr/include/c++/11/bits/alloc_traits.h:516:17:[m[K   required from ‘[01m[Kstatic void std::allocator_traits<std::allocator<_CharT> >::construct(std::allocator_traits<std::allocator<_CharT> >::allocator_type&, _Up*, _Args&& ...) [with _Up = RBY1_Movement; _Args = {std::shared_ptr<rb::Robot<rb::y1_model::A> >&, std::unique_ptr<rb::RobotCommandStreamHandler<rb::y1_model::A>, std::default_delete<rb::RobotCommandStreamHandler<rb::y1_model::A> > >, int&}; _Tp = RBY1_Movement; std::allocator_traits<std::allocator<_CharT> >::allocator_type = std::allocator<RBY1_Movement>][m[K’
+[9.566s] [01m[K/usr/include/c++/11/bits/shared_ptr_base.h:519:39:[m[K   required from ‘[01m[Kstd::_Sp_counted_ptr_inplace<_Tp, _Alloc, _Lp>::_Sp_counted_ptr_inplace(_Alloc, _Args&& ...) [with _Args = {std::shared_ptr<rb::Robot<rb::y1_model::A> >&, std::unique_ptr<rb::RobotCommandStreamHandler<rb::y1_model::A>, std::default_delete<rb::RobotCommandStreamHandler<rb::y1_model::A> > >, int&}; _Tp = RBY1_Movement; _Alloc = std::allocator<RBY1_Movement>; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic][m[K’
+[9.566s] [01m[K/usr/include/c++/11/bits/shared_ptr_base.h:650:16:[m[K   required from ‘[01m[Kstd::__shared_count<_Lp>::__shared_count(_Tp*&, std::_Sp_alloc_shared_tag<_Alloc>, _Args&& ...) [with _Tp = RBY1_Movement; _Alloc = std::allocator<RBY1_Movement>; _Args = {std::shared_ptr<rb::Robot<rb::y1_model::A> >&, std::unique_ptr<rb::RobotCommandStreamHandler<rb::y1_model::A>, std::default_delete<rb::RobotCommandStreamHandler<rb::y1_model::A> > >, int&}; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic][m[K’
+[9.566s] [01m[K/usr/include/c++/11/bits/shared_ptr_base.h:1342:14:[m[K   required from ‘[01m[Kstd::__shared_ptr<_Tp, _Lp>::__shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<RBY1_Movement>; _Args = {std::shared_ptr<rb::Robot<rb::y1_model::A> >&, std::unique_ptr<rb::RobotCommandStreamHandler<rb::y1_model::A>, std::default_delete<rb::RobotCommandStreamHandler<rb::y1_model::A> > >, int&}; _Tp = RBY1_Movement; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic][m[K’
+[9.566s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:409:59:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp>::shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<RBY1_Movement>; _Args = {std::shared_ptr<rb::Robot<rb::y1_model::A> >&, std::unique_ptr<rb::RobotCommandStreamHandler<rb::y1_model::A>, std::default_delete<rb::RobotCommandStreamHandler<rb::y1_model::A> > >, int&}; _Tp = RBY1_Movement][m[K’
+[9.566s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:862:14:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp> std::allocate_shared(const _Alloc&, _Args&& ...) [with _Tp = RBY1_Movement; _Alloc = std::allocator<RBY1_Movement>; _Args = {std::shared_ptr<rb::Robot<rb::y1_model::A> >&, std::unique_ptr<rb::RobotCommandStreamHandler<rb::y1_model::A>, std::default_delete<rb::RobotCommandStreamHandler<rb::y1_model::A> > >, int&}][m[K’
+[9.566s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:878:39:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp> std::make_shared(_Args&& ...) [with _Tp = RBY1_Movement; _Args = {std::shared_ptr<rb::Robot<rb::y1_model::A> >&, std::unique_ptr<rb::RobotCommandStreamHandler<rb::y1_model::A>, std::default_delete<rb::RobotCommandStreamHandler<rb::y1_model::A> > >, int&}][m[K’
+[9.566s] [01m[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:181:49:[m[K   required from here
+[9.567s] [01m[K/usr/include/c++/11/ext/new_allocator.h:162:11:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KRBY1_Movement::RBY1_Movement(std::shared_ptr<rb::Robot<rb::y1_model::A> >&, std::unique_ptr<rb::RobotCommandStreamHandler<rb::y1_model::A> >, int&)[m[K’
+[9.567s]   162 |         { [01;31m[K::new((void *)__p) _Up(std::forward<_Args>(__args)...)[m[K; }
+[9.567s]       |           [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[9.567s] [01m[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:23:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KRBY1_Movement::RBY1_Movement(std::shared_ptr<rb::Robot<rb::y1_model::A> >, std::unique_ptr<rb::RobotCommandStreamHandler<rb::y1_model::A> >)[m[K’
+[9.567s]    23 |     [01;36m[KRBY1_Movement[m[K(std::shared_ptr<rb::Robot<rb::y1_model::A>> robot_,
+[9.567s]       |     [01;36m[K^~~~~~~~~~~~~[m[K
+[9.567s] [01m[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:23:5:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 3 provided
+[13.052s] gmake[2]: *** [CMakeFiles/rby1_movement_subscriber.dir/build.make:79: CMakeFiles/rby1_movement_subscriber.dir/src/rby1_movement_subscriber.cpp.o] Error 1
+[13.052s] gmake[1]: *** [CMakeFiles/Makefile2:731: CMakeFiles/rby1_movement_subscriber.dir/all] Error 2
+[13.052s] gmake[1]: *** Waiting for unfinished jobs....
+[13.178s] gmake[2]: *** [CMakeFiles/speed_server.dir/build.make:79: CMakeFiles/speed_server.dir/src/rby1_movement_subscriber.cpp.o] Error 1
+[13.178s] gmake[1]: *** [CMakeFiles/Makefile2:763: CMakeFiles/speed_server.dir/all] Error 2
+[13.179s] gmake: *** [Makefile:146: all] Error 2
+[13.184s] Invoked command in '/home/nvidia/ros2_ws/src/rby1_movement/build/rby1_movement' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nvidia/ros2_ws/install/keyboard_joy:/opt/ros/humble /usr/bin/cmake --build /home/nvidia/ros2_ws/src/rby1_movement/build/rby1_movement -- -j8 -l8

@@ -1,4 +1,0 @@
-[01m[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:[m[K In constructor ‘[01m[KRBY1_Movement::RBY1_Movement()[m[K’:
-[01m[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:50:9:[m[K [01;35m[Kwarning: [m[Kstatement has no effect [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
-   50 |         [01;35m[Kjoy_sub_[m[K;
-      |         [01;35m[K^~~~~~~~[m[K

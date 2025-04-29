@@ -1,0 +1,475 @@
+[0.000000] (-) TimerEvent: {}
+[0.000626] (rby1_movement) JobQueued: {'identifier': 'rby1_movement', 'dependencies': OrderedDict()}
+[0.001298] (rby1_movement) JobStarted: {'identifier': 'rby1_movement'}
+[0.018642] (rby1_movement) JobProgress: {'identifier': 'rby1_movement', 'progress': 'cmake'}
+[0.019944] (rby1_movement) JobProgress: {'identifier': 'rby1_movement', 'progress': 'build'}
+[0.021220] (rby1_movement) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/nvidia/ros2_ws/src/rby1_movement/build/rby1_movement', '--', '-j8', '-l8'], 'cwd': '/home/nvidia/ros2_ws/src/rby1_movement/build/rby1_movement', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'nvidia'), ('SSH_CLIENT', '192.168.1.4 60442 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/local/cuda-12.2/lib64:/home/nvidia/ros2_ws/install/zed_components/lib:/home/nvidia/ros2_ws/install/wiimote/lib:/home/nvidia/ros2_ws/install/wiimote_msgs/lib:/home/nvidia/ros2_ws/install/tcp_tunnel/lib:/home/nvidia/ros2_ws/install/spacenav/lib:/home/nvidia/ros2_ws/install/joy/lib:/home/nvidia/ros2_ws/install/keyboard_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/nvidia'), ('OLDPWD', '/home/nvidia/ros2_ws/src/rby1_movement/srv'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/nvidia/ros2_ws/src/rby1_movement/install:/home/nvidia/ros2_ws/install:/home/nvidia/ros2_ws/src/ros2-keyboard/keyboard/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'nvidia'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '6'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/nvidia/.local/bin:/usr/local/cuda-12.2/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/nvidia/.local/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', 'localhost:10.0'), ('LANG', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '5'), ('AMENT_PREFIX_PATH', '/home/nvidia/ros2_ws/install/zed_ros2:/home/nvidia/ros2_ws/install/zed_wrapper:/home/nvidia/ros2_ws/install/zed_components:/home/nvidia/ros2_ws/install/wiimote:/home/nvidia/ros2_ws/install/wiimote_msgs:/home/nvidia/ros2_ws/install/tcp_tunnel:/home/nvidia/ros2_ws/install/spacenav:/home/nvidia/ros2_ws/install/joy:/home/nvidia/ros2_ws/install/sdl2_vendor:/home/nvidia/ros2_ws/install/rby1_robot_state:/home/nvidia/ros2_ws/install/rby1_movement:/home/nvidia/ros2_ws/install/keyboard:/home/nvidia/ros2_ws/install/keyboard_msgs:/home/nvidia/ros2_ws/install/keyboard_joy:/home/nvidia/ros2_ws/install/joy_linux:/home/nvidia/ros2_ws/src/rby1_movement/install/rby1_movement:/home/nvidia/ros2_ws/src/ros2-keyboard/keyboard/install/keyboard:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/nvidia/ros2_ws/src/rby1_movement/build/rby1_movement'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.1.4 60442 192.168.1.3 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/nvidia/ros2_ws/install/wiimote_msgs/local/lib/python3.10/dist-packages:/home/nvidia/ros2_ws/install/tcp_tunnel/local/lib/python3.10/dist-packages:/home/nvidia/ros2_ws/install/keyboard_msgs/local/lib/python3.10/dist-packages:/home/nvidia/ros2_ws/install/keyboard_joy/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/nvidia/ros2_ws/install/zed_ros2:/home/nvidia/ros2_ws/install/zed_wrapper:/home/nvidia/ros2_ws/install/zed_components:/home/nvidia/ros2_ws/install/wiimote:/home/nvidia/ros2_ws/install/wiimote_msgs:/home/nvidia/ros2_ws/install/tcp_tunnel:/home/nvidia/ros2_ws/install/spacenav:/home/nvidia/ros2_ws/install/joy:/home/nvidia/ros2_ws/install/sdl2_vendor:/home/nvidia/ros2_ws/install/rby1_robot_state:/home/nvidia/ros2_ws/install/rby1_movement:/home/nvidia/ros2_ws/install/keyboard:/home/nvidia/ros2_ws/install/keyboard_msgs:/home/nvidia/ros2_ws/install/joy_linux:/home/nvidia/ros2_ws/src/rby1_movement/install/rby1_movement:/home/nvidia/ros2_ws/src/ros2-keyboard/keyboard/install/keyboard:/home/nvidia/ros2_ws/install/keyboard_joy:/opt/ros/humble')]), 'shell': False}
+[0.083561] (rby1_movement) StdoutLine: {'line': b'[  2%] Built target rby1_movement__cpp\n'}
+[0.084133] (rby1_movement) StdoutLine: {'line': b'[ 11%] Built target rby1_movement__rosidl_generator_c\n'}
+[0.092072] (rby1_movement) StdoutLine: {'line': b'[ 11%] Built target ament_cmake_python_copy_rby1_movement\n'}
+[0.099419] (-) TimerEvent: {}
+[0.105596] (rby1_movement) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding CXX object CMakeFiles/speed_server.dir/src/rby1_movement_subscriber.cpp.o\x1b[0m\n'}
+[0.106455] (rby1_movement) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding CXX object CMakeFiles/rby1_movement_subscriber.dir/src/rby1_movement_subscriber.cpp.o\x1b[0m\n'}
+[0.109532] (rby1_movement) StdoutLine: {'line': b'[ 25%] Built target rby1_movement__rosidl_typesupport_introspection_c\n'}
+[0.112634] (rby1_movement) StdoutLine: {'line': b'[ 34%] Built target rby1_movement__rosidl_typesupport_fastrtps_c\n'}
+[0.114435] (rby1_movement) StdoutLine: {'line': b'[ 51%] Built target rby1_movement__rosidl_typesupport_c\n'}
+[0.115088] (rby1_movement) StdoutLine: {'line': b'[ 51%] Built target rby1_movement__rosidl_typesupport_introspection_cpp\n'}
+[0.122280] (rby1_movement) StdoutLine: {'line': b'[ 60%] Built target rby1_movement__rosidl_typesupport_cpp\n'}
+[0.123331] (rby1_movement) StdoutLine: {'line': b'[ 68%] Built target rby1_movement__rosidl_typesupport_fastrtps_cpp\n'}
+[0.145842] (rby1_movement) StdoutLine: {'line': b'[ 68%] Built target rby1_movement\n'}
+[0.168571] (rby1_movement) StdoutLine: {'line': b'[ 71%] Built target rby1_movement__py\n'}
+[0.193043] (rby1_movement) StdoutLine: {'line': b'[ 77%] Built target rby1_movement__rosidl_generator_py\n'}
+[0.199570] (-) TimerEvent: {}
+[0.219034] (rby1_movement) StdoutLine: {'line': b'[ 94%] Built target rby1_movement__rosidl_typesupport_introspection_c__pyext\n'}
+[0.219464] (rby1_movement) StdoutLine: {'line': b'[ 94%] Built target rby1_movement__rosidl_typesupport_c__pyext\n'}
+[0.219603] (rby1_movement) StdoutLine: {'line': b'[ 94%] Built target rby1_movement__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.299725] (-) TimerEvent: {}
+[0.400329] (-) TimerEvent: {}
+[0.500899] (-) TimerEvent: {}
+[0.572365] (rby1_movement) StdoutLine: {'line': b'running egg_info\n'}
+[0.573727] (rby1_movement) StdoutLine: {'line': b'writing rby1_movement.egg-info/PKG-INFO\n'}
+[0.574298] (rby1_movement) StdoutLine: {'line': b'writing dependency_links to rby1_movement.egg-info/dependency_links.txt\n'}
+[0.574651] (rby1_movement) StdoutLine: {'line': b'writing top-level names to rby1_movement.egg-info/top_level.txt\n'}
+[0.579119] (rby1_movement) StdoutLine: {'line': b"reading manifest file 'rby1_movement.egg-info/SOURCES.txt'\n"}
+[0.580126] (rby1_movement) StdoutLine: {'line': b"writing manifest file 'rby1_movement.egg-info/SOURCES.txt'\n"}
+[0.601017] (-) TimerEvent: {}
+[0.644305] (rby1_movement) StdoutLine: {'line': b'[ 94%] Built target ament_cmake_python_build_rby1_movement_egg\n'}
+[0.701187] (-) TimerEvent: {}
+[0.801799] (-) TimerEvent: {}
+[0.902443] (-) TimerEvent: {}
+[1.003108] (-) TimerEvent: {}
+[1.103763] (-) TimerEvent: {}
+[1.204416] (-) TimerEvent: {}
+[1.305087] (-) TimerEvent: {}
+[1.405998] (-) TimerEvent: {}
+[1.506929] (-) TimerEvent: {}
+[1.607757] (-) TimerEvent: {}
+[1.708558] (-) TimerEvent: {}
+[1.809469] (-) TimerEvent: {}
+[1.910143] (-) TimerEvent: {}
+[2.011045] (-) TimerEvent: {}
+[2.111947] (-) TimerEvent: {}
+[2.212863] (-) TimerEvent: {}
+[2.313760] (-) TimerEvent: {}
+[2.414423] (-) TimerEvent: {}
+[2.515124] (-) TimerEvent: {}
+[2.616010] (-) TimerEvent: {}
+[2.716911] (-) TimerEvent: {}
+[2.817723] (-) TimerEvent: {}
+[2.918306] (-) TimerEvent: {}
+[3.019182] (-) TimerEvent: {}
+[3.120073] (-) TimerEvent: {}
+[3.220959] (-) TimerEvent: {}
+[3.321871] (-) TimerEvent: {}
+[3.422560] (-) TimerEvent: {}
+[3.523462] (-) TimerEvent: {}
+[3.624369] (-) TimerEvent: {}
+[3.725270] (-) TimerEvent: {}
+[3.826194] (-) TimerEvent: {}
+[3.926881] (-) TimerEvent: {}
+[4.027755] (-) TimerEvent: {}
+[4.128669] (-) TimerEvent: {}
+[4.229548] (-) TimerEvent: {}
+[4.330445] (-) TimerEvent: {}
+[4.431126] (-) TimerEvent: {}
+[4.532015] (-) TimerEvent: {}
+[4.632890] (-) TimerEvent: {}
+[4.733761] (-) TimerEvent: {}
+[4.834440] (-) TimerEvent: {}
+[4.935131] (-) TimerEvent: {}
+[5.036029] (-) TimerEvent: {}
+[5.136925] (-) TimerEvent: {}
+[5.237817] (-) TimerEvent: {}
+[5.338489] (-) TimerEvent: {}
+[5.419418] (rby1_movement) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Core:214\x1b[m\x1b[K,\n'}
+[5.419977] (rby1_movement) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/rby1-sdk/include/rby1-sdk/dynamics/robot.h:3\x1b[m\x1b[K,\n'}
+[5.420121] (rby1_movement) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/rby1-sdk/include/rby1-sdk/model.h:6\x1b[m\x1b[K,\n'}
+[5.420238] (rby1_movement) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:7\x1b[m\x1b[K:\n'}
+[5.420349] (rby1_movement) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/arch/NEON/PacketMath.h:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[KPacket Eigen::internal::pload(const typename Eigen::internal::unpacket_traits<T>::type*) [with Packet = Eigen::internal::eigen_packet_wrapper<int, 2>; typename Eigen::internal::unpacket_traits<T>::type = signed char]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.420465] (rby1_movement) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/arch/NEON/PacketMath.h:1671:9:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kvoid* memcpy(void*, const void*, size_t)\x1b[m\x1b[K\xe2\x80\x99 copying an object of non-trivial type \xe2\x80\x98\x1b[01m\x1b[KEigen::internal::Packet4c\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstruct Eigen::internal::eigen_packet_wrapper<int, 2>\x1b[m\x1b[K\xe2\x80\x99} from an array of \xe2\x80\x98\x1b[01m\x1b[Kconst int8_t\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst signed char\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wclass-memaccess\x07-Wclass-memaccess\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[5.420579] (rby1_movement) StderrLine: {'line': b' 1671 |   \x1b[01;35m\x1b[Kmemcpy(&res, from, sizeof(Packet4c))\x1b[m\x1b[K;\n'}
+[5.420702] (rby1_movement) StderrLine: {'line': b'      |   \x1b[01;35m\x1b[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.420802] (rby1_movement) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Core:172\x1b[m\x1b[K,\n'}
+[5.420899] (rby1_movement) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/rby1-sdk/include/rby1-sdk/dynamics/robot.h:3\x1b[m\x1b[K,\n'}
+[5.420995] (rby1_movement) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/rby1-sdk/include/rby1-sdk/model.h:6\x1b[m\x1b[K,\n'}
+[5.421091] (rby1_movement) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:7\x1b[m\x1b[K:\n'}
+[5.421186] (rby1_movement) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/GenericPacketMath.h:159:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KEigen::internal::Packet4c\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstruct Eigen::internal::eigen_packet_wrapper<int, 2>\x1b[m\x1b[K\xe2\x80\x99} declared here\n'}
+[5.421289] (rby1_movement) StderrLine: {'line': b'  159 | struct \x1b[01;36m\x1b[Keigen_packet_wrapper\x1b[m\x1b[K\n'}
+[5.421402] (rby1_movement) StderrLine: {'line': b'      |        \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.421972] (rby1_movement) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Core:214\x1b[m\x1b[K,\n'}
+[5.422102] (rby1_movement) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/rby1-sdk/include/rby1-sdk/dynamics/robot.h:3\x1b[m\x1b[K,\n'}
+[5.422220] (rby1_movement) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/rby1-sdk/include/rby1-sdk/model.h:6\x1b[m\x1b[K,\n'}
+[5.422324] (rby1_movement) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:7\x1b[m\x1b[K:\n'}
+[5.422423] (rby1_movement) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/arch/NEON/PacketMath.h:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[KPacket Eigen::internal::ploadu(const typename Eigen::internal::unpacket_traits<T>::type*) [with Packet = Eigen::internal::eigen_packet_wrapper<int, 2>; typename Eigen::internal::unpacket_traits<T>::type = signed char]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.422552] (rby1_movement) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/arch/NEON/PacketMath.h:1716:9:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kvoid* memcpy(void*, const void*, size_t)\x1b[m\x1b[K\xe2\x80\x99 copying an object of non-trivial type \xe2\x80\x98\x1b[01m\x1b[KEigen::internal::Packet4c\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstruct Eigen::internal::eigen_packet_wrapper<int, 2>\x1b[m\x1b[K\xe2\x80\x99} from an array of \xe2\x80\x98\x1b[01m\x1b[Kconst int8_t\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst signed char\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wclass-memaccess\x07-Wclass-memaccess\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[5.422662] (rby1_movement) StderrLine: {'line': b' 1716 |   \x1b[01;35m\x1b[Kmemcpy(&res, from, sizeof(Packet4c))\x1b[m\x1b[K;\n'}
+[5.422760] (rby1_movement) StderrLine: {'line': b'      |   \x1b[01;35m\x1b[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.422888] (rby1_movement) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Core:172\x1b[m\x1b[K,\n'}
+[5.422990] (rby1_movement) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/rby1-sdk/include/rby1-sdk/dynamics/robot.h:3\x1b[m\x1b[K,\n'}
+[5.423085] (rby1_movement) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/rby1-sdk/include/rby1-sdk/model.h:6\x1b[m\x1b[K,\n'}
+[5.423180] (rby1_movement) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:7\x1b[m\x1b[K:\n'}
+[5.423290] (rby1_movement) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/GenericPacketMath.h:159:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KEigen::internal::Packet4c\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstruct Eigen::internal::eigen_packet_wrapper<int, 2>\x1b[m\x1b[K\xe2\x80\x99} declared here\n'}
+[5.423392] (rby1_movement) StderrLine: {'line': b'  159 | struct \x1b[01;36m\x1b[Keigen_packet_wrapper\x1b[m\x1b[K\n'}
+[5.423502] (rby1_movement) StderrLine: {'line': b'      |        \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.438573] (-) TimerEvent: {}
+[5.539132] (-) TimerEvent: {}
+[5.639789] (-) TimerEvent: {}
+[5.740649] (-) TimerEvent: {}
+[5.841550] (-) TimerEvent: {}
+[5.942220] (-) TimerEvent: {}
+[6.043116] (-) TimerEvent: {}
+[6.144020] (-) TimerEvent: {}
+[6.244698] (-) TimerEvent: {}
+[6.345610] (-) TimerEvent: {}
+[6.446441] (-) TimerEvent: {}
+[6.547245] (-) TimerEvent: {}
+[6.648110] (-) TimerEvent: {}
+[6.749002] (-) TimerEvent: {}
+[6.849903] (-) TimerEvent: {}
+[6.950590] (-) TimerEvent: {}
+[7.051263] (-) TimerEvent: {}
+[7.152145] (-) TimerEvent: {}
+[7.252816] (-) TimerEvent: {}
+[7.353486] (-) TimerEvent: {}
+[7.454385] (-) TimerEvent: {}
+[7.555305] (-) TimerEvent: {}
+[7.656106] (-) TimerEvent: {}
+[7.669813] (rby1_movement) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:76:70:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kincomplete type \xe2\x80\x98\x1b[01m\x1b[KRBY1_Movement\x1b[m\x1b[K\xe2\x80\x99 used in nested name specifier\n'}
+[7.670205] (rby1_movement) StderrLine: {'line': b'   76 |     void speed_control_callback(const std::shared_ptr<RBY1_Movement::\x1b[01;31m\x1b[Ksrv\x1b[m\x1b[K::SpeedControl::Request> request,\n'}
+[7.670345] (rby1_movement) StderrLine: {'line': b'      |                                                                      \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[7.670458] (rby1_movement) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:76:96:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[7.670568] (rby1_movement) StderrLine: {'line': b'   76 |     void speed_control_callback(const std::shared_ptr<RBY1_Movement::srv::SpeedControl::Request\x1b[01;31m\x1b[K>\x1b[m\x1b[K request,\n'}
+[7.670668] (rby1_movement) StderrLine: {'line': b'      |                                                                                                \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[7.670766] (rby1_movement) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:76:70:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kincomplete type \xe2\x80\x98\x1b[01m\x1b[KRBY1_Movement\x1b[m\x1b[K\xe2\x80\x99 used in nested name specifier\n'}
+[7.670894] (rby1_movement) StderrLine: {'line': b'   76 |     void speed_control_callback(const std::shared_ptr<RBY1_Movement::\x1b[01;31m\x1b[Ksrv\x1b[m\x1b[K::SpeedControl::Request> request,\n'}
+[7.670994] (rby1_movement) StderrLine: {'line': b'      |                                                                      \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[7.671091] (rby1_movement) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:76:96:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[7.671186] (rby1_movement) StderrLine: {'line': b'   76 |     void speed_control_callback(const std::shared_ptr<RBY1_Movement::srv::SpeedControl::Request\x1b[01;31m\x1b[K>\x1b[m\x1b[K request,\n'}
+[7.671281] (rby1_movement) StderrLine: {'line': b'      |                                                                                                \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[7.671374] (rby1_movement) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:76:70:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kincomplete type \xe2\x80\x98\x1b[01m\x1b[KRBY1_Movement\x1b[m\x1b[K\xe2\x80\x99 used in nested name specifier\n'}
+[7.671511] (rby1_movement) StderrLine: {'line': b'   76 |     void speed_control_callback(const std::shared_ptr<RBY1_Movement::\x1b[01;31m\x1b[Ksrv\x1b[m\x1b[K::SpeedControl::Request> request,\n'}
+[7.671609] (rby1_movement) StderrLine: {'line': b'      |                                                                      \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[7.671704] (rby1_movement) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:76:96:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[7.671798] (rby1_movement) StderrLine: {'line': b'   76 |     void speed_control_callback(const std::shared_ptr<RBY1_Movement::srv::SpeedControl::Request\x1b[01;31m\x1b[K>\x1b[m\x1b[K request,\n'}
+[7.671891] (rby1_movement) StderrLine: {'line': b'      |                                                                                                \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[7.671983] (rby1_movement) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:76:39:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid template-id\n'}
+[7.672090] (rby1_movement) StderrLine: {'line': b'   76 |     void speed_control_callback(const \x1b[01;31m\x1b[Kstd\x1b[m\x1b[K::shared_ptr<RBY1_Movement::srv::SpeedControl::Request> request,\n'}
+[7.672185] (rby1_movement) StderrLine: {'line': b'      |                                       \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[7.672279] (rby1_movement) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:76:70:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KRBY1_Movement::srv\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[7.672376] (rby1_movement) StderrLine: {'line': b'   76 |     void speed_control_callback(const std::shared_ptr<RBY1_Movement::\x1b[01;31m\x1b[Ksrv\x1b[m\x1b[K::SpeedControl::Request> request,\n'}
+[7.672469] (rby1_movement) StderrLine: {'line': b'      |                                                                      \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[7.672563] (rby1_movement) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:76:33:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kclass template placeholder \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr\x1b[m\x1b[K\xe2\x80\x99 not permitted in this context\n'}
+[7.672658] (rby1_movement) StderrLine: {'line': b'   76 |     void speed_control_callback(\x1b[01;31m\x1b[Kconst\x1b[m\x1b[K std::shared_ptr<RBY1_Movement::srv::SpeedControl::Request> request,\n'}
+[7.672750] (rby1_movement) StderrLine: {'line': b'      |                                 \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[7.672843] (rby1_movement) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:77:64:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kincomplete type \xe2\x80\x98\x1b[01m\x1b[KRBY1_Movement\x1b[m\x1b[K\xe2\x80\x99 used in nested name specifier\n'}
+[7.672936] (rby1_movement) StderrLine: {'line': b'   77 |                                 std::shared_ptr<RBY1_Movement::\x1b[01;31m\x1b[Ksrv\x1b[m\x1b[K::SpeedControl::Response> response) {\n'}
+[7.673029] (rby1_movement) StderrLine: {'line': b'      |                                                                \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[7.673137] (rby1_movement) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:77:91:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[7.673233] (rby1_movement) StderrLine: {'line': b'   77 |                                 std::shared_ptr<RBY1_Movement::srv::SpeedControl::Response\x1b[01;31m\x1b[K>\x1b[m\x1b[K response) {\n'}
+[7.673326] (rby1_movement) StderrLine: {'line': b'      |                                                                                           \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[7.673432] (rby1_movement) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:77:64:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kincomplete type \xe2\x80\x98\x1b[01m\x1b[KRBY1_Movement\x1b[m\x1b[K\xe2\x80\x99 used in nested name specifier\n'}
+[7.673528] (rby1_movement) StderrLine: {'line': b'   77 |                                 std::shared_ptr<RBY1_Movement::\x1b[01;31m\x1b[Ksrv\x1b[m\x1b[K::SpeedControl::Response> response) {\n'}
+[7.673623] (rby1_movement) StderrLine: {'line': b'      |                                                                \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[7.673717] (rby1_movement) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:77:91:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[7.673811] (rby1_movement) StderrLine: {'line': b'   77 |                                 std::shared_ptr<RBY1_Movement::srv::SpeedControl::Response\x1b[01;31m\x1b[K>\x1b[m\x1b[K response) {\n'}
+[7.673904] (rby1_movement) StderrLine: {'line': b'      |                                                                                           \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[7.673996] (rby1_movement) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:77:64:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kincomplete type \xe2\x80\x98\x1b[01m\x1b[KRBY1_Movement\x1b[m\x1b[K\xe2\x80\x99 used in nested name specifier\n'}
+[7.674090] (rby1_movement) StderrLine: {'line': b'   77 |                                 std::shared_ptr<RBY1_Movement::\x1b[01;31m\x1b[Ksrv\x1b[m\x1b[K::SpeedControl::Response> response) {\n'}
+[7.674192] (rby1_movement) StderrLine: {'line': b'      |                                                                \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[7.674288] (rby1_movement) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:77:91:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[7.674383] (rby1_movement) StderrLine: {'line': b'   77 |                                 std::shared_ptr<RBY1_Movement::srv::SpeedControl::Response\x1b[01;31m\x1b[K>\x1b[m\x1b[K response) {\n'}
+[7.674476] (rby1_movement) StderrLine: {'line': b'      |                                                                                           \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[7.674568] (rby1_movement) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:77:33:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid template-id\n'}
+[7.674660] (rby1_movement) StderrLine: {'line': b'   77 |                                 \x1b[01;31m\x1b[Kstd\x1b[m\x1b[K::shared_ptr<RBY1_Movement::srv::SpeedControl::Response> response) {\n'}
+[7.674754] (rby1_movement) StderrLine: {'line': b'      |                                 \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[7.674882] (rby1_movement) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:77:64:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KRBY1_Movement::srv\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[7.674983] (rby1_movement) StderrLine: {'line': b'   77 |                                 std::shared_ptr<RBY1_Movement::\x1b[01;31m\x1b[Ksrv\x1b[m\x1b[K::SpeedControl::Response> response) {\n'}
+[7.675089] (rby1_movement) StderrLine: {'line': b'      |                                                                \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[7.675183] (rby1_movement) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:77:33:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kclass template placeholder \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr\x1b[m\x1b[K\xe2\x80\x99 not permitted in this context\n'}
+[7.675289] (rby1_movement) StderrLine: {'line': b'   77 |                                 \x1b[01;31m\x1b[Kstd\x1b[m\x1b[K::shared_ptr<RBY1_Movement::srv::SpeedControl::Response> response) {\n'}
+[7.675383] (rby1_movement) StderrLine: {'line': b'      |                                 \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[7.746764] (rby1_movement) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:155:36:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kincomplete type \xe2\x80\x98\x1b[01m\x1b[KRBY1_Movement\x1b[m\x1b[K\xe2\x80\x99 used in nested name specifier\n'}
+[7.747453] (rby1_movement) StderrLine: {'line': b'  155 |     rclcpp::Service<RBY1_Movement::\x1b[01;31m\x1b[Ksrv\x1b[m\x1b[K::SpeedControl>::SharedPtr speed_service_;\n'}
+[7.747750] (rby1_movement) StderrLine: {'line': b'      |                                    \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[7.747864] (rby1_movement) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:155:53:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[7.747975] (rby1_movement) StderrLine: {'line': b'  155 |     rclcpp::Service<RBY1_Movement::srv::SpeedControl\x1b[01;31m\x1b[K>\x1b[m\x1b[K::SharedPtr speed_service_;\n'}
+[7.748077] (rby1_movement) StderrLine: {'line': b'      |                                                     \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[7.748177] (rby1_movement) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:155:56:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 at end of member declaration\n'}
+[7.748278] (rby1_movement) StderrLine: {'line': b'  155 |     rclcpp::Service<RBY1_Movement::srv::SpeedControl>::\x1b[01;31m\x1b[KSharedPtr\x1b[m\x1b[K speed_service_;\n'}
+[7.748412] (rby1_movement) StderrLine: {'line': b'      |                                                        \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[7.748514] (rby1_movement) StderrLine: {'line': b'      |                                                                 \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[7.748611] (rby1_movement) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:\x1b[m\x1b[K At global scope:\n'}
+[7.748708] (rby1_movement) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:76:70:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kincomplete type \xe2\x80\x98\x1b[01m\x1b[KRBY1_Movement\x1b[m\x1b[K\xe2\x80\x99 used in nested name specifier\n'}
+[7.748807] (rby1_movement) StderrLine: {'line': b'   76 |     void speed_control_callback(const std::shared_ptr<RBY1_Movement::\x1b[01;31m\x1b[Ksrv\x1b[m\x1b[K::SpeedControl::Request> request,\n'}
+[7.748901] (rby1_movement) StderrLine: {'line': b'      |                                                                      \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[7.748995] (rby1_movement) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:76:96:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[7.749090] (rby1_movement) StderrLine: {'line': b'   76 |     void speed_control_callback(const std::shared_ptr<RBY1_Movement::srv::SpeedControl::Request\x1b[01;31m\x1b[K>\x1b[m\x1b[K request,\n'}
+[7.749185] (rby1_movement) StderrLine: {'line': b'      |                                                                                                \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[7.749279] (rby1_movement) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:76:70:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kincomplete type \xe2\x80\x98\x1b[01m\x1b[KRBY1_Movement\x1b[m\x1b[K\xe2\x80\x99 used in nested name specifier\n'}
+[7.749388] (rby1_movement) StderrLine: {'line': b'   76 |     void speed_control_callback(const std::shared_ptr<RBY1_Movement::\x1b[01;31m\x1b[Ksrv\x1b[m\x1b[K::SpeedControl::Request> request,\n'}
+[7.749498] (rby1_movement) StderrLine: {'line': b'      |                                                                      \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[7.749592] (rby1_movement) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:76:96:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[7.749687] (rby1_movement) StderrLine: {'line': b'   76 |     void speed_control_callback(const std::shared_ptr<RBY1_Movement::srv::SpeedControl::Request\x1b[01;31m\x1b[K>\x1b[m\x1b[K request,\n'}
+[7.749779] (rby1_movement) StderrLine: {'line': b'      |                                                                                                \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[7.749871] (rby1_movement) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:76:70:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kincomplete type \xe2\x80\x98\x1b[01m\x1b[KRBY1_Movement\x1b[m\x1b[K\xe2\x80\x99 used in nested name specifier\n'}
+[7.749965] (rby1_movement) StderrLine: {'line': b'   76 |     void speed_control_callback(const std::shared_ptr<RBY1_Movement::\x1b[01;31m\x1b[Ksrv\x1b[m\x1b[K::SpeedControl::Request> request,\n'}
+[7.750059] (rby1_movement) StderrLine: {'line': b'      |                                                                      \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[7.750153] (rby1_movement) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:76:96:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[7.750244] (rby1_movement) StderrLine: {'line': b'   76 |     void speed_control_callback(const std::shared_ptr<RBY1_Movement::srv::SpeedControl::Request\x1b[01;31m\x1b[K>\x1b[m\x1b[K request,\n'}
+[7.750351] (rby1_movement) StderrLine: {'line': b'      |                                                                                                \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[7.750445] (rby1_movement) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:76:39:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid template-id\n'}
+[7.750540] (rby1_movement) StderrLine: {'line': b'   76 |     void speed_control_callback(const \x1b[01;31m\x1b[Kstd\x1b[m\x1b[K::shared_ptr<RBY1_Movement::srv::SpeedControl::Request> request,\n'}
+[7.750633] (rby1_movement) StderrLine: {'line': b'      |                                       \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[7.750727] (rby1_movement) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:76:70:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KRBY1_Movement::srv\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[7.750842] (rby1_movement) StderrLine: {'line': b'   76 |     void speed_control_callback(const std::shared_ptr<RBY1_Movement::\x1b[01;31m\x1b[Ksrv\x1b[m\x1b[K::SpeedControl::Request> request,\n'}
+[7.750941] (rby1_movement) StderrLine: {'line': b'      |                                                                      \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[7.751034] (rby1_movement) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:76:33:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kclass template placeholder \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr\x1b[m\x1b[K\xe2\x80\x99 not permitted in this context\n'}
+[7.751129] (rby1_movement) StderrLine: {'line': b'   76 |     void speed_control_callback(\x1b[01;31m\x1b[Kconst\x1b[m\x1b[K std::shared_ptr<RBY1_Movement::srv::SpeedControl::Request> request,\n'}
+[7.751222] (rby1_movement) StderrLine: {'line': b'      |                                 \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[7.751315] (rby1_movement) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:77:64:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kincomplete type \xe2\x80\x98\x1b[01m\x1b[KRBY1_Movement\x1b[m\x1b[K\xe2\x80\x99 used in nested name specifier\n'}
+[7.751433] (rby1_movement) StderrLine: {'line': b'   77 |                                 std::shared_ptr<RBY1_Movement::\x1b[01;31m\x1b[Ksrv\x1b[m\x1b[K::SpeedControl::Response> response) {\n'}
+[7.751528] (rby1_movement) StderrLine: {'line': b'      |                                                                \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[7.751623] (rby1_movement) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:77:91:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[7.751716] (rby1_movement) StderrLine: {'line': b'   77 |                                 std::shared_ptr<RBY1_Movement::srv::SpeedControl::Response\x1b[01;31m\x1b[K>\x1b[m\x1b[K response) {\n'}
+[7.751809] (rby1_movement) StderrLine: {'line': b'      |                                                                                           \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[7.751902] (rby1_movement) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:77:64:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kincomplete type \xe2\x80\x98\x1b[01m\x1b[KRBY1_Movement\x1b[m\x1b[K\xe2\x80\x99 used in nested name specifier\n'}
+[7.751996] (rby1_movement) StderrLine: {'line': b'   77 |                                 std::shared_ptr<RBY1_Movement::\x1b[01;31m\x1b[Ksrv\x1b[m\x1b[K::SpeedControl::Response> response) {\n'}
+[7.752103] (rby1_movement) StderrLine: {'line': b'      |                                                                \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[7.752200] (rby1_movement) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:77:91:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[7.752294] (rby1_movement) StderrLine: {'line': b'   77 |                                 std::shared_ptr<RBY1_Movement::srv::SpeedControl::Response\x1b[01;31m\x1b[K>\x1b[m\x1b[K response) {\n'}
+[7.752387] (rby1_movement) StderrLine: {'line': b'      |                                                                                           \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[7.752481] (rby1_movement) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:77:64:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kincomplete type \xe2\x80\x98\x1b[01m\x1b[KRBY1_Movement\x1b[m\x1b[K\xe2\x80\x99 used in nested name specifier\n'}
+[7.752575] (rby1_movement) StderrLine: {'line': b'   77 |                                 std::shared_ptr<RBY1_Movement::\x1b[01;31m\x1b[Ksrv\x1b[m\x1b[K::SpeedControl::Response> response) {\n'}
+[7.752668] (rby1_movement) StderrLine: {'line': b'      |                                                                \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[7.752760] (rby1_movement) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:77:91:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[7.752852] (rby1_movement) StderrLine: {'line': b'   77 |                                 std::shared_ptr<RBY1_Movement::srv::SpeedControl::Response\x1b[01;31m\x1b[K>\x1b[m\x1b[K response) {\n'}
+[7.752944] (rby1_movement) StderrLine: {'line': b'      |                                                                                           \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[7.753036] (rby1_movement) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:77:33:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid template-id\n'}
+[7.753127] (rby1_movement) StderrLine: {'line': b'   77 |                                 \x1b[01;31m\x1b[Kstd\x1b[m\x1b[K::shared_ptr<RBY1_Movement::srv::SpeedControl::Response> response) {\n'}
+[7.753231] (rby1_movement) StderrLine: {'line': b'      |                                 \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[7.753325] (rby1_movement) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:77:64:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KRBY1_Movement::srv\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[7.753431] (rby1_movement) StderrLine: {'line': b'   77 |                                 std::shared_ptr<RBY1_Movement::\x1b[01;31m\x1b[Ksrv\x1b[m\x1b[K::SpeedControl::Response> response) {\n'}
+[7.753524] (rby1_movement) StderrLine: {'line': b'      |                                                                \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[7.753615] (rby1_movement) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:77:33:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kclass template placeholder \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr\x1b[m\x1b[K\xe2\x80\x99 not permitted in this context\n'}
+[7.753713] (rby1_movement) StderrLine: {'line': b'   77 |                                 \x1b[01;31m\x1b[Kstd\x1b[m\x1b[K::shared_ptr<RBY1_Movement::srv::SpeedControl::Response> response) {\n'}
+[7.753808] (rby1_movement) StderrLine: {'line': b'      |                                 \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[7.754821] (rby1_movement) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:155:66:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kspeed_service_\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[7.754943] (rby1_movement) StderrLine: {'line': b'  155 |     rclcpp::Service<RBY1_Movement::srv::SpeedControl>::SharedPtr \x1b[01;31m\x1b[Kspeed_service_\x1b[m\x1b[K;\n'}
+[7.755044] (rby1_movement) StderrLine: {'line': b'      |                                                                  \x1b[01;31m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.756152] (-) TimerEvent: {}
+[7.793001] (rby1_movement) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KRBY1_Movement::RBY1_Movement(std::shared_ptr<rb::Robot<rb::y1_model::A> >, std::unique_ptr<rb::RobotCommandStreamHandler<rb::y1_model::A> >)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[7.793472] (rby1_movement) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:45:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kspeed_service_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[7.793649] (rby1_movement) StderrLine: {'line': b'   45 |         \x1b[01;31m\x1b[Kspeed_service_\x1b[m\x1b[K = this->create_service<RBY1_Movement::srv::SpeedControl>(\n'}
+[7.793770] (rby1_movement) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.793875] (rby1_movement) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:45:62:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksrv\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[KRBY1_Movement\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.793979] (rby1_movement) StderrLine: {'line': b'   45 |         speed_service_ = this->create_service<RBY1_Movement::\x1b[01;31m\x1b[Ksrv\x1b[m\x1b[K::SpeedControl>(\n'}
+[7.794079] (rby1_movement) StderrLine: {'line': b'      |                                                              \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[7.794179] (rby1_movement) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:45:32:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kparse error in template argument list\n'}
+[7.794298] (rby1_movement) StderrLine: {'line': b'   45 |         speed_service_ = this->\x1b[01;31m\x1b[Kcreate_service<RBY1_Movement::srv::SpeedControl>\x1b[m\x1b[K(\n'}
+[7.794409] (rby1_movement) StderrLine: {'line': b'      |                                \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.806024] (rby1_movement) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:45:80:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[KRBY1_Movement::create_service<<expression error> >(const char [14], std::_Bind_helper<false, void (RBY1_Movement::*)(...), RBY1_Movement*, const std::_Placeholder<1>&, const std::_Placeholder<2>&>::type)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.806354] (rby1_movement) StderrLine: {'line': b'   45 |         speed_service_ = \x1b[01;31m\x1b[Kthis->create_service<RBY1_Movement::srv::SpeedControl>(\x1b[m\x1b[K\n'}
+[7.806596] (rby1_movement) StderrLine: {'line': b'      |                          \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^\x1b[m\x1b[K\n'}
+[7.806702] (rby1_movement) StderrLine: {'line': b'   46 | \x1b[01;31m\x1b[K            "speed_control",\x1b[m\x1b[K\n'}
+[7.806823] (rby1_movement) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~\x1b[m\x1b[K                                                    \n'}
+[7.806933] (rby1_movement) StderrLine: {'line': b'   47 | \x1b[01;31m\x1b[K            std::bind(&RBY1_Movement::speed_control_callback, this,\x1b[m\x1b[K\n'}
+[7.807035] (rby1_movement) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K             \n'}
+[7.807132] (rby1_movement) StderrLine: {'line': b'   48 | \x1b[01;31m\x1b[K                      std::placeholders::_1, std::placeholders::_2)\x1b[m\x1b[K\n'}
+[7.807228] (rby1_movement) StderrLine: {'line': b'      |                       \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K             \n'}
+[7.807325] (rby1_movement) StderrLine: {'line': b'   49 | \x1b[01;31m\x1b[K        )\x1b[m\x1b[K;\n'}
+[7.807423] (rby1_movement) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K~\x1b[m\x1b[K                                                                       \n'}
+[7.807520] (rby1_movement) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[7.807618] (rby1_movement) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[7.807713] (rby1_movement) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[7.807840] (rby1_movement) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:5\x1b[m\x1b[K:\n'}
+[7.807939] (rby1_movement) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:267:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class ServiceT, class CallbackT> typename rclcpp::Service<ServiceT>::SharedPtr rclcpp::Node::create_service(const string&, CallbackT&&, const rmw_qos_profile_t&, rclcpp::CallbackGroup::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.808045] (rby1_movement) StderrLine: {'line': b'  267 |   \x1b[01;36m\x1b[Kcreate_service\x1b[m\x1b[K(\n'}
+[7.808142] (rby1_movement) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.808235] (rby1_movement) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:267:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[7.808332] (rby1_movement) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:45:80:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[7.808428] (rby1_movement) StderrLine: {'line': b'   45 |         speed_service_ = \x1b[01;31m\x1b[Kthis->create_service<RBY1_Movement::srv::SpeedControl>(\x1b[m\x1b[K\n'}
+[7.808538] (rby1_movement) StderrLine: {'line': b'      |                          \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^\x1b[m\x1b[K\n'}
+[7.808634] (rby1_movement) StderrLine: {'line': b'   46 | \x1b[01;31m\x1b[K            "speed_control",\x1b[m\x1b[K\n'}
+[7.808727] (rby1_movement) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~\x1b[m\x1b[K                                                    \n'}
+[7.808819] (rby1_movement) StderrLine: {'line': b'   47 | \x1b[01;31m\x1b[K            std::bind(&RBY1_Movement::speed_control_callback, this,\x1b[m\x1b[K\n'}
+[7.808913] (rby1_movement) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K             \n'}
+[7.809006] (rby1_movement) StderrLine: {'line': b'   48 | \x1b[01;31m\x1b[K                      std::placeholders::_1, std::placeholders::_2)\x1b[m\x1b[K\n'}
+[7.809113] (rby1_movement) StderrLine: {'line': b'      |                       \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K             \n'}
+[7.809207] (rby1_movement) StderrLine: {'line': b'   49 | \x1b[01;31m\x1b[K        )\x1b[m\x1b[K;\n'}
+[7.809299] (rby1_movement) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K~\x1b[m\x1b[K                                                                       \n'}
+[7.828171] (rby1_movement) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:155:36:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kincomplete type \xe2\x80\x98\x1b[01m\x1b[KRBY1_Movement\x1b[m\x1b[K\xe2\x80\x99 used in nested name specifier\n'}
+[7.829361] (rby1_movement) StderrLine: {'line': b'  155 |     rclcpp::Service<RBY1_Movement::\x1b[01;31m\x1b[Ksrv\x1b[m\x1b[K::SpeedControl>::SharedPtr speed_service_;\n'}
+[7.829498] (rby1_movement) StderrLine: {'line': b'      |                                    \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[7.829610] (rby1_movement) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:155:53:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[7.829719] (rby1_movement) StderrLine: {'line': b'  155 |     rclcpp::Service<RBY1_Movement::srv::SpeedControl\x1b[01;31m\x1b[K>\x1b[m\x1b[K::SharedPtr speed_service_;\n'}
+[7.829819] (rby1_movement) StderrLine: {'line': b'      |                                                     \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[7.829917] (rby1_movement) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:155:56:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 at end of member declaration\n'}
+[7.830019] (rby1_movement) StderrLine: {'line': b'  155 |     rclcpp::Service<RBY1_Movement::srv::SpeedControl>::\x1b[01;31m\x1b[KSharedPtr\x1b[m\x1b[K speed_service_;\n'}
+[7.830114] (rby1_movement) StderrLine: {'line': b'      |                                                        \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[7.830212] (rby1_movement) StderrLine: {'line': b'      |                                                                 \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[7.835884] (rby1_movement) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:155:66:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kspeed_service_\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[7.836067] (rby1_movement) StderrLine: {'line': b'  155 |     rclcpp::Service<RBY1_Movement::srv::SpeedControl>::SharedPtr \x1b[01;31m\x1b[Kspeed_service_\x1b[m\x1b[K;\n'}
+[7.836170] (rby1_movement) StderrLine: {'line': b'      |                                                                  \x1b[01;31m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.849298] (rby1_movement) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid RBY1_Movement::speed_control_callback(...)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[7.849571] (rby1_movement) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:78:26:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Krequest\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[7.849682] (rby1_movement) StderrLine: {'line': b'   78 |         current_speed_ = \x1b[01;31m\x1b[Krequest\x1b[m\x1b[K->speed_input;\n'}
+[7.849785] (rby1_movement) StderrLine: {'line': b'      |                          \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[7.856254] (-) TimerEvent: {}
+[7.874106] (rby1_movement) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:79:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kresponse\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[7.874493] (rby1_movement) StderrLine: {'line': b'   79 |         \x1b[01;31m\x1b[Kresponse\x1b[m\x1b[K->success = true;\n'}
+[7.874755] (rby1_movement) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[7.874899] (rby1_movement) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KRBY1_Movement::RBY1_Movement(std::shared_ptr<rb::Robot<rb::y1_model::A> >, std::unique_ptr<rb::RobotCommandStreamHandler<rb::y1_model::A> >)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[7.875052] (rby1_movement) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:45:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kspeed_service_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[7.875161] (rby1_movement) StderrLine: {'line': b'   45 |         \x1b[01;31m\x1b[Kspeed_service_\x1b[m\x1b[K = this->create_service<RBY1_Movement::srv::SpeedControl>(\n'}
+[7.875265] (rby1_movement) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.875362] (rby1_movement) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:45:62:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksrv\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[KRBY1_Movement\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.875464] (rby1_movement) StderrLine: {'line': b'   45 |         speed_service_ = this->create_service<RBY1_Movement::\x1b[01;31m\x1b[Ksrv\x1b[m\x1b[K::SpeedControl>(\n'}
+[7.875559] (rby1_movement) StderrLine: {'line': b'      |                                                              \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[7.875655] (rby1_movement) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:45:32:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kparse error in template argument list\n'}
+[7.875751] (rby1_movement) StderrLine: {'line': b'   45 |         speed_service_ = this->\x1b[01;31m\x1b[Kcreate_service<RBY1_Movement::srv::SpeedControl>\x1b[m\x1b[K(\n'}
+[7.875844] (rby1_movement) StderrLine: {'line': b'      |                                \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.888276] (rby1_movement) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:45:80:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[KRBY1_Movement::create_service<<expression error> >(const char [14], std::_Bind_helper<false, void (RBY1_Movement::*)(...), RBY1_Movement*, const std::_Placeholder<1>&, const std::_Placeholder<2>&>::type)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.888740] (rby1_movement) StderrLine: {'line': b'   45 |         speed_service_ = \x1b[01;31m\x1b[Kthis->create_service<RBY1_Movement::srv::SpeedControl>(\x1b[m\x1b[K\n'}
+[7.888887] (rby1_movement) StderrLine: {'line': b'      |                          \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^\x1b[m\x1b[K\n'}
+[7.888999] (rby1_movement) StderrLine: {'line': b'   46 | \x1b[01;31m\x1b[K            "speed_control",\x1b[m\x1b[K\n'}
+[7.889105] (rby1_movement) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~\x1b[m\x1b[K                                                    \n'}
+[7.889204] (rby1_movement) StderrLine: {'line': b'   47 | \x1b[01;31m\x1b[K            std::bind(&RBY1_Movement::speed_control_callback, this,\x1b[m\x1b[K\n'}
+[7.889303] (rby1_movement) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K             \n'}
+[7.889399] (rby1_movement) StderrLine: {'line': b'   48 | \x1b[01;31m\x1b[K                      std::placeholders::_1, std::placeholders::_2)\x1b[m\x1b[K\n'}
+[7.889495] (rby1_movement) StderrLine: {'line': b'      |                       \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K             \n'}
+[7.889588] (rby1_movement) StderrLine: {'line': b'   49 | \x1b[01;31m\x1b[K        )\x1b[m\x1b[K;\n'}
+[7.889682] (rby1_movement) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K~\x1b[m\x1b[K                                                                       \n'}
+[7.889777] (rby1_movement) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[7.889874] (rby1_movement) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[7.889968] (rby1_movement) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[7.890062] (rby1_movement) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:5\x1b[m\x1b[K:\n'}
+[7.890155] (rby1_movement) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:267:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class ServiceT, class CallbackT> typename rclcpp::Service<ServiceT>::SharedPtr rclcpp::Node::create_service(const string&, CallbackT&&, const rmw_qos_profile_t&, rclcpp::CallbackGroup::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.890255] (rby1_movement) StderrLine: {'line': b'  267 |   \x1b[01;36m\x1b[Kcreate_service\x1b[m\x1b[K(\n'}
+[7.890349] (rby1_movement) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.890441] (rby1_movement) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:267:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[7.890536] (rby1_movement) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:45:80:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[7.890629] (rby1_movement) StderrLine: {'line': b'   45 |         speed_service_ = \x1b[01;31m\x1b[Kthis->create_service<RBY1_Movement::srv::SpeedControl>(\x1b[m\x1b[K\n'}
+[7.890723] (rby1_movement) StderrLine: {'line': b'      |                          \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^\x1b[m\x1b[K\n'}
+[7.890842] (rby1_movement) StderrLine: {'line': b'   46 | \x1b[01;31m\x1b[K            "speed_control",\x1b[m\x1b[K\n'}
+[7.890944] (rby1_movement) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~\x1b[m\x1b[K                                                    \n'}
+[7.891039] (rby1_movement) StderrLine: {'line': b'   47 | \x1b[01;31m\x1b[K            std::bind(&RBY1_Movement::speed_control_callback, this,\x1b[m\x1b[K\n'}
+[7.891150] (rby1_movement) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K             \n'}
+[7.891255] (rby1_movement) StderrLine: {'line': b'   48 | \x1b[01;31m\x1b[K                      std::placeholders::_1, std::placeholders::_2)\x1b[m\x1b[K\n'}
+[7.891348] (rby1_movement) StderrLine: {'line': b'      |                       \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K             \n'}
+[7.891441] (rby1_movement) StderrLine: {'line': b'   49 | \x1b[01;31m\x1b[K        )\x1b[m\x1b[K;\n'}
+[7.891532] (rby1_movement) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K~\x1b[m\x1b[K                                                                       \n'}
+[7.930296] (rby1_movement) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid RBY1_Movement::speed_control_callback(...)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[7.930756] (rby1_movement) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:78:26:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Krequest\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[7.930924] (rby1_movement) StderrLine: {'line': b'   78 |         current_speed_ = \x1b[01;31m\x1b[Krequest\x1b[m\x1b[K->speed_input;\n'}
+[7.931042] (rby1_movement) StderrLine: {'line': b'      |                          \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[7.954031] (rby1_movement) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:79:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kresponse\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[7.954308] (rby1_movement) StderrLine: {'line': b'   79 |         \x1b[01;31m\x1b[Kresponse\x1b[m\x1b[K->success = true;\n'}
+[7.954422] (rby1_movement) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[7.956336] (-) TimerEvent: {}
+[8.056825] (-) TimerEvent: {}
+[8.157699] (-) TimerEvent: {}
+[8.258358] (-) TimerEvent: {}
+[8.359226] (-) TimerEvent: {}
+[8.460113] (-) TimerEvent: {}
+[8.561008] (-) TimerEvent: {}
+[8.661895] (-) TimerEvent: {}
+[8.762828] (-) TimerEvent: {}
+[8.863497] (-) TimerEvent: {}
+[8.964393] (-) TimerEvent: {}
+[9.065050] (-) TimerEvent: {}
+[9.165944] (-) TimerEvent: {}
+[9.266606] (-) TimerEvent: {}
+[9.367424] (-) TimerEvent: {}
+[9.468130] (-) TimerEvent: {}
+[9.474346] (rby1_movement) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/aarch64-linux-gnu/c++/11/bits/c++allocator.h:33\x1b[m\x1b[K,\n'}
+[9.474702] (rby1_movement) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/bits/allocator.h:46\x1b[m\x1b[K,\n'}
+[9.474858] (rby1_movement) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/string:41\x1b[m\x1b[K,\n'}
+[9.475012] (rby1_movement) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/bits/locale_classes.h:40\x1b[m\x1b[K,\n'}
+[9.475121] (rby1_movement) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/bits/ios_base.h:41\x1b[m\x1b[K,\n'}
+[9.475222] (rby1_movement) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/iomanip:40\x1b[m\x1b[K,\n'}
+[9.475319] (rby1_movement) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:1\x1b[m\x1b[K:\n'}
+[9.475417] (rby1_movement) StderrLine: {'line': b'/usr/include/c++/11/ext/new_allocator.h: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kvoid __gnu_cxx::new_allocator<_Tp>::construct(_Up*, _Args&& ...) [with _Up = RBY1_Movement; _Args = {std::shared_ptr<rb::Robot<rb::y1_model::A> >&, std::unique_ptr<rb::RobotCommandStreamHandler<rb::y1_model::A>, std::default_delete<rb::RobotCommandStreamHandler<rb::y1_model::A> > >, int&}; _Tp = RBY1_Movement]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[9.475525] (rby1_movement) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/alloc_traits.h:516:17:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstatic void std::allocator_traits<std::allocator<_CharT> >::construct(std::allocator_traits<std::allocator<_CharT> >::allocator_type&, _Up*, _Args&& ...) [with _Up = RBY1_Movement; _Args = {std::shared_ptr<rb::Robot<rb::y1_model::A> >&, std::unique_ptr<rb::RobotCommandStreamHandler<rb::y1_model::A>, std::default_delete<rb::RobotCommandStreamHandler<rb::y1_model::A> > >, int&}; _Tp = RBY1_Movement; std::allocator_traits<std::allocator<_CharT> >::allocator_type = std::allocator<RBY1_Movement>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.475654] (rby1_movement) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr_base.h:519:39:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::_Sp_counted_ptr_inplace<_Tp, _Alloc, _Lp>::_Sp_counted_ptr_inplace(_Alloc, _Args&& ...) [with _Args = {std::shared_ptr<rb::Robot<rb::y1_model::A> >&, std::unique_ptr<rb::RobotCommandStreamHandler<rb::y1_model::A>, std::default_delete<rb::RobotCommandStreamHandler<rb::y1_model::A> > >, int&}; _Tp = RBY1_Movement; _Alloc = std::allocator<RBY1_Movement>; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.475764] (rby1_movement) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr_base.h:650:16:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::__shared_count<_Lp>::__shared_count(_Tp*&, std::_Sp_alloc_shared_tag<_Alloc>, _Args&& ...) [with _Tp = RBY1_Movement; _Alloc = std::allocator<RBY1_Movement>; _Args = {std::shared_ptr<rb::Robot<rb::y1_model::A> >&, std::unique_ptr<rb::RobotCommandStreamHandler<rb::y1_model::A>, std::default_delete<rb::RobotCommandStreamHandler<rb::y1_model::A> > >, int&}; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.475866] (rby1_movement) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr_base.h:1342:14:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::__shared_ptr<_Tp, _Lp>::__shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<RBY1_Movement>; _Args = {std::shared_ptr<rb::Robot<rb::y1_model::A> >&, std::unique_ptr<rb::RobotCommandStreamHandler<rb::y1_model::A>, std::default_delete<rb::RobotCommandStreamHandler<rb::y1_model::A> > >, int&}; _Tp = RBY1_Movement; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.475985] (rby1_movement) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:409:59:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<_Tp>::shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<RBY1_Movement>; _Args = {std::shared_ptr<rb::Robot<rb::y1_model::A> >&, std::unique_ptr<rb::RobotCommandStreamHandler<rb::y1_model::A>, std::default_delete<rb::RobotCommandStreamHandler<rb::y1_model::A> > >, int&}; _Tp = RBY1_Movement]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.476087] (rby1_movement) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:862:14:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<_Tp> std::allocate_shared(const _Alloc&, _Args&& ...) [with _Tp = RBY1_Movement; _Alloc = std::allocator<RBY1_Movement>; _Args = {std::shared_ptr<rb::Robot<rb::y1_model::A> >&, std::unique_ptr<rb::RobotCommandStreamHandler<rb::y1_model::A>, std::default_delete<rb::RobotCommandStreamHandler<rb::y1_model::A> > >, int&}]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.476197] (rby1_movement) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:878:39:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<_Tp> std::make_shared(_Args&& ...) [with _Tp = RBY1_Movement; _Args = {std::shared_ptr<rb::Robot<rb::y1_model::A> >&, std::unique_ptr<rb::RobotCommandStreamHandler<rb::y1_model::A>, std::default_delete<rb::RobotCommandStreamHandler<rb::y1_model::A> > >, int&}]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.476308] (rby1_movement) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:181:49:\x1b[m\x1b[K   required from here\n'}
+[9.476416] (rby1_movement) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/ext/new_allocator.h:162:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[KRBY1_Movement::RBY1_Movement(std::shared_ptr<rb::Robot<rb::y1_model::A> >&, std::unique_ptr<rb::RobotCommandStreamHandler<rb::y1_model::A> >, int&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.476516] (rby1_movement) StderrLine: {'line': b'  162 |         { \x1b[01;31m\x1b[K::new((void *)__p) _Up(std::forward<_Args>(__args)...)\x1b[m\x1b[K; }\n'}
+[9.476611] (rby1_movement) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[9.476703] (rby1_movement) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:23:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[KRBY1_Movement::RBY1_Movement(std::shared_ptr<rb::Robot<rb::y1_model::A> >, std::unique_ptr<rb::RobotCommandStreamHandler<rb::y1_model::A> >)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.476797] (rby1_movement) StderrLine: {'line': b'   23 |     \x1b[01;36m\x1b[KRBY1_Movement\x1b[m\x1b[K(std::shared_ptr<rb::Robot<rb::y1_model::A>> robot_,\n'}
+[9.476890] (rby1_movement) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[9.476982] (rby1_movement) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:23:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 2 arguments, 3 provided\n'}
+[9.565767] (rby1_movement) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/aarch64-linux-gnu/c++/11/bits/c++allocator.h:33\x1b[m\x1b[K,\n'}
+[9.566299] (rby1_movement) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/bits/allocator.h:46\x1b[m\x1b[K,\n'}
+[9.566437] (rby1_movement) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/string:41\x1b[m\x1b[K,\n'}
+[9.566550] (rby1_movement) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/bits/locale_classes.h:40\x1b[m\x1b[K,\n'}
+[9.566655] (rby1_movement) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/bits/ios_base.h:41\x1b[m\x1b[K,\n'}
+[9.566757] (rby1_movement) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/iomanip:40\x1b[m\x1b[K,\n'}
+[9.566885] (rby1_movement) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:1\x1b[m\x1b[K:\n'}
+[9.566990] (rby1_movement) StderrLine: {'line': b'/usr/include/c++/11/ext/new_allocator.h: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kvoid __gnu_cxx::new_allocator<_Tp>::construct(_Up*, _Args&& ...) [with _Up = RBY1_Movement; _Args = {std::shared_ptr<rb::Robot<rb::y1_model::A> >&, std::unique_ptr<rb::RobotCommandStreamHandler<rb::y1_model::A>, std::default_delete<rb::RobotCommandStreamHandler<rb::y1_model::A> > >, int&}; _Tp = RBY1_Movement]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[9.567102] (rby1_movement) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/alloc_traits.h:516:17:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstatic void std::allocator_traits<std::allocator<_CharT> >::construct(std::allocator_traits<std::allocator<_CharT> >::allocator_type&, _Up*, _Args&& ...) [with _Up = RBY1_Movement; _Args = {std::shared_ptr<rb::Robot<rb::y1_model::A> >&, std::unique_ptr<rb::RobotCommandStreamHandler<rb::y1_model::A>, std::default_delete<rb::RobotCommandStreamHandler<rb::y1_model::A> > >, int&}; _Tp = RBY1_Movement; std::allocator_traits<std::allocator<_CharT> >::allocator_type = std::allocator<RBY1_Movement>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.567258] (rby1_movement) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr_base.h:519:39:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::_Sp_counted_ptr_inplace<_Tp, _Alloc, _Lp>::_Sp_counted_ptr_inplace(_Alloc, _Args&& ...) [with _Args = {std::shared_ptr<rb::Robot<rb::y1_model::A> >&, std::unique_ptr<rb::RobotCommandStreamHandler<rb::y1_model::A>, std::default_delete<rb::RobotCommandStreamHandler<rb::y1_model::A> > >, int&}; _Tp = RBY1_Movement; _Alloc = std::allocator<RBY1_Movement>; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.567377] (rby1_movement) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr_base.h:650:16:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::__shared_count<_Lp>::__shared_count(_Tp*&, std::_Sp_alloc_shared_tag<_Alloc>, _Args&& ...) [with _Tp = RBY1_Movement; _Alloc = std::allocator<RBY1_Movement>; _Args = {std::shared_ptr<rb::Robot<rb::y1_model::A> >&, std::unique_ptr<rb::RobotCommandStreamHandler<rb::y1_model::A>, std::default_delete<rb::RobotCommandStreamHandler<rb::y1_model::A> > >, int&}; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.567491] (rby1_movement) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr_base.h:1342:14:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::__shared_ptr<_Tp, _Lp>::__shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<RBY1_Movement>; _Args = {std::shared_ptr<rb::Robot<rb::y1_model::A> >&, std::unique_ptr<rb::RobotCommandStreamHandler<rb::y1_model::A>, std::default_delete<rb::RobotCommandStreamHandler<rb::y1_model::A> > >, int&}; _Tp = RBY1_Movement; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.567615] (rby1_movement) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:409:59:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<_Tp>::shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<RBY1_Movement>; _Args = {std::shared_ptr<rb::Robot<rb::y1_model::A> >&, std::unique_ptr<rb::RobotCommandStreamHandler<rb::y1_model::A>, std::default_delete<rb::RobotCommandStreamHandler<rb::y1_model::A> > >, int&}; _Tp = RBY1_Movement]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.567717] (rby1_movement) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:862:14:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<_Tp> std::allocate_shared(const _Alloc&, _Args&& ...) [with _Tp = RBY1_Movement; _Alloc = std::allocator<RBY1_Movement>; _Args = {std::shared_ptr<rb::Robot<rb::y1_model::A> >&, std::unique_ptr<rb::RobotCommandStreamHandler<rb::y1_model::A>, std::default_delete<rb::RobotCommandStreamHandler<rb::y1_model::A> > >, int&}]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.567817] (rby1_movement) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:878:39:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<_Tp> std::make_shared(_Args&& ...) [with _Tp = RBY1_Movement; _Args = {std::shared_ptr<rb::Robot<rb::y1_model::A> >&, std::unique_ptr<rb::RobotCommandStreamHandler<rb::y1_model::A>, std::default_delete<rb::RobotCommandStreamHandler<rb::y1_model::A> > >, int&}]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.567916] (rby1_movement) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:181:49:\x1b[m\x1b[K   required from here\n'}
+[9.568013] (rby1_movement) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/ext/new_allocator.h:162:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[KRBY1_Movement::RBY1_Movement(std::shared_ptr<rb::Robot<rb::y1_model::A> >&, std::unique_ptr<rb::RobotCommandStreamHandler<rb::y1_model::A> >, int&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.568112] (-) TimerEvent: {}
+[9.568339] (rby1_movement) StderrLine: {'line': b'  162 |         { \x1b[01;31m\x1b[K::new((void *)__p) _Up(std::forward<_Args>(__args)...)\x1b[m\x1b[K; }\n'}
+[9.568464] (rby1_movement) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[9.568568] (rby1_movement) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:23:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[KRBY1_Movement::RBY1_Movement(std::shared_ptr<rb::Robot<rb::y1_model::A> >, std::unique_ptr<rb::RobotCommandStreamHandler<rb::y1_model::A> >)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.568694] (rby1_movement) StderrLine: {'line': b'   23 |     \x1b[01;36m\x1b[KRBY1_Movement\x1b[m\x1b[K(std::shared_ptr<rb::Robot<rb::y1_model::A>> robot_,\n'}
+[9.568795] (rby1_movement) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[9.568891] (rby1_movement) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nvidia/ros2_ws/src/rby1_movement/src/rby1_movement_subscriber.cpp:23:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 2 arguments, 3 provided\n'}
+[9.668280] (-) TimerEvent: {}
+[9.768873] (-) TimerEvent: {}
+[9.869777] (-) TimerEvent: {}
+[9.970680] (-) TimerEvent: {}
+[10.071362] (-) TimerEvent: {}
+[10.172034] (-) TimerEvent: {}
+[10.272685] (-) TimerEvent: {}
+[10.373353] (-) TimerEvent: {}
+[10.474031] (-) TimerEvent: {}
+[10.574691] (-) TimerEvent: {}
+[10.675383] (-) TimerEvent: {}
+[10.776045] (-) TimerEvent: {}
+[10.876704] (-) TimerEvent: {}
+[10.977350] (-) TimerEvent: {}
+[11.078028] (-) TimerEvent: {}
+[11.178949] (-) TimerEvent: {}
+[11.279605] (-) TimerEvent: {}
+[11.380483] (-) TimerEvent: {}
+[11.481365] (-) TimerEvent: {}
+[11.582264] (-) TimerEvent: {}
+[11.683131] (-) TimerEvent: {}
+[11.783917] (-) TimerEvent: {}
+[11.884628] (-) TimerEvent: {}
+[11.985460] (-) TimerEvent: {}
+[12.086119] (-) TimerEvent: {}
+[12.187019] (-) TimerEvent: {}
+[12.287670] (-) TimerEvent: {}
+[12.388562] (-) TimerEvent: {}
+[12.489445] (-) TimerEvent: {}
+[12.590330] (-) TimerEvent: {}
+[12.691004] (-) TimerEvent: {}
+[12.791678] (-) TimerEvent: {}
+[12.892349] (-) TimerEvent: {}
+[12.993018] (-) TimerEvent: {}
+[13.053040] (rby1_movement) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/rby1_movement_subscriber.dir/build.make:79: CMakeFiles/rby1_movement_subscriber.dir/src/rby1_movement_subscriber.cpp.o] Error 1\n'}
+[13.053621] (rby1_movement) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:731: CMakeFiles/rby1_movement_subscriber.dir/all] Error 2\n'}
+[13.053830] (rby1_movement) StderrLine: {'line': b'gmake[1]: *** Waiting for unfinished jobs....\n'}
+[13.093102] (-) TimerEvent: {}
+[13.179140] (rby1_movement) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/speed_server.dir/build.make:79: CMakeFiles/speed_server.dir/src/rby1_movement_subscriber.cpp.o] Error 1\n'}
+[13.179795] (rby1_movement) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:763: CMakeFiles/speed_server.dir/all] Error 2\n'}
+[13.180407] (rby1_movement) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[13.185384] (rby1_movement) CommandEnded: {'returncode': 2}
+[13.193268] (-) TimerEvent: {}
+[13.220457] (rby1_movement) JobEnded: {'identifier': 'rby1_movement', 'rc': 2}
+[13.224534] (-) EventReactorShutdown: {}
