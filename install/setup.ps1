@@ -24,6 +24,7 @@ function _colcon_prefix_chain_powershell_source_script {
 # source chained prefixes
 _colcon_prefix_chain_powershell_source_script "/opt/ros/humble\local_setup.ps1"
 _colcon_prefix_chain_powershell_source_script "/home/nvidia/ros2_ws/src/ros2-keyboard/keyboard/install\local_setup.ps1"
+_colcon_prefix_chain_powershell_source_script "/home/nvidia/ros2_ws/src/rby1_movement/install\local_setup.ps1"
 _colcon_prefix_chain_powershell_source_script "/home/nvidia/ros2_ws/install\local_setup.ps1"
 
 # source this prefix

@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
 <package format="3">
-  <name>rby1_movement</name>
+  <name>rby1_base_movement</name>
   <version>0.0.0</version>
   <description>Use ROS Joy to move rb-y1</description>
   <maintainer email="zrf@mit.edu">nvidia</maintainer>

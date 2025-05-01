@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.10)
-project(rby1_movement)
+project(rby1_base_movement)
 
 if(CMAKE_COMPILER_IS_GNUCXX OR CMAKE_CXX_COMPILER_ID MATCHES "Clang")
   add_compile_options(-Wall -Wextra -Wpedantic)
@@ -29,8 +29,8 @@ include_directories(
 #  DEPENDENCIES sensor_msgs
 #)
 
-add_executable(rby1_movement_subscriber src/rby1_movement_subscriber.cpp)
-ament_target_dependencies(rby1_movement_subscriber rclcpp sensor_msgs rby1-sdk)
+add_executable(rby1_base_movement_subscriber src/rby1_base_movement_subscriber.cpp)
+ament_target_dependencies(rby1_base_movement_subscriber rclcpp sensor_msgs rby1-sdk)
 
 #add_executable(speed_server src/rby1_movement_subscriber.cpp)
 #ament_target_dependencies(speed_server 
@@ -38,9 +38,9 @@ ament_target_dependencies(rby1_movement_subscriber rclcpp sensor_msgs rby1-sdk)
 #    sensor_msgs
 #    rosidl_default_runtime)
 
-target_link_libraries(rby1_movement_subscriber rby1-sdk::rby1-sdk)
+target_link_libraries(rby1_base_movement_subscriber rby1-sdk::rby1-sdk)
 
-install(TARGETS rby1_movement_subscriber
+install(TARGETS rby1_base_movement_subscriber
   DESTINATION lib/${PROJECT_NAME}
 )
 

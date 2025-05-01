@@ -15,8 +15,8 @@ def generate_launch_description():
 
     return LaunchDescription([
         Node(
-            package='rby1_movement',      # Replace with your package name
-            executable='rby1_movement_subscriber', # Replace with your node executable
+            package='rby1_base_movement',      # Replace with your package name
+            executable='rby1_base_movement_subscriber', # Replace with your node executable
             name='movement',                   # Optional: node name
             output='screen'                   # Optional: print node output to terminal
         ),
