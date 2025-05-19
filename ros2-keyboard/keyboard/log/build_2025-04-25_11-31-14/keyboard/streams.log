@@ -1,0 +1,26 @@
+[0.020s] Invoking command in '/home/nvidia/ros2_ws/src/ros2-keyboard/keyboard/build/keyboard': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nvidia/ros2_ws/install/keyboard_joy:/opt/ros/humble /usr/bin/cmake --build /home/nvidia/ros2_ws/src/ros2-keyboard/keyboard/build/keyboard -- -j8 -l8
+[0.078s] [100%] Built target keyboard
+[0.091s] Invoked command in '/home/nvidia/ros2_ws/src/ros2-keyboard/keyboard/build/keyboard' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nvidia/ros2_ws/install/keyboard_joy:/opt/ros/humble /usr/bin/cmake --build /home/nvidia/ros2_ws/src/ros2-keyboard/keyboard/build/keyboard -- -j8 -l8
+[0.107s] Invoking command in '/home/nvidia/ros2_ws/src/ros2-keyboard/keyboard/build/keyboard': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nvidia/ros2_ws/install/keyboard_joy:/opt/ros/humble /usr/bin/cmake --install /home/nvidia/ros2_ws/src/ros2-keyboard/keyboard/build/keyboard
+[0.115s] -- Install configuration: "Release"
+[0.116s] -- Up-to-date: /home/nvidia/ros2_ws/src/ros2-keyboard/keyboard/install/keyboard/lib/keyboard/keyboard
+[0.116s] -- Up-to-date: /home/nvidia/ros2_ws/src/ros2-keyboard/keyboard/install/keyboard/lib/keyboard/keyboard_to_joy.py
+[0.116s] -- Up-to-date: /home/nvidia/ros2_ws/src/ros2-keyboard/keyboard/install/keyboard/share/keyboard/config
+[0.116s] -- Installing: /home/nvidia/ros2_ws/src/ros2-keyboard/keyboard/install/keyboard/share/keyboard/config/mapping_config.yaml
+[0.117s] -- Installing: /home/nvidia/ros2_ws/src/ros2-keyboard/keyboard/install/keyboard/share/keyboard/config/example_config.yaml
+[0.117s] -- Up-to-date: /home/nvidia/ros2_ws/src/ros2-keyboard/keyboard/install/keyboard/share/ament_index/resource_index/package_run_dependencies/keyboard
+[0.117s] -- Up-to-date: /home/nvidia/ros2_ws/src/ros2-keyboard/keyboard/install/keyboard/share/ament_index/resource_index/parent_prefix_path/keyboard
+[0.118s] -- Up-to-date: /home/nvidia/ros2_ws/src/ros2-keyboard/keyboard/install/keyboard/share/keyboard/environment/ament_prefix_path.sh
+[0.118s] -- Up-to-date: /home/nvidia/ros2_ws/src/ros2-keyboard/keyboard/install/keyboard/share/keyboard/environment/ament_prefix_path.dsv
+[0.118s] -- Up-to-date: /home/nvidia/ros2_ws/src/ros2-keyboard/keyboard/install/keyboard/share/keyboard/environment/path.sh
+[0.118s] -- Up-to-date: /home/nvidia/ros2_ws/src/ros2-keyboard/keyboard/install/keyboard/share/keyboard/environment/path.dsv
+[0.118s] -- Up-to-date: /home/nvidia/ros2_ws/src/ros2-keyboard/keyboard/install/keyboard/share/keyboard/local_setup.bash
+[0.119s] -- Up-to-date: /home/nvidia/ros2_ws/src/ros2-keyboard/keyboard/install/keyboard/share/keyboard/local_setup.sh
+[0.119s] -- Up-to-date: /home/nvidia/ros2_ws/src/ros2-keyboard/keyboard/install/keyboard/share/keyboard/local_setup.zsh
+[0.119s] -- Up-to-date: /home/nvidia/ros2_ws/src/ros2-keyboard/keyboard/install/keyboard/share/keyboard/local_setup.dsv
+[0.119s] -- Installing: /home/nvidia/ros2_ws/src/ros2-keyboard/keyboard/install/keyboard/share/keyboard/package.dsv
+[0.119s] -- Up-to-date: /home/nvidia/ros2_ws/src/ros2-keyboard/keyboard/install/keyboard/share/ament_index/resource_index/packages/keyboard
+[0.119s] -- Up-to-date: /home/nvidia/ros2_ws/src/ros2-keyboard/keyboard/install/keyboard/share/keyboard/cmake/keyboardConfig.cmake
+[0.119s] -- Up-to-date: /home/nvidia/ros2_ws/src/ros2-keyboard/keyboard/install/keyboard/share/keyboard/cmake/keyboardConfig-version.cmake
+[0.119s] -- Up-to-date: /home/nvidia/ros2_ws/src/ros2-keyboard/keyboard/install/keyboard/share/keyboard/package.xml
+[0.122s] Invoked command in '/home/nvidia/ros2_ws/src/ros2-keyboard/keyboard/build/keyboard' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nvidia/ros2_ws/install/keyboard_joy:/opt/ros/humble /usr/bin/cmake --install /home/nvidia/ros2_ws/src/ros2-keyboard/keyboard/build/keyboard

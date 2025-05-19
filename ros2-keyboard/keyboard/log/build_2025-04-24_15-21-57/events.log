@@ -1,0 +1,231 @@
+[0.000000] (-) TimerEvent: {}
+[0.000897] (keyboard) JobQueued: {'identifier': 'keyboard', 'dependencies': OrderedDict()}
+[0.001225] (keyboard) JobStarted: {'identifier': 'keyboard'}
+[0.017343] (keyboard) JobProgress: {'identifier': 'keyboard', 'progress': 'cmake'}
+[0.018203] (keyboard) Command: {'cmd': ['/usr/bin/cmake', '/home/nvidia/ros2_ws/src/ros2-keyboard/keyboard', '-DCMAKE_INSTALL_PREFIX=/home/nvidia/ros2_ws/src/ros2-keyboard/keyboard/install/keyboard'], 'cwd': '/home/nvidia/ros2_ws/src/ros2-keyboard/keyboard/build/keyboard', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'nvidia'), ('SSH_CLIENT', '192.168.1.2 36382 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/local/cuda-12.2/lib64:/home/nvidia/ros2_ws/install/zed_components/lib:/home/nvidia/ros2_ws/install/wiimote/lib:/home/nvidia/ros2_ws/install/wiimote_msgs/lib:/home/nvidia/ros2_ws/install/tcp_tunnel/lib:/home/nvidia/ros2_ws/install/spacenav/lib:/home/nvidia/ros2_ws/install/joy/lib:/home/nvidia/ros2_ws/install/keyboard_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/nvidia'), ('OLDPWD', '/home/nvidia/ros2_ws/src/ros2-keyboard/keyboard/config'), ('SSH_TTY', '/dev/pts/1'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/nvidia/ros2_ws/src/rby1_movement/install:/home/nvidia/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'nvidia'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '9'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/nvidia/.local/bin:/usr/local/cuda-12.2/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/nvidia/.local/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', 'localhost:11.0'), ('LANG', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '5'), ('AMENT_PREFIX_PATH', '/home/nvidia/ros2_ws/src/rby1_movement/install/rby1_movement:/home/nvidia/ros2_ws/install/zed_ros2:/home/nvidia/ros2_ws/install/zed_wrapper:/home/nvidia/ros2_ws/install/zed_components:/home/nvidia/ros2_ws/install/wiimote:/home/nvidia/ros2_ws/install/wiimote_msgs:/home/nvidia/ros2_ws/install/tcp_tunnel:/home/nvidia/ros2_ws/install/spacenav:/home/nvidia/ros2_ws/install/joy:/home/nvidia/ros2_ws/install/sdl2_vendor:/home/nvidia/ros2_ws/install/rby1_robot_state:/home/nvidia/ros2_ws/install/rby1_movement:/home/nvidia/ros2_ws/install/keyboard:/home/nvidia/ros2_ws/install/keyboard_msgs:/home/nvidia/ros2_ws/install/joy_linux:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/nvidia/ros2_ws/src/ros2-keyboard/keyboard/build/keyboard'), ('SSH_CONNECTION', '192.168.1.2 36382 192.168.1.3 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/nvidia/ros2_ws/install/wiimote_msgs/local/lib/python3.10/dist-packages:/home/nvidia/ros2_ws/install/tcp_tunnel/local/lib/python3.10/dist-packages:/home/nvidia/ros2_ws/install/keyboard_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/nvidia/ros2_ws/src/rby1_movement/install/rby1_movement:/home/nvidia/ros2_ws/install/zed_ros2:/home/nvidia/ros2_ws/install/zed_wrapper:/home/nvidia/ros2_ws/install/zed_components:/home/nvidia/ros2_ws/install/wiimote:/home/nvidia/ros2_ws/install/wiimote_msgs:/home/nvidia/ros2_ws/install/tcp_tunnel:/home/nvidia/ros2_ws/install/spacenav:/home/nvidia/ros2_ws/install/joy:/home/nvidia/ros2_ws/install/sdl2_vendor:/home/nvidia/ros2_ws/install/rby1_robot_state:/home/nvidia/ros2_ws/install/rby1_movement:/home/nvidia/ros2_ws/install/keyboard:/home/nvidia/ros2_ws/install/keyboard_msgs:/home/nvidia/ros2_ws/install/joy_linux:/opt/ros/humble')]), 'shell': False}
+[0.030471] (keyboard) StderrLine: {'line': b'\x1b[0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):\n'}
+[0.030887] (keyboard) StderrLine: {'line': b'  Compatibility with CMake < 3.10 will be removed from a future version of\n'}
+[0.031051] (keyboard) StderrLine: {'line': b'  CMake.\n'}
+[0.031178] (keyboard) StderrLine: {'line': b'\n'}
+[0.031292] (keyboard) StderrLine: {'line': b'  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax\n'}
+[0.031403] (keyboard) StderrLine: {'line': b'  to tell CMake that the project requires at least <min> but has been updated\n'}
+[0.031512] (keyboard) StderrLine: {'line': b'  to work with policies introduced by <max> or earlier.\n'}
+[0.031620] (keyboard) StderrLine: {'line': b'\n'}
+[0.031723] (keyboard) StderrLine: {'line': b'\x1b[0m\n'}
+[0.099452] (-) TimerEvent: {}
+[0.200153] (-) TimerEvent: {}
+[0.240148] (keyboard) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.300507] (-) TimerEvent: {}
+[0.401157] (-) TimerEvent: {}
+[0.406061] (keyboard) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.438226] (keyboard) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.501332] (-) TimerEvent: {}
+[0.573488] (keyboard) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.601447] (-) TimerEvent: {}
+[0.620732] (keyboard) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.623209] (keyboard) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.625074] (keyboard) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.664038] (keyboard) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.701564] (-) TimerEvent: {}
+[0.802148] (-) TimerEvent: {}
+[0.818146] (keyboard) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.865960] (keyboard) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.866906] (keyboard) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.868894] (keyboard) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.902242] (-) TimerEvent: {}
+[0.923700] (keyboard) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.002741] (-) TimerEvent: {}
+[1.103671] (-) TimerEvent: {}
+[1.204635] (-) TimerEvent: {}
+[1.241633] (keyboard) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter\n'}
+[1.304754] (-) TimerEvent: {}
+[1.405413] (-) TimerEvent: {}
+[1.506352] (-) TimerEvent: {}
+[1.606826] (-) TimerEvent: {}
+[1.669204] (keyboard) StdoutLine: {'line': b'-- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[1.706928] (-) TimerEvent: {}
+[1.807559] (-) TimerEvent: {}
+[1.848832] (keyboard) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.873191] (keyboard) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.907642] (-) TimerEvent: {}
+[1.908294] (keyboard) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.952735] (keyboard) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.007991] (-) TimerEvent: {}
+[2.011376] (keyboard) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.108150] (-) TimerEvent: {}
+[2.190437] (keyboard) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[2.205193] (keyboard) StdoutLine: {'line': b'-- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)\n'}
+[2.208225] (-) TimerEvent: {}
+[2.291715] (keyboard) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_cyclonedds_cpp' as default\n"}
+[2.308324] (-) TimerEvent: {}
+[2.349616] (keyboard) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[2.408784] (-) TimerEvent: {}
+[2.476198] (keyboard) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[2.478725] (keyboard) StdoutLine: {'line': b'-- Found Threads: TRUE\n'}
+[2.508866] (-) TimerEvent: {}
+[2.609468] (-) TimerEvent: {}
+[2.709892] (-) TimerEvent: {}
+[2.721249] (keyboard) StdoutLine: {'line': b'-- Found SDL: /usr/lib/aarch64-linux-gnu/libSDLmain.a;/usr/lib/aarch64-linux-gnu/libSDL.so (found version "1.2.15")\n'}
+[2.727383] (keyboard) StdoutLine: {'line': b'-- Found keyboard_msgs: 1.0.0 (/home/nvidia/ros2_ws/install/keyboard_msgs/share/keyboard_msgs/cmake)\n'}
+[2.775305] (keyboard) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[2.810065] (-) TimerEvent: {}
+[2.910680] (-) TimerEvent: {}
+[3.011474] (-) TimerEvent: {}
+[3.045153] (keyboard) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[3.056387] (keyboard) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[3.056936] (keyboard) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/nvidia/ros2_ws/src/ros2-keyboard/keyboard/include>\n'}
+[3.057231] (keyboard) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[3.066183] (keyboard) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[3.066605] (keyboard) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[3.068790] (keyboard) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[3.072236] (keyboard) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[3.074512] (keyboard) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[3.083795] (keyboard) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[3.084125] (keyboard) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[3.086373] (keyboard) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[3.089844] (keyboard) StdoutLine: {'line': b'-- Configuring done (3.1s)\n'}
+[3.111535] (-) TimerEvent: {}
+[3.112420] (keyboard) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[3.116734] (keyboard) StdoutLine: {'line': b'-- Build files have been written to: /home/nvidia/ros2_ws/src/ros2-keyboard/keyboard/build/keyboard\n'}
+[3.136199] (keyboard) CommandEnded: {'returncode': 0}
+[3.140003] (keyboard) JobProgress: {'identifier': 'keyboard', 'progress': 'build'}
+[3.140704] (keyboard) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/nvidia/ros2_ws/src/ros2-keyboard/keyboard/build/keyboard', '--', '-j8', '-l8'], 'cwd': '/home/nvidia/ros2_ws/src/ros2-keyboard/keyboard/build/keyboard', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'nvidia'), ('SSH_CLIENT', '192.168.1.2 36382 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/local/cuda-12.2/lib64:/home/nvidia/ros2_ws/install/zed_components/lib:/home/nvidia/ros2_ws/install/wiimote/lib:/home/nvidia/ros2_ws/install/wiimote_msgs/lib:/home/nvidia/ros2_ws/install/tcp_tunnel/lib:/home/nvidia/ros2_ws/install/spacenav/lib:/home/nvidia/ros2_ws/install/joy/lib:/home/nvidia/ros2_ws/install/keyboard_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/nvidia'), ('OLDPWD', '/home/nvidia/ros2_ws/src/ros2-keyboard/keyboard/config'), ('SSH_TTY', '/dev/pts/1'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/nvidia/ros2_ws/src/rby1_movement/install:/home/nvidia/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'nvidia'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '9'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/nvidia/.local/bin:/usr/local/cuda-12.2/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/nvidia/.local/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', 'localhost:11.0'), ('LANG', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '5'), ('AMENT_PREFIX_PATH', '/home/nvidia/ros2_ws/src/rby1_movement/install/rby1_movement:/home/nvidia/ros2_ws/install/zed_ros2:/home/nvidia/ros2_ws/install/zed_wrapper:/home/nvidia/ros2_ws/install/zed_components:/home/nvidia/ros2_ws/install/wiimote:/home/nvidia/ros2_ws/install/wiimote_msgs:/home/nvidia/ros2_ws/install/tcp_tunnel:/home/nvidia/ros2_ws/install/spacenav:/home/nvidia/ros2_ws/install/joy:/home/nvidia/ros2_ws/install/sdl2_vendor:/home/nvidia/ros2_ws/install/rby1_robot_state:/home/nvidia/ros2_ws/install/rby1_movement:/home/nvidia/ros2_ws/install/keyboard:/home/nvidia/ros2_ws/install/keyboard_msgs:/home/nvidia/ros2_ws/install/joy_linux:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/nvidia/ros2_ws/src/ros2-keyboard/keyboard/build/keyboard'), ('SSH_CONNECTION', '192.168.1.2 36382 192.168.1.3 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/nvidia/ros2_ws/install/wiimote_msgs/local/lib/python3.10/dist-packages:/home/nvidia/ros2_ws/install/tcp_tunnel/local/lib/python3.10/dist-packages:/home/nvidia/ros2_ws/install/keyboard_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/nvidia/ros2_ws/src/rby1_movement/install/rby1_movement:/home/nvidia/ros2_ws/install/zed_ros2:/home/nvidia/ros2_ws/install/zed_wrapper:/home/nvidia/ros2_ws/install/zed_components:/home/nvidia/ros2_ws/install/wiimote:/home/nvidia/ros2_ws/install/wiimote_msgs:/home/nvidia/ros2_ws/install/tcp_tunnel:/home/nvidia/ros2_ws/install/spacenav:/home/nvidia/ros2_ws/install/joy:/home/nvidia/ros2_ws/install/sdl2_vendor:/home/nvidia/ros2_ws/install/rby1_robot_state:/home/nvidia/ros2_ws/install/rby1_movement:/home/nvidia/ros2_ws/install/keyboard:/home/nvidia/ros2_ws/install/keyboard_msgs:/home/nvidia/ros2_ws/install/joy_linux:/opt/ros/humble')]), 'shell': False}
+[3.199502] (keyboard) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/keyboard.dir/src/keyboard.cpp.o\x1b[0m\n'}
+[3.211677] (-) TimerEvent: {}
+[3.312255] (-) TimerEvent: {}
+[3.412860] (-) TimerEvent: {}
+[3.513459] (-) TimerEvent: {}
+[3.614168] (-) TimerEvent: {}
+[3.715018] (-) TimerEvent: {}
+[3.815610] (-) TimerEvent: {}
+[3.916239] (-) TimerEvent: {}
+[4.016841] (-) TimerEvent: {}
+[4.117471] (-) TimerEvent: {}
+[4.218084] (-) TimerEvent: {}
+[4.318701] (-) TimerEvent: {}
+[4.419293] (-) TimerEvent: {}
+[4.519908] (-) TimerEvent: {}
+[4.620555] (-) TimerEvent: {}
+[4.721207] (-) TimerEvent: {}
+[4.821822] (-) TimerEvent: {}
+[4.922455] (-) TimerEvent: {}
+[5.023104] (-) TimerEvent: {}
+[5.123781] (-) TimerEvent: {}
+[5.224445] (-) TimerEvent: {}
+[5.325313] (-) TimerEvent: {}
+[5.426184] (-) TimerEvent: {}
+[5.527051] (-) TimerEvent: {}
+[5.627942] (-) TimerEvent: {}
+[5.728582] (-) TimerEvent: {}
+[5.829251] (-) TimerEvent: {}
+[5.930122] (-) TimerEvent: {}
+[6.030782] (-) TimerEvent: {}
+[6.131654] (-) TimerEvent: {}
+[6.232547] (-) TimerEvent: {}
+[6.333419] (-) TimerEvent: {}
+[6.434295] (-) TimerEvent: {}
+[6.535165] (-) TimerEvent: {}
+[6.636036] (-) TimerEvent: {}
+[6.736689] (-) TimerEvent: {}
+[6.837353] (-) TimerEvent: {}
+[6.938218] (-) TimerEvent: {}
+[7.038881] (-) TimerEvent: {}
+[7.139744] (-) TimerEvent: {}
+[7.240624] (-) TimerEvent: {}
+[7.341500] (-) TimerEvent: {}
+[7.442364] (-) TimerEvent: {}
+[7.543238] (-) TimerEvent: {}
+[7.643927] (-) TimerEvent: {}
+[7.744574] (-) TimerEvent: {}
+[7.845228] (-) TimerEvent: {}
+[7.946101] (-) TimerEvent: {}
+[8.046759] (-) TimerEvent: {}
+[8.147427] (-) TimerEvent: {}
+[8.248314] (-) TimerEvent: {}
+[8.349184] (-) TimerEvent: {}
+[8.450039] (-) TimerEvent: {}
+[8.550709] (-) TimerEvent: {}
+[8.651570] (-) TimerEvent: {}
+[8.752242] (-) TimerEvent: {}
+[8.852901] (-) TimerEvent: {}
+[8.953555] (-) TimerEvent: {}
+[9.054210] (-) TimerEvent: {}
+[9.154875] (-) TimerEvent: {}
+[9.255733] (-) TimerEvent: {}
+[9.356607] (-) TimerEvent: {}
+[9.457464] (-) TimerEvent: {}
+[9.558125] (-) TimerEvent: {}
+[9.658980] (-) TimerEvent: {}
+[9.759619] (-) TimerEvent: {}
+[9.860268] (-) TimerEvent: {}
+[9.960902] (-) TimerEvent: {}
+[10.061540] (-) TimerEvent: {}
+[10.162404] (-) TimerEvent: {}
+[10.263278] (-) TimerEvent: {}
+[10.364134] (-) TimerEvent: {}
+[10.465005] (-) TimerEvent: {}
+[10.565873] (-) TimerEvent: {}
+[10.666744] (-) TimerEvent: {}
+[10.767375] (-) TimerEvent: {}
+[10.868226] (-) TimerEvent: {}
+[10.969076] (-) TimerEvent: {}
+[11.069715] (-) TimerEvent: {}
+[11.170331] (-) TimerEvent: {}
+[11.270920] (-) TimerEvent: {}
+[11.371495] (-) TimerEvent: {}
+[11.472098] (-) TimerEvent: {}
+[11.572674] (-) TimerEvent: {}
+[11.673250] (-) TimerEvent: {}
+[11.773858] (-) TimerEvent: {}
+[11.874759] (-) TimerEvent: {}
+[11.975688] (-) TimerEvent: {}
+[12.076598] (-) TimerEvent: {}
+[12.177273] (-) TimerEvent: {}
+[12.277926] (-) TimerEvent: {}
+[12.378783] (-) TimerEvent: {}
+[12.479440] (-) TimerEvent: {}
+[12.580352] (-) TimerEvent: {}
+[12.681214] (-) TimerEvent: {}
+[12.782077] (-) TimerEvent: {}
+[12.882727] (-) TimerEvent: {}
+[12.983343] (-) TimerEvent: {}
+[13.083928] (-) TimerEvent: {}
+[13.184501] (-) TimerEvent: {}
+[13.285118] (-) TimerEvent: {}
+[13.385740] (-) TimerEvent: {}
+[13.486327] (-) TimerEvent: {}
+[13.582374] (keyboard) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable keyboard\x1b[0m\n'}
+[13.586408] (-) TimerEvent: {}
+[13.687210] (-) TimerEvent: {}
+[13.788006] (-) TimerEvent: {}
+[13.888587] (keyboard) StdoutLine: {'line': b'[100%] Built target keyboard\n'}
+[13.889310] (-) TimerEvent: {}
+[13.902346] (keyboard) CommandEnded: {'returncode': 0}
+[13.903855] (keyboard) JobProgress: {'identifier': 'keyboard', 'progress': 'install'}
+[13.914971] (keyboard) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/nvidia/ros2_ws/src/ros2-keyboard/keyboard/build/keyboard'], 'cwd': '/home/nvidia/ros2_ws/src/ros2-keyboard/keyboard/build/keyboard', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'nvidia'), ('SSH_CLIENT', '192.168.1.2 36382 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/local/cuda-12.2/lib64:/home/nvidia/ros2_ws/install/zed_components/lib:/home/nvidia/ros2_ws/install/wiimote/lib:/home/nvidia/ros2_ws/install/wiimote_msgs/lib:/home/nvidia/ros2_ws/install/tcp_tunnel/lib:/home/nvidia/ros2_ws/install/spacenav/lib:/home/nvidia/ros2_ws/install/joy/lib:/home/nvidia/ros2_ws/install/keyboard_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/nvidia'), ('OLDPWD', '/home/nvidia/ros2_ws/src/ros2-keyboard/keyboard/config'), ('SSH_TTY', '/dev/pts/1'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/nvidia/ros2_ws/src/rby1_movement/install:/home/nvidia/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'nvidia'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '9'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/nvidia/.local/bin:/usr/local/cuda-12.2/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/nvidia/.local/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', 'localhost:11.0'), ('LANG', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '5'), ('AMENT_PREFIX_PATH', '/home/nvidia/ros2_ws/src/rby1_movement/install/rby1_movement:/home/nvidia/ros2_ws/install/zed_ros2:/home/nvidia/ros2_ws/install/zed_wrapper:/home/nvidia/ros2_ws/install/zed_components:/home/nvidia/ros2_ws/install/wiimote:/home/nvidia/ros2_ws/install/wiimote_msgs:/home/nvidia/ros2_ws/install/tcp_tunnel:/home/nvidia/ros2_ws/install/spacenav:/home/nvidia/ros2_ws/install/joy:/home/nvidia/ros2_ws/install/sdl2_vendor:/home/nvidia/ros2_ws/install/rby1_robot_state:/home/nvidia/ros2_ws/install/rby1_movement:/home/nvidia/ros2_ws/install/keyboard:/home/nvidia/ros2_ws/install/keyboard_msgs:/home/nvidia/ros2_ws/install/joy_linux:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/nvidia/ros2_ws/src/ros2-keyboard/keyboard/build/keyboard'), ('SSH_CONNECTION', '192.168.1.2 36382 192.168.1.3 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/nvidia/ros2_ws/install/wiimote_msgs/local/lib/python3.10/dist-packages:/home/nvidia/ros2_ws/install/tcp_tunnel/local/lib/python3.10/dist-packages:/home/nvidia/ros2_ws/install/keyboard_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/nvidia/ros2_ws/src/rby1_movement/install/rby1_movement:/home/nvidia/ros2_ws/install/zed_ros2:/home/nvidia/ros2_ws/install/zed_wrapper:/home/nvidia/ros2_ws/install/zed_components:/home/nvidia/ros2_ws/install/wiimote:/home/nvidia/ros2_ws/install/wiimote_msgs:/home/nvidia/ros2_ws/install/tcp_tunnel:/home/nvidia/ros2_ws/install/spacenav:/home/nvidia/ros2_ws/install/joy:/home/nvidia/ros2_ws/install/sdl2_vendor:/home/nvidia/ros2_ws/install/rby1_robot_state:/home/nvidia/ros2_ws/install/rby1_movement:/home/nvidia/ros2_ws/install/keyboard:/home/nvidia/ros2_ws/install/keyboard_msgs:/home/nvidia/ros2_ws/install/joy_linux:/opt/ros/humble')]), 'shell': False}
+[13.924964] (keyboard) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[13.925453] (keyboard) StdoutLine: {'line': b'-- Installing: /home/nvidia/ros2_ws/src/ros2-keyboard/keyboard/install/keyboard/lib/keyboard/keyboard\n'}
+[13.926842] (keyboard) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/nvidia/ros2_ws/src/ros2-keyboard/keyboard/install/keyboard/lib/keyboard/keyboard" to ""\n'}
+[13.927038] (keyboard) StdoutLine: {'line': b'-- Installing: /home/nvidia/ros2_ws/src/ros2-keyboard/keyboard/install/keyboard/lib/keyboard/keyboard_to_joy.py\n'}
+[13.928864] (keyboard) StdoutLine: {'line': b'-- Installing: /home/nvidia/ros2_ws/src/ros2-keyboard/keyboard/install/keyboard/share/keyboard/config\n'}
+[13.929199] (keyboard) StdoutLine: {'line': b'-- Installing: /home/nvidia/ros2_ws/src/ros2-keyboard/keyboard/install/keyboard/share/keyboard/config/mapping_config.yaml\n'}
+[13.929386] (keyboard) StdoutLine: {'line': b'-- Installing: /home/nvidia/ros2_ws/src/ros2-keyboard/keyboard/install/keyboard/share/keyboard/config/example_config.yaml\n'}
+[13.929801] (keyboard) StdoutLine: {'line': b'-- Installing: /home/nvidia/ros2_ws/src/ros2-keyboard/keyboard/install/keyboard/share/ament_index/resource_index/package_run_dependencies/keyboard\n'}
+[13.930166] (keyboard) StdoutLine: {'line': b'-- Installing: /home/nvidia/ros2_ws/src/ros2-keyboard/keyboard/install/keyboard/share/ament_index/resource_index/parent_prefix_path/keyboard\n'}
+[13.930526] (keyboard) StdoutLine: {'line': b'-- Installing: /home/nvidia/ros2_ws/src/ros2-keyboard/keyboard/install/keyboard/share/keyboard/environment/ament_prefix_path.sh\n'}
+[13.930781] (keyboard) StdoutLine: {'line': b'-- Installing: /home/nvidia/ros2_ws/src/ros2-keyboard/keyboard/install/keyboard/share/keyboard/environment/ament_prefix_path.dsv\n'}
+[13.931034] (keyboard) StdoutLine: {'line': b'-- Installing: /home/nvidia/ros2_ws/src/ros2-keyboard/keyboard/install/keyboard/share/keyboard/environment/path.sh\n'}
+[13.931286] (keyboard) StdoutLine: {'line': b'-- Installing: /home/nvidia/ros2_ws/src/ros2-keyboard/keyboard/install/keyboard/share/keyboard/environment/path.dsv\n'}
+[13.931536] (keyboard) StdoutLine: {'line': b'-- Installing: /home/nvidia/ros2_ws/src/ros2-keyboard/keyboard/install/keyboard/share/keyboard/local_setup.bash\n'}
+[13.931839] (keyboard) StdoutLine: {'line': b'-- Installing: /home/nvidia/ros2_ws/src/ros2-keyboard/keyboard/install/keyboard/share/keyboard/local_setup.sh\n'}
+[13.932124] (keyboard) StdoutLine: {'line': b'-- Installing: /home/nvidia/ros2_ws/src/ros2-keyboard/keyboard/install/keyboard/share/keyboard/local_setup.zsh\n'}
+[13.932334] (keyboard) StdoutLine: {'line': b'-- Installing: /home/nvidia/ros2_ws/src/ros2-keyboard/keyboard/install/keyboard/share/keyboard/local_setup.dsv\n'}
+[13.932578] (keyboard) StdoutLine: {'line': b'-- Installing: /home/nvidia/ros2_ws/src/ros2-keyboard/keyboard/install/keyboard/share/keyboard/package.dsv\n'}
+[13.932911] (keyboard) StdoutLine: {'line': b'-- Installing: /home/nvidia/ros2_ws/src/ros2-keyboard/keyboard/install/keyboard/share/ament_index/resource_index/packages/keyboard\n'}
+[13.933239] (keyboard) StdoutLine: {'line': b'-- Installing: /home/nvidia/ros2_ws/src/ros2-keyboard/keyboard/install/keyboard/share/keyboard/cmake/keyboardConfig.cmake\n'}
+[13.933450] (keyboard) StdoutLine: {'line': b'-- Installing: /home/nvidia/ros2_ws/src/ros2-keyboard/keyboard/install/keyboard/share/keyboard/cmake/keyboardConfig-version.cmake\n'}
+[13.933682] (keyboard) StdoutLine: {'line': b'-- Installing: /home/nvidia/ros2_ws/src/ros2-keyboard/keyboard/install/keyboard/share/keyboard/package.xml\n'}
+[13.936239] (keyboard) CommandEnded: {'returncode': 0}
+[13.988140] (keyboard) JobEnded: {'identifier': 'keyboard', 'rc': 0}
+[13.990482] (-) TimerEvent: {}
+[13.990722] (-) EventReactorShutdown: {}
