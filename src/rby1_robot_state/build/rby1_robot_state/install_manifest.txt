@@ -1,0 +1,16 @@
+/home/nvidia/ros2_ws/src/rby1_robot_state/install/rby1_robot_state/lib/rby1_robot_state/robot_state_publisher
+/home/nvidia/ros2_ws/src/rby1_robot_state/install/rby1_robot_state/share/ament_index/resource_index/package_run_dependencies/rby1_robot_state
+/home/nvidia/ros2_ws/src/rby1_robot_state/install/rby1_robot_state/share/ament_index/resource_index/parent_prefix_path/rby1_robot_state
+/home/nvidia/ros2_ws/src/rby1_robot_state/install/rby1_robot_state/share/rby1_robot_state/environment/ament_prefix_path.sh
+/home/nvidia/ros2_ws/src/rby1_robot_state/install/rby1_robot_state/share/rby1_robot_state/environment/ament_prefix_path.dsv
+/home/nvidia/ros2_ws/src/rby1_robot_state/install/rby1_robot_state/share/rby1_robot_state/environment/path.sh
+/home/nvidia/ros2_ws/src/rby1_robot_state/install/rby1_robot_state/share/rby1_robot_state/environment/path.dsv
+/home/nvidia/ros2_ws/src/rby1_robot_state/install/rby1_robot_state/share/rby1_robot_state/local_setup.bash
+/home/nvidia/ros2_ws/src/rby1_robot_state/install/rby1_robot_state/share/rby1_robot_state/local_setup.sh
+/home/nvidia/ros2_ws/src/rby1_robot_state/install/rby1_robot_state/share/rby1_robot_state/local_setup.zsh
+/home/nvidia/ros2_ws/src/rby1_robot_state/install/rby1_robot_state/share/rby1_robot_state/local_setup.dsv
+/home/nvidia/ros2_ws/src/rby1_robot_state/install/rby1_robot_state/share/rby1_robot_state/package.dsv
+/home/nvidia/ros2_ws/src/rby1_robot_state/install/rby1_robot_state/share/ament_index/resource_index/packages/rby1_robot_state
+/home/nvidia/ros2_ws/src/rby1_robot_state/install/rby1_robot_state/share/rby1_robot_state/cmake/rby1_robot_stateConfig.cmake
+/home/nvidia/ros2_ws/src/rby1_robot_state/install/rby1_robot_state/share/rby1_robot_state/cmake/rby1_robot_stateConfig-version.cmake
+/home/nvidia/ros2_ws/src/rby1_robot_state/install/rby1_robot_state/share/rby1_robot_state/package.xml

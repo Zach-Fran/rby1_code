@@ -1,0 +1,22 @@
+[0.046s] Invoking command in '/home/nvidia/ros2_ws/src/rby1_robot_state/build/rby1_robot_state': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nvidia/ros2_ws/install/launch_param_builder:/home/nvidia/ros2_ws/install/keyboard_joy:/home/nvidia/rby1_ros2_ws/install/rby1_subscriber_pkg:/home/nvidia/rby1_ros2_ws/install/rby1_mobile_control:/opt/ros/humble /usr/bin/cmake --build /home/nvidia/ros2_ws/src/rby1_robot_state/build/rby1_robot_state -- -j8 -l8
+[0.323s] [100%] Built target robot_state_publisher
+[0.335s] Invoked command in '/home/nvidia/ros2_ws/src/rby1_robot_state/build/rby1_robot_state' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nvidia/ros2_ws/install/launch_param_builder:/home/nvidia/ros2_ws/install/keyboard_joy:/home/nvidia/rby1_ros2_ws/install/rby1_subscriber_pkg:/home/nvidia/rby1_ros2_ws/install/rby1_mobile_control:/opt/ros/humble /usr/bin/cmake --build /home/nvidia/ros2_ws/src/rby1_robot_state/build/rby1_robot_state -- -j8 -l8
+[0.348s] Invoking command in '/home/nvidia/ros2_ws/src/rby1_robot_state/build/rby1_robot_state': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nvidia/ros2_ws/install/launch_param_builder:/home/nvidia/ros2_ws/install/keyboard_joy:/home/nvidia/rby1_ros2_ws/install/rby1_subscriber_pkg:/home/nvidia/rby1_ros2_ws/install/rby1_mobile_control:/opt/ros/humble /usr/bin/cmake --install /home/nvidia/ros2_ws/src/rby1_robot_state/build/rby1_robot_state
+[0.357s] -- Install configuration: ""
+[0.357s] -- Up-to-date: /home/nvidia/ros2_ws/src/rby1_robot_state/install/rby1_robot_state/lib/rby1_robot_state/robot_state_publisher
+[0.359s] -- Up-to-date: /home/nvidia/ros2_ws/src/rby1_robot_state/install/rby1_robot_state/share/ament_index/resource_index/package_run_dependencies/rby1_robot_state
+[0.359s] -- Up-to-date: /home/nvidia/ros2_ws/src/rby1_robot_state/install/rby1_robot_state/share/ament_index/resource_index/parent_prefix_path/rby1_robot_state
+[0.360s] -- Up-to-date: /home/nvidia/ros2_ws/src/rby1_robot_state/install/rby1_robot_state/share/rby1_robot_state/environment/ament_prefix_path.sh
+[0.361s] -- Up-to-date: /home/nvidia/ros2_ws/src/rby1_robot_state/install/rby1_robot_state/share/rby1_robot_state/environment/ament_prefix_path.dsv
+[0.361s] -- Up-to-date: /home/nvidia/ros2_ws/src/rby1_robot_state/install/rby1_robot_state/share/rby1_robot_state/environment/path.sh
+[0.361s] -- Up-to-date: /home/nvidia/ros2_ws/src/rby1_robot_state/install/rby1_robot_state/share/rby1_robot_state/environment/path.dsv
+[0.361s] -- Up-to-date: /home/nvidia/ros2_ws/src/rby1_robot_state/install/rby1_robot_state/share/rby1_robot_state/local_setup.bash
+[0.361s] -- Up-to-date: /home/nvidia/ros2_ws/src/rby1_robot_state/install/rby1_robot_state/share/rby1_robot_state/local_setup.sh
+[0.361s] -- Up-to-date: /home/nvidia/ros2_ws/src/rby1_robot_state/install/rby1_robot_state/share/rby1_robot_state/local_setup.zsh
+[0.361s] -- Up-to-date: /home/nvidia/ros2_ws/src/rby1_robot_state/install/rby1_robot_state/share/rby1_robot_state/local_setup.dsv
+[0.362s] -- Installing: /home/nvidia/ros2_ws/src/rby1_robot_state/install/rby1_robot_state/share/rby1_robot_state/package.dsv
+[0.362s] -- Up-to-date: /home/nvidia/ros2_ws/src/rby1_robot_state/install/rby1_robot_state/share/ament_index/resource_index/packages/rby1_robot_state
+[0.363s] -- Up-to-date: /home/nvidia/ros2_ws/src/rby1_robot_state/install/rby1_robot_state/share/rby1_robot_state/cmake/rby1_robot_stateConfig.cmake
+[0.363s] -- Up-to-date: /home/nvidia/ros2_ws/src/rby1_robot_state/install/rby1_robot_state/share/rby1_robot_state/cmake/rby1_robot_stateConfig-version.cmake
+[0.363s] -- Up-to-date: /home/nvidia/ros2_ws/src/rby1_robot_state/install/rby1_robot_state/share/rby1_robot_state/package.xml
+[0.366s] Invoked command in '/home/nvidia/ros2_ws/src/rby1_robot_state/build/rby1_robot_state' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nvidia/ros2_ws/install/launch_param_builder:/home/nvidia/ros2_ws/install/keyboard_joy:/home/nvidia/rby1_ros2_ws/install/rby1_subscriber_pkg:/home/nvidia/rby1_ros2_ws/install/rby1_mobile_control:/opt/ros/humble /usr/bin/cmake --install /home/nvidia/ros2_ws/src/rby1_robot_state/build/rby1_robot_state

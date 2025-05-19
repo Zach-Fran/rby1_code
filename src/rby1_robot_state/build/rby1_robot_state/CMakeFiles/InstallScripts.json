@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/nvidia/ros2_ws/src/rby1_robot_state/build/rby1_robot_state/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

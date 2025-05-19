@@ -1,0 +1,203 @@
+[0.000000] (-) TimerEvent: {}
+[0.000639] (rby1_robot_state) JobQueued: {'identifier': 'rby1_robot_state', 'dependencies': OrderedDict()}
+[0.001099] (rby1_robot_state) JobStarted: {'identifier': 'rby1_robot_state'}
+[0.026275] (rby1_robot_state) JobProgress: {'identifier': 'rby1_robot_state', 'progress': 'cmake'}
+[0.027429] (rby1_robot_state) JobProgress: {'identifier': 'rby1_robot_state', 'progress': 'build'}
+[0.028573] (rby1_robot_state) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/nvidia/ros2_ws/src/rby1_robot_state/build/rby1_robot_state', '--', '-j8', '-l8'], 'cwd': '/home/nvidia/ros2_ws/src/rby1_robot_state/build/rby1_robot_state', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'nvidia'), ('SSH_CLIENT', '192.168.1.5 36020 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/local/cuda-12.2/lib64:/home/nvidia/ros2_ws/install/zed_components/lib:/home/nvidia/ros2_ws/install/wiimote/lib:/home/nvidia/ros2_ws/install/wiimote_msgs/lib:/home/nvidia/ros2_ws/install/tcp_tunnel/lib:/home/nvidia/ros2_ws/install/srdfdom/lib:/home/nvidia/ros2_ws/install/spacenav/lib:/home/nvidia/ros2_ws/install/joy/lib:/home/nvidia/ros2_ws/install/rosparam_shortcuts/lib:/home/nvidia/ros2_ws/install/ros_ign_interfaces/lib:/home/nvidia/ros2_ws/install/ros_gz_sim/lib:/home/nvidia/ros2_ws/install/ros_gz_bridge/lib:/home/nvidia/ros2_ws/install/ros_gz_interfaces/lib:/home/nvidia/ros2_ws/install/keyboard_msgs/lib:/home/nvidia/rby1_ros2_ws/install/rby1_hardware/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/nvidia'), ('OLDPWD', '/home/nvidia/ros2_ws/src/rby1_robot_state/src'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/nvidia/ros2_ws/src/rby1_robot_state/install:/home/nvidia/ros2_ws/install:/home/nvidia/ros2_ws/src/rby1_base_movement/install:/home/nvidia/rby1_ros2_ws/install:/home/nvidia/ros2_ws/src/rby1_arm_movement/install:/home/nvidia/ros2_ws/src/rby1_movement/install:/home/nvidia/ros2_ws/src/ros2-keyboard/keyboard/install:/home/nvidia/ros2_ws/src/rby1_nva_description/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'nvidia'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '47'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/nvidia/.local/bin:/usr/local/cuda-12.2/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/nvidia/.local/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', 'localhost:10.0'), ('LANG', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '5'), ('AMENT_PREFIX_PATH', '/home/nvidia/ros2_ws/src/rby1_robot_state/install/rby1_robot_state:/home/nvidia/ros2_ws/install/zed_ros2:/home/nvidia/ros2_ws/install/zed_wrapper:/home/nvidia/ros2_ws/install/zed_components:/home/nvidia/ros2_ws/install/wiimote:/home/nvidia/ros2_ws/install/wiimote_msgs:/home/nvidia/ros2_ws/install/test_ros_gz_bridge:/home/nvidia/ros2_ws/install/tcp_tunnel:/home/nvidia/ros2_ws/install/srdfdom:/home/nvidia/ros2_ws/install/spacenav:/home/nvidia/ros2_ws/install/joy:/home/nvidia/ros2_ws/install/sdl2_vendor:/home/nvidia/ros2_ws/install/rosparam_shortcuts:/home/nvidia/ros2_ws/install/ros_ign_interfaces:/home/nvidia/ros2_ws/install/ros_ign:/home/nvidia/ros2_ws/install/ros_ign_image:/home/nvidia/ros2_ws/install/ros_ign_gazebo_demos:/home/nvidia/ros2_ws/install/ros_ign_gazebo:/home/nvidia/ros2_ws/install/ros_ign_bridge:/home/nvidia/ros2_ws/install/ros_gz:/home/nvidia/ros2_ws/install/ros_gz_sim_demos:/home/nvidia/ros2_ws/install/rby1_nva_description:/home/nvidia/ros2_ws/install/ros_gz_sim:/home/nvidia/ros2_ws/install/ros_gz_image:/home/nvidia/ros2_ws/install/ros_gz_bridge:/home/nvidia/ros2_ws/install/ros_gz_interfaces:/home/nvidia/ros2_ws/install/rby1_robot_state:/home/nvidia/ros2_ws/install/rby1_movement:/home/nvidia/ros2_ws/install/rby1_moveit_client:/home/nvidia/ros2_ws/install/rby1_base_movement:/home/nvidia/ros2_ws/install/rby1_arm_movement:/home/nvidia/ros2_ws/install/launch_param_builder:/home/nvidia/ros2_ws/install/keyboard:/home/nvidia/ros2_ws/install/keyboard_msgs:/home/nvidia/ros2_ws/install/keyboard_joy:/home/nvidia/ros2_ws/install/joy_linux:/home/nvidia/ros2_ws/src/rby1_base_movement/install/rby1_base_movement:/home/nvidia/rby1_ros2_ws/install/rby1_subscriber_pkg:/home/nvidia/rby1_ros2_ws/install/rby1_bringup:/home/nvidia/rby1_ros2_ws/install/rby1_moveit_config:/home/nvidia/rby1_ros2_ws/install/rby1_mobile_control:/home/nvidia/rby1_ros2_ws/install/rby1_hardware:/home/nvidia/rby1_ros2_ws/install/rby1_description:/home/nvidia/ros2_ws/src/rby1_arm_movement/install/rby1_arm_movement:/home/nvidia/ros2_ws/src/rby1_movement/install/rby1_movement:/home/nvidia/ros2_ws/src/ros2-keyboard/keyboard/install/keyboard:/home/nvidia/ros2_ws/src/rby1_nva_description/install/rby1_nva_description:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('IGN_GAZEBO_RESOURCE_PATH', '/home/nvidia/ros2_ws/install/ros_gz_sim_demos/share'), ('PWD', '/home/nvidia/ros2_ws/src/rby1_robot_state/build/rby1_robot_state'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.1.5 36020 192.168.1.3 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/nvidia/ros2_ws/install/wiimote_msgs/local/lib/python3.10/dist-packages:/home/nvidia/ros2_ws/install/tcp_tunnel/local/lib/python3.10/dist-packages:/home/nvidia/ros2_ws/install/srdfdom/local/lib/python3.10/dist-packages:/home/nvidia/ros2_ws/install/ros_ign_interfaces/local/lib/python3.10/dist-packages:/home/nvidia/ros2_ws/install/ros_gz_interfaces/local/lib/python3.10/dist-packages:/home/nvidia/ros2_ws/install/launch_param_builder/lib/python3.10/site-packages:/home/nvidia/ros2_ws/install/keyboard_msgs/local/lib/python3.10/dist-packages:/home/nvidia/ros2_ws/install/keyboard_joy/lib/python3.10/site-packages:/home/nvidia/rby1_ros2_ws/install/rby1_subscriber_pkg/lib/python3.10/site-packages:/home/nvidia/rby1_ros2_ws/install/rby1_mobile_control/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/nvidia/ros2_ws/src/rby1_robot_state/install/rby1_robot_state:/home/nvidia/ros2_ws/install/zed_ros2:/home/nvidia/ros2_ws/install/zed_wrapper:/home/nvidia/ros2_ws/install/zed_components:/home/nvidia/ros2_ws/install/wiimote:/home/nvidia/ros2_ws/install/wiimote_msgs:/home/nvidia/ros2_ws/install/test_ros_gz_bridge:/home/nvidia/ros2_ws/install/tcp_tunnel:/home/nvidia/ros2_ws/install/srdfdom:/home/nvidia/ros2_ws/install/spacenav:/home/nvidia/ros2_ws/install/joy:/home/nvidia/ros2_ws/install/sdl2_vendor:/home/nvidia/ros2_ws/install/rosparam_shortcuts:/home/nvidia/ros2_ws/install/ros_ign_interfaces:/home/nvidia/ros2_ws/install/ros_ign:/home/nvidia/ros2_ws/install/ros_ign_image:/home/nvidia/ros2_ws/install/ros_ign_gazebo_demos:/home/nvidia/ros2_ws/install/ros_ign_gazebo:/home/nvidia/ros2_ws/install/ros_ign_bridge:/home/nvidia/ros2_ws/install/ros_gz:/home/nvidia/ros2_ws/install/ros_gz_sim_demos:/home/nvidia/ros2_ws/install/rby1_nva_description:/home/nvidia/ros2_ws/install/ros_gz_sim:/home/nvidia/ros2_ws/install/ros_gz_image:/home/nvidia/ros2_ws/install/ros_gz_bridge:/home/nvidia/ros2_ws/install/ros_gz_interfaces:/home/nvidia/ros2_ws/install/rby1_robot_state:/home/nvidia/ros2_ws/install/rby1_movement:/home/nvidia/ros2_ws/install/rby1_moveit_client:/home/nvidia/ros2_ws/install/rby1_base_movement:/home/nvidia/ros2_ws/install/rby1_arm_movement:/home/nvidia/ros2_ws/install/keyboard:/home/nvidia/ros2_ws/install/keyboard_msgs:/home/nvidia/ros2_ws/install/joy_linux:/home/nvidia/ros2_ws/src/rby1_base_movement/install/rby1_base_movement:/home/nvidia/rby1_ros2_ws/install/rby1_bringup:/home/nvidia/rby1_ros2_ws/install/rby1_moveit_config:/home/nvidia/rby1_ros2_ws/install/rby1_hardware:/home/nvidia/rby1_ros2_ws/install/rby1_description:/home/nvidia/ros2_ws/src/rby1_arm_movement/install/rby1_arm_movement:/home/nvidia/ros2_ws/src/rby1_movement/install/rby1_movement:/home/nvidia/ros2_ws/src/ros2-keyboard/keyboard/install/keyboard:/home/nvidia/ros2_ws/src/rby1_nva_description/install/rby1_nva_description:/home/nvidia/ros2_ws/install/launch_param_builder:/home/nvidia/ros2_ws/install/keyboard_joy:/home/nvidia/rby1_ros2_ws/install/rby1_subscriber_pkg:/home/nvidia/rby1_ros2_ws/install/rby1_mobile_control:/opt/ros/humble')]), 'shell': False}
+[0.099468] (-) TimerEvent: {}
+[0.114707] (rby1_robot_state) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/robot_state_publisher.dir/src/robot_state_publisher.cpp.o\x1b[0m\n'}
+[0.199600] (-) TimerEvent: {}
+[0.300206] (-) TimerEvent: {}
+[0.400794] (-) TimerEvent: {}
+[0.501375] (-) TimerEvent: {}
+[0.601979] (-) TimerEvent: {}
+[0.702593] (-) TimerEvent: {}
+[0.803209] (-) TimerEvent: {}
+[0.903834] (-) TimerEvent: {}
+[1.004471] (-) TimerEvent: {}
+[1.105101] (-) TimerEvent: {}
+[1.205692] (-) TimerEvent: {}
+[1.306256] (-) TimerEvent: {}
+[1.406801] (-) TimerEvent: {}
+[1.507340] (-) TimerEvent: {}
+[1.607908] (-) TimerEvent: {}
+[1.708498] (-) TimerEvent: {}
+[1.809071] (-) TimerEvent: {}
+[1.909660] (-) TimerEvent: {}
+[2.010273] (-) TimerEvent: {}
+[2.110906] (-) TimerEvent: {}
+[2.211512] (-) TimerEvent: {}
+[2.312104] (-) TimerEvent: {}
+[2.412703] (-) TimerEvent: {}
+[2.513292] (-) TimerEvent: {}
+[2.613878] (-) TimerEvent: {}
+[2.714499] (-) TimerEvent: {}
+[2.815167] (-) TimerEvent: {}
+[2.915804] (-) TimerEvent: {}
+[3.016479] (-) TimerEvent: {}
+[3.117154] (-) TimerEvent: {}
+[3.217806] (-) TimerEvent: {}
+[3.318428] (-) TimerEvent: {}
+[3.419080] (-) TimerEvent: {}
+[3.519713] (-) TimerEvent: {}
+[3.620272] (-) TimerEvent: {}
+[3.720923] (-) TimerEvent: {}
+[3.821550] (-) TimerEvent: {}
+[3.922174] (-) TimerEvent: {}
+[4.022794] (-) TimerEvent: {}
+[4.123395] (-) TimerEvent: {}
+[4.224018] (-) TimerEvent: {}
+[4.324624] (-) TimerEvent: {}
+[4.425207] (-) TimerEvent: {}
+[4.525812] (-) TimerEvent: {}
+[4.626399] (-) TimerEvent: {}
+[4.726976] (-) TimerEvent: {}
+[4.827546] (-) TimerEvent: {}
+[4.928169] (-) TimerEvent: {}
+[5.028815] (-) TimerEvent: {}
+[5.129417] (-) TimerEvent: {}
+[5.230010] (-) TimerEvent: {}
+[5.330577] (-) TimerEvent: {}
+[5.431127] (-) TimerEvent: {}
+[5.531706] (-) TimerEvent: {}
+[5.632305] (-) TimerEvent: {}
+[5.732899] (-) TimerEvent: {}
+[5.833477] (-) TimerEvent: {}
+[5.934037] (-) TimerEvent: {}
+[6.034611] (-) TimerEvent: {}
+[6.135256] (-) TimerEvent: {}
+[6.235878] (-) TimerEvent: {}
+[6.336488] (-) TimerEvent: {}
+[6.437076] (-) TimerEvent: {}
+[6.537655] (-) TimerEvent: {}
+[6.638293] (-) TimerEvent: {}
+[6.738908] (-) TimerEvent: {}
+[6.839518] (-) TimerEvent: {}
+[6.940125] (-) TimerEvent: {}
+[7.040760] (-) TimerEvent: {}
+[7.141384] (-) TimerEvent: {}
+[7.242001] (-) TimerEvent: {}
+[7.342590] (-) TimerEvent: {}
+[7.443180] (-) TimerEvent: {}
+[7.525015] (rby1_robot_state) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nvidia/ros2_ws/src/rby1_robot_state/src/robot_state_publisher.cpp:\x1b[m\x1b[K In lambda function:\n'}
+[7.525587] (rby1_robot_state) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nvidia/ros2_ws/src/rby1_robot_state/src/robot_state_publisher.cpp:57:55:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Kto_string(const value_type&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.525733] (rby1_robot_state) StderrLine: {'line': b'   57 |                     msg->name.push_back(\x1b[01;31m\x1b[Kstd::to_string(JOINT_NAMES[i])\x1b[m\x1b[K);\n'}
+[7.526107] (rby1_robot_state) StderrLine: {'line': b'      |                                         \x1b[01;31m\x1b[K~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.526350] (rby1_robot_state) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_parameters_interface.hpp:28\x1b[m\x1b[K,\n'}
+[7.526462] (rby1_robot_state) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:54\x1b[m\x1b[K,\n'}
+[7.526565] (rby1_robot_state) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[7.526664] (rby1_robot_state) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[7.526760] (rby1_robot_state) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[7.526852] (rby1_robot_state) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/ros2_ws/src/rby1_robot_state/src/robot_state_publisher.cpp:2\x1b[m\x1b[K:\n'}
+[7.526946] (rby1_robot_state) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/parameter.hpp:289:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::string std::to_string(const rclcpp::Parameter&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.527043] (rby1_robot_state) StderrLine: {'line': b'  289 | \x1b[01;36m\x1b[Kto_string\x1b[m\x1b[K(const rclcpp::Parameter & param);\n'}
+[7.527135] (rby1_robot_state) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[7.527227] (rby1_robot_state) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/parameter.hpp:289:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kconst value_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst std::__cxx11::basic_string<char>\x1b[m\x1b[K\xe2\x80\x99} to \xe2\x80\x98\x1b[01m\x1b[Kconst rclcpp::Parameter&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.527331] (rby1_robot_state) StderrLine: {'line': b'  289 | to_string(\x1b[01;36m\x1b[Kconst rclcpp::Parameter & param\x1b[m\x1b[K);\n'}
+[7.527423] (rby1_robot_state) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~\x1b[m\x1b[K\n'}
+[7.527515] (rby1_robot_state) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/parameter.hpp:294:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::string std::to_string(const std::vector<rclcpp::Parameter>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.527609] (rby1_robot_state) StderrLine: {'line': b'  294 | \x1b[01;36m\x1b[Kto_string\x1b[m\x1b[K(const std::vector<rclcpp::Parameter> & parameters);\n'}
+[7.527701] (rby1_robot_state) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[7.527791] (rby1_robot_state) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/parameter.hpp:294:50:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kconst value_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst std::__cxx11::basic_string<char>\x1b[m\x1b[K\xe2\x80\x99} to \xe2\x80\x98\x1b[01m\x1b[Kconst std::vector<rclcpp::Parameter>&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.527912] (rby1_robot_state) StderrLine: {'line': b'  294 | to_string(\x1b[01;36m\x1b[Kconst std::vector<rclcpp::Parameter> & parameters\x1b[m\x1b[K);\n'}
+[7.528004] (rby1_robot_state) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.528096] (rby1_robot_state) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/string:55\x1b[m\x1b[K,\n'}
+[7.528187] (rby1_robot_state) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/stdexcept:39\x1b[m\x1b[K,\n'}
+[7.528277] (rby1_robot_state) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/system_error:41\x1b[m\x1b[K,\n'}
+[7.528369] (rby1_robot_state) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/mutex:42\x1b[m\x1b[K,\n'}
+[7.528461] (rby1_robot_state) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/future:38\x1b[m\x1b[K,\n'}
+[7.528581] (rby1_robot_state) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:18\x1b[m\x1b[K,\n'}
+[7.528685] (rby1_robot_state) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[7.528777] (rby1_robot_state) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nvidia/ros2_ws/src/rby1_robot_state/src/robot_state_publisher.cpp:2\x1b[m\x1b[K:\n'}
+[7.528868] (rby1_robot_state) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/basic_string.h:6660:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::string std::__cxx11::to_string(int)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.528983] (rby1_robot_state) StderrLine: {'line': b' 6660 |   \x1b[01;36m\x1b[Kto_string\x1b[m\x1b[K(int __val)\n'}
+[7.529080] (rby1_robot_state) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[7.529172] (rby1_robot_state) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/basic_string.h:6660:17:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kconst value_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst std::__cxx11::basic_string<char>\x1b[m\x1b[K\xe2\x80\x99} to \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.529269] (rby1_robot_state) StderrLine: {'line': b' 6660 |   to_string(\x1b[01;36m\x1b[Kint __val\x1b[m\x1b[K)\n'}
+[7.529360] (rby1_robot_state) StderrLine: {'line': b'      |             \x1b[01;36m\x1b[K~~~~^~~~~\x1b[m\x1b[K\n'}
+[7.529452] (rby1_robot_state) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/basic_string.h:6671:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::string std::__cxx11::to_string(unsigned int)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.529563] (rby1_robot_state) StderrLine: {'line': b' 6671 |   \x1b[01;36m\x1b[Kto_string\x1b[m\x1b[K(unsigned __val)\n'}
+[7.529656] (rby1_robot_state) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[7.529758] (rby1_robot_state) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/basic_string.h:6671:22:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kconst value_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst std::__cxx11::basic_string<char>\x1b[m\x1b[K\xe2\x80\x99} to \xe2\x80\x98\x1b[01m\x1b[Kunsigned int\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.529855] (rby1_robot_state) StderrLine: {'line': b' 6671 |   to_string(\x1b[01;36m\x1b[Kunsigned __val\x1b[m\x1b[K)\n'}
+[7.529947] (rby1_robot_state) StderrLine: {'line': b'      |             \x1b[01;36m\x1b[K~~~~~~~~~^~~~~\x1b[m\x1b[K\n'}
+[7.530050] (rby1_robot_state) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/basic_string.h:6679:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::string std::__cxx11::to_string(long int)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.530145] (rby1_robot_state) StderrLine: {'line': b' 6679 |   \x1b[01;36m\x1b[Kto_string\x1b[m\x1b[K(long __val)\n'}
+[7.530236] (rby1_robot_state) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[7.530327] (rby1_robot_state) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/basic_string.h:6679:18:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kconst value_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst std::__cxx11::basic_string<char>\x1b[m\x1b[K\xe2\x80\x99} to \xe2\x80\x98\x1b[01m\x1b[Klong int\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.530424] (rby1_robot_state) StderrLine: {'line': b' 6679 |   to_string(\x1b[01;36m\x1b[Klong __val\x1b[m\x1b[K)\n'}
+[7.530514] (rby1_robot_state) StderrLine: {'line': b'      |             \x1b[01;36m\x1b[K~~~~~^~~~~\x1b[m\x1b[K\n'}
+[7.530603] (rby1_robot_state) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/basic_string.h:6690:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::string std::__cxx11::to_string(long unsigned int)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.530695] (rby1_robot_state) StderrLine: {'line': b' 6690 |   \x1b[01;36m\x1b[Kto_string\x1b[m\x1b[K(unsigned long __val)\n'}
+[7.530785] (rby1_robot_state) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[7.530875] (rby1_robot_state) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/basic_string.h:6690:27:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kconst value_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst std::__cxx11::basic_string<char>\x1b[m\x1b[K\xe2\x80\x99} to \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.530968] (rby1_robot_state) StderrLine: {'line': b' 6690 |   to_string(\x1b[01;36m\x1b[Kunsigned long __val\x1b[m\x1b[K)\n'}
+[7.531059] (rby1_robot_state) StderrLine: {'line': b'      |             \x1b[01;36m\x1b[K~~~~~~~~~~~~~~^~~~~\x1b[m\x1b[K\n'}
+[7.531148] (rby1_robot_state) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/basic_string.h:6698:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::string std::__cxx11::to_string(long long int)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.531241] (rby1_robot_state) StderrLine: {'line': b' 6698 |   \x1b[01;36m\x1b[Kto_string\x1b[m\x1b[K(long long __val)\n'}
+[7.531332] (rby1_robot_state) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[7.531422] (rby1_robot_state) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/basic_string.h:6698:23:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kconst value_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst std::__cxx11::basic_string<char>\x1b[m\x1b[K\xe2\x80\x99} to \xe2\x80\x98\x1b[01m\x1b[Klong long int\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.531517] (rby1_robot_state) StderrLine: {'line': b' 6698 |   to_string(\x1b[01;36m\x1b[Klong long __val\x1b[m\x1b[K)\n'}
+[7.531607] (rby1_robot_state) StderrLine: {'line': b'      |             \x1b[01;36m\x1b[K~~~~~~~~~~^~~~~\x1b[m\x1b[K\n'}
+[7.531697] (rby1_robot_state) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/basic_string.h:6710:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::string std::__cxx11::to_string(long long unsigned int)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.531790] (rby1_robot_state) StderrLine: {'line': b' 6710 |   \x1b[01;36m\x1b[Kto_string\x1b[m\x1b[K(unsigned long long __val)\n'}
+[7.531883] (rby1_robot_state) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[7.531990] (rby1_robot_state) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/basic_string.h:6710:32:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kconst value_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst std::__cxx11::basic_string<char>\x1b[m\x1b[K\xe2\x80\x99} to \xe2\x80\x98\x1b[01m\x1b[Klong long unsigned int\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.532084] (rby1_robot_state) StderrLine: {'line': b' 6710 |   to_string(\x1b[01;36m\x1b[Kunsigned long long __val\x1b[m\x1b[K)\n'}
+[7.532173] (rby1_robot_state) StderrLine: {'line': b'      |             \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~^~~~~\x1b[m\x1b[K\n'}
+[7.532273] (rby1_robot_state) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/basic_string.h:6721:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::string std::__cxx11::to_string(float)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.532366] (rby1_robot_state) StderrLine: {'line': b' 6721 |   \x1b[01;36m\x1b[Kto_string\x1b[m\x1b[K(float __val)\n'}
+[7.532453] (rby1_robot_state) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[7.532553] (rby1_robot_state) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/basic_string.h:6721:19:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kconst value_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst std::__cxx11::basic_string<char>\x1b[m\x1b[K\xe2\x80\x99} to \xe2\x80\x98\x1b[01m\x1b[Kfloat\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.532659] (rby1_robot_state) StderrLine: {'line': b' 6721 |   to_string(\x1b[01;36m\x1b[Kfloat __val\x1b[m\x1b[K)\n'}
+[7.532753] (rby1_robot_state) StderrLine: {'line': b'      |             \x1b[01;36m\x1b[K~~~~~~^~~~~\x1b[m\x1b[K\n'}
+[7.532844] (rby1_robot_state) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/basic_string.h:6730:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::string std::__cxx11::to_string(double)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.532938] (rby1_robot_state) StderrLine: {'line': b' 6730 |   \x1b[01;36m\x1b[Kto_string\x1b[m\x1b[K(double __val)\n'}
+[7.533028] (rby1_robot_state) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[7.533117] (rby1_robot_state) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/basic_string.h:6730:20:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kconst value_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst std::__cxx11::basic_string<char>\x1b[m\x1b[K\xe2\x80\x99} to \xe2\x80\x98\x1b[01m\x1b[Kdouble\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.533223] (rby1_robot_state) StderrLine: {'line': b' 6730 |   to_string(\x1b[01;36m\x1b[Kdouble __val\x1b[m\x1b[K)\n'}
+[7.533328] (rby1_robot_state) StderrLine: {'line': b'      |             \x1b[01;36m\x1b[K~~~~~~~^~~~~\x1b[m\x1b[K\n'}
+[7.533419] (rby1_robot_state) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/basic_string.h:6739:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::string std::__cxx11::to_string(long double)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.533512] (rby1_robot_state) StderrLine: {'line': b' 6739 |   \x1b[01;36m\x1b[Kto_string\x1b[m\x1b[K(long double __val)\n'}
+[7.533603] (rby1_robot_state) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[7.533692] (rby1_robot_state) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/basic_string.h:6739:25:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kconst value_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst std::__cxx11::basic_string<char>\x1b[m\x1b[K\xe2\x80\x99} to \xe2\x80\x98\x1b[01m\x1b[Klong double\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.533788] (rby1_robot_state) StderrLine: {'line': b' 6739 |   to_string(\x1b[01;36m\x1b[Klong double __val\x1b[m\x1b[K)\n'}
+[7.533889] (rby1_robot_state) StderrLine: {'line': b'      |             \x1b[01;36m\x1b[K~~~~~~~~~~~~^~~~~\x1b[m\x1b[K\n'}
+[7.543268] (-) TimerEvent: {}
+[7.603866] (rby1_robot_state) StderrLine: {'line': b'/home/nvidia/ros2_ws/src/rby1_robot_state/src/robot_state_publisher.cpp: In instantiation of \xe2\x80\x98\x1b[01m\x1b[KRobotStatePublisher::RobotStatePublisher(std::shared_ptr<rb::Robot<rb::y1_model::A> >, std::unique_ptr<rb::RobotCommandStreamHandler<rb::y1_model::A> >)::<lambda(const auto:47&, const auto:48&)> [with auto:47 = rb::RobotState<rb::y1_model::A>; auto:48 = rb::ControlManagerState]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[7.604318] (rby1_robot_state) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/type_traits:2530:26:\x1b[m\x1b[K   required by substitution of \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Fn, class ... _Args> static std::__result_of_success<decltype (declval<_Fn>()((declval<_Args>)()...)), std::__invoke_other> std::__result_of_other_impl::_S_test(int) [with _Fn = RobotStatePublisher::RobotStatePublisher(std::shared_ptr<rb::Robot<rb::y1_model::A> >, std::unique_ptr<rb::RobotCommandStreamHandler<rb::y1_model::A> >)::<lambda(const auto:47&, const auto:48&)>&; _Args = {const rb::RobotState<rb::y1_model::A>&, const rb::ControlManagerState&}]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.604447] (rby1_robot_state) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/type_traits:2541:55:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstruct std::__result_of_impl<false, false, RobotStatePublisher::RobotStatePublisher(std::shared_ptr<rb::Robot<rb::y1_model::A> >, std::unique_ptr<rb::RobotCommandStreamHandler<rb::y1_model::A> >)::<lambda(const auto:47&, const auto:48&)>&, const rb::RobotState<rb::y1_model::A>&, const rb::ControlManagerState&>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.604577] (rby1_robot_state) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/std_function.h:348:9:\x1b[m\x1b[K   recursively required by substitution of \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Result, class _Ret> struct std::__is_invocable_impl<_Result, _Ret, true, std::__void_t<typename _CTp::type> > [with _Result = std::__invoke_result<RobotStatePublisher::RobotStatePublisher(std::shared_ptr<rb::Robot<rb::y1_model::A> >, std::unique_ptr<rb::RobotCommandStreamHandler<rb::y1_model::A> >)::<lambda(const auto:47&, const auto:48&)>&, const rb::RobotState<rb::y1_model::A>&, const rb::ControlManagerState&>; _Ret = void]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.604691] (rby1_robot_state) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/std_function.h:348:9:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstruct std::function<void(const rb::RobotState<rb::y1_model::A>&, const rb::ControlManagerState&)>::_Callable<RobotStatePublisher::RobotStatePublisher(std::shared_ptr<rb::Robot<rb::y1_model::A> >, std::unique_ptr<rb::RobotCommandStreamHandler<rb::y1_model::A> >)::<lambda(const auto:47&, const auto:48&)>, RobotStatePublisher::RobotStatePublisher(std::shared_ptr<rb::Robot<rb::y1_model::A> >, std::unique_ptr<rb::RobotCommandStreamHandler<rb::y1_model::A> >)::<lambda(const auto:47&, const auto:48&)>, std::__invoke_result<RobotStatePublisher::RobotStatePublisher(std::shared_ptr<rb::Robot<rb::y1_model::A> >, std::unique_ptr<rb::RobotCommandStreamHandler<rb::y1_model::A> >)::<lambda(const auto:47&, const auto:48&)>&, const rb::RobotState<rb::y1_model::A>&, const rb::ControlManagerState&> >\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.604832] (rby1_robot_state) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/std_function.h:353:8:\x1b[m\x1b[K   required by substitution of \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Res, class ... _ArgTypes> template<class _Cond, class _Tp> using _Requires = std::__enable_if_t<_Cond::value, _Tp> [with _Cond = std::function<void(const rb::RobotState<rb::y1_model::A>&, const rb::ControlManagerState&)>::_Callable<RobotStatePublisher::RobotStatePublisher(std::shared_ptr<rb::Robot<rb::y1_model::A> >, std::unique_ptr<rb::RobotCommandStreamHandler<rb::y1_model::A> >)::<lambda(const auto:47&, const auto:48&)>, RobotStatePublisher::RobotStatePublisher(std::shared_ptr<rb::Robot<rb::y1_model::A> >, std::unique_ptr<rb::RobotCommandStreamHandler<rb::y1_model::A> >)::<lambda(const auto:47&, const auto:48&)>, std::__invoke_result<RobotStatePublisher::RobotStatePublisher(std::shared_ptr<rb::Robot<rb::y1_model::A> >, std::unique_ptr<rb::RobotCommandStreamHandler<rb::y1_model::A> >)::<lambda(const auto:47&, const auto:48&)>&, const rb::RobotState<rb::y1_model::A>&, const rb::ControlManagerState&> >; _Tp = void; _Res = void; _ArgTypes = {const rb::RobotState<rb::y1_model::A>&, const rb::ControlManagerState&}]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.604985] (rby1_robot_state) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/std_function.h:434:9:\x1b[m\x1b[K   required by substitution of \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Functor, class _Constraints> std::function<void(const rb::RobotState<rb::y1_model::A>&, const rb::ControlManagerState&)>::function(_Functor&&) [with _Functor = RobotStatePublisher::RobotStatePublisher(std::shared_ptr<rb::Robot<rb::y1_model::A> >, std::unique_ptr<rb::RobotCommandStreamHandler<rb::y1_model::A> >)::<lambda(const auto:47&, const auto:48&)>; _Constraints = <missing>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.605091] (rby1_robot_state) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nvidia/ros2_ws/src/rby1_robot_state/src/robot_state_publisher.cpp:39:32:\x1b[m\x1b[K   required from here\n'}
+[7.605190] (rby1_robot_state) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nvidia/ros2_ws/src/rby1_robot_state/src/robot_state_publisher.cpp:40:51:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kcontrol_manager\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[7.605291] (rby1_robot_state) StderrLine: {'line': b'   40 |             [this](const auto& state, \x1b[01;35m\x1b[Kconst auto& control_manager\x1b[m\x1b[K) {\n'}
+[7.605389] (rby1_robot_state) StderrLine: {'line': b'      |                                       \x1b[01;35m\x1b[K~~~~~~~~~~~~^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.643397] (-) TimerEvent: {}
+[7.743933] (-) TimerEvent: {}
+[7.844559] (-) TimerEvent: {}
+[7.945089] (-) TimerEvent: {}
+[8.045645] (-) TimerEvent: {}
+[8.146286] (-) TimerEvent: {}
+[8.247132] (-) TimerEvent: {}
+[8.347998] (-) TimerEvent: {}
+[8.448891] (-) TimerEvent: {}
+[8.549754] (-) TimerEvent: {}
+[8.650627] (-) TimerEvent: {}
+[8.751295] (-) TimerEvent: {}
+[8.851951] (-) TimerEvent: {}
+[8.952594] (-) TimerEvent: {}
+[9.053232] (-) TimerEvent: {}
+[9.154115] (-) TimerEvent: {}
+[9.254960] (-) TimerEvent: {}
+[9.355792] (-) TimerEvent: {}
+[9.456444] (-) TimerEvent: {}
+[9.510049] (rby1_robot_state) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/robot_state_publisher.dir/build.make:79: CMakeFiles/robot_state_publisher.dir/src/robot_state_publisher.cpp.o] Error 1\n'}
+[9.510826] (rby1_robot_state) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:153: CMakeFiles/robot_state_publisher.dir/all] Error 2\n'}
+[9.511362] (rby1_robot_state) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[9.517226] (rby1_robot_state) CommandEnded: {'returncode': 2}
+[9.557695] (-) TimerEvent: {}
+[9.560182] (rby1_robot_state) JobEnded: {'identifier': 'rby1_robot_state', 'rc': 2}
+[9.571612] (-) EventReactorShutdown: {}

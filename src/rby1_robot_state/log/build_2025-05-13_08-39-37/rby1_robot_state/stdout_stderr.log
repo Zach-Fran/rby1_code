@@ -1,0 +1,8 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/robot_state_publisher.dir/src/robot_state_publisher.cpp.o[0m
+[01m[K/home/nvidia/ros2_ws/src/rby1_robot_state/src/robot_state_publisher.cpp:[m[K In constructor ‘[01m[KRobotStatePublisher::RobotStatePublisher()[m[K’:
+[01m[K/home/nvidia/ros2_ws/src/rby1_robot_state/src/robot_state_publisher.cpp:12:22:[m[K [01;31m[Kerror: [m[K‘[01m[Krobot[m[K’ was not declared in this scope
+   12 |         std::cout << [01;31m[Krobot[m[K->GetRobotInfo().robot_version << std::endl;
+      |                      [01;31m[K^~~~~[m[K
+gmake[2]: *** [CMakeFiles/robot_state_publisher.dir/build.make:79: CMakeFiles/robot_state_publisher.dir/src/robot_state_publisher.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:153: CMakeFiles/robot_state_publisher.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

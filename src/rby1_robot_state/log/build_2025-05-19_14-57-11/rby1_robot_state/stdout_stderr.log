@@ -1,0 +1,18 @@
+[100%] Built target robot_state_publisher
+-- Install configuration: ""
+-- Up-to-date: /home/nvidia/ros2_ws/src/rby1_robot_state/install/rby1_robot_state/lib/rby1_robot_state/robot_state_publisher
+-- Up-to-date: /home/nvidia/ros2_ws/src/rby1_robot_state/install/rby1_robot_state/share/ament_index/resource_index/package_run_dependencies/rby1_robot_state
+-- Up-to-date: /home/nvidia/ros2_ws/src/rby1_robot_state/install/rby1_robot_state/share/ament_index/resource_index/parent_prefix_path/rby1_robot_state
+-- Up-to-date: /home/nvidia/ros2_ws/src/rby1_robot_state/install/rby1_robot_state/share/rby1_robot_state/environment/ament_prefix_path.sh
+-- Up-to-date: /home/nvidia/ros2_ws/src/rby1_robot_state/install/rby1_robot_state/share/rby1_robot_state/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/nvidia/ros2_ws/src/rby1_robot_state/install/rby1_robot_state/share/rby1_robot_state/environment/path.sh
+-- Up-to-date: /home/nvidia/ros2_ws/src/rby1_robot_state/install/rby1_robot_state/share/rby1_robot_state/environment/path.dsv
+-- Up-to-date: /home/nvidia/ros2_ws/src/rby1_robot_state/install/rby1_robot_state/share/rby1_robot_state/local_setup.bash
+-- Up-to-date: /home/nvidia/ros2_ws/src/rby1_robot_state/install/rby1_robot_state/share/rby1_robot_state/local_setup.sh
+-- Up-to-date: /home/nvidia/ros2_ws/src/rby1_robot_state/install/rby1_robot_state/share/rby1_robot_state/local_setup.zsh
+-- Up-to-date: /home/nvidia/ros2_ws/src/rby1_robot_state/install/rby1_robot_state/share/rby1_robot_state/local_setup.dsv
+-- Installing: /home/nvidia/ros2_ws/src/rby1_robot_state/install/rby1_robot_state/share/rby1_robot_state/package.dsv
+-- Up-to-date: /home/nvidia/ros2_ws/src/rby1_robot_state/install/rby1_robot_state/share/ament_index/resource_index/packages/rby1_robot_state
+-- Up-to-date: /home/nvidia/ros2_ws/src/rby1_robot_state/install/rby1_robot_state/share/rby1_robot_state/cmake/rby1_robot_stateConfig.cmake
+-- Up-to-date: /home/nvidia/ros2_ws/src/rby1_robot_state/install/rby1_robot_state/share/rby1_robot_state/cmake/rby1_robot_stateConfig-version.cmake
+-- Up-to-date: /home/nvidia/ros2_ws/src/rby1_robot_state/install/rby1_robot_state/share/rby1_robot_state/package.xml

@@ -1,0 +1,21 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/robot_state_publisher.dir/src/robot_state_publisher.cpp.o[0m
+[100%] [32m[1mLinking CXX executable robot_state_publisher[0m
+[100%] Built target robot_state_publisher
+-- Install configuration: ""
+-- Installing: /home/nvidia/ros2_ws/src/rby1_robot_state/install/rby1_robot_state/lib/rby1_robot_state/robot_state_publisher
+-- Set non-toolchain portion of runtime path of "/home/nvidia/ros2_ws/src/rby1_robot_state/install/rby1_robot_state/lib/rby1_robot_state/robot_state_publisher" to ""
+-- Installing: /home/nvidia/ros2_ws/src/rby1_robot_state/install/rby1_robot_state/share/ament_index/resource_index/package_run_dependencies/rby1_robot_state
+-- Installing: /home/nvidia/ros2_ws/src/rby1_robot_state/install/rby1_robot_state/share/ament_index/resource_index/parent_prefix_path/rby1_robot_state
+-- Installing: /home/nvidia/ros2_ws/src/rby1_robot_state/install/rby1_robot_state/share/rby1_robot_state/environment/ament_prefix_path.sh
+-- Installing: /home/nvidia/ros2_ws/src/rby1_robot_state/install/rby1_robot_state/share/rby1_robot_state/environment/ament_prefix_path.dsv
+-- Installing: /home/nvidia/ros2_ws/src/rby1_robot_state/install/rby1_robot_state/share/rby1_robot_state/environment/path.sh
+-- Installing: /home/nvidia/ros2_ws/src/rby1_robot_state/install/rby1_robot_state/share/rby1_robot_state/environment/path.dsv
+-- Installing: /home/nvidia/ros2_ws/src/rby1_robot_state/install/rby1_robot_state/share/rby1_robot_state/local_setup.bash
+-- Installing: /home/nvidia/ros2_ws/src/rby1_robot_state/install/rby1_robot_state/share/rby1_robot_state/local_setup.sh
+-- Installing: /home/nvidia/ros2_ws/src/rby1_robot_state/install/rby1_robot_state/share/rby1_robot_state/local_setup.zsh
+-- Installing: /home/nvidia/ros2_ws/src/rby1_robot_state/install/rby1_robot_state/share/rby1_robot_state/local_setup.dsv
+-- Installing: /home/nvidia/ros2_ws/src/rby1_robot_state/install/rby1_robot_state/share/rby1_robot_state/package.dsv
+-- Installing: /home/nvidia/ros2_ws/src/rby1_robot_state/install/rby1_robot_state/share/ament_index/resource_index/packages/rby1_robot_state
+-- Installing: /home/nvidia/ros2_ws/src/rby1_robot_state/install/rby1_robot_state/share/rby1_robot_state/cmake/rby1_robot_stateConfig.cmake
+-- Installing: /home/nvidia/ros2_ws/src/rby1_robot_state/install/rby1_robot_state/share/rby1_robot_state/cmake/rby1_robot_stateConfig-version.cmake
+-- Installing: /home/nvidia/ros2_ws/src/rby1_robot_state/install/rby1_robot_state/share/rby1_robot_state/package.xml

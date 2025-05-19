@@ -1,0 +1,122 @@
+[0.000000] (-) TimerEvent: {}
+[0.000822] (rby1_robot_state) JobQueued: {'identifier': 'rby1_robot_state', 'dependencies': OrderedDict()}
+[0.001578] (rby1_robot_state) JobStarted: {'identifier': 'rby1_robot_state'}
+[0.025971] (rby1_robot_state) JobProgress: {'identifier': 'rby1_robot_state', 'progress': 'cmake'}
+[0.027070] (rby1_robot_state) JobProgress: {'identifier': 'rby1_robot_state', 'progress': 'build'}
+[0.028211] (rby1_robot_state) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/nvidia/ros2_ws/src/rby1_robot_state/build/rby1_robot_state', '--', '-j8', '-l8'], 'cwd': '/home/nvidia/ros2_ws/src/rby1_robot_state/build/rby1_robot_state', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'nvidia'), ('SSH_CLIENT', '192.168.1.5 38120 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/local/cuda-12.2/lib64:/home/nvidia/ros2_ws/install/zed_components/lib:/home/nvidia/ros2_ws/install/wiimote/lib:/home/nvidia/ros2_ws/install/wiimote_msgs/lib:/home/nvidia/ros2_ws/install/tcp_tunnel/lib:/home/nvidia/ros2_ws/install/srdfdom/lib:/home/nvidia/ros2_ws/install/spacenav/lib:/home/nvidia/ros2_ws/install/joy/lib:/home/nvidia/ros2_ws/install/rosparam_shortcuts/lib:/home/nvidia/ros2_ws/install/ros_ign_interfaces/lib:/home/nvidia/ros2_ws/install/ros_gz_sim/lib:/home/nvidia/ros2_ws/install/ros_gz_bridge/lib:/home/nvidia/ros2_ws/install/ros_gz_interfaces/lib:/home/nvidia/ros2_ws/install/keyboard_msgs/lib:/home/nvidia/rby1_ros2_ws/install/rby1_hardware/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/nvidia'), ('OLDPWD', '/home/nvidia'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/nvidia/ros2_ws/src/rby1_robot_state/install:/home/nvidia/ros2_ws/install:/home/nvidia/ros2_ws/src/rby1_base_movement/install:/home/nvidia/rby1_ros2_ws/install:/home/nvidia/ros2_ws/src/rby1_arm_movement/install:/home/nvidia/ros2_ws/src/rby1_movement/install:/home/nvidia/ros2_ws/src/ros2-keyboard/keyboard/install:/home/nvidia/ros2_ws/src/rby1_nva_description/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'nvidia'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '51'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/nvidia/.local/bin:/usr/local/cuda-12.2/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/nvidia/.local/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', 'localhost:10.0'), ('LANG', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '5'), ('AMENT_PREFIX_PATH', '/home/nvidia/ros2_ws/src/rby1_robot_state/install/rby1_robot_state:/home/nvidia/ros2_ws/install/zed_ros2:/home/nvidia/ros2_ws/install/zed_wrapper:/home/nvidia/ros2_ws/install/zed_components:/home/nvidia/ros2_ws/install/wiimote:/home/nvidia/ros2_ws/install/wiimote_msgs:/home/nvidia/ros2_ws/install/test_ros_gz_bridge:/home/nvidia/ros2_ws/install/tcp_tunnel:/home/nvidia/ros2_ws/install/srdfdom:/home/nvidia/ros2_ws/install/spacenav:/home/nvidia/ros2_ws/install/joy:/home/nvidia/ros2_ws/install/sdl2_vendor:/home/nvidia/ros2_ws/install/rosparam_shortcuts:/home/nvidia/ros2_ws/install/ros_ign_interfaces:/home/nvidia/ros2_ws/install/ros_ign:/home/nvidia/ros2_ws/install/ros_ign_image:/home/nvidia/ros2_ws/install/ros_ign_gazebo_demos:/home/nvidia/ros2_ws/install/ros_ign_gazebo:/home/nvidia/ros2_ws/install/ros_ign_bridge:/home/nvidia/ros2_ws/install/ros_gz:/home/nvidia/ros2_ws/install/ros_gz_sim_demos:/home/nvidia/ros2_ws/install/rby1_nva_description:/home/nvidia/ros2_ws/install/ros_gz_sim:/home/nvidia/ros2_ws/install/ros_gz_image:/home/nvidia/ros2_ws/install/ros_gz_bridge:/home/nvidia/ros2_ws/install/ros_gz_interfaces:/home/nvidia/ros2_ws/install/rby1_robot_state:/home/nvidia/ros2_ws/install/rby1_movement:/home/nvidia/ros2_ws/install/rby1_moveit_client:/home/nvidia/ros2_ws/install/rby1_base_movement:/home/nvidia/ros2_ws/install/rby1_arm_movement:/home/nvidia/ros2_ws/install/launch_param_builder:/home/nvidia/ros2_ws/install/keyboard:/home/nvidia/ros2_ws/install/keyboard_msgs:/home/nvidia/ros2_ws/install/keyboard_joy:/home/nvidia/ros2_ws/install/joy_linux:/home/nvidia/ros2_ws/src/rby1_base_movement/install/rby1_base_movement:/home/nvidia/rby1_ros2_ws/install/rby1_subscriber_pkg:/home/nvidia/rby1_ros2_ws/install/rby1_bringup:/home/nvidia/rby1_ros2_ws/install/rby1_moveit_config:/home/nvidia/rby1_ros2_ws/install/rby1_mobile_control:/home/nvidia/rby1_ros2_ws/install/rby1_hardware:/home/nvidia/rby1_ros2_ws/install/rby1_description:/home/nvidia/ros2_ws/src/rby1_arm_movement/install/rby1_arm_movement:/home/nvidia/ros2_ws/src/rby1_movement/install/rby1_movement:/home/nvidia/ros2_ws/src/ros2-keyboard/keyboard/install/keyboard:/home/nvidia/ros2_ws/src/rby1_nva_description/install/rby1_nva_description:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('IGN_GAZEBO_RESOURCE_PATH', '/home/nvidia/ros2_ws/install/ros_gz_sim_demos/share'), ('PWD', '/home/nvidia/ros2_ws/src/rby1_robot_state/build/rby1_robot_state'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.1.5 38120 192.168.1.3 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/nvidia/ros2_ws/install/wiimote_msgs/local/lib/python3.10/dist-packages:/home/nvidia/ros2_ws/install/tcp_tunnel/local/lib/python3.10/dist-packages:/home/nvidia/ros2_ws/install/srdfdom/local/lib/python3.10/dist-packages:/home/nvidia/ros2_ws/install/ros_ign_interfaces/local/lib/python3.10/dist-packages:/home/nvidia/ros2_ws/install/ros_gz_interfaces/local/lib/python3.10/dist-packages:/home/nvidia/ros2_ws/install/launch_param_builder/lib/python3.10/site-packages:/home/nvidia/ros2_ws/install/keyboard_msgs/local/lib/python3.10/dist-packages:/home/nvidia/ros2_ws/install/keyboard_joy/lib/python3.10/site-packages:/home/nvidia/rby1_ros2_ws/install/rby1_subscriber_pkg/lib/python3.10/site-packages:/home/nvidia/rby1_ros2_ws/install/rby1_mobile_control/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/nvidia/ros2_ws/src/rby1_robot_state/install/rby1_robot_state:/home/nvidia/ros2_ws/install/zed_ros2:/home/nvidia/ros2_ws/install/zed_wrapper:/home/nvidia/ros2_ws/install/zed_components:/home/nvidia/ros2_ws/install/wiimote:/home/nvidia/ros2_ws/install/wiimote_msgs:/home/nvidia/ros2_ws/install/test_ros_gz_bridge:/home/nvidia/ros2_ws/install/tcp_tunnel:/home/nvidia/ros2_ws/install/srdfdom:/home/nvidia/ros2_ws/install/spacenav:/home/nvidia/ros2_ws/install/joy:/home/nvidia/ros2_ws/install/sdl2_vendor:/home/nvidia/ros2_ws/install/rosparam_shortcuts:/home/nvidia/ros2_ws/install/ros_ign_interfaces:/home/nvidia/ros2_ws/install/ros_ign:/home/nvidia/ros2_ws/install/ros_ign_image:/home/nvidia/ros2_ws/install/ros_ign_gazebo_demos:/home/nvidia/ros2_ws/install/ros_ign_gazebo:/home/nvidia/ros2_ws/install/ros_ign_bridge:/home/nvidia/ros2_ws/install/ros_gz:/home/nvidia/ros2_ws/install/ros_gz_sim_demos:/home/nvidia/ros2_ws/install/rby1_nva_description:/home/nvidia/ros2_ws/install/ros_gz_sim:/home/nvidia/ros2_ws/install/ros_gz_image:/home/nvidia/ros2_ws/install/ros_gz_bridge:/home/nvidia/ros2_ws/install/ros_gz_interfaces:/home/nvidia/ros2_ws/install/rby1_robot_state:/home/nvidia/ros2_ws/install/rby1_movement:/home/nvidia/ros2_ws/install/rby1_moveit_client:/home/nvidia/ros2_ws/install/rby1_base_movement:/home/nvidia/ros2_ws/install/rby1_arm_movement:/home/nvidia/ros2_ws/install/keyboard:/home/nvidia/ros2_ws/install/keyboard_msgs:/home/nvidia/ros2_ws/install/joy_linux:/home/nvidia/ros2_ws/src/rby1_base_movement/install/rby1_base_movement:/home/nvidia/rby1_ros2_ws/install/rby1_bringup:/home/nvidia/rby1_ros2_ws/install/rby1_moveit_config:/home/nvidia/rby1_ros2_ws/install/rby1_hardware:/home/nvidia/rby1_ros2_ws/install/rby1_description:/home/nvidia/ros2_ws/src/rby1_arm_movement/install/rby1_arm_movement:/home/nvidia/ros2_ws/src/rby1_movement/install/rby1_movement:/home/nvidia/ros2_ws/src/ros2-keyboard/keyboard/install/keyboard:/home/nvidia/ros2_ws/src/rby1_nva_description/install/rby1_nva_description:/home/nvidia/ros2_ws/install/launch_param_builder:/home/nvidia/ros2_ws/install/keyboard_joy:/home/nvidia/rby1_ros2_ws/install/rby1_subscriber_pkg:/home/nvidia/rby1_ros2_ws/install/rby1_mobile_control:/opt/ros/humble')]), 'shell': False}
+[0.099936] (-) TimerEvent: {}
+[0.116423] (rby1_robot_state) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/robot_state_publisher.dir/src/robot_state_publisher.cpp.o\x1b[0m\n'}
+[0.200061] (-) TimerEvent: {}
+[0.300650] (-) TimerEvent: {}
+[0.401135] (-) TimerEvent: {}
+[0.501523] (-) TimerEvent: {}
+[0.602005] (-) TimerEvent: {}
+[0.702726] (-) TimerEvent: {}
+[0.803296] (-) TimerEvent: {}
+[0.903836] (-) TimerEvent: {}
+[1.004351] (-) TimerEvent: {}
+[1.104983] (-) TimerEvent: {}
+[1.205665] (-) TimerEvent: {}
+[1.306666] (-) TimerEvent: {}
+[1.407583] (-) TimerEvent: {}
+[1.508400] (-) TimerEvent: {}
+[1.609183] (-) TimerEvent: {}
+[1.709794] (-) TimerEvent: {}
+[1.810411] (-) TimerEvent: {}
+[1.911039] (-) TimerEvent: {}
+[2.011657] (-) TimerEvent: {}
+[2.112288] (-) TimerEvent: {}
+[2.212716] (-) TimerEvent: {}
+[2.313225] (-) TimerEvent: {}
+[2.413914] (-) TimerEvent: {}
+[2.514387] (-) TimerEvent: {}
+[2.614799] (-) TimerEvent: {}
+[2.715170] (-) TimerEvent: {}
+[2.815603] (-) TimerEvent: {}
+[2.916291] (-) TimerEvent: {}
+[3.016979] (-) TimerEvent: {}
+[3.117487] (-) TimerEvent: {}
+[3.218035] (-) TimerEvent: {}
+[3.318456] (-) TimerEvent: {}
+[3.418906] (-) TimerEvent: {}
+[3.519488] (-) TimerEvent: {}
+[3.620031] (-) TimerEvent: {}
+[3.720443] (-) TimerEvent: {}
+[3.820827] (-) TimerEvent: {}
+[3.921245] (-) TimerEvent: {}
+[4.021814] (-) TimerEvent: {}
+[4.122533] (-) TimerEvent: {}
+[4.223120] (-) TimerEvent: {}
+[4.323504] (-) TimerEvent: {}
+[4.423871] (-) TimerEvent: {}
+[4.524331] (-) TimerEvent: {}
+[4.624957] (-) TimerEvent: {}
+[4.725624] (-) TimerEvent: {}
+[4.826228] (-) TimerEvent: {}
+[4.926658] (-) TimerEvent: {}
+[5.027021] (-) TimerEvent: {}
+[5.127531] (-) TimerEvent: {}
+[5.228216] (-) TimerEvent: {}
+[5.328695] (-) TimerEvent: {}
+[5.429072] (-) TimerEvent: {}
+[5.529440] (-) TimerEvent: {}
+[5.629893] (-) TimerEvent: {}
+[5.730551] (-) TimerEvent: {}
+[5.831224] (-) TimerEvent: {}
+[5.931688] (-) TimerEvent: {}
+[6.032062] (-) TimerEvent: {}
+[6.132483] (-) TimerEvent: {}
+[6.233092] (-) TimerEvent: {}
+[6.333729] (-) TimerEvent: {}
+[6.434393] (-) TimerEvent: {}
+[6.534808] (-) TimerEvent: {}
+[6.635184] (-) TimerEvent: {}
+[6.735679] (-) TimerEvent: {}
+[6.836232] (-) TimerEvent: {}
+[6.936917] (-) TimerEvent: {}
+[7.037370] (-) TimerEvent: {}
+[7.137822] (-) TimerEvent: {}
+[7.238354] (-) TimerEvent: {}
+[7.338843] (-) TimerEvent: {}
+[7.439533] (-) TimerEvent: {}
+[7.522344] (rby1_robot_state) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nvidia/ros2_ws/src/rby1_robot_state/src/robot_state_publisher.cpp:\x1b[m\x1b[K In lambda function:\n'}
+[7.522840] (rby1_robot_state) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nvidia/ros2_ws/src/rby1_robot_state/src/robot_state_publisher.cpp:64:22:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstruct sensor_msgs::msg::JointState_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Kvelocirt\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[Kvelocity\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[7.523056] (rby1_robot_state) StderrLine: {'line': b'   64 |                 msg->\x1b[01;31m\x1b[Kvelocirt\x1b[m\x1b[K.push_back(0)\n'}
+[7.523233] (rby1_robot_state) StderrLine: {'line': b'      |                      \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[7.523396] (rby1_robot_state) StderrLine: {'line': b'      |                      \x1b[32m\x1b[Kvelocity\x1b[m\x1b[K\n'}
+[7.539590] (-) TimerEvent: {}
+[7.596494] (rby1_robot_state) StderrLine: {'line': b'/home/nvidia/ros2_ws/src/rby1_robot_state/src/robot_state_publisher.cpp: In instantiation of \xe2\x80\x98\x1b[01m\x1b[KRobotStatePublisher::RobotStatePublisher(std::shared_ptr<rb::Robot<rb::y1_model::A> >, std::unique_ptr<rb::RobotCommandStreamHandler<rb::y1_model::A> >)::<lambda(const auto:47&, const auto:48&)> [with auto:47 = rb::RobotState<rb::y1_model::A>; auto:48 = rb::ControlManagerState]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[7.596829] (rby1_robot_state) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/type_traits:2530:26:\x1b[m\x1b[K   required by substitution of \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Fn, class ... _Args> static std::__result_of_success<decltype (declval<_Fn>()((declval<_Args>)()...)), std::__invoke_other> std::__result_of_other_impl::_S_test(int) [with _Fn = RobotStatePublisher::RobotStatePublisher(std::shared_ptr<rb::Robot<rb::y1_model::A> >, std::unique_ptr<rb::RobotCommandStreamHandler<rb::y1_model::A> >)::<lambda(const auto:47&, const auto:48&)>&; _Args = {const rb::RobotState<rb::y1_model::A>&, const rb::ControlManagerState&}]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.597089] (rby1_robot_state) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/type_traits:2541:55:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstruct std::__result_of_impl<false, false, RobotStatePublisher::RobotStatePublisher(std::shared_ptr<rb::Robot<rb::y1_model::A> >, std::unique_ptr<rb::RobotCommandStreamHandler<rb::y1_model::A> >)::<lambda(const auto:47&, const auto:48&)>&, const rb::RobotState<rb::y1_model::A>&, const rb::ControlManagerState&>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.597318] (rby1_robot_state) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/std_function.h:348:9:\x1b[m\x1b[K   recursively required by substitution of \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Result, class _Ret> struct std::__is_invocable_impl<_Result, _Ret, true, std::__void_t<typename _CTp::type> > [with _Result = std::__invoke_result<RobotStatePublisher::RobotStatePublisher(std::shared_ptr<rb::Robot<rb::y1_model::A> >, std::unique_ptr<rb::RobotCommandStreamHandler<rb::y1_model::A> >)::<lambda(const auto:47&, const auto:48&)>&, const rb::RobotState<rb::y1_model::A>&, const rb::ControlManagerState&>; _Ret = void]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.597543] (rby1_robot_state) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/std_function.h:348:9:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstruct std::function<void(const rb::RobotState<rb::y1_model::A>&, const rb::ControlManagerState&)>::_Callable<RobotStatePublisher::RobotStatePublisher(std::shared_ptr<rb::Robot<rb::y1_model::A> >, std::unique_ptr<rb::RobotCommandStreamHandler<rb::y1_model::A> >)::<lambda(const auto:47&, const auto:48&)>, RobotStatePublisher::RobotStatePublisher(std::shared_ptr<rb::Robot<rb::y1_model::A> >, std::unique_ptr<rb::RobotCommandStreamHandler<rb::y1_model::A> >)::<lambda(const auto:47&, const auto:48&)>, std::__invoke_result<RobotStatePublisher::RobotStatePublisher(std::shared_ptr<rb::Robot<rb::y1_model::A> >, std::unique_ptr<rb::RobotCommandStreamHandler<rb::y1_model::A> >)::<lambda(const auto:47&, const auto:48&)>&, const rb::RobotState<rb::y1_model::A>&, const rb::ControlManagerState&> >\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.597815] (rby1_robot_state) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/std_function.h:353:8:\x1b[m\x1b[K   required by substitution of \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Res, class ... _ArgTypes> template<class _Cond, class _Tp> using _Requires = std::__enable_if_t<_Cond::value, _Tp> [with _Cond = std::function<void(const rb::RobotState<rb::y1_model::A>&, const rb::ControlManagerState&)>::_Callable<RobotStatePublisher::RobotStatePublisher(std::shared_ptr<rb::Robot<rb::y1_model::A> >, std::unique_ptr<rb::RobotCommandStreamHandler<rb::y1_model::A> >)::<lambda(const auto:47&, const auto:48&)>, RobotStatePublisher::RobotStatePublisher(std::shared_ptr<rb::Robot<rb::y1_model::A> >, std::unique_ptr<rb::RobotCommandStreamHandler<rb::y1_model::A> >)::<lambda(const auto:47&, const auto:48&)>, std::__invoke_result<RobotStatePublisher::RobotStatePublisher(std::shared_ptr<rb::Robot<rb::y1_model::A> >, std::unique_ptr<rb::RobotCommandStreamHandler<rb::y1_model::A> >)::<lambda(const auto:47&, const auto:48&)>&, const rb::RobotState<rb::y1_model::A>&, const rb::ControlManagerState&> >; _Tp = void; _Res = void; _ArgTypes = {const rb::RobotState<rb::y1_model::A>&, const rb::ControlManagerState&}]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.598118] (rby1_robot_state) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/std_function.h:434:9:\x1b[m\x1b[K   required by substitution of \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Functor, class _Constraints> std::function<void(const rb::RobotState<rb::y1_model::A>&, const rb::ControlManagerState&)>::function(_Functor&&) [with _Functor = RobotStatePublisher::RobotStatePublisher(std::shared_ptr<rb::Robot<rb::y1_model::A> >, std::unique_ptr<rb::RobotCommandStreamHandler<rb::y1_model::A> >)::<lambda(const auto:47&, const auto:48&)>; _Constraints = <missing>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.598350] (rby1_robot_state) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nvidia/ros2_ws/src/rby1_robot_state/src/robot_state_publisher.cpp:39:32:\x1b[m\x1b[K   required from here\n'}
+[7.598561] (rby1_robot_state) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nvidia/ros2_ws/src/rby1_robot_state/src/robot_state_publisher.cpp:40:51:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kcontrol_manager\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[7.598773] (rby1_robot_state) StderrLine: {'line': b'   40 |             [this](const auto& state, \x1b[01;35m\x1b[Kconst auto& control_manager\x1b[m\x1b[K) {\n'}
+[7.598978] (rby1_robot_state) StderrLine: {'line': b'      |                                       \x1b[01;35m\x1b[K~~~~~~~~~~~~^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.639694] (-) TimerEvent: {}
+[7.740096] (-) TimerEvent: {}
+[7.840481] (-) TimerEvent: {}
+[7.940950] (-) TimerEvent: {}
+[8.041590] (-) TimerEvent: {}
+[8.142263] (-) TimerEvent: {}
+[8.242738] (-) TimerEvent: {}
+[8.343175] (-) TimerEvent: {}
+[8.443552] (-) TimerEvent: {}
+[8.544044] (-) TimerEvent: {}
+[8.644736] (-) TimerEvent: {}
+[8.745216] (-) TimerEvent: {}
+[8.845602] (-) TimerEvent: {}
+[8.945980] (-) TimerEvent: {}
+[9.046438] (-) TimerEvent: {}
+[9.147098] (-) TimerEvent: {}
+[9.247892] (-) TimerEvent: {}
+[9.348533] (-) TimerEvent: {}
+[9.356309] (rby1_robot_state) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/robot_state_publisher.dir/build.make:79: CMakeFiles/robot_state_publisher.dir/src/robot_state_publisher.cpp.o] Error 1\n'}
+[9.357042] (rby1_robot_state) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:153: CMakeFiles/robot_state_publisher.dir/all] Error 2\n'}
+[9.357993] (rby1_robot_state) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[9.363028] (rby1_robot_state) CommandEnded: {'returncode': 2}
+[9.398150] (rby1_robot_state) JobEnded: {'identifier': 'rby1_robot_state', 'rc': 2}
+[9.409716] (-) EventReactorShutdown: {}

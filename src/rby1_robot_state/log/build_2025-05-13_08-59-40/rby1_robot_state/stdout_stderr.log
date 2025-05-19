@@ -1,0 +1,101 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/robot_state_publisher.dir/src/robot_state_publisher.cpp.o[0m
+/home/nvidia/ros2_ws/src/rby1_robot_state/src/robot_state_publisher.cpp: In instantiation of ‘[01m[KRobotStatePublisher::RobotStatePublisher(std::shared_ptr<rb::Robot<rb::y1_model::A> >, std::unique_ptr<rb::RobotCommandStreamHandler<rb::y1_model::A> >)::<lambda(const auto:49&, const auto:50&)> [with auto:49 = rb::RobotState<rb::y1_model::A>; auto:50 = rb::ControlManagerState][m[K’:
+[01m[K/usr/include/c++/11/type_traits:2530:26:[m[K   required by substitution of ‘[01m[Ktemplate<class _Fn, class ... _Args> static std::__result_of_success<decltype (declval<_Fn>()((declval<_Args>)()...)), std::__invoke_other> std::__result_of_other_impl::_S_test(int) [with _Fn = RobotStatePublisher::RobotStatePublisher(std::shared_ptr<rb::Robot<rb::y1_model::A> >, std::unique_ptr<rb::RobotCommandStreamHandler<rb::y1_model::A> >)::<lambda(const auto:49&, const auto:50&)>&; _Args = {const rb::RobotState<rb::y1_model::A>&, const rb::ControlManagerState&}][m[K’
+[01m[K/usr/include/c++/11/type_traits:2541:55:[m[K   required from ‘[01m[Kstruct std::__result_of_impl<false, false, RobotStatePublisher::RobotStatePublisher(std::shared_ptr<rb::Robot<rb::y1_model::A> >, std::unique_ptr<rb::RobotCommandStreamHandler<rb::y1_model::A> >)::<lambda(const auto:49&, const auto:50&)>&, const rb::RobotState<rb::y1_model::A>&, const rb::ControlManagerState&>[m[K’
+[01m[K/usr/include/c++/11/bits/std_function.h:348:9:[m[K   recursively required by substitution of ‘[01m[Ktemplate<class _Result, class _Ret> struct std::__is_invocable_impl<_Result, _Ret, true, std::__void_t<typename _CTp::type> > [with _Result = std::__invoke_result<RobotStatePublisher::RobotStatePublisher(std::shared_ptr<rb::Robot<rb::y1_model::A> >, std::unique_ptr<rb::RobotCommandStreamHandler<rb::y1_model::A> >)::<lambda(const auto:49&, const auto:50&)>&, const rb::RobotState<rb::y1_model::A>&, const rb::ControlManagerState&>; _Ret = void][m[K’
+[01m[K/usr/include/c++/11/bits/std_function.h:348:9:[m[K   required from ‘[01m[Kstruct std::function<void(const rb::RobotState<rb::y1_model::A>&, const rb::ControlManagerState&)>::_Callable<RobotStatePublisher::RobotStatePublisher(std::shared_ptr<rb::Robot<rb::y1_model::A> >, std::unique_ptr<rb::RobotCommandStreamHandler<rb::y1_model::A> >)::<lambda(const auto:49&, const auto:50&)>, RobotStatePublisher::RobotStatePublisher(std::shared_ptr<rb::Robot<rb::y1_model::A> >, std::unique_ptr<rb::RobotCommandStreamHandler<rb::y1_model::A> >)::<lambda(const auto:49&, const auto:50&)>, std::__invoke_result<RobotStatePublisher::RobotStatePublisher(std::shared_ptr<rb::Robot<rb::y1_model::A> >, std::unique_ptr<rb::RobotCommandStreamHandler<rb::y1_model::A> >)::<lambda(const auto:49&, const auto:50&)>&, const rb::RobotState<rb::y1_model::A>&, const rb::ControlManagerState&> >[m[K’
+[01m[K/usr/include/c++/11/bits/std_function.h:353:8:[m[K   required by substitution of ‘[01m[Ktemplate<class _Res, class ... _ArgTypes> template<class _Cond, class _Tp> using _Requires = std::__enable_if_t<_Cond::value, _Tp> [with _Cond = std::function<void(const rb::RobotState<rb::y1_model::A>&, const rb::ControlManagerState&)>::_Callable<RobotStatePublisher::RobotStatePublisher(std::shared_ptr<rb::Robot<rb::y1_model::A> >, std::unique_ptr<rb::RobotCommandStreamHandler<rb::y1_model::A> >)::<lambda(const auto:49&, const auto:50&)>, RobotStatePublisher::RobotStatePublisher(std::shared_ptr<rb::Robot<rb::y1_model::A> >, std::unique_ptr<rb::RobotCommandStreamHandler<rb::y1_model::A> >)::<lambda(const auto:49&, const auto:50&)>, std::__invoke_result<RobotStatePublisher::RobotStatePublisher(std::shared_ptr<rb::Robot<rb::y1_model::A> >, std::unique_ptr<rb::RobotCommandStreamHandler<rb::y1_model::A> >)::<lambda(const auto:49&, const auto:50&)>&, const rb::RobotState<rb::y1_model::A>&, const rb::ControlManagerState&> >; _Tp = void; _Res = void; _ArgTypes = {const rb::RobotState<rb::y1_model::A>&, const rb::ControlManagerState&}][m[K’
+[01m[K/usr/include/c++/11/bits/std_function.h:434:9:[m[K   required by substitution of ‘[01m[Ktemplate<class _Functor, class _Constraints> std::function<void(const rb::RobotState<rb::y1_model::A>&, const rb::ControlManagerState&)>::function(_Functor&&) [with _Functor = RobotStatePublisher::RobotStatePublisher(std::shared_ptr<rb::Robot<rb::y1_model::A> >, std::unique_ptr<rb::RobotCommandStreamHandler<rb::y1_model::A> >)::<lambda(const auto:49&, const auto:50&)>; _Constraints = <missing>][m[K’
+[01m[K/home/nvidia/ros2_ws/src/rby1_robot_state/src/robot_state_publisher.cpp:38:32:[m[K   required from here
+[01m[K/home/nvidia/ros2_ws/src/rby1_robot_state/src/robot_state_publisher.cpp:45:66:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kto_string(const value_type&)[m[K’
+   45 |                     msg->name.push_back("joint_" + [01;31m[Kstd::to_string(state.joint_states[i])[m[K);
+      |                                                    [01;31m[K~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_parameters_interface.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:54[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/nvidia/ros2_ws/src/rby1_robot_state/src/robot_state_publisher.cpp:2[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter.hpp:289:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::string std::to_string(const rclcpp::Parameter&)[m[K’
+  289 | [01;36m[Kto_string[m[K(const rclcpp::Parameter & param);
+      | [01;36m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter.hpp:289:37:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst value_type[m[K’ {aka ‘[01m[Kconst rb::JointState[m[K’} to ‘[01m[Kconst rclcpp::Parameter&[m[K’
+  289 | to_string([01;36m[Kconst rclcpp::Parameter & param[m[K);
+      |           [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter.hpp:294:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::string std::to_string(const std::vector<rclcpp::Parameter>&)[m[K’
+  294 | [01;36m[Kto_string[m[K(const std::vector<rclcpp::Parameter> & parameters);
+      | [01;36m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter.hpp:294:50:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst value_type[m[K’ {aka ‘[01m[Kconst rb::JointState[m[K’} to ‘[01m[Kconst std::vector<rclcpp::Parameter>&[m[K’
+  294 | to_string([01;36m[Kconst std::vector<rclcpp::Parameter> & parameters[m[K);
+      |           [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/11/string:55[m[K,
+                 from [01m[K/usr/include/c++/11/stdexcept:39[m[K,
+                 from [01m[K/usr/include/c++/11/system_error:41[m[K,
+                 from [01m[K/usr/include/c++/11/mutex:42[m[K,
+                 from [01m[K/usr/include/c++/11/future:38[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/nvidia/ros2_ws/src/rby1_robot_state/src/robot_state_publisher.cpp:2[m[K:
+[01m[K/usr/include/c++/11/bits/basic_string.h:6660:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::string std::__cxx11::to_string(int)[m[K’
+ 6660 |   [01;36m[Kto_string[m[K(int __val)
+      |   [01;36m[K^~~~~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/basic_string.h:6660:17:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst value_type[m[K’ {aka ‘[01m[Kconst rb::JointState[m[K’} to ‘[01m[Kint[m[K’
+ 6660 |   to_string([01;36m[Kint __val[m[K)
+      |             [01;36m[K~~~~^~~~~[m[K
+[01m[K/usr/include/c++/11/bits/basic_string.h:6671:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::string std::__cxx11::to_string(unsigned int)[m[K’
+ 6671 |   [01;36m[Kto_string[m[K(unsigned __val)
+      |   [01;36m[K^~~~~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/basic_string.h:6671:22:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst value_type[m[K’ {aka ‘[01m[Kconst rb::JointState[m[K’} to ‘[01m[Kunsigned int[m[K’
+ 6671 |   to_string([01;36m[Kunsigned __val[m[K)
+      |             [01;36m[K~~~~~~~~~^~~~~[m[K
+[01m[K/usr/include/c++/11/bits/basic_string.h:6679:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::string std::__cxx11::to_string(long int)[m[K’
+ 6679 |   [01;36m[Kto_string[m[K(long __val)
+      |   [01;36m[K^~~~~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/basic_string.h:6679:18:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst value_type[m[K’ {aka ‘[01m[Kconst rb::JointState[m[K’} to ‘[01m[Klong int[m[K’
+ 6679 |   to_string([01;36m[Klong __val[m[K)
+      |             [01;36m[K~~~~~^~~~~[m[K
+[01m[K/usr/include/c++/11/bits/basic_string.h:6690:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::string std::__cxx11::to_string(long unsigned int)[m[K’
+ 6690 |   [01;36m[Kto_string[m[K(unsigned long __val)
+      |   [01;36m[K^~~~~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/basic_string.h:6690:27:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst value_type[m[K’ {aka ‘[01m[Kconst rb::JointState[m[K’} to ‘[01m[Klong unsigned int[m[K’
+ 6690 |   to_string([01;36m[Kunsigned long __val[m[K)
+      |             [01;36m[K~~~~~~~~~~~~~~^~~~~[m[K
+[01m[K/usr/include/c++/11/bits/basic_string.h:6698:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::string std::__cxx11::to_string(long long int)[m[K’
+ 6698 |   [01;36m[Kto_string[m[K(long long __val)
+      |   [01;36m[K^~~~~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/basic_string.h:6698:23:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst value_type[m[K’ {aka ‘[01m[Kconst rb::JointState[m[K’} to ‘[01m[Klong long int[m[K’
+ 6698 |   to_string([01;36m[Klong long __val[m[K)
+      |             [01;36m[K~~~~~~~~~~^~~~~[m[K
+[01m[K/usr/include/c++/11/bits/basic_string.h:6710:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::string std::__cxx11::to_string(long long unsigned int)[m[K’
+ 6710 |   [01;36m[Kto_string[m[K(unsigned long long __val)
+      |   [01;36m[K^~~~~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/basic_string.h:6710:32:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst value_type[m[K’ {aka ‘[01m[Kconst rb::JointState[m[K’} to ‘[01m[Klong long unsigned int[m[K’
+ 6710 |   to_string([01;36m[Kunsigned long long __val[m[K)
+      |             [01;36m[K~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[01m[K/usr/include/c++/11/bits/basic_string.h:6721:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::string std::__cxx11::to_string(float)[m[K’
+ 6721 |   [01;36m[Kto_string[m[K(float __val)
+      |   [01;36m[K^~~~~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/basic_string.h:6721:19:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst value_type[m[K’ {aka ‘[01m[Kconst rb::JointState[m[K’} to ‘[01m[Kfloat[m[K’
+ 6721 |   to_string([01;36m[Kfloat __val[m[K)
+      |             [01;36m[K~~~~~~^~~~~[m[K
+[01m[K/usr/include/c++/11/bits/basic_string.h:6730:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::string std::__cxx11::to_string(double)[m[K’
+ 6730 |   [01;36m[Kto_string[m[K(double __val)
+      |   [01;36m[K^~~~~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/basic_string.h:6730:20:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst value_type[m[K’ {aka ‘[01m[Kconst rb::JointState[m[K’} to ‘[01m[Kdouble[m[K’
+ 6730 |   to_string([01;36m[Kdouble __val[m[K)
+      |             [01;36m[K~~~~~~~^~~~~[m[K
+[01m[K/usr/include/c++/11/bits/basic_string.h:6739:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::string std::__cxx11::to_string(long double)[m[K’
+ 6739 |   [01;36m[Kto_string[m[K(long double __val)
+      |   [01;36m[K^~~~~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/basic_string.h:6739:25:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst value_type[m[K’ {aka ‘[01m[Kconst rb::JointState[m[K’} to ‘[01m[Klong double[m[K’
+ 6739 |   to_string([01;36m[Klong double __val[m[K)
+      |             [01;36m[K~~~~~~~~~~~~^~~~~[m[K
+[01m[K/home/nvidia/ros2_ws/src/rby1_robot_state/src/robot_state_publisher.cpp:48:65:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst value_type[m[K’ {aka ‘[01m[Kconst struct rb::JointState[m[K’} has no member named ‘[01m[Keffort[m[K’
+   48 |                     msg->effort.push_back([01;31m[Kstate.joint_states[i].effort[m[K);
+      |                                           [01;31m[K~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[01m[K/home/nvidia/ros2_ws/src/rby1_robot_state/src/robot_state_publisher.cpp:39:51:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kcontrol_manager[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   39 |             [this](const auto& state, [01;35m[Kconst auto& control_manager[m[K) {
+      |                                       [01;35m[K~~~~~~~~~~~~^~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/robot_state_publisher.dir/build.make:79: CMakeFiles/robot_state_publisher.dir/src/robot_state_publisher.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:153: CMakeFiles/robot_state_publisher.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2
